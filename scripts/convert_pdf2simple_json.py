@@ -9,6 +9,26 @@ from openai import OpenAI
 from io import BytesIO
 import base64
 import pickle
+from dotenv import load_dotenv
+import json
+import tqdm
+
+# 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
+
+print(os.getenv("OPENAI_API_KEY"))
+
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Retrieve the API key
+api_key = os.getenv("OPENAI_API_KEY")
+
+# Ensure the API key is set for OpenAI client
+if not api_key:
+    raise ValueError("OPENAI_API_KEY is not set in the environment variables.")
+
+
 
 def structured_openai_api_call(img, system_prompt):
     """
@@ -30,10 +50,14 @@ def structured_openai_api_call(img, system_prompt):
 
     # Define the JSON structure for the instructions
     class InstructionStep(BaseModel):
-        step: int
-        text: str
-        picture: bool
-        picture_description: str
+            step: int
+            text: str
+            picture: bool
+            picture_description: str
+    class Instruction(BaseModel):
+        instructions: list[InstructionStep]
+        
+    
 
     # Structured API call to extract instructions
     completion = client.beta.chat.completions.parse(
@@ -55,7 +79,7 @@ def structured_openai_api_call(img, system_prompt):
                 ],
             }
         ],
-        response_format=InstructionStep,  # Parse into the defined schema
+        response_format=Instruction,  # Parse into the defined schema
     )
 
     # Extract the parsed instructions
@@ -140,7 +164,7 @@ def analyze_image(img, system_prompt):
     """
     img_uri = get_img_uri(img)
     
-    client = OpenAI()
+    client = OpenAI(api_key=api_key)
     
     response = client.chat.completions.create(
         model="gpt-4o-mini",
@@ -166,6 +190,21 @@ def analyze_image(img, system_prompt):
     )
     return response.choices[0].message.content
 
+def normal_openai_api_call(system_prompt):
+    client = OpenAI(api_key=api_key)
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": system_prompt
+            }
+        ],
+        max_tokens=3000,
+        top_p=0.1
+    )
+    return response.choices[0].message.content
+
 def extract_text_from_pdf():
     # get current working directory
     cwd = Path.cwd()
@@ -177,9 +216,41 @@ def extract_text_from_pdf():
     
     images = convert_pdfs_to_images(input_path_folder)
     
-    #save the images in output folder
-    for i, img in enumerate(images):
-        img.save(output_path_folder_images / f"page_{i}.jpg")
+    # Initialize a dictionary to store instructions by page
+    instructions_by_page = {}
+
+    # Loop over the images and process them
+    for i, image in enumerate(images):
+        # Get the structured JSON for the current page
+        instructions_list = structured_openai_api_call(
+            image,
+            "Extract all work instructions form the image. Order them in steps. Say if there is a corresponding picture (true/false) and add a picture description if applicable."
+        )
+                
+        # Print progress
+        print(f"Processed page {i+1}")
+        # [Instruction(instructions=[InstructionStep(step=1, text='Zweck: Dient als Montagehilfe.', picture=False, picture_description=''), InstructionStep(step=2, text='Geltungsbereich: Dieses Dokument darf nur für internen Gebrauch verwendet werden.', picture=False, picture_description=''), InstructionStep(step=3, text='Definitionen (Begriffsklärung): Q-in-Line Qualitätsicherung in der Linie.', picture=False, picture_description=''), InstructionStep(step=4, text='Verfahren: Beschreibt die Vorgehensweise für eine Montagearbeit.', picture=False, picture_description=''), InstructionStep(step=5, text='Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, dass die Montagetätigkeiten entsprechend den Verfahrensregelungen E-P003 PRODUKTE HERSTELLEN ausgeführt werden.', picture=False, picture_description='')])]
+
+        # convert response to json
+        page_key = f"page{i+1}"
+        
+        # Convert Instruction objects to dictionaries
+        instructions_dicts = [instr.dict() for instr in instructions_list]
+        instructions_by_page[page_key] = instructions_dicts
+        
+        
+    print("Instructions extracted successfully.")
+    # Output the result as a JSON string
+    output_json = json.dumps(instructions_by_page, ensure_ascii=False, indent=4)
+
+    
+    # Optionally, save to a file
+    with open("data/instructions_by_page.json", "w", encoding="utf-8") as file:
+        file.write(output_json)
+
+        
+        
+        
         
         
 extract_text_from_pdf()

@@ -1,0 +1,122 @@
+{
+    "page1": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Zweck: Dient als Montagehilfe.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 2,
+                    "text": "Geltungsbereich: Dieses Dokument darf nur für internen Gebrauch verwendet werden.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 3,
+                    "text": "Definitionen (Begriffsklärung): Q in-Line Qualitätsicherung in der Linie.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 4,
+                    "text": "Verfahren: Beschreibt die Vorgehensweise für eine Montagetätigkeit.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 5,
+                    "text": "Verantwortlichkeiten: Der Mitarbeiter ist in Sinne von Q in Line verantwortlich, dass die Montagetätigkeiten nach den Verfahrensergüssen E-P003 PRODUKTE HERSTELLEN ausgeführt werden.",
+                    "picture": false,
+                    "picture_description": ""
+                }
+            ]
+        }
+    ],
+    "page2": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Achtung! Korrekten Sitz des Sicherungsringes in der Nut des Achskörpers überprüfen.",
+                    "picture": true,
+                    "picture_description": "An image showing a close-up of a part with a circular opening."
+                },
+                {
+                    "step": 2,
+                    "text": "Die Kone der Aufnahmepunkte der Wattgestänge am Chassis reinigen.",
+                    "picture": true,
+                    "picture_description": "An image depicting cleaning equipment being used on a chassis part."
+                }
+            ]
+        }
+    ],
+    "page3": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Längsführung am Chassis und an der Achse mit STAUBRAGS fetten.",
+                    "picture": true,
+                    "picture_description": "Image showing a close-up of the chassis and axle with grease applied."
+                },
+                {
+                    "step": 2,
+                    "text": "Achse unter dem Chassis positionieren und an den Kran hängen.",
+                    "picture": true,
+                    "picture_description": "Image showing the axle being positioned under the chassis and suspended with a crane."
+                }
+            ]
+        }
+    ],
+    "page4": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Achse vorne mit 2 Spanngurt fixieren.",
+                    "picture": true,
+                    "picture_description": "Image showing a front axle with strapping mechanism."
+                },
+                {
+                    "step": 2,
+                    "text": "Stossdämpfer, Wattstützen und Fangseile anbringen. Die vorderen Federn können mit dem Kran hochgezogen werden.",
+                    "picture": true,
+                    "picture_description": "Image showing the assembly of shock absorbers, support rods, and safety cables."
+                }
+            ]
+        }
+    ],
+    "page5": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Stoßdämpfer, Wattgestänge und Fanggel mit Drehmoment befestigen.",
+                    "picture": true,
+                    "picture_description": "An image showing the installation of dampers and mountings."
+                },
+                {
+                    "step": 2,
+                    "text": "Die hinteren 2 Federn mit Hilfe des Federspanners montieren.",
+                    "picture": true,
+                    "picture_description": "An image showing the installation of springs using a spring compressor."
+                },
+                {
+                    "step": 3,
+                    "text": "Wattgestange montieren.",
+                    "picture": true,
+                    "picture_description": "An image showing the installation of a watt link."
+                },
+                {
+                    "step": 4,
+                    "text": "Splinthülsen der Kugelköpfe senkrecht ausrichten.",
+                    "picture": true,
+                    "picture_description": "An image showing the alignment of retaining sleeves for ball joints."
+                }
+            ]
+        }
+    ]
+}
