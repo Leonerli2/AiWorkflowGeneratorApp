@@ -206,11 +206,18 @@ def normal_openai_api_call(system_prompt):
     return response.choices[0].message.content
 
 def extract_text_from_pdf():
+    """
+      Ensure you have the following folder structure:
+    - data/
+        - input_pdf/ (place your PDF files here)
+        - output_openai_text/ (the extracted instructions will be saved here as JSON)
+    """
+
     # get current working directory
-    cwd = Path.cwd()
+    cwd = Path.cwd() # not sure if this is the correct way to get the current working directory
     
     input_path_folder = cwd / "data/input_pdf"
-    output_path_folder_images = cwd / "data/output_images"
+    output_path_folder = cwd / "data/output_openai_text"
     
     pdf_files = list(input_path_folder.glob("*.pdf"))
     
@@ -245,7 +252,7 @@ def extract_text_from_pdf():
 
     
     # Optionally, save to a file
-    with open("data/instructions_by_page.json", "w", encoding="utf-8") as file:
+    with open(output_path_folder + "/instructions_by_page.json", "w", encoding="utf-8") as file:
         file.write(output_json)
 
         
