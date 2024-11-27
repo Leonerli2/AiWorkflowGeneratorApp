@@ -1,0 +1,444 @@
+{
+    "connectors": [
+        {
+            "key": "7",
+            "dataKey": "1",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 4230,
+                    "y": 1620
+                },
+                {
+                    "x": 4230,
+                    "y": 2340
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 4230,
+                        "y": 1620,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 4230,
+                        "y": 2340,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "0",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "1",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "8",
+            "dataKey": "2",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 4230,
+                    "y": 3240
+                },
+                {
+                    "x": 4230,
+                    "y": 3960
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 4230,
+                        "y": 3240,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 4230,
+                        "y": 3960,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "1",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "2",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "9",
+            "dataKey": "3",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 4230,
+                    "y": 4860
+                },
+                {
+                    "x": 4230,
+                    "y": 5580
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 4230,
+                        "y": 4860,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 4230,
+                        "y": 5580,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "2",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "3",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "10",
+            "dataKey": "4",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 4230,
+                    "y": 6480
+                },
+                {
+                    "x": 4230,
+                    "y": 7380
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 4230,
+                        "y": 6480,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 4230,
+                        "y": 7380,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "3",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "4",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "11",
+            "dataKey": "5",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 4230,
+                    "y": 8280
+                },
+                {
+                    "x": 4230,
+                    "y": 9180
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 4230,
+                        "y": 8280,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 4230,
+                        "y": 9180,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "4",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "5",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "12",
+            "dataKey": "6",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 4230,
+                    "y": 10080
+                },
+                {
+                    "x": 4230,
+                    "y": 10800
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 4230,
+                        "y": 10080,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 4230,
+                        "y": 10800,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "5",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "6",
+            "endConnectionPointIndex": 0
+        }
+    ],
+    "shapes": [
+        {
+            "key": "0",
+            "dataKey": "b61aa525-e536-27e7-25d5-70d521ef5543",
+            "customData": {
+                "name": "Start"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "3b321cae-fa35-4919-81b8-35b36c967475",
+            "text": "Start",
+            "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDQwIDQwLjAwMiI+PHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iMjAiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNMjA2NTUsMjM1OTNhMjAsMjAsMCwxLDEsMjAsMjBBMjAsMjAsMCwwLDEsMjA2NTUsMjM1OTNabTcuOTc3LTEyLjAyM0ExNywxNywwLDEsMCwyMDY3NSwyMzU3NiwxNi45LDE2LjksMCwwLDAsMjA2NjIuOTc5LDIzNTgwLjk3N1ptNy4xMzUsMy41MjUsMTUuMzg1LDguNS0xNS4zODUsOC41WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIwNjU1IC0yMzU3MykiIGZpbGw9IiM0ZGExNjciLz48L3N2Zz4=",
+            "x": 2880,
+            "y": 1080,
+            "width": 2700,
+            "height": 540
+        },
+        {
+            "key": "1",
+            "dataKey": "5673fceb-4df3-f57a-e0e2-8911667053f3",
+            "customData": {
+                "name": "Manuell",
+                "task": "Aufgabe 1",
+                "image": "b8edf3e3-f683-4854-ac8a-9a2a9bf41d03",
+                "description": "<p style=\"text-align: center;\">Detaillierte Beschreibung des Schrittes...</p>",
+                "imagefilename": "Erforderliches Testequipment verwenden.png"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Manuell",
+            "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2xpZW50X1RBRl9NYW51ZWxsIiBkYXRhLW5hbWU9IkNsaWVudCBUQUYgTWFudWVsbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPHJlY3QgaWQ9IlJlY2h0ZWNrXzExNTEiIGRhdGEtbmFtZT0iUmVjaHRlY2sgMTE1MSIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjUgNy41KSIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGlkPSJQYXRoXzMxMjYiIGRhdGEtbmFtZT0iUGF0aCAzMTI2IiBkPSJNMjguOTcxLDQ3LjFhMTIuMDU4LDEyLjA1OCwwLDAsMS01LjM0Mi0xLjc4NEEzMy42ODcsMzMuNjg3LDAsMCwxLDE5LjMxNyw0Mi41QzE3LjMsNDAuOTMxLDEwLjA0NSwzMS41ODcsOC43OTQsMjkuOTMzbC0uMDExLS4wMTVhOC4xNjYsOC4xNjYsMCwwLDEtLjg5My0xLjY5MWMtLjY1OS0xLjc0OS0uMTg1LTIuNzY0LjMzLTMuMzA3QTMuMjM4LDMuMjM4LDAsMCwxLDkuOSwyMy45cS0uODU1LTEuMDMzLTEuMTI3LTEuNDMyQTUuOCw1LjgsMCwwLDEsNy43MSwxOS44ODJhMy4wNjEsMy4wNjEsMCwwLDEsLjg2NC0yLjU0MiwyLjcyOSwyLjcyOSwwLDAsMSwyLjAwOC0uOHEuMTE3LDAsLjIzNi4wMDhhNi4xNzIsNi4xNzIsMCwwLDEtMS4xOS0zLjU3MywyLjU0MiwyLjU0MiwwLDAsMSwuOTQ3LTEuODA2LDMuNywzLjcsMCwwLDEsMi4zNTItLjlBNC4zOSw0LjM5LDAsMCwxLDE2LjIsMTIuMDMxbC4wMTcuMDIxQTIuNCwyLjQsMCwwLDEsMTcsMTAuNDI1LDMuMzg4LDMuMzg4LDAsMCwxLDE5LjIyNyw5LjYsNC4zMTYsNC4zMTYsMCwwLDEsMjIuNSwxMS4yNTRjMS4xMzIsMS4yODMsNi41MzUsNy43NjYsOS42NzQsMTEuNTM4LS4yOTUtLjk1LS42MTItMS45NjktLjktMi44NjlhNS40LDUuNCwwLDAsMS0uMS0zLjU1OCwzLjAyOSwzLjAyOSwwLDAsMSwxLjk0Ni0xLjg0NCwyLjM3OCwyLjM3OCwwLDAsMSwuNzE3LS4xMDgsMy44MSwzLjgxLDAsMCwxLDIuMjg4LjlBNC42MTksNC42MTksMCwwLDEsMzcuNiwxNy4yNDRjLjIzOS42NDgsMS41MTUsNC40NDgsMi43OSw4LjM3MSwyLjQ1LDcuNTQzLDIuNDUsNy45ODUsMi40NSw4LjIsMCwuMDY0LDAsLjEzNiwwLC4yMTZhMTAuNzA2LDEwLjcwNiwwLDAsMS0xLjc2OSw2LjJjLTEuMjM5LDIuMDI0LTMuOTg0LDMuNzM5LTUuNTEsNC41ODJBMTcuNzQyLDE3Ljc0MiwwLDAsMSwyOS4zLDQ3LjA5MkMyOS4xOTEsNDcuMSwyOS4wODEsNDcuMSwyOC45NzEsNDcuMVpNOS45MjQsMjkuMDg3YzEuNjkzLDIuMjM2LDguNTIsMTAuOTQxLDEwLjI1OSwxMi4zLDEuOTEyLDEuNDksNi4yMSw0LjMwNyw4Ljc4OCw0LjMwNy4wNzYsMCwuMTUxLDAsLjIyMy0uMDA4YTE2LjYzMywxNi42MzMsMCwwLDAsNS42ODgtMi4xMTIsMTMuOTUxLDEzLjk1MSwwLDAsMCw0Ljk4OS00LjA4Myw5LjI1NCw5LjI1NCwwLDAsMCwxLjU2MS01LjQzM2MwLS4wOCwwLS4xNTMsMC0uMjE5LS4xNDItMS4xLTQuNTI5LTE0LjQxLTUuMTUyLTE2LjFhMy4xNTUsMy4xNTUsMCwwLDAtMi40MzctMS45MDUuOTc0Ljk3NCwwLDAsMC0uMjkzLjA0MiwxLjYyMSwxLjYyMSwwLDAsMC0xLjA1MywxLDQuMTE3LDQuMTE3LDAsMCwwLC4xMjcsMi42MjVjLjgyMywyLjYxMiwxLjkzMiw2LjIyMSwxLjk0Myw2LjI1N2wtMS4yMTYuNjZjLS4xLS4xMjQtMTAuMzM3LTEyLjQ0Ny0xMS45MDYtMTQuMjI1YTIuOTU4LDIuOTU4LDAsMCwwLTIuMjEzLTEuMTc0LDEuOTc5LDEuOTc5LDAsMCwwLTEuMy40NzUsMS4wNDksMS4wNDksMCwwLDAtLjMwOC43NTMsMy44LDMuOCwwLDAsMCwuOTI5LDIuNDgzYzEuMDM3LDEuMTc3LDcuNTA1LDkuMTMsNy43OCw5LjQ2OGwtMS4wODkuOWMtLjA5LS4xMDgtOS4wMjEtMTAuODUtMTAuMTE2LTEyLjE1NGEzLjE0OSwzLjE0OSwwLDAsMC0yLjE5NS0xLjI2LDIuMzQsMi4zNCwwLDAsMC0xLjQ2Ni41OTEsMS4xMTUsMS4xMTUsMCwwLDAtLjQyNy44MjVjLS4wOTMsMS4xMDguOTE5LDIuODExLDEuOSwzLjkyNC4xLjExOCw5LjE4MSwxMC42LDkuNTY4LDExLjA0OUwyMS40MzgsMjljLS4wODItLjA5NC04LjE4Ny05LjM2OC04Ljk0MS0xMC4yMzhhMi44MDksMi44MDksMCwwLDAtMS45MTUtLjgsMS4zMzgsMS4zMzgsMCwwLDAtMSwuMzcyYy0uOTM1Ljk1OC0uMzIzLDIuMzQ4LjM1NiwzLjM0Ni4yNTUuMzc0LDEuMTU1LDEuNTA4LDQsNC43ODgsMS44NDYsMi4wOTIsNC44NTYsNS41MjksNC44ODYsNS41NjNsLTEuMDU3LjkzN2MtLjAyNS0uMDI4LTIuNTM5LTIuODU5LTQuODktNS41NjgtLjcxNC0uODA5LTEuMTY1LTEuMzE3LTEuMzQtMS41MDlhMS43LDEuNywwLDAsMC0xLjE0My0uNjE3LDEuNjYyLDEuNjYyLDAsMCwwLTEuMTUyLjYyN0M4LjUsMjYuNjc1LDkuNTA2LDI4LjUsOS45MjQsMjkuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wNDIgMC44OTYpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
+            "x": 2700,
+            "y": 2340,
+            "width": 3060,
+            "height": 900
+        },
+        {
+            "key": "2",
+            "dataKey": "70794ca8-572d-c876-11ee-1cc45336d287",
+            "customData": {
+                "name": "Manuell",
+                "task": "Aufgabe 2",
+                "image": "d18df8a2-2dce-4369-b5d8-363c891a40f3",
+                "description": "<p style=\"text-align: center;\">Detaillierte Beschreibung des Schrittes...</p>",
+                "imagefilename": "Austausch defekter Dichtungen und Teile.png"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Manuell",
+            "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2xpZW50X1RBRl9NYW51ZWxsIiBkYXRhLW5hbWU9IkNsaWVudCBUQUYgTWFudWVsbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPHJlY3QgaWQ9IlJlY2h0ZWNrXzExNTEiIGRhdGEtbmFtZT0iUmVjaHRlY2sgMTE1MSIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjUgNy41KSIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGlkPSJQYXRoXzMxMjYiIGRhdGEtbmFtZT0iUGF0aCAzMTI2IiBkPSJNMjguOTcxLDQ3LjFhMTIuMDU4LDEyLjA1OCwwLDAsMS01LjM0Mi0xLjc4NEEzMy42ODcsMzMuNjg3LDAsMCwxLDE5LjMxNyw0Mi41QzE3LjMsNDAuOTMxLDEwLjA0NSwzMS41ODcsOC43OTQsMjkuOTMzbC0uMDExLS4wMTVhOC4xNjYsOC4xNjYsMCwwLDEtLjg5My0xLjY5MWMtLjY1OS0xLjc0OS0uMTg1LTIuNzY0LjMzLTMuMzA3QTMuMjM4LDMuMjM4LDAsMCwxLDkuOSwyMy45cS0uODU1LTEuMDMzLTEuMTI3LTEuNDMyQTUuOCw1LjgsMCwwLDEsNy43MSwxOS44ODJhMy4wNjEsMy4wNjEsMCwwLDEsLjg2NC0yLjU0MiwyLjcyOSwyLjcyOSwwLDAsMSwyLjAwOC0uOHEuMTE3LDAsLjIzNi4wMDhhNi4xNzIsNi4xNzIsMCwwLDEtMS4xOS0zLjU3MywyLjU0MiwyLjU0MiwwLDAsMSwuOTQ3LTEuODA2LDMuNywzLjcsMCwwLDEsMi4zNTItLjlBNC4zOSw0LjM5LDAsMCwxLDE2LjIsMTIuMDMxbC4wMTcuMDIxQTIuNCwyLjQsMCwwLDEsMTcsMTAuNDI1LDMuMzg4LDMuMzg4LDAsMCwxLDE5LjIyNyw5LjYsNC4zMTYsNC4zMTYsMCwwLDEsMjIuNSwxMS4yNTRjMS4xMzIsMS4yODMsNi41MzUsNy43NjYsOS42NzQsMTEuNTM4LS4yOTUtLjk1LS42MTItMS45NjktLjktMi44NjlhNS40LDUuNCwwLDAsMS0uMS0zLjU1OCwzLjAyOSwzLjAyOSwwLDAsMSwxLjk0Ni0xLjg0NCwyLjM3OCwyLjM3OCwwLDAsMSwuNzE3LS4xMDgsMy44MSwzLjgxLDAsMCwxLDIuMjg4LjlBNC42MTksNC42MTksMCwwLDEsMzcuNiwxNy4yNDRjLjIzOS42NDgsMS41MTUsNC40NDgsMi43OSw4LjM3MSwyLjQ1LDcuNTQzLDIuNDUsNy45ODUsMi40NSw4LjIsMCwuMDY0LDAsLjEzNiwwLC4yMTZhMTAuNzA2LDEwLjcwNiwwLDAsMS0xLjc2OSw2LjJjLTEuMjM5LDIuMDI0LTMuOTg0LDMuNzM5LTUuNTEsNC41ODJBMTcuNzQyLDE3Ljc0MiwwLDAsMSwyOS4zLDQ3LjA5MkMyOS4xOTEsNDcuMSwyOS4wODEsNDcuMSwyOC45NzEsNDcuMVpNOS45MjQsMjkuMDg3YzEuNjkzLDIuMjM2LDguNTIsMTAuOTQxLDEwLjI1OSwxMi4zLDEuOTEyLDEuNDksNi4yMSw0LjMwNyw4Ljc4OCw0LjMwNy4wNzYsMCwuMTUxLDAsLjIyMy0uMDA4YTE2LjYzMywxNi42MzMsMCwwLDAsNS42ODgtMi4xMTIsMTMuOTUxLDEzLjk1MSwwLDAsMCw0Ljk4OS00LjA4Myw5LjI1NCw5LjI1NCwwLDAsMCwxLjU2MS01LjQzM2MwLS4wOCwwLS4xNTMsMC0uMjE5LS4xNDItMS4xLTQuNTI5LTE0LjQxLTUuMTUyLTE2LjFhMy4xNTUsMy4xNTUsMCwwLDAtMi40MzctMS45MDUuOTc0Ljk3NCwwLDAsMC0uMjkzLjA0MiwxLjYyMSwxLjYyMSwwLDAsMC0xLjA1MywxLDQuMTE3LDQuMTE3LDAsMCwwLC4xMjcsMi42MjVjLjgyMywyLjYxMiwxLjkzMiw2LjIyMSwxLjk0Myw2LjI1N2wtMS4yMTYuNjZjLS4xLS4xMjQtMTAuMzM3LTEyLjQ0Ny0xMS45MDYtMTQuMjI1YTIuOTU4LDIuOTU4LDAsMCwwLTIuMjEzLTEuMTc0LDEuOTc5LDEuOTc5LDAsMCwwLTEuMy40NzUsMS4wNDksMS4wNDksMCwwLDAtLjMwOC43NTMsMy44LDMuOCwwLDAsMCwuOTI5LDIuNDgzYzEuMDM3LDEuMTc3LDcuNTA1LDkuMTMsNy43OCw5LjQ2OGwtMS4wODkuOWMtLjA5LS4xMDgtOS4wMjEtMTAuODUtMTAuMTE2LTEyLjE1NGEzLjE0OSwzLjE0OSwwLDAsMC0yLjE5NS0xLjI2LDIuMzQsMi4zNCwwLDAsMC0xLjQ2Ni41OTEsMS4xMTUsMS4xMTUsMCwwLDAtLjQyNy44MjVjLS4wOTMsMS4xMDguOTE5LDIuODExLDEuOSwzLjkyNC4xLjExOCw5LjE4MSwxMC42LDkuNTY4LDExLjA0OUwyMS40MzgsMjljLS4wODItLjA5NC04LjE4Ny05LjM2OC04Ljk0MS0xMC4yMzhhMi44MDksMi44MDksMCwwLDAtMS45MTUtLjgsMS4zMzgsMS4zMzgsMCwwLDAtMSwuMzcyYy0uOTM1Ljk1OC0uMzIzLDIuMzQ4LjM1NiwzLjM0Ni4yNTUuMzc0LDEuMTU1LDEuNTA4LDQsNC43ODgsMS44NDYsMi4wOTIsNC44NTYsNS41MjksNC44ODYsNS41NjNsLTEuMDU3LjkzN2MtLjAyNS0uMDI4LTIuNTM5LTIuODU5LTQuODktNS41NjgtLjcxNC0uODA5LTEuMTY1LTEuMzE3LTEuMzQtMS41MDlhMS43LDEuNywwLDAsMC0xLjE0My0uNjE3LDEuNjYyLDEuNjYyLDAsMCwwLTEuMTUyLjYyN0M4LjUsMjYuNjc1LDkuNTA2LDI4LjUsOS45MjQsMjkuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wNDIgMC44OTYpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
+            "x": 2700,
+            "y": 3960,
+            "width": 3060,
+            "height": 900
+        },
+        {
+            "key": "3",
+            "dataKey": "21d321bd-82dd-53e7-5354-7d6c7eac8f9b",
+            "customData": {
+                "name": "Manuell",
+                "task": "Aufgabe 3",
+                "image": "ef22599b-f6fa-4563-bcfb-2c0274ebf376",
+                "description": "<p style=\"text-align: center;\">Detaillierte Beschreibung des Schrittes...</p>",
+                "imagefilename": "Austausch defekter Dichtungen und Teile.png"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Manuell",
+            "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2xpZW50X1RBRl9NYW51ZWxsIiBkYXRhLW5hbWU9IkNsaWVudCBUQUYgTWFudWVsbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPHJlY3QgaWQ9IlJlY2h0ZWNrXzExNTEiIGRhdGEtbmFtZT0iUmVjaHRlY2sgMTE1MSIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjUgNy41KSIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGlkPSJQYXRoXzMxMjYiIGRhdGEtbmFtZT0iUGF0aCAzMTI2IiBkPSJNMjguOTcxLDQ3LjFhMTIuMDU4LDEyLjA1OCwwLDAsMS01LjM0Mi0xLjc4NEEzMy42ODcsMzMuNjg3LDAsMCwxLDE5LjMxNyw0Mi41QzE3LjMsNDAuOTMxLDEwLjA0NSwzMS41ODcsOC43OTQsMjkuOTMzbC0uMDExLS4wMTVhOC4xNjYsOC4xNjYsMCwwLDEtLjg5My0xLjY5MWMtLjY1OS0xLjc0OS0uMTg1LTIuNzY0LjMzLTMuMzA3QTMuMjM4LDMuMjM4LDAsMCwxLDkuOSwyMy45cS0uODU1LTEuMDMzLTEuMTI3LTEuNDMyQTUuOCw1LjgsMCwwLDEsNy43MSwxOS44ODJhMy4wNjEsMy4wNjEsMCwwLDEsLjg2NC0yLjU0MiwyLjcyOSwyLjcyOSwwLDAsMSwyLjAwOC0uOHEuMTE3LDAsLjIzNi4wMDhhNi4xNzIsNi4xNzIsMCwwLDEtMS4xOS0zLjU3MywyLjU0MiwyLjU0MiwwLDAsMSwuOTQ3LTEuODA2LDMuNywzLjcsMCwwLDEsMi4zNTItLjlBNC4zOSw0LjM5LDAsMCwxLDE2LjIsMTIuMDMxbC4wMTcuMDIxQTIuNCwyLjQsMCwwLDEsMTcsMTAuNDI1LDMuMzg4LDMuMzg4LDAsMCwxLDE5LjIyNyw5LjYsNC4zMTYsNC4zMTYsMCwwLDEsMjIuNSwxMS4yNTRjMS4xMzIsMS4yODMsNi41MzUsNy43NjYsOS42NzQsMTEuNTM4LS4yOTUtLjk1LS42MTItMS45NjktLjktMi44NjlhNS40LDUuNCwwLDAsMS0uMS0zLjU1OCwzLjAyOSwzLjAyOSwwLDAsMSwxLjk0Ni0xLjg0NCwyLjM3OCwyLjM3OCwwLDAsMSwuNzE3LS4xMDgsMy44MSwzLjgxLDAsMCwxLDIuMjg4LjlBNC42MTksNC42MTksMCwwLDEsMzcuNiwxNy4yNDRjLjIzOS42NDgsMS41MTUsNC40NDgsMi43OSw4LjM3MSwyLjQ1LDcuNTQzLDIuNDUsNy45ODUsMi40NSw4LjIsMCwuMDY0LDAsLjEzNiwwLC4yMTZhMTAuNzA2LDEwLjcwNiwwLDAsMS0xLjc2OSw2LjJjLTEuMjM5LDIuMDI0LTMuOTg0LDMuNzM5LTUuNTEsNC41ODJBMTcuNzQyLDE3Ljc0MiwwLDAsMSwyOS4zLDQ3LjA5MkMyOS4xOTEsNDcuMSwyOS4wODEsNDcuMSwyOC45NzEsNDcuMVpNOS45MjQsMjkuMDg3YzEuNjkzLDIuMjM2LDguNTIsMTAuOTQxLDEwLjI1OSwxMi4zLDEuOTEyLDEuNDksNi4yMSw0LjMwNyw4Ljc4OCw0LjMwNy4wNzYsMCwuMTUxLDAsLjIyMy0uMDA4YTE2LjYzMywxNi42MzMsMCwwLDAsNS42ODgtMi4xMTIsMTMuOTUxLDEzLjk1MSwwLDAsMCw0Ljk4OS00LjA4Myw5LjI1NCw5LjI1NCwwLDAsMCwxLjU2MS01LjQzM2MwLS4wOCwwLS4xNTMsMC0uMjE5LS4xNDItMS4xLTQuNTI5LTE0LjQxLTUuMTUyLTE2LjFhMy4xNTUsMy4xNTUsMCwwLDAtMi40MzctMS45MDUuOTc0Ljk3NCwwLDAsMC0uMjkzLjA0MiwxLjYyMSwxLjYyMSwwLDAsMC0xLjA1MywxLDQuMTE3LDQuMTE3LDAsMCwwLC4xMjcsMi42MjVjLjgyMywyLjYxMiwxLjkzMiw2LjIyMSwxLjk0Myw2LjI1N2wtMS4yMTYuNjZjLS4xLS4xMjQtMTAuMzM3LTEyLjQ0Ny0xMS45MDYtMTQuMjI1YTIuOTU4LDIuOTU4LDAsMCwwLTIuMjEzLTEuMTc0LDEuOTc5LDEuOTc5LDAsMCwwLTEuMy40NzUsMS4wNDksMS4wNDksMCwwLDAtLjMwOC43NTMsMy44LDMuOCwwLDAsMCwuOTI5LDIuNDgzYzEuMDM3LDEuMTc3LDcuNTA1LDkuMTMsNy43OCw5LjQ2OGwtMS4wODkuOWMtLjA5LS4xMDgtOS4wMjEtMTAuODUtMTAuMTE2LTEyLjE1NGEzLjE0OSwzLjE0OSwwLDAsMC0yLjE5NS0xLjI2LDIuMzQsMi4zNCwwLDAsMC0xLjQ2Ni41OTEsMS4xMTUsMS4xMTUsMCwwLDAtLjQyNy44MjVjLS4wOTMsMS4xMDguOTE5LDIuODExLDEuOSwzLjkyNC4xLjExOCw5LjE4MSwxMC42LDkuNTY4LDExLjA0OUwyMS40MzgsMjljLS4wODItLjA5NC04LjE4Ny05LjM2OC04Ljk0MS0xMC4yMzhhMi44MDksMi44MDksMCwwLDAtMS45MTUtLjgsMS4zMzgsMS4zMzgsMCwwLDAtMSwuMzcyYy0uOTM1Ljk1OC0uMzIzLDIuMzQ4LjM1NiwzLjM0Ni4yNTUuMzc0LDEuMTU1LDEuNTA4LDQsNC43ODgsMS44NDYsMi4wOTIsNC44NTYsNS41MjksNC44ODYsNS41NjNsLTEuMDU3LjkzN2MtLjAyNS0uMDI4LTIuNTM5LTIuODU5LTQuODktNS41NjgtLjcxNC0uODA5LTEuMTY1LTEuMzE3LTEuMzQtMS41MDlhMS43LDEuNywwLDAsMC0xLjE0My0uNjE3LDEuNjYyLDEuNjYyLDAsMCwwLTEuMTUyLjYyN0M4LjUsMjYuNjc1LDkuNTA2LDI4LjUsOS45MjQsMjkuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wNDIgMC44OTYpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
+            "x": 2700,
+            "y": 5580,
+            "width": 3060,
+            "height": 900
+        },
+        {
+            "key": "4",
+            "dataKey": "57ccb9de-ac64-fd49-5768-daa3e5c26a7b",
+            "customData": {
+                "name": "Manuell",
+                "task": "Aufgabe 4",
+                "image": "d8e7c6d3-0ad4-4bd3-aac5-f2a1f33607db",
+                "description": "<p style=\"text-align: center;\">Detaillierte Beschreibung des Schrittes...</p>",
+                "imagefilename": "Screenshot 2024-11-06 124712.png"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Manuell",
+            "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2xpZW50X1RBRl9NYW51ZWxsIiBkYXRhLW5hbWU9IkNsaWVudCBUQUYgTWFudWVsbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPHJlY3QgaWQ9IlJlY2h0ZWNrXzExNTEiIGRhdGEtbmFtZT0iUmVjaHRlY2sgMTE1MSIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjUgNy41KSIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGlkPSJQYXRoXzMxMjYiIGRhdGEtbmFtZT0iUGF0aCAzMTI2IiBkPSJNMjguOTcxLDQ3LjFhMTIuMDU4LDEyLjA1OCwwLDAsMS01LjM0Mi0xLjc4NEEzMy42ODcsMzMuNjg3LDAsMCwxLDE5LjMxNyw0Mi41QzE3LjMsNDAuOTMxLDEwLjA0NSwzMS41ODcsOC43OTQsMjkuOTMzbC0uMDExLS4wMTVhOC4xNjYsOC4xNjYsMCwwLDEtLjg5My0xLjY5MWMtLjY1OS0xLjc0OS0uMTg1LTIuNzY0LjMzLTMuMzA3QTMuMjM4LDMuMjM4LDAsMCwxLDkuOSwyMy45cS0uODU1LTEuMDMzLTEuMTI3LTEuNDMyQTUuOCw1LjgsMCwwLDEsNy43MSwxOS44ODJhMy4wNjEsMy4wNjEsMCwwLDEsLjg2NC0yLjU0MiwyLjcyOSwyLjcyOSwwLDAsMSwyLjAwOC0uOHEuMTE3LDAsLjIzNi4wMDhhNi4xNzIsNi4xNzIsMCwwLDEtMS4xOS0zLjU3MywyLjU0MiwyLjU0MiwwLDAsMSwuOTQ3LTEuODA2LDMuNywzLjcsMCwwLDEsMi4zNTItLjlBNC4zOSw0LjM5LDAsMCwxLDE2LjIsMTIuMDMxbC4wMTcuMDIxQTIuNCwyLjQsMCwwLDEsMTcsMTAuNDI1LDMuMzg4LDMuMzg4LDAsMCwxLDE5LjIyNyw5LjYsNC4zMTYsNC4zMTYsMCwwLDEsMjIuNSwxMS4yNTRjMS4xMzIsMS4yODMsNi41MzUsNy43NjYsOS42NzQsMTEuNTM4LS4yOTUtLjk1LS42MTItMS45NjktLjktMi44NjlhNS40LDUuNCwwLDAsMS0uMS0zLjU1OCwzLjAyOSwzLjAyOSwwLDAsMSwxLjk0Ni0xLjg0NCwyLjM3OCwyLjM3OCwwLDAsMSwuNzE3LS4xMDgsMy44MSwzLjgxLDAsMCwxLDIuMjg4LjlBNC42MTksNC42MTksMCwwLDEsMzcuNiwxNy4yNDRjLjIzOS42NDgsMS41MTUsNC40NDgsMi43OSw4LjM3MSwyLjQ1LDcuNTQzLDIuNDUsNy45ODUsMi40NSw4LjIsMCwuMDY0LDAsLjEzNiwwLC4yMTZhMTAuNzA2LDEwLjcwNiwwLDAsMS0xLjc2OSw2LjJjLTEuMjM5LDIuMDI0LTMuOTg0LDMuNzM5LTUuNTEsNC41ODJBMTcuNzQyLDE3Ljc0MiwwLDAsMSwyOS4zLDQ3LjA5MkMyOS4xOTEsNDcuMSwyOS4wODEsNDcuMSwyOC45NzEsNDcuMVpNOS45MjQsMjkuMDg3YzEuNjkzLDIuMjM2LDguNTIsMTAuOTQxLDEwLjI1OSwxMi4zLDEuOTEyLDEuNDksNi4yMSw0LjMwNyw4Ljc4OCw0LjMwNy4wNzYsMCwuMTUxLDAsLjIyMy0uMDA4YTE2LjYzMywxNi42MzMsMCwwLDAsNS42ODgtMi4xMTIsMTMuOTUxLDEzLjk1MSwwLDAsMCw0Ljk4OS00LjA4Myw5LjI1NCw5LjI1NCwwLDAsMCwxLjU2MS01LjQzM2MwLS4wOCwwLS4xNTMsMC0uMjE5LS4xNDItMS4xLTQuNTI5LTE0LjQxLTUuMTUyLTE2LjFhMy4xNTUsMy4xNTUsMCwwLDAtMi40MzctMS45MDUuOTc0Ljk3NCwwLDAsMC0uMjkzLjA0MiwxLjYyMSwxLjYyMSwwLDAsMC0xLjA1MywxLDQuMTE3LDQuMTE3LDAsMCwwLC4xMjcsMi42MjVjLjgyMywyLjYxMiwxLjkzMiw2LjIyMSwxLjk0Myw2LjI1N2wtMS4yMTYuNjZjLS4xLS4xMjQtMTAuMzM3LTEyLjQ0Ny0xMS45MDYtMTQuMjI1YTIuOTU4LDIuOTU4LDAsMCwwLTIuMjEzLTEuMTc0LDEuOTc5LDEuOTc5LDAsMCwwLTEuMy40NzUsMS4wNDksMS4wNDksMCwwLDAtLjMwOC43NTMsMy44LDMuOCwwLDAsMCwuOTI5LDIuNDgzYzEuMDM3LDEuMTc3LDcuNTA1LDkuMTMsNy43OCw5LjQ2OGwtMS4wODkuOWMtLjA5LS4xMDgtOS4wMjEtMTAuODUtMTAuMTE2LTEyLjE1NGEzLjE0OSwzLjE0OSwwLDAsMC0yLjE5NS0xLjI2LDIuMzQsMi4zNCwwLDAsMC0xLjQ2Ni41OTEsMS4xMTUsMS4xMTUsMCwwLDAtLjQyNy44MjVjLS4wOTMsMS4xMDguOTE5LDIuODExLDEuOSwzLjkyNC4xLjExOCw5LjE4MSwxMC42LDkuNTY4LDExLjA0OUwyMS40MzgsMjljLS4wODItLjA5NC04LjE4Ny05LjM2OC04Ljk0MS0xMC4yMzhhMi44MDksMi44MDksMCwwLDAtMS45MTUtLjgsMS4zMzgsMS4zMzgsMCwwLDAtMSwuMzcyYy0uOTM1Ljk1OC0uMzIzLDIuMzQ4LjM1NiwzLjM0Ni4yNTUuMzc0LDEuMTU1LDEuNTA4LDQsNC43ODgsMS44NDYsMi4wOTIsNC44NTYsNS41MjksNC44ODYsNS41NjNsLTEuMDU3LjkzN2MtLjAyNS0uMDI4LTIuNTM5LTIuODU5LTQuODktNS41NjgtLjcxNC0uODA5LTEuMTY1LTEuMzE3LTEuMzQtMS41MDlhMS43LDEuNywwLDAsMC0xLjE0My0uNjE3LDEuNjYyLDEuNjYyLDAsMCwwLTEuMTUyLjYyN0M4LjUsMjYuNjc1LDkuNTA2LDI4LjUsOS45MjQsMjkuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wNDIgMC44OTYpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
+            "x": 2700,
+            "y": 7380,
+            "width": 3060,
+            "height": 900
+        },
+        {
+            "key": "5",
+            "dataKey": "9816923b-e27f-7792-e3e3-d9a6e491592c",
+            "customData": {
+                "name": "Manuell",
+                "task": "Aufgabe 5",
+                "image": "e9c5c941-7a7a-4e11-bc0b-897d964bd338",
+                "description": "<p style=\"text-align: center;\">Detaillierte Beschreibung des Schrittes...</p>",
+                "imagefilename": "Überprüfung auf Geräusche und Vibrationen.png"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Manuell",
+            "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2xpZW50X1RBRl9NYW51ZWxsIiBkYXRhLW5hbWU9IkNsaWVudCBUQUYgTWFudWVsbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPHJlY3QgaWQ9IlJlY2h0ZWNrXzExNTEiIGRhdGEtbmFtZT0iUmVjaHRlY2sgMTE1MSIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjUgNy41KSIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGlkPSJQYXRoXzMxMjYiIGRhdGEtbmFtZT0iUGF0aCAzMTI2IiBkPSJNMjguOTcxLDQ3LjFhMTIuMDU4LDEyLjA1OCwwLDAsMS01LjM0Mi0xLjc4NEEzMy42ODcsMzMuNjg3LDAsMCwxLDE5LjMxNyw0Mi41QzE3LjMsNDAuOTMxLDEwLjA0NSwzMS41ODcsOC43OTQsMjkuOTMzbC0uMDExLS4wMTVhOC4xNjYsOC4xNjYsMCwwLDEtLjg5My0xLjY5MWMtLjY1OS0xLjc0OS0uMTg1LTIuNzY0LjMzLTMuMzA3QTMuMjM4LDMuMjM4LDAsMCwxLDkuOSwyMy45cS0uODU1LTEuMDMzLTEuMTI3LTEuNDMyQTUuOCw1LjgsMCwwLDEsNy43MSwxOS44ODJhMy4wNjEsMy4wNjEsMCwwLDEsLjg2NC0yLjU0MiwyLjcyOSwyLjcyOSwwLDAsMSwyLjAwOC0uOHEuMTE3LDAsLjIzNi4wMDhhNi4xNzIsNi4xNzIsMCwwLDEtMS4xOS0zLjU3MywyLjU0MiwyLjU0MiwwLDAsMSwuOTQ3LTEuODA2LDMuNywzLjcsMCwwLDEsMi4zNTItLjlBNC4zOSw0LjM5LDAsMCwxLDE2LjIsMTIuMDMxbC4wMTcuMDIxQTIuNCwyLjQsMCwwLDEsMTcsMTAuNDI1LDMuMzg4LDMuMzg4LDAsMCwxLDE5LjIyNyw5LjYsNC4zMTYsNC4zMTYsMCwwLDEsMjIuNSwxMS4yNTRjMS4xMzIsMS4yODMsNi41MzUsNy43NjYsOS42NzQsMTEuNTM4LS4yOTUtLjk1LS42MTItMS45NjktLjktMi44NjlhNS40LDUuNCwwLDAsMS0uMS0zLjU1OCwzLjAyOSwzLjAyOSwwLDAsMSwxLjk0Ni0xLjg0NCwyLjM3OCwyLjM3OCwwLDAsMSwuNzE3LS4xMDgsMy44MSwzLjgxLDAsMCwxLDIuMjg4LjlBNC42MTksNC42MTksMCwwLDEsMzcuNiwxNy4yNDRjLjIzOS42NDgsMS41MTUsNC40NDgsMi43OSw4LjM3MSwyLjQ1LDcuNTQzLDIuNDUsNy45ODUsMi40NSw4LjIsMCwuMDY0LDAsLjEzNiwwLC4yMTZhMTAuNzA2LDEwLjcwNiwwLDAsMS0xLjc2OSw2LjJjLTEuMjM5LDIuMDI0LTMuOTg0LDMuNzM5LTUuNTEsNC41ODJBMTcuNzQyLDE3Ljc0MiwwLDAsMSwyOS4zLDQ3LjA5MkMyOS4xOTEsNDcuMSwyOS4wODEsNDcuMSwyOC45NzEsNDcuMVpNOS45MjQsMjkuMDg3YzEuNjkzLDIuMjM2LDguNTIsMTAuOTQxLDEwLjI1OSwxMi4zLDEuOTEyLDEuNDksNi4yMSw0LjMwNyw4Ljc4OCw0LjMwNy4wNzYsMCwuMTUxLDAsLjIyMy0uMDA4YTE2LjYzMywxNi42MzMsMCwwLDAsNS42ODgtMi4xMTIsMTMuOTUxLDEzLjk1MSwwLDAsMCw0Ljk4OS00LjA4Myw5LjI1NCw5LjI1NCwwLDAsMCwxLjU2MS01LjQzM2MwLS4wOCwwLS4xNTMsMC0uMjE5LS4xNDItMS4xLTQuNTI5LTE0LjQxLTUuMTUyLTE2LjFhMy4xNTUsMy4xNTUsMCwwLDAtMi40MzctMS45MDUuOTc0Ljk3NCwwLDAsMC0uMjkzLjA0MiwxLjYyMSwxLjYyMSwwLDAsMC0xLjA1MywxLDQuMTE3LDQuMTE3LDAsMCwwLC4xMjcsMi42MjVjLjgyMywyLjYxMiwxLjkzMiw2LjIyMSwxLjk0Myw2LjI1N2wtMS4yMTYuNjZjLS4xLS4xMjQtMTAuMzM3LTEyLjQ0Ny0xMS45MDYtMTQuMjI1YTIuOTU4LDIuOTU4LDAsMCwwLTIuMjEzLTEuMTc0LDEuOTc5LDEuOTc5LDAsMCwwLTEuMy40NzUsMS4wNDksMS4wNDksMCwwLDAtLjMwOC43NTMsMy44LDMuOCwwLDAsMCwuOTI5LDIuNDgzYzEuMDM3LDEuMTc3LDcuNTA1LDkuMTMsNy43OCw5LjQ2OGwtMS4wODkuOWMtLjA5LS4xMDgtOS4wMjEtMTAuODUtMTAuMTE2LTEyLjE1NGEzLjE0OSwzLjE0OSwwLDAsMC0yLjE5NS0xLjI2LDIuMzQsMi4zNCwwLDAsMC0xLjQ2Ni41OTEsMS4xMTUsMS4xMTUsMCwwLDAtLjQyNy44MjVjLS4wOTMsMS4xMDguOTE5LDIuODExLDEuOSwzLjkyNC4xLjExOCw5LjE4MSwxMC42LDkuNTY4LDExLjA0OUwyMS40MzgsMjljLS4wODItLjA5NC04LjE4Ny05LjM2OC04Ljk0MS0xMC4yMzhhMi44MDksMi44MDksMCwwLDAtMS45MTUtLjgsMS4zMzgsMS4zMzgsMCwwLDAtMSwuMzcyYy0uOTM1Ljk1OC0uMzIzLDIuMzQ4LjM1NiwzLjM0Ni4yNTUuMzc0LDEuMTU1LDEuNTA4LDQsNC43ODgsMS44NDYsMi4wOTIsNC44NTYsNS41MjksNC44ODYsNS41NjNsLTEuMDU3LjkzN2MtLjAyNS0uMDI4LTIuNTM5LTIuODU5LTQuODktNS41NjgtLjcxNC0uODA5LTEuMTY1LTEuMzE3LTEuMzQtMS41MDlhMS43LDEuNywwLDAsMC0xLjE0My0uNjE3LDEuNjYyLDEuNjYyLDAsMCwwLTEuMTUyLjYyN0M4LjUsMjYuNjc1LDkuNTA2LDI4LjUsOS45MjQsMjkuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wNDIgMC44OTYpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
+            "x": 2700,
+            "y": 9180,
+            "width": 3060,
+            "height": 900
+        },
+        {
+            "key": "6",
+            "dataKey": "38836020-cb85-4b2b-cd35-92add5193f52",
+            "customData": {
+                "name": "Ende OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "68fc9c5f-bd3a-4ddb-af48-493a5921559e",
+            "text": "Ende OK",
+            "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDQwIDQwLjAwMiI+PHBhdGggZD0iTTIwNzcxLDIzNjEzYTE5LjkyOCwxOS45MjgsMCwxLDEsNy43ODUtMS41NzJBMTkuODU0LDE5Ljg1NCwwLDAsMSwyMDc3MSwyMzYxM1ptLTkuNTU5LTIyLjI3NS0yLjI4NywyLjI4NSw4LjYsOC43NDgsMTUuMDg4LTE1LjIzNi0yLjI4Ny0yLjI4Ny0xMi44MDcsMTIuNjU4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIwNzUxIC0yMzU3MykiIGZpbGw9IiM0ZGExNjciLz48L3N2Zz4=",
+            "x": 2880,
+            "y": 10800,
+            "width": 2700,
+            "height": 540
+        }
+    ]
+}
