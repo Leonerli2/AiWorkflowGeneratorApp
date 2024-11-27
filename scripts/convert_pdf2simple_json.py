@@ -18,6 +18,7 @@ from docling.datamodel.base_models import InputFormat
 from docling.document_converter import DocumentConverter, PdfFormatOption   
 import logging
 
+
 # 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
 
 print(os.getenv("OPENAI_API_KEY"))
@@ -33,8 +34,9 @@ api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
     raise ValueError("OPENAI_API_KEY is not set in the environment variables.")
 
-
-
+# -------------------------------------------------------------------------------------
+#                      OpenAI Code for instruction extraction
+# -------------------------------------------------------------------------------------
 def structured_openai_api_call(img, system_prompt):
     """
       Args:
@@ -270,6 +272,11 @@ def custom_serializer(obj):
     else:
         return obj.__dict__
 
+
+
+# -------------------------------------------------------------------------------------
+#                                Docling Code
+# -------------------------------------------------------------------------------------
 def extract_text_and_pictures(input_doc_name: str = "data/input_pdf/w5.pdf"):
     output_dir = Path("data/output_docling")
     
@@ -325,8 +332,227 @@ def extract_text_and_pictures(input_doc_name: str = "data/input_pdf/w5.pdf"):
         json.dump(conv_result.document, fp, default=custom_serializer, indent=2)
 
     logging.info(f"Full document JSON saved to {json_output_path}")    
-        
-        
        
-        
-extract_text_and_pictures()
+def structured_openai_api_call_with_picture_json(json_input: dict, system_prompt: str):
+    """
+    Args:
+        json_input (dict): A JSON object containing the instructions to be processed.
+        system_prompt (str): The system prompt to guide the model's response.
+
+    Returns:
+        List[InstructionStep]: A list of parsed instructions extracted from the JSON input, each containing:
+            - step (int): The step number.
+            - text (str): The instruction text.
+            - picture (bool): Whether a picture is associated with the step.
+            - picture_description (str): Description of the picture if applicable.
+    """
+    output_dir = Path("data/output_docling")
+
+    # Define the JSON structure for the instructions
+    class Picture(BaseModel):
+        page_no: int
+        picture_uri: str
+        center_x: int
+        center_y: int
+
+    class Pictures(BaseModel):
+        pictures: list[Picture]
+
+    # Instantiate OpenAI client
+    client = OpenAI()
+
+    # Structured API call to extract instructions
+    completion = client.beta.chat.completions.parse(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": system_prompt
+            },
+            {
+                "role": "user",
+                "content": str(json_input),
+            }
+        ],
+        response_format=Pictures,  # Parse into the defined schema
+    )
+
+    # Extract the parsed instructions
+    instructions = [choice.message.parsed for choice in completion.choices]
+    
+    instructions_dicts = [instr.dict() for instr in instructions]
+    
+    output_json = json.dumps(instructions_dicts, ensure_ascii=False, indent=4)
+
+    
+    # save the output as a json file
+    with open(output_dir / "docling_pictures.json", "w", encoding="utf-8") as file:
+        file.write(output_json)
+
+    # Output the results as JSON
+    return output_json
+
+def calculate_center_in_json(data):
+    """
+    Recursively iterates over JSON data to find entries with 'bbox',
+    calculates the center of the bounding box, and adds it as 'center'.
+    
+    Args:
+        data (dict or list): The JSON object to process.
+    
+    Returns:
+        dict or list: The updated JSON object with centers added to bboxes.
+    """
+    if isinstance(data, dict):
+        # If current level is a dictionary
+        if 'bbox' in data and isinstance(data['bbox'], dict):
+            bbox = data['bbox']
+            if all(key in bbox for key in ['l', 't', 'r', 'b']):
+                # Calculate center
+                center_x = (bbox['l'] + bbox['r']) / 2
+                center_y = (bbox['b'] + bbox['t']) / 2
+                # Add center as a tuple of integers
+                data['bbox']['center'] = (int(center_x), int(center_y))
+        # Recursively process nested dictionaries
+        for key, value in data.items():
+            calculate_center_in_json(value)
+    elif isinstance(data, list):
+        # If current level is a list
+        for item in data:
+            calculate_center_in_json(item)
+    return data
+
+def structured_openai_api_call_with_text_json(json_input: dict, system_prompt: str):
+    """
+    Args:
+        json_input (dict): A JSON object containing the instructions to be processed.
+        system_prompt (str): The system prompt to guide the model's response.
+
+    Returns:
+        List[InstructionStep]: A list of parsed instructions extracted from the JSON input, each containing:
+            - step (int): The step number.
+            - text (str): The instruction text.
+            - picture (bool): Whether a picture is associated with the step.
+            - picture_description (str): Description of the picture if applicable.
+    """
+    output_dir = Path("data/output_docling")
+
+    # Define the JSON structure for the instructions
+    class TextBlock(BaseModel):
+        page_no: int
+        text: str
+        center_x: int
+        center_y: int
+
+    class Instructions(BaseModel):
+        instructions: list[TextBlock]
+
+    # Instantiate OpenAI client
+    client = OpenAI()
+
+    # Structured API call to extract instructions
+    completion = client.beta.chat.completions.parse(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": system_prompt
+            },
+            {
+                "role": "user",
+                "content": str(json_input),
+            }
+        ],
+        response_format=Instructions,  # Parse into the defined schema
+    )
+
+    # Extract the parsed instructions
+    instructions = [choice.message.parsed for choice in completion.choices]
+    
+    instructions_dicts = [instr.dict() for instr in instructions]
+    
+    output_json = json.dumps(instructions_dicts, ensure_ascii=False, indent=4)
+
+    
+    # save the output as a json file
+    with open(output_dir / "docling_text.json", "w", encoding="utf-8") as file:
+        file.write(output_json)
+
+    # Output the results as JSON
+    return output_json
+
+# -------------------------------------------------------------------------------------
+#                               Combination of methods
+# -------------------------------------------------------------------------------------
+def add_centers_to_instructions(instructions: dict, centers: dict):
+    output_dir = Path("data/output_openai_text")
+    
+    system_prompt = "Take the instructions json and add the center of the instruction dependant on the center of the text blocks of the other json"
+    
+    
+    # Define the JSON structure for the instructions
+    class Instructions(BaseModel):
+        step: int
+        text: str
+        picture: bool
+        picture_description: str
+        center_x: int
+        center_y: int
+
+    class Pages(BaseModel):
+        pages: list[Instructions]
+
+    # Instantiate OpenAI client
+    client = OpenAI()
+
+    # Structured API call to extract instructions
+    completion = client.beta.chat.completions.parse(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": system_prompt + str(instructions)
+            },
+            {
+                "role": "user",
+                "content": str(centers),
+            }
+        ],
+        response_format=Pages,  # Parse into the defined schema
+    )
+
+    # Extract the parsed instructions
+    instructions = [choice.message.parsed for choice in completion.choices]
+    
+    instructions_dicts = [instr.dict() for instr in instructions]
+    
+    output_json = json.dumps(instructions_dicts, ensure_ascii=False, indent=4)
+
+    
+    # save the output as a json file
+    with open(output_dir / "openai_instructions_with_centers.json", "w", encoding="utf-8") as file:
+        file.write(output_json)
+
+    # Output the results as JSON
+    return output_json
+
+
+
+
+# ----------------------------------------------------------------------------------------
+# extract_text_and_pictures() # docling
+# extract_text_from_pdf() # openai
+
+# import json file
+with open("data/output_docling/w5.json", "r", encoding="utf-8") as file:
+    json_data = json.load(file)
+    
+# Calculate centers for bounding boxes in the JSON data
+json_data_with_centers = calculate_center_in_json(json_data)
+
+# convert into nice jsons
+prompt_picture_json = "Take the input json and extract the pictures. For each picture, provide the page number, picture URI, and center coordinates."
+promt_text_json = "Take the input json and extract the text. For each text block, provide the page number, text, and center coordinates."
+structured_openai_api_call_with_picture_json(json_data_with_centers, prompt_picture_json)
+structured_openai_api_call_with_text_json(json_data_with_centers, promt_text_json)
+
