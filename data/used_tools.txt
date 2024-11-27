@@ -1,0 +1,14 @@
+Entnahme 
+Scannen 
+Halterung einsetzen / einlegen
+Info
+SmartTool
+
+
+ELAM Names:
+SerialScanner
+SmartLabel
+SmartTool
+SmartTower
+IO
+K-Ducer (what is that?)

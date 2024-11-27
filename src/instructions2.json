@@ -1,0 +1,46 @@
+{
+    "steps": [
+        {
+            "description": "Blech mit Schwei\u00dfbolzen nehmen, einsetzen.",
+            "start_time": 2.2200000286102295,
+            "end_time": 5.440000057220459,
+            "photo_timestamp": 6.480000019073486
+        },
+        {
+            "description": "Distanzst\u00fcck mit Loch nehmen, auch einsetzen.",
+            "start_time": 7.71999979019165,
+            "end_time": 11.65999984741211,
+            "photo_timestamp": 11.65999984741211
+        },
+        {
+            "description": "Distanzh\u00fclse nehmen, auch einsetzen.",
+            "start_time": 13.15999984741211,
+            "end_time": 17.68000030517578,
+            "photo_timestamp": 17.68000030517578
+        },
+        {
+            "description": "Unterlagscheibe der Serielle nehmen, auch anbringen.",
+            "start_time": 19.31999969482422,
+            "end_time": 24.360000610351562,
+            "photo_timestamp": 24.360000610351562
+        },
+        {
+            "description": "Sicherungsmutter nehmen und ansetzen.",
+            "start_time": 26.940000534057617,
+            "end_time": 32.220001220703125,
+            "photo_timestamp": 32.220001220703125
+        },
+        {
+            "description": "Und zuletzt anziehen.",
+            "start_time": 33.7599983215332,
+            "end_time": 39.52000045776367,
+            "photo_timestamp": 39.52000045776367
+        },
+        {
+            "description": "Fertiger Produkt.",
+            "start_time": 45.540000915527344,
+            "end_time": 46.880001068115234,
+            "photo_timestamp": 46.880001068115234
+        }
+    ]
+}

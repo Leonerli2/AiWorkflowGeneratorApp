@@ -1,0 +1,58 @@
+{
+    "steps": [
+        {
+            "description": "Entnahme Mine und Quittierung an LED-Leuchte.",
+            "start_time": 0.0,
+            "end_time": 5.039999961853027,
+            "photo_timestamp": 5.039999961853027
+        },
+        {
+            "description": "Entnahme Feder und Quittierung an LED-Leuchte.",
+            "start_time": 8.760000228881836,
+            "end_time": 13.199999809265137,
+            "photo_timestamp": 13.199999809265137
+        },
+        {
+            "description": "Feder auf Mine stecken.",
+            "start_time": 16.700000762939453,
+            "end_time": 21.6200008392334,
+            "photo_timestamp": 21.6200008392334
+        },
+        {
+            "description": "Entnahme Stifth\u00fclle oben und Quittierung an LED-Leuchte.",
+            "start_time": 23.479999542236328,
+            "end_time": 28.8799991607666,
+            "photo_timestamp": 28.8799991607666
+        },
+        {
+            "description": "Mine und Feder in Oberteil stecken.",
+            "start_time": 31.399999618530273,
+            "end_time": 34.18000030517578,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Entnahme Stifth\u00fclle unten und Quittierung an LED-Leuchte.",
+            "start_time": 40.08000183105469,
+            "end_time": 46.560001373291016,
+            "photo_timestamp": 46.560001373291016
+        },
+        {
+            "description": "Oberteil auf Unterteil schrauben.",
+            "start_time": 49.29999923706055,
+            "end_time": 51.70000076293945,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Pr\u00fcfen Sie den Kugelschreiber.",
+            "start_time": 60.18000030517578,
+            "end_time": 67.0999984741211,
+            "photo_timestamp": 67.0999984741211
+        },
+        {
+            "description": "Kann die Mine wieder eingefahren werden?",
+            "start_time": 69.68000030517578,
+            "end_time": 74.08000183105469,
+            "photo_timestamp": 74.08000183105469
+        }
+    ]
+}

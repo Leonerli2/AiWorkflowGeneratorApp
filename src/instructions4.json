@@ -1,0 +1,52 @@
+{
+    "steps": [
+        {
+            "description": "Blech mit Schwei\u00dfbolzen, verschwei\u00dft, nehmen und in die Halterung einsetzen.",
+            "start_time": 0.0,
+            "end_time": 8.640000343322754,
+            "photo_timestamp": 8.640000343322754
+        },
+        {
+            "description": "Distanzst\u00fcck mit Loch nehmen und draufsetzen.",
+            "start_time": 10.800000190734863,
+            "end_time": 16.420000076293945,
+            "photo_timestamp": 16.420000076293945
+        },
+        {
+            "description": "Distanzh\u00fclse auf den Steckern draufsetzen.",
+            "start_time": 18.639999389648438,
+            "end_time": 24.040000915527344,
+            "photo_timestamp": 24.040000915527344
+        },
+        {
+            "description": "Scheibe seriell breit, nehmen und draufsetzen.",
+            "start_time": 26.100000381469727,
+            "end_time": 31.020000457763672,
+            "photo_timestamp": 31.020000457763672
+        },
+        {
+            "description": "Sicherungsmutter in niedriger Form nehmen und leichter ausschrauben.",
+            "start_time": 33.2599983215332,
+            "end_time": 41.279998779296875,
+            "photo_timestamp": 41.279998779296875
+        },
+        {
+            "description": "Schraubenschl\u00fcssel nehmen und festziehen.",
+            "start_time": 42.880001068115234,
+            "end_time": 47.79999923706055,
+            "photo_timestamp": 47.79999923706055
+        },
+        {
+            "description": "Das fertige Produkt aus der Vorrichtung hervornehmen.",
+            "start_time": 57.560001373291016,
+            "end_time": 63.220001220703125,
+            "photo_timestamp": 63.220001220703125
+        },
+        {
+            "description": "In die Box einlegen.",
+            "start_time": 65.58000183105469,
+            "end_time": 68.05999755859375,
+            "photo_timestamp": 68.05999755859375
+        }
+    ]
+}

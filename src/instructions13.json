@@ -1,0 +1,130 @@
+{
+    "steps": [
+        {
+            "description": "Kamera l\u00e4uft. Entnahme Pumpengeh\u00e4use.",
+            "start_time": 0.0,
+            "end_time": 10.239999771118164,
+            "photo_timestamp": 10.239999771118164
+        },
+        {
+            "description": "Pumpengeh\u00e4use einlegen.",
+            "start_time": 10.239999771118164,
+            "end_time": 18.260000228881836,
+            "photo_timestamp": 18.260000228881836
+        },
+        {
+            "description": "Entnahme Zylinder.",
+            "start_time": 21.260000228881836,
+            "end_time": 23.079999923706055,
+            "photo_timestamp": 23.079999923706055
+        },
+        {
+            "description": "Zylinder einlegen.",
+            "start_time": 25.8799991607666,
+            "end_time": 26.959999084472656,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Entnahme Pumpengeh\u00e4use.",
+            "start_time": 32.36000061035156,
+            "end_time": 36.52000045776367,
+            "photo_timestamp": 36.52000045776367
+        },
+        {
+            "description": "Pumpengeh\u00e4use positionieren.",
+            "start_time": 41.47999954223633,
+            "end_time": 53.41999816894531,
+            "photo_timestamp": 53.41999816894531
+        },
+        {
+            "description": "Entnahme Schrauben dreimal.",
+            "start_time": 55.540000915527344,
+            "end_time": 59.65999984741211,
+            "photo_timestamp": 59.65999984741211
+        },
+        {
+            "description": "Schrauben ansetzen.",
+            "start_time": 61.880001068115234,
+            "end_time": 69.81999969482422,
+            "photo_timestamp": 69.81999969482422
+        },
+        {
+            "description": "Schrauben mit Smart Tool anziehen.",
+            "start_time": 75.0199966430664,
+            "end_time": 96.0199966430664,
+            "photo_timestamp": 96.0199966430664
+        },
+        {
+            "description": "Entnahme Mitnehmerscheibe.",
+            "start_time": 127.23999786376953,
+            "end_time": 131.39999389648438,
+            "photo_timestamp": 131.39999389648438
+        },
+        {
+            "description": "Einlegen Mitnehmerscheibe.",
+            "start_time": 134.13999938964844,
+            "end_time": 136.13999938964844,
+            "photo_timestamp": 136.13999938964844
+        },
+        {
+            "description": "Entnahme Lochplatte.",
+            "start_time": 138.83999633789062,
+            "end_time": 141.10000610351562,
+            "photo_timestamp": 141.10000610351562
+        },
+        {
+            "description": "Einlegen Lochplatte.",
+            "start_time": 144.16000366210938,
+            "end_time": 145.6199951171875,
+            "photo_timestamp": 145.6199951171875
+        },
+        {
+            "description": "Entnahme Pumpengeh\u00e4usedecke.",
+            "start_time": 150.16000366210938,
+            "end_time": 154.05999755859375,
+            "photo_timestamp": 154.05999755859375
+        },
+        {
+            "description": "Positionieren Pumpengeh\u00e4usedecke.",
+            "start_time": 156.5800018310547,
+            "end_time": 160.83999633789062,
+            "photo_timestamp": 160.83999633789062
+        },
+        {
+            "description": "Entnahme Schraube f\u00fcnfmal.",
+            "start_time": 162.4199981689453,
+            "end_time": 165.9600067138672,
+            "photo_timestamp": 165.9600067138672
+        },
+        {
+            "description": "Schrauben ansetzen.",
+            "start_time": 168.60000610351562,
+            "end_time": 177.8000030517578,
+            "photo_timestamp": 177.8000030517578
+        },
+        {
+            "description": "Deckel verschrauben mit Smart Tool.",
+            "start_time": 181.1199951171875,
+            "end_time": 183.5,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Entnahme Schrauben.",
+            "start_time": 220.83999633789062,
+            "end_time": 223.0800018310547,
+            "photo_timestamp": 223.0800018310547
+        },
+        {
+            "description": "Pr\u00fcfung. Sind die Anschl\u00fcsse sauber? Sind welche Sch\u00e4den vorhanden?",
+            "start_time": 236.6999969482422,
+            "end_time": 248.97999572753906,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Wertvergleich eingeben. Test wiederholen? Fertig?",
+            "start_time": 250.72000122070312,
+            "end_time": 259.4200134277344,
+            "photo_timestamp": 259.4200134277344
+        }
+    ]
+}

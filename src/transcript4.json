@@ -1,0 +1,294 @@
+{
+    "duration": 68.63999938964844,
+    "language": "german",
+    "text": "Blech mit Schweissbolzen, verschweisst, nehmen und in die Halterung einsetzen, Foto. Distanzst\u00fcck mit Loch, nehmen, draufsetzen, Foto. Distanzh\u00fclse auf den Steckern draufsetzen, Foto. Scheibe seriell breit, nehmen und draufsetzen, Foto. Sicherungsmutter in niedriger Form, nehmen und leichter ausschrauben, Foto. Schraubenschl\u00fcssel nehmen und festziehen, Foto. Das fertige Produkt aus der Vorrichtung hervornehmen, Foto. In die Box einlegen, Foto.",
+    "segments": null,
+    "words": [
+        {
+            "end": 2.319999933242798,
+            "start": 0.0,
+            "word": "Blech"
+        },
+        {
+            "end": 2.759999990463257,
+            "start": 2.319999933242798,
+            "word": "mit"
+        },
+        {
+            "end": 3.8399999141693115,
+            "start": 2.759999990463257,
+            "word": "Schweissbolzen"
+        },
+        {
+            "end": 5.380000114440918,
+            "start": 4.300000190734863,
+            "word": "verschweisst"
+        },
+        {
+            "end": 5.860000133514404,
+            "start": 5.559999942779541,
+            "word": "nehmen"
+        },
+        {
+            "end": 6.199999809265137,
+            "start": 5.860000133514404,
+            "word": "und"
+        },
+        {
+            "end": 6.360000133514404,
+            "start": 6.199999809265137,
+            "word": "in"
+        },
+        {
+            "end": 6.539999961853027,
+            "start": 6.360000133514404,
+            "word": "die"
+        },
+        {
+            "end": 7.0,
+            "start": 6.539999961853027,
+            "word": "Halterung"
+        },
+        {
+            "end": 7.559999942779541,
+            "start": 7.0,
+            "word": "einsetzen"
+        },
+        {
+            "end": 8.640000343322754,
+            "start": 7.980000019073486,
+            "word": "Foto"
+        },
+        {
+            "end": 11.479999542236328,
+            "start": 10.800000190734863,
+            "word": "Distanzst\u00fcck"
+        },
+        {
+            "end": 11.899999618530273,
+            "start": 11.479999542236328,
+            "word": "mit"
+        },
+        {
+            "end": 12.260000228881836,
+            "start": 11.899999618530273,
+            "word": "Loch"
+        },
+        {
+            "end": 12.84000015258789,
+            "start": 12.520000457763672,
+            "word": "nehmen"
+        },
+        {
+            "end": 14.779999732971191,
+            "start": 13.960000038146973,
+            "word": "draufsetzen"
+        },
+        {
+            "end": 16.420000076293945,
+            "start": 16.420000076293945,
+            "word": "Foto"
+        },
+        {
+            "end": 19.540000915527344,
+            "start": 18.639999389648438,
+            "word": "Distanzh\u00fclse"
+        },
+        {
+            "end": 20.540000915527344,
+            "start": 19.540000915527344,
+            "word": "auf"
+        },
+        {
+            "end": 21.15999984741211,
+            "start": 20.540000915527344,
+            "word": "den"
+        },
+        {
+            "end": 21.559999465942383,
+            "start": 21.15999984741211,
+            "word": "Steckern"
+        },
+        {
+            "end": 22.360000610351562,
+            "start": 21.559999465942383,
+            "word": "draufsetzen"
+        },
+        {
+            "end": 24.040000915527344,
+            "start": 24.040000915527344,
+            "word": "Foto"
+        },
+        {
+            "end": 26.100000381469727,
+            "start": 24.040000915527344,
+            "word": "Scheibe"
+        },
+        {
+            "end": 27.079999923706055,
+            "start": 26.100000381469727,
+            "word": "seriell"
+        },
+        {
+            "end": 27.600000381469727,
+            "start": 27.079999923706055,
+            "word": "breit"
+        },
+        {
+            "end": 28.219999313354492,
+            "start": 27.8799991607666,
+            "word": "nehmen"
+        },
+        {
+            "end": 28.920000076293945,
+            "start": 28.219999313354492,
+            "word": "und"
+        },
+        {
+            "end": 29.81999969482422,
+            "start": 28.920000076293945,
+            "word": "draufsetzen"
+        },
+        {
+            "end": 31.020000457763672,
+            "start": 30.420000076293945,
+            "word": "Foto"
+        },
+        {
+            "end": 34.459999084472656,
+            "start": 33.2599983215332,
+            "word": "Sicherungsmutter"
+        },
+        {
+            "end": 34.7400016784668,
+            "start": 34.459999084472656,
+            "word": "in"
+        },
+        {
+            "end": 35.13999938964844,
+            "start": 34.7400016784668,
+            "word": "niedriger"
+        },
+        {
+            "end": 35.91999816894531,
+            "start": 35.13999938964844,
+            "word": "Form"
+        },
+        {
+            "end": 36.279998779296875,
+            "start": 36.02000045776367,
+            "word": "nehmen"
+        },
+        {
+            "end": 37.02000045776367,
+            "start": 36.279998779296875,
+            "word": "und"
+        },
+        {
+            "end": 37.560001373291016,
+            "start": 37.02000045776367,
+            "word": "leichter"
+        },
+        {
+            "end": 38.13999938964844,
+            "start": 37.560001373291016,
+            "word": "ausschrauben"
+        },
+        {
+            "end": 41.279998779296875,
+            "start": 41.279998779296875,
+            "word": "Foto"
+        },
+        {
+            "end": 44.2400016784668,
+            "start": 42.880001068115234,
+            "word": "Schraubenschl\u00fcssel"
+        },
+        {
+            "end": 44.599998474121094,
+            "start": 44.2400016784668,
+            "word": "nehmen"
+        },
+        {
+            "end": 45.81999969482422,
+            "start": 44.599998474121094,
+            "word": "und"
+        },
+        {
+            "end": 46.439998626708984,
+            "start": 45.81999969482422,
+            "word": "festziehen"
+        },
+        {
+            "end": 47.79999923706055,
+            "start": 47.79999923706055,
+            "word": "Foto"
+        },
+        {
+            "end": 58.2400016784668,
+            "start": 57.560001373291016,
+            "word": "Das"
+        },
+        {
+            "end": 58.58000183105469,
+            "start": 58.2400016784668,
+            "word": "fertige"
+        },
+        {
+            "end": 59.119998931884766,
+            "start": 58.58000183105469,
+            "word": "Produkt"
+        },
+        {
+            "end": 60.08000183105469,
+            "start": 59.119998931884766,
+            "word": "aus"
+        },
+        {
+            "end": 61.040000915527344,
+            "start": 60.08000183105469,
+            "word": "der"
+        },
+        {
+            "end": 61.52000045776367,
+            "start": 61.040000915527344,
+            "word": "Vorrichtung"
+        },
+        {
+            "end": 62.18000030517578,
+            "start": 61.52000045776367,
+            "word": "hervornehmen"
+        },
+        {
+            "end": 63.220001220703125,
+            "start": 63.220001220703125,
+            "word": "Foto"
+        },
+        {
+            "end": 65.58000183105469,
+            "start": 65.4800033569336,
+            "word": "In"
+        },
+        {
+            "end": 66.26000213623047,
+            "start": 65.58000183105469,
+            "word": "die"
+        },
+        {
+            "end": 66.55999755859375,
+            "start": 66.26000213623047,
+            "word": "Box"
+        },
+        {
+            "end": 67.12000274658203,
+            "start": 66.55999755859375,
+            "word": "einlegen"
+        },
+        {
+            "end": 68.05999755859375,
+            "start": 68.05999755859375,
+            "word": "Foto"
+        }
+    ],
+    "task": "transcribe"
+}

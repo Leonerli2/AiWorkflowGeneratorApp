@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "description": "Wert mit Schwei\u00dfbolzen nehmen und in die Halterung geben.",
+            "start_time": 2.5399999618530273,
+            "end_time": 10.15999984741211,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Distanzst\u00fcck mit einem Loch nehmen und anbringen.",
+            "start_time": 11.699999809265137,
+            "end_time": 15.34000015258789,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Distanzh\u00fclse nehmen und auch anbringen.",
+            "start_time": 20.780000686645508,
+            "end_time": 25.219999313354492,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Eine Unterlagsscheibe der Serie L nehmen und anbringen.",
+            "start_time": 28.739999771118164,
+            "end_time": 32.939998626708984,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Eine Sicherungsmutter nehmen und ansetzen.",
+            "start_time": 38.84000015258789,
+            "end_time": 41.619998931884766,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Das Ganze anziehen und fertig ist das Teil.",
+            "start_time": 46.279998779296875,
+            "end_time": 58.7599983215332,
+            "photo_timestamp": null
+        }
+    ]
+}

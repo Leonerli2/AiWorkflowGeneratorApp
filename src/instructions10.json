@@ -1,0 +1,22 @@
+{
+    "steps": [
+        {
+            "description": "Entnahme, Miene und Quittierung an LED-Leuchte.",
+            "start_time": 0.0,
+            "end_time": 9.9399995803833,
+            "photo_timestamp": 12.0
+        },
+        {
+            "description": "Wo ist es? Ah, Foto.",
+            "start_time": 9.9399995803833,
+            "end_time": 11.0600004196167,
+            "photo_timestamp": 12.0
+        },
+        {
+            "description": "Feder... Ah, was?",
+            "start_time": 25.020000457763672,
+            "end_time": 26.440000534057617,
+            "photo_timestamp": null
+        }
+    ]
+}

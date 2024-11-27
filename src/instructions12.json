@@ -1,0 +1,52 @@
+{
+    "steps": [
+        {
+            "description": "Mine entnehmen.",
+            "start_time": 0.0,
+            "end_time": 2.5,
+            "photo_timestamp": 6.0
+        },
+        {
+            "description": "Stifth\u00fclle oben entnehmen.",
+            "start_time": 9.859999656677246,
+            "end_time": 11.15999984741211,
+            "photo_timestamp": 14.079999923706055
+        },
+        {
+            "description": "Mine in Stifth\u00fclle einf\u00fchren.",
+            "start_time": 19.940000534057617,
+            "end_time": 20.65999984741211,
+            "photo_timestamp": 22.200000762939453
+        },
+        {
+            "description": "Feder auf Mine stecken.",
+            "start_time": 30.540000915527344,
+            "end_time": 32.099998474121094,
+            "photo_timestamp": 33.880001068115234
+        },
+        {
+            "description": "Stifth\u00fclle unten entnehmen.",
+            "start_time": 36.58000183105469,
+            "end_time": 37.119998931884766,
+            "photo_timestamp": 38.34000015258789
+        },
+        {
+            "description": "Stifth\u00fclle auf Stifth\u00fclle schrauben.",
+            "start_time": 45.2400016784668,
+            "end_time": 47.099998474121094,
+            "photo_timestamp": 50.70000076293945
+        },
+        {
+            "description": "Funktionstest.",
+            "start_time": 51.34000015258789,
+            "end_time": 52.34000015258789,
+            "photo_timestamp": 53.2400016784668
+        },
+        {
+            "description": "Fertig.",
+            "start_time": 56.97999954223633,
+            "end_time": 57.36000061035156,
+            "photo_timestamp": null
+        }
+    ]
+}

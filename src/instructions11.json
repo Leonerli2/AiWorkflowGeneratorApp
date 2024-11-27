@@ -1,0 +1,64 @@
+{
+    "steps": [
+        {
+            "description": "Mine Fach 5 oben nehmen.",
+            "start_time": 0.0,
+            "end_time": 6.099999904632568,
+            "photo_timestamp": 6.099999904632568
+        },
+        {
+            "description": "Feder Fach 4 unten nehmen.",
+            "start_time": 7.739999771118164,
+            "end_time": 12.640000343322754,
+            "photo_timestamp": 12.640000343322754
+        },
+        {
+            "description": "Feder auf Mine stecken.",
+            "start_time": 14.65999984741211,
+            "end_time": 19.18000030517578,
+            "photo_timestamp": 19.18000030517578
+        },
+        {
+            "description": "Stifth\u00fclle oben Fach 4 nehmen.",
+            "start_time": 21.739999771118164,
+            "end_time": 29.31999969482422,
+            "photo_timestamp": 29.31999969482422
+        },
+        {
+            "description": "Mine mit Feder in die Stifth\u00fclle stecken.",
+            "start_time": 30.3799991607666,
+            "end_time": 37.5,
+            "photo_timestamp": 37.5
+        },
+        {
+            "description": "Stifth\u00fclle unten Fach 3 nehmen.",
+            "start_time": 40.720001220703125,
+            "end_time": 45.20000076293945,
+            "photo_timestamp": 45.20000076293945
+        },
+        {
+            "description": "Stifth\u00fclle unten auf Stifth\u00fclle oben stecken und festschrauben.",
+            "start_time": 47.18000030517578,
+            "end_time": 56.34000015258789,
+            "photo_timestamp": 56.34000015258789
+        },
+        {
+            "description": "Das Ausfahren des Stiftes testen.",
+            "start_time": 61.65999984741211,
+            "end_time": 66.9800033569336,
+            "photo_timestamp": 66.9800033569336
+        },
+        {
+            "description": "Das Einfahren des Stiftes testen.",
+            "start_time": 68.5199966430664,
+            "end_time": 71.81999969482422,
+            "photo_timestamp": 71.81999969482422
+        },
+        {
+            "description": "Stift behalten.",
+            "start_time": 74.95999908447266,
+            "end_time": 76.04000091552734,
+            "photo_timestamp": null
+        }
+    ]
+}

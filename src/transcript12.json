@@ -1,0 +1,154 @@
+{
+    "duration": 60.09000015258789,
+    "language": "german",
+    "text": "Mine entnehmen. Photo. Stifth\u00fclle oben entnehmen. Photo. Mine in Stifth\u00fclle einf\u00fchren. Photo. Feder auf Mine stecken. Photo. Stifth\u00fclle unten entnehmen. Photo. Stifth\u00fclle auf Stifth\u00fclle schrauben. Photo. Funktionstest. Photo. Fertig.",
+    "segments": null,
+    "words": [
+        {
+            "end": 2.5,
+            "start": 0.0,
+            "word": "Mine"
+        },
+        {
+            "end": 5.960000038146973,
+            "start": 2.5,
+            "word": "entnehmen"
+        },
+        {
+            "end": 7.019999980926514,
+            "start": 6.0,
+            "word": "Photo"
+        },
+        {
+            "end": 9.859999656677246,
+            "start": 9.260000228881836,
+            "word": "Stifth\u00fclle"
+        },
+        {
+            "end": 10.819999694824219,
+            "start": 9.859999656677246,
+            "word": "oben"
+        },
+        {
+            "end": 11.15999984741211,
+            "start": 10.819999694824219,
+            "word": "entnehmen"
+        },
+        {
+            "end": 14.34000015258789,
+            "start": 14.079999923706055,
+            "word": "Photo"
+        },
+        {
+            "end": 18.579999923706055,
+            "start": 18.200000762939453,
+            "word": "Mine"
+        },
+        {
+            "end": 19.299999237060547,
+            "start": 18.579999923706055,
+            "word": "in"
+        },
+        {
+            "end": 19.940000534057617,
+            "start": 19.299999237060547,
+            "word": "Stifth\u00fclle"
+        },
+        {
+            "end": 20.65999984741211,
+            "start": 19.940000534057617,
+            "word": "einf\u00fchren"
+        },
+        {
+            "end": 22.200000762939453,
+            "start": 21.920000076293945,
+            "word": "Photo"
+        },
+        {
+            "end": 29.979999542236328,
+            "start": 28.579999923706055,
+            "word": "Feder"
+        },
+        {
+            "end": 30.540000915527344,
+            "start": 29.979999542236328,
+            "word": "auf"
+        },
+        {
+            "end": 31.520000457763672,
+            "start": 30.540000915527344,
+            "word": "Mine"
+        },
+        {
+            "end": 32.099998474121094,
+            "start": 31.520000457763672,
+            "word": "stecken"
+        },
+        {
+            "end": 33.880001068115234,
+            "start": 33.880001068115234,
+            "word": "Photo"
+        },
+        {
+            "end": 35.86000061035156,
+            "start": 35.47999954223633,
+            "word": "Stifth\u00fclle"
+        },
+        {
+            "end": 36.58000183105469,
+            "start": 35.86000061035156,
+            "word": "unten"
+        },
+        {
+            "end": 37.119998931884766,
+            "start": 36.58000183105469,
+            "word": "entnehmen"
+        },
+        {
+            "end": 38.34000015258789,
+            "start": 38.34000015258789,
+            "word": "Photo"
+        },
+        {
+            "end": 41.779998779296875,
+            "start": 40.380001068115234,
+            "word": "Stifth\u00fclle"
+        },
+        {
+            "end": 45.2400016784668,
+            "start": 41.779998779296875,
+            "word": "auf"
+        },
+        {
+            "end": 45.939998626708984,
+            "start": 45.2400016784668,
+            "word": "Stifth\u00fclle"
+        },
+        {
+            "end": 47.099998474121094,
+            "start": 45.939998626708984,
+            "word": "schrauben"
+        },
+        {
+            "end": 50.70000076293945,
+            "start": 50.70000076293945,
+            "word": "Photo"
+        },
+        {
+            "end": 52.34000015258789,
+            "start": 51.34000015258789,
+            "word": "Funktionstest"
+        },
+        {
+            "end": 53.70000076293945,
+            "start": 53.2400016784668,
+            "word": "Photo"
+        },
+        {
+            "end": 57.36000061035156,
+            "start": 56.97999954223633,
+            "word": "Fertig"
+        }
+    ],
+    "task": "transcribe"
+}

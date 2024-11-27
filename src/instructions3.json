@@ -1,0 +1,46 @@
+{
+    "steps": [
+        {
+            "description": "Blech mit Schweissbolzen nehmen, verschwei\u00dfen und in die Halterung setzen.",
+            "start_time": 0.0,
+            "end_time": 7.090000152587891,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Distanzst\u00fcck mit Loch nehmen und anbringen.",
+            "start_time": 9.079999923706055,
+            "end_time": 13.920000076293945,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Distanzh\u00fclse nehmen und einsetzen.",
+            "start_time": 15.979999542236328,
+            "end_time": 20.540000915527344,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Scheibe Serie L breit nehmen und darauf legen.",
+            "start_time": 22.5,
+            "end_time": 28.479999542236328,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Sicherungsmutter mit niedriger Form draufsetzen und leicht mit der Hand anschrauben.",
+            "start_time": 30.899999618530273,
+            "end_time": 39.439998626708984,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Schraubenschl\u00fcssel nehmen und das Ganze festdrehen.",
+            "start_time": 41.2400016784668,
+            "end_time": 46.41999816894531,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Fertiges St\u00fcck aus der Halterung herausnehmen und in die Kiste legen.",
+            "start_time": 53.779998779296875,
+            "end_time": 59.79999923706055,
+            "photo_timestamp": null
+        }
+    ]
+}
