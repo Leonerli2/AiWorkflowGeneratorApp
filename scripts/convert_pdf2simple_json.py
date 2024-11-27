@@ -12,6 +12,11 @@ import pickle
 from dotenv import load_dotenv
 import json
 import tqdm
+import time
+from docling.datamodel.pipeline_options import PdfPipelineOptions
+from docling.datamodel.base_models import InputFormat
+from docling.document_converter import DocumentConverter, PdfFormatOption   
+import logging
 
 # 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
 
@@ -255,9 +260,73 @@ def extract_text_from_pdf():
     with open(output_path_folder + "/instructions_by_page.json", "w", encoding="utf-8") as file:
         file.write(output_json)
 
+def custom_serializer(obj):
+    if hasattr(obj, 'export_to_dict'):
+        data = obj.export_to_dict()
+        obj_id = id(obj)
+        if obj_id in image_paths:
+            data['image_path'] = image_paths[obj_id]
+        return data
+    else:
+        return obj.__dict__
+
+def extract_text_and_pictures(input_doc_name: str = "data/input_pdf/w5.pdf"):
+    output_dir = Path("data/output_docling")
+    
+    logging.basicConfig(level=logging.INFO)
+    input_doc_path = Path(input_doc_name)
+
+    # Set up pipeline options for OCR and table structure
+    pipeline_options = PdfPipelineOptions()
+    pipeline_options.do_ocr = True
+    pipeline_options.do_table_structure = True
+    pipeline_options.generate_picture_images = True  # Enable picture extraction
+
+    # Initialize DocumentConverter with options
+    doc_converter = DocumentConverter(
+        format_options={
+            InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
+        }
+    )
+
+    start_time = time.time()
+    conv_result = doc_converter.convert(input_doc_path)
+    end_time = time.time() - start_time
+
+    logging.info(f"Document converted in {end_time:.2f} seconds.")
+
+    # Export the entire document as JSON directly
+    output_dir.mkdir(parents=True, exist_ok=True)
+    json_output_path = output_dir / f"{input_doc_path.stem}.json"
+
+    # Save images of figures and tables
+    picture_output_dir = output_dir / "pictures"
+    picture_output_dir.mkdir(parents=True, exist_ok=True)
+    picture_counter = 0
+    global image_paths
+    image_paths = {}
+
+    for element, _ in conv_result.document.iterate_items():
+        if hasattr(element, "image") and element.image:
+            picture_counter += 1
+            picture_filename = f"picture_{picture_counter:03d}.jpg"
+            picture_path = picture_output_dir / picture_filename
+            with picture_path.open("wb") as fp:
+                element.image.pil_image.save(fp, format="JPEG")
+            # Use the object's id() as a unique identifier
+            image_paths[id(element)] = str(Path("pictures") / picture_filename)
+            logging.info(f"Picture saved to {picture_path}")
+             
+            # add picture filename to the element (make new json entry) modify the json structure
+            element.image.uri = str(Path("pictures") / picture_filename)
+    print("Creating JSON file...")        
+         
+    with json_output_path.open("w", encoding="utf-8") as fp:
+        json.dump(conv_result.document, fp, default=custom_serializer, indent=2)
+
+    logging.info(f"Full document JSON saved to {json_output_path}")    
         
         
+       
         
-        
-        
-extract_text_from_pdf()
+extract_text_and_pictures()
