@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "description": "Pumpengeh\u00e4usedeckel einsetzen und Zylinder einf\u00fcgen, Obergeh\u00e4use darauf setzen.",
+            "start_time": 2.200000047683716,
+            "end_time": 14.920000076293945,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Drei Schrauben einsetzen und mit einem Newtonmeter festziehen.",
+            "start_time": 28.579999923706055,
+            "end_time": 40.31999969482422,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Lochschraube einsetzen und Teil einf\u00fcgen, Mitnehmerscheibe einsetzen.",
+            "start_time": 46.400001525878906,
+            "end_time": 62.86000061035156,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Deckel setzen und Schrauben wieder rein tun, Reihenfolge beachten.",
+            "start_time": 64.19999694824219,
+            "end_time": 78.41999816894531,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Bohrer setzen und mit Newtonmeter festziehen.",
+            "start_time": 79.12000274658203,
+            "end_time": 93.91999816894531,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Fertiges Zusammenbauen und Kontrolle.",
+            "start_time": 96.5,
+            "end_time": 100.66000366210938,
+            "photo_timestamp": null
+        }
+    ]
+}

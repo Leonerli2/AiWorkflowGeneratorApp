@@ -1,0 +1,70 @@
+{
+    "steps": [
+        {
+            "description": "Pumpengeh\u00e4use-Foto nehmen und einsetzen.",
+            "start_time": 0.0,
+            "end_time": 5.679999828338623,
+            "photo_timestamp": 5.679999828338623
+        },
+        {
+            "description": "Zylinder-Foto nehmen und einsetzen.",
+            "start_time": 12.180000305175781,
+            "end_time": 14.579999923706055,
+            "photo_timestamp": 14.579999923706055
+        },
+        {
+            "description": "Pumpen-Obergeh\u00e4use nehmen und entsprechend auf Foto setzen.",
+            "start_time": 26.920000076293945,
+            "end_time": 30.8799991607666,
+            "photo_timestamp": 30.8799991607666
+        },
+        {
+            "description": "drei Schrauben-Foto nehmen und einsetzen.",
+            "start_time": 33.7599983215332,
+            "end_time": 36.619998931884766,
+            "photo_timestamp": 36.619998931884766
+        },
+        {
+            "description": "Bohrmaschine-Foto nehmen und Schrauben anziehen.",
+            "start_time": 51.119998931884766,
+            "end_time": 52.34000015258789,
+            "photo_timestamp": 52.34000015258789
+        },
+        {
+            "description": "Mitnehmerscheibe-Foto nehmen und in die Mitte auf den Zylinder setzen.",
+            "start_time": 75.45999908447266,
+            "end_time": 80.76000213623047,
+            "photo_timestamp": 76.95999908447266
+        },
+        {
+            "description": "Lochplatte-Foto nehmen und einsetzen.",
+            "start_time": 84.87999725341797,
+            "end_time": 86.12000274658203,
+            "photo_timestamp": 86.12000274658203
+        },
+        {
+            "description": "Pumpengeh\u00e4usedeckel-Foto nehmen und drauf setzen.",
+            "start_time": 92.62000274658203,
+            "end_time": 93.27999877929688,
+            "photo_timestamp": 93.27999877929688
+        },
+        {
+            "description": "f\u00fcnfmal die Schraube-Foto nehmen und in die L\u00f6cher einsetzen.",
+            "start_time": 99.76000213623047,
+            "end_time": 102.4800033569336,
+            "photo_timestamp": 102.4800033569336
+        },
+        {
+            "description": "Check machen, die Anschl\u00fcsse sauber und Sch\u00e4den pr\u00fcfen.",
+            "start_time": 135.3000030517578,
+            "end_time": 145.32000732421875,
+            "photo_timestamp": null
+        },
+        {
+            "description": "fertig.",
+            "start_time": 160.5,
+            "end_time": 161.13999938964844,
+            "photo_timestamp": null
+        }
+    ]
+}

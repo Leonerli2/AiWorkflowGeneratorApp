@@ -28,7 +28,9 @@ def upload_file():
         if file.filename == "":
             return "No selected file"
         # Save the file to a directory
+        print("Saving file...")
         file.save(f"./uploads/{file.filename}")
+        print("File saved successfully!")
         move_to_video_folder2()
         return f"File {file.filename} uploaded successfully!"
     return render_template_string(upload_form)

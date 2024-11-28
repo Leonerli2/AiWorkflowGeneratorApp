@@ -1,0 +1,94 @@
+{
+    "steps": [
+        {
+            "description": "Wir nehmen das Pumpengeh\u00e4use und setzen das Ganze ein.",
+            "start_time": 0.0,
+            "end_time": 2.319999933242798,
+            "photo_timestamp": 5.679999828338623
+        },
+        {
+            "description": "Dann nehmen wir das Zylinder und setzen auch diesen so ein.",
+            "start_time": 11.479999542236328,
+            "end_time": 12.600000381469727,
+            "photo_timestamp": 14.579999923706055
+        },
+        {
+            "description": "Dann nehmen wir das Pumpen-Obergeh\u00e4use und setzen es entsprechend auf Foto.",
+            "start_time": 26.34000015258789,
+            "end_time": 30.6200008392334,
+            "photo_timestamp": 30.8799991607666
+        },
+        {
+            "description": "Dann nehmen wir drei Schrauben und setzen diese an.",
+            "start_time": 35.099998474121094,
+            "end_time": 38.97999954223633,
+            "photo_timestamp": 45.84000015258789
+        },
+        {
+            "description": "Dann nehmen wir die Bohrmaschine und ziehen diese Schrauben an.",
+            "start_time": 51.119998931884766,
+            "end_time": 54.68000030517578,
+            "photo_timestamp": 52.34000015258789
+        },
+        {
+            "description": "Dabei verwenden wir 5 Newtonmeter.",
+            "start_time": 56.86000061035156,
+            "end_time": 59.939998626708984,
+            "photo_timestamp": 64.08000183105469
+        },
+        {
+            "description": "Dann nehmen wir die Mitnehmerscheibe und setzen auch diese hier in die Mitte auf den Zylinder drauf.",
+            "start_time": 75.45999908447266,
+            "end_time": 81.22000122070312,
+            "photo_timestamp": 76.95999908447266
+        },
+        {
+            "description": "Dann nehmen wir die Lochplatte und setzen diese ein.",
+            "start_time": 84.87999725341797,
+            "end_time": 88.13999938964844,
+            "photo_timestamp": 86.12000274658203
+        },
+        {
+            "description": "Dann nehmen wir den Pumpengeh\u00e4usedeckel und setzen diesen drauf.",
+            "start_time": 92.62000274658203,
+            "end_time": 95.18000030517578,
+            "photo_timestamp": 93.27999877929688
+        },
+        {
+            "description": "Wir nehmen f\u00fcnfmal die Schraube und setzen diese abermals in die L\u00f6cher ein.",
+            "start_time": 99.08000183105469,
+            "end_time": 106.83999633789062,
+            "photo_timestamp": 102.4800033569336
+        },
+        {
+            "description": "Jetzt machen wir einen Check.",
+            "start_time": 134.6999969482422,
+            "end_time": 135.9199981689453,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Zuerst sind die ganzen Anschl\u00fcsse sauber und zweitens welche Sch\u00e4den sind vorhanden.",
+            "start_time": 137.63999938964844,
+            "end_time": 144.02000427246094,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Dann schauen wir nochmal kurz den Wert auf dem Bohrer an und schauen ob dieser richtig ist.",
+            "start_time": 145.32000732421875,
+            "end_time": 149.52000427246094,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Anschluss fragen wir uns, ob wir das ganze wiederholen m\u00fcssen, weil etwas nicht im richtigen Messbereich drin liegt.",
+            "start_time": 154.3800048828125,
+            "end_time": 160.83999633789062,
+            "photo_timestamp": null
+        },
+        {
+            "description": "Nun sind wir fertig.",
+            "start_time": 160.5,
+            "end_time": 161.13999938964844,
+            "photo_timestamp": null
+        }
+    ]
+}

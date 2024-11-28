@@ -1,0 +1,39 @@
+{
+    "duration": 4.300000190734863,
+    "language": "norwegian",
+    "text": "Jeg burde aldri spille den. \u00c5p!",
+    "segments": null,
+    "words": [
+        {
+            "end": 0.5,
+            "start": 0.0,
+            "word": "Jeg"
+        },
+        {
+            "end": 0.5,
+            "start": 0.5,
+            "word": "burde"
+        },
+        {
+            "end": 0.6399999856948853,
+            "start": 0.5,
+            "word": "aldri"
+        },
+        {
+            "end": 0.8399999737739563,
+            "start": 0.6399999856948853,
+            "word": "spille"
+        },
+        {
+            "end": 1.159999966621399,
+            "start": 0.8399999737739563,
+            "word": "den"
+        },
+        {
+            "end": 2.2799999713897705,
+            "start": 2.0399999618530273,
+            "word": "\u00c5p"
+        }
+    ],
+    "task": "transcribe"
+}

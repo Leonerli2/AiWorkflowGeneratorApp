@@ -2416,12 +2416,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 43.0,
-          "height": 43.0
+          "width": 172.0,
+          "height": 171.0
         },
-        "uri": "pictures\\picture_001.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_001.jpg"
       },
       "annotations": []
     },
@@ -2453,12 +2453,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 42.0,
-          "height": 42.0
+          "width": 167.0,
+          "height": 167.0
         },
-        "uri": "pictures\\picture_002.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_002.jpg"
       },
       "annotations": []
     },
@@ -2490,12 +2490,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 43.0,
-          "height": 43.0
+          "width": 172.0,
+          "height": 170.0
         },
-        "uri": "pictures\\picture_003.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_003.jpg"
       },
       "annotations": []
     },
@@ -2527,12 +2527,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 236.0,
-          "height": 32.0
+          "width": 941.0,
+          "height": 124.0
         },
-        "uri": "pictures\\picture_004.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_004.jpg"
       },
       "annotations": []
     },
@@ -2564,12 +2564,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 270.0,
-          "height": 201.0
+          "width": 1079.0,
+          "height": 808.0
         },
-        "uri": "pictures\\picture_005.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_005.jpg"
       },
       "annotations": []
     },
@@ -2601,12 +2601,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 270.0,
-          "height": 210.0
+          "width": 1079.0,
+          "height": 840.0
         },
-        "uri": "pictures\\picture_006.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_006.jpg"
       },
       "annotations": []
     },
@@ -2638,12 +2638,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 235.0,
-          "height": 30.0
+          "width": 940.0,
+          "height": 123.0
         },
-        "uri": "pictures\\picture_007.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_007.jpg"
       },
       "annotations": []
     },
@@ -2675,12 +2675,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 267.0,
-          "height": 194.0
+          "width": 1068.0,
+          "height": 775.0
         },
-        "uri": "pictures\\picture_008.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_008.jpg"
       },
       "annotations": []
     },
@@ -2712,12 +2712,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 270.0,
-          "height": 207.0
+          "width": 1081.0,
+          "height": 826.0
         },
-        "uri": "pictures\\picture_009.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_009.jpg"
       },
       "annotations": []
     },
@@ -2749,12 +2749,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 270.0,
-          "height": 203.0
+          "width": 1077.0,
+          "height": 815.0
         },
-        "uri": "pictures\\picture_010.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_010.jpg"
       },
       "annotations": []
     },
@@ -2786,12 +2786,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 270.0,
-          "height": 218.0
+          "width": 1080.0,
+          "height": 870.0
         },
-        "uri": "pictures\\picture_011.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_011.jpg"
       },
       "annotations": []
     },
@@ -2823,12 +2823,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 235.0,
-          "height": 30.0
+          "width": 940.0,
+          "height": 123.0
         },
-        "uri": "pictures\\picture_012.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_012.jpg"
       },
       "annotations": []
     },
@@ -2860,12 +2860,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 270.0,
-          "height": 206.0
+          "width": 1078.0,
+          "height": 824.0
         },
-        "uri": "pictures\\picture_013.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_013.jpg"
       },
       "annotations": []
     },
@@ -2897,12 +2897,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 270.0,
-          "height": 210.0
+          "width": 1079.0,
+          "height": 838.0
         },
-        "uri": "pictures\\picture_014.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_014.jpg"
       },
       "annotations": []
     },
@@ -2934,12 +2934,12 @@
       "footnotes": [],
       "image": {
         "mimetype": "image/png",
-        "dpi": 72,
+        "dpi": 288,
         "size": {
-          "width": 270.0,
-          "height": 197.0
+          "width": 1080.0,
+          "height": 785.0
         },
-        "uri": "pictures\\picture_015.jpg"
+        "uri": "data\\output_docling\\pictures\\picture_015.jpg"
       },
       "annotations": []
     }

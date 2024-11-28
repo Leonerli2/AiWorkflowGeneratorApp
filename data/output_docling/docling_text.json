@@ -1,0 +1,474 @@
+[
+    {
+        "instructions": [
+            {
+                "page_no": 1,
+                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
+                "center_x": 149,
+                "center_y": 735
+            },
+            {
+                "page_no": 1,
+                "text": "Arbeitsanweisung:",
+                "center_x": 99,
+                "center_y": 700
+            },
+            {
+                "page_no": 1,
+                "text": "Montage der Hinterachse",
+                "center_x": 119,
+                "center_y": 684
+            },
+            {
+                "page_no": 1,
+                "text": "DOKUMENTENNUMMER",
+                "center_x": 94,
+                "center_y": 659
+            },
+            {
+                "page_no": 1,
+                "text": "REV",
+                "center_x": 215,
+                "center_y": 659
+            },
+            {
+                "page_no": 1,
+                "text": "CODE-007-03",
+                "center_x": 85,
+                "center_y": 633
+            },
+            {
+                "page_no": 1,
+                "text": "-",
+                "center_x": 230,
+                "center_y": 633
+            },
+            {
+                "page_no": 1,
+                "text": "1. Zweck",
+                "center_x": 90,
+                "center_y": 593
+            },
+            {
+                "page_no": 1,
+                "text": "Dient als Montagehilfe",
+                "center_x": 132,
+                "center_y": 581
+            },
+            {
+                "page_no": 1,
+                "text": "2. Geltungsbereich",
+                "center_x": 110,
+                "center_y": 545
+            },
+            {
+                "page_no": 1,
+                "text": "Dieses Dokument darf nur für internen Gebrauch verwendet werden",
+                "center_x": 225,
+                "center_y": 533
+            },
+            {
+                "page_no": 1,
+                "text": "3. Definitionen (Begriffserklärung)",
+                "center_x": 141,
+                "center_y": 496
+            },
+            {
+                "page_no": 1,
+                "text": "Q-in-Line Qualitätssicherung in der Linie",
+                "center_x": 166,
+                "center_y": 484
+            },
+            {
+                "page_no": 1,
+                "text": "Ansatz, welcher die Verantwortung für die Ausführung einer spezifischen Arbeit und für das entsprechende Qualitätsmanagement dazu direkt bei derselben Stelle zusammenführt (jeder Mitarbeiter ist verantwortlich für seine Tätigkeit und liefert die geforderte Qualität).",
+                "center_x": 310,
+                "center_y": 454
+            },
+            {
+                "page_no": 1,
+                "text": "4. Verfahren",
+                "center_x": 97,
+                "center_y": 405
+            },
+            {
+                "page_no": 1,
+                "text": "Beschreibt die Vorgehensweise für eine Montagearbeit",
+                "center_x": 198,
+                "center_y": 393
+            },
+            {
+                "page_no": 1,
+                "text": "5. Verantwortlichkeiten",
+                "center_x": 121,
+                "center_y": 356
+            },
+            {
+                "page_no": 1,
+                "text": "Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, dass die Montagearbeiten nach geltenden Verfahrensregelung P-E003 PRODUKTE HERSTELLEN ausgeführt werden",
+                "center_x": 288,
+                "center_y": 338
+            },
+            {
+                "page_no": 1,
+                "text": "Wichtig: Fahrzeug Sicherheitsbestimmungen einhalten!",
+                "center_x": 298,
+                "center_y": 100
+            },
+            {
+                "page_no": 1,
+                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
+                "center_x": 156,
+                "center_y": 51
+            },
+            {
+                "page_no": 1,
+                "text": "Seite 1 / 5",
+                "center_x": 509,
+                "center_y": 51
+            },
+            {
+                "page_no": 1,
+                "text": "Ersteller",
+                "center_x": 304,
+                "center_y": 736
+            },
+            {
+                "page_no": 1,
+                "text": "U. Güttinger",
+                "center_x": 376,
+                "center_y": 735
+            },
+            {
+                "page_no": 1,
+                "text": "09.01.2019",
+                "center_x": 516,
+                "center_y": 736
+            },
+            {
+                "page_no": 1,
+                "text": "Prüfer",
+                "center_x": 300,
+                "center_y": 697
+            },
+            {
+                "page_no": 1,
+                "text": "R. Gander",
+                "center_x": 372,
+                "center_y": 697
+            },
+            {
+                "page_no": 1,
+                "text": "09.01.2019",
+                "center_x": 516,
+                "center_y": 697
+            },
+            {
+                "page_no": 1,
+                "text": "Freigabe",
+                "center_x": 306,
+                "center_y": 673
+            },
+            {
+                "page_no": 1,
+                "text": "S. Hiltbrunner",
+                "center_x": 379,
+                "center_y": 673
+            },
+            {
+                "page_no": 1,
+                "text": "09.01.2019",
+                "center_x": 516,
+                "center_y": 673
+            },
+            {
+                "page_no": 1,
+                "text": "ÄNDERUNG",
+                "center_x": 302,
+                "center_y": 651
+            },
+            {
+                "page_no": 1,
+                "text": "REV",
+                "center_x": 293,
+                "center_y": 640
+            },
+            {
+                "page_no": 1,
+                "text": "NUMMER",
+                "center_x": 418,
+                "center_y": 640
+            },
+            {
+                "page_no": 1,
+                "text": "NAME",
+                "center_x": 502,
+                "center_y": 640
+            },
+            {
+                "page_no": 1,
+                "text": "DATUM",
+                "center_x": 502,
+                "center_y": 640
+            },
+            {
+                "page_no": 1,
+                "text": "DATUM",
+                "center_x": 502,
+                "center_y": 686
+            },
+            {
+                "page_no": 1,
+                "text": "DATUM",
+                "center_x": 502,
+                "center_y": 710
+            },
+            {
+                "page_no": 1,
+                "text": "-",
+                "center_x": 322,
+                "center_y": 628
+            },
+            {
+                "page_no": 1,
+                "text": "DATUM",
+                "center_x": 502,
+                "center_y": 749
+            },
+            {
+                "page_no": 2,
+                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
+                "center_x": 151,
+                "center_y": 747
+            },
+            {
+                "page_no": 2,
+                "text": "Achtung!",
+                "center_x": 166,
+                "center_y": 645
+            },
+            {
+                "page_no": 2,
+                "text": "Korrekten Sitz des Sicherungsringes in der Nut des Achskörpers überprüfen.",
+                "center_x": 161,
+                "center_y": 612
+            },
+            {
+                "page_no": 2,
+                "text": "Die Kone der Aufnahmepunkte der Wattgestänge am Chassis reinigen.",
+                "center_x": 166,
+                "center_y": 459
+            },
+            {
+                "page_no": 2,
+                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
+                "center_x": 158,
+                "center_y": 49
+            },
+            {
+                "page_no": 2,
+                "text": "Seite 2 / 5",
+                "center_x": 514,
+                "center_y": 49
+            },
+            {
+                "page_no": 2,
+                "text": "DOKUMENTENNUMMER",
+                "center_x": 333,
+                "center_y": 771
+            },
+            {
+                "page_no": 2,
+                "text": "REV",
+                "center_x": 388,
+                "center_y": 771
+            },
+            {
+                "page_no": 2,
+                "text": "-",
+                "center_x": 394,
+                "center_y": 761
+            },
+            {
+                "page_no": 2,
+                "text": "CODE-007-03",
+                "center_x": 333,
+                "center_y": 747
+            },
+            {
+                "page_no": 3,
+                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
+                "center_x": 151,
+                "center_y": 746
+            },
+            {
+                "page_no": 3,
+                "text": "Längslagerung am Chassis und an der Achse mit STABURAGS fetten.",
+                "center_x": 166,
+                "center_y": 701
+            },
+            {
+                "page_no": 3,
+                "text": "Achse unter dem Chassis positionieren und an den Kran hängen.",
+                "center_x": 156,
+                "center_y": 471
+            },
+            {
+                "page_no": 3,
+                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
+                "center_x": 158,
+                "center_y": 49
+            },
+            {
+                "page_no": 3,
+                "text": "Seite 3 / 5",
+                "center_x": 514,
+                "center_y": 49
+            },
+            {
+                "page_no": 3,
+                "text": "DOKUMENTENNUMMER",
+                "center_x": 333,
+                "center_y": 771
+            },
+            {
+                "page_no": 3,
+                "text": "REV",
+                "center_x": 388,
+                "center_y": 771
+            },
+            {
+                "page_no": 3,
+                "text": "-",
+                "center_x": 394,
+                "center_y": 761
+            },
+            {
+                "page_no": 3,
+                "text": "CODE-007-03",
+                "center_x": 333,
+                "center_y": 747
+            },
+            {
+                "page_no": 4,
+                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
+                "center_x": 151,
+                "center_y": 747
+            },
+            {
+                "page_no": 4,
+                "text": "Achse vorne mit 2 Spannset fixieren.",
+                "center_x": 126,
+                "center_y": 709
+            },
+            {
+                "page_no": 4,
+                "text": "Stossdämpfer, Wattgestänge und Fangseil ansetzen.Die vorderen Federn können mit dem Kran hochgezogen werden.",
+                "center_x": 166,
+                "center_y": 490
+            },
+            {
+                "page_no": 4,
+                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
+                "center_x": 158,
+                "center_y": 49
+            },
+            {
+                "page_no": 4,
+                "text": "Seite 4 / 5",
+                "center_x": 514,
+                "center_y": 49
+            },
+            {
+                "page_no": 4,
+                "text": "DOKUMENTENNUMMER",
+                "center_x": 333,
+                "center_y": 771
+            },
+            {
+                "page_no": 4,
+                "text": "REV",
+                "center_x": 388,
+                "center_y": 771
+            },
+            {
+                "page_no": 4,
+                "text": "-",
+                "center_x": 394,
+                "center_y": 761
+            },
+            {
+                "page_no": 4,
+                "text": "CODE-007-03",
+                "center_x": 333,
+                "center_y": 747
+            },
+            {
+                "page_no": 5,
+                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
+                "center_x": 151,
+                "center_y": 746
+            },
+            {
+                "page_no": 5,
+                "text": "Stossdämpfer, Wattgestänge und Fangseil mit Drehmoment befestigen.",
+                "center_x": 146,
+                "center_y": 703
+            },
+            {
+                "page_no": 5,
+                "text": "Die hinteren 2 Federn mit Hilfe des Federspanners montieren.",
+                "center_x": 157,
+                "center_y": 673
+            },
+            {
+                "page_no": 5,
+                "text": "Wattgestänge montieren.",
+                "center_x": 103,
+                "center_y": 498
+            },
+            {
+                "page_no": 5,
+                "text": "Splintbohrungen der Kugelköpfe senkrecht ausrichten.",
+                "center_x": 165,
+                "center_y": 289
+            },
+            {
+                "page_no": 5,
+                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
+                "center_x": 158,
+                "center_y": 49
+            },
+            {
+                "page_no": 5,
+                "text": "Seite 5 / 5",
+                "center_x": 514,
+                "center_y": 49
+            },
+            {
+                "page_no": 5,
+                "text": "DOKUMENTENNUMMER",
+                "center_x": 333,
+                "center_y": 771
+            },
+            {
+                "page_no": 5,
+                "text": "REV",
+                "center_x": 388,
+                "center_y": 771
+            },
+            {
+                "page_no": 5,
+                "text": "-",
+                "center_x": 394,
+                "center_y": 761
+            },
+            {
+                "page_no": 5,
+                "text": "CODE-007-03",
+                "center_x": 333,
+                "center_y": 747
+            }
+        ]
+    }
+]
