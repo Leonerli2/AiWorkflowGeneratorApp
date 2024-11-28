@@ -135,6 +135,12 @@
             },
             {
                 "page_no": 1,
+                "text": "U. Güttinger",
+                "center_x": 376,
+                "center_y": 735
+            },
+            {
+                "page_no": 1,
                 "text": "09.01.2019",
                 "center_x": 516,
                 "center_y": 736
@@ -161,6 +167,12 @@
                 "page_no": 1,
                 "text": "Freigabe",
                 "center_x": 306,
+                "center_y": 673
+            },
+            {
+                "page_no": 1,
+                "text": "S. Hiltbrunner",
+                "center_x": 379,
                 "center_y": 673
             },
             {
@@ -382,7 +394,7 @@
             {
                 "page_no": 4,
                 "text": "-",
-                "center_x": 393,
+                "center_x": 394,
                 "center_y": 761
             },
             {
@@ -448,7 +460,7 @@
             {
                 "page_no": 5,
                 "text": "-",
-                "center_x": 393,
+                "center_x": 394,
                 "center_y": 761
             },
             {

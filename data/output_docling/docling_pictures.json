@@ -4,92 +4,92 @@
             {
                 "page_no": 1,
                 "picture_uri": "pictures\\picture_001.jpg",
-                "center_x": 198,
-                "center_y": 150
+                "center_x": 643,
+                "center_y": 691
             },
             {
                 "page_no": 1,
                 "picture_uri": "pictures\\picture_002.jpg",
-                "center_x": 297,
-                "center_y": 149
+                "center_x": 544,
+                "center_y": 692
             },
             {
                 "page_no": 1,
                 "picture_uri": "pictures\\picture_003.jpg",
-                "center_x": 402,
-                "center_y": 150
+                "center_x": 439,
+                "center_y": 691
             },
             {
                 "page_no": 2,
                 "picture_uri": "pictures\\picture_004.jpg",
-                "center_x": 162,
-                "center_y": 789
+                "center_x": 679,
+                "center_y": 52
             },
             {
                 "page_no": 2,
                 "picture_uri": "pictures\\picture_005.jpg",
-                "center_x": 422,
-                "center_y": 579
+                "center_x": 419,
+                "center_y": 262
             },
             {
                 "page_no": 2,
                 "picture_uri": "pictures\\picture_006.jpg",
-                "center_x": 422,
-                "center_y": 368
+                "center_x": 419,
+                "center_y": 473
             },
             {
                 "page_no": 3,
                 "picture_uri": "pictures\\picture_007.jpg",
-                "center_x": 162,
-                "center_y": 789
+                "center_x": 679,
+                "center_y": 52
             },
             {
                 "page_no": 3,
                 "picture_uri": "pictures\\picture_008.jpg",
-                "center_x": 421,
-                "center_y": 618
+                "center_x": 420,
+                "center_y": 223
             },
             {
                 "page_no": 3,
                 "picture_uri": "pictures\\picture_009.jpg",
-                "center_x": 422,
-                "center_y": 381
+                "center_x": 419,
+                "center_y": 460
             },
             {
                 "page_no": 4,
                 "picture_uri": "pictures\\picture_010.jpg",
-                "center_x": 423,
-                "center_y": 614
+                "center_x": 418,
+                "center_y": 227
             },
             {
                 "page_no": 4,
                 "picture_uri": "pictures\\picture_011.jpg",
-                "center_x": 423,
-                "center_y": 400
+                "center_x": 418,
+                "center_y": 441
             },
             {
                 "page_no": 5,
                 "picture_uri": "pictures\\picture_012.jpg",
-                "center_x": 162,
-                "center_y": 789
+                "center_x": 679,
+                "center_y": 52
             },
             {
                 "page_no": 5,
                 "picture_uri": "pictures\\picture_013.jpg",
-                "center_x": 423,
-                "center_y": 613
+                "center_x": 418,
+                "center_y": 228
             },
             {
                 "page_no": 5,
                 "picture_uri": "pictures\\picture_014.jpg",
-                "center_x": 422,
-                "center_y": 403
+                "center_x": 419,
+                "center_y": 438
             },
             {
                 "page_no": 5,
                 "picture_uri": "pictures\\picture_015.jpg",
-                "center_x": 422,
-                "center_y": 199
+                "center_x": 419,
+                "center_y": 642
             }
         ]
     }

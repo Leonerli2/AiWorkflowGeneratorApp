@@ -17,20 +17,18 @@ from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.datamodel.base_models import InputFormat
 from docling.document_converter import DocumentConverter, PdfFormatOption   
 import logging
-
+import hashlib
+import numpy as np
+from skimage.metrics import structural_similarity as ssim
+import math
+import shutil
 
 # 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
 
+# Load the OpenAI API key from the environment variables
 print(os.getenv("OPENAI_API_KEY"))
-
-
-# Load environment variables from .env file
 load_dotenv()
-
-# Retrieve the API key
 api_key = os.getenv("OPENAI_API_KEY")
-
-# Ensure the API key is set for OpenAI client
 if not api_key:
     raise ValueError("OPENAI_API_KEY is not set in the environment variables.")
 
@@ -286,6 +284,7 @@ def extract_text_and_pictures(input_doc_name: str = "data/input_pdf/w5.pdf"):
     # Set up pipeline options for OCR and table structure
     pipeline_options = PdfPipelineOptions()
     pipeline_options.do_ocr = True
+    pipeline_options.images_scale = 4.0
     pipeline_options.do_table_structure = True
     pipeline_options.generate_picture_images = True  # Enable picture extraction
 
@@ -321,7 +320,7 @@ def extract_text_and_pictures(input_doc_name: str = "data/input_pdf/w5.pdf"):
             with picture_path.open("wb") as fp:
                 element.image.pil_image.save(fp, format="JPEG")
             # Use the object's id() as a unique identifier
-            image_paths[id(element)] = str(Path("pictures") / picture_filename)
+            image_paths[id(element)] = str(Path("data/output_docling/pictures") / picture_filename)
             logging.info(f"Picture saved to {picture_path}")
              
             # add picture filename to the element (make new json entry) modify the json structure
@@ -392,7 +391,7 @@ def structured_openai_api_call_with_picture_json(json_input: dict, system_prompt
     # Output the results as JSON
     return output_json
 
-def calculate_center_in_json(data):
+def calculate_center_in_json(data, heigth):
     """
     Recursively iterates over JSON data to find entries with 'bbox',
     calculates the center of the bounding box, and adds it as 'center'.
@@ -403,23 +402,25 @@ def calculate_center_in_json(data):
     Returns:
         dict or list: The updated JSON object with centers added to bboxes.
     """
+    
+    
     if isinstance(data, dict):
         # If current level is a dictionary
         if 'bbox' in data and isinstance(data['bbox'], dict):
             bbox = data['bbox']
             if all(key in bbox for key in ['l', 't', 'r', 'b']):
                 # Calculate center
-                center_x = (bbox['l'] + bbox['r']) / 2
-                center_y = (bbox['b'] + bbox['t']) / 2
+                center_x = height - (bbox['l'] + bbox['r']) / 2
+                center_y = height - (bbox['b'] + bbox['t']) / 2
                 # Add center as a tuple of integers
                 data['bbox']['center'] = (int(center_x), int(center_y))
         # Recursively process nested dictionaries
         for key, value in data.items():
-            calculate_center_in_json(value)
+            calculate_center_in_json(value, height)
     elif isinstance(data, list):
         # If current level is a list
         for item in data:
-            calculate_center_in_json(item)
+            calculate_center_in_json(item, height)
     return data
 
 def structured_openai_api_call_with_text_json(json_input: dict, system_prompt: str):
@@ -487,20 +488,31 @@ def structured_openai_api_call_with_text_json(json_input: dict, system_prompt: s
 def add_centers_to_instructions(instructions: dict, centers: dict):
     output_dir = Path("data/output_openai_text")
     
-    system_prompt = "Take the instructions json and add the center of the instruction dependant on the center of the text blocks of the other json"
+    system_prompt = "Take the given instructions JSON, which contains full instruction text, \
+        and determine the center points for each instruction based on smaller text snippets provided in another JSON. Specifically:\
+        1. Use the smaller text snippets with their center locations to identify which snippets belong to each instruction.\
+        2. If a text snippet belongs to an instruction, add its center to a 'center list' in the instructions JSON.\
+        Work with the full instructions and ensure the centers are added only for snippets that match the corresponding instruction"
     
     
     # Define the JSON structure for the instructions
+    class Centers(BaseModel):
+        center_x: int
+        center_y: int
     class Instructions(BaseModel):
         step: int
         text: str
         picture: bool
         picture_description: str
-        center_x: int
-        center_y: int
-
+        centers: list[Centers]
+        
     class Pages(BaseModel):
-        pages: list[Instructions]
+        page_no: int
+        instructions: list[Instructions]
+
+    class pdf(BaseModel):
+        pdf_document: list[Pages]
+        
 
     # Instantiate OpenAI client
     client = OpenAI()
@@ -518,7 +530,7 @@ def add_centers_to_instructions(instructions: dict, centers: dict):
                 "content": str(centers),
             }
         ],
-        response_format=Pages,  # Parse into the defined schema
+        response_format=pdf,  # Parse into the defined schema
     )
 
     # Extract the parsed instructions
@@ -536,23 +548,187 @@ def add_centers_to_instructions(instructions: dict, centers: dict):
     # Output the results as JSON
     return output_json
 
+# ------------------------------------------------------------------------------------------------
+# extract all the pictures from the pdf and store them in a pictures folder 
+# ------------------------------------------------------------------------------------------------
+def extract_images_from_pdf(pdf_path, output_folder):
+    # Open the PDF file
+    pdf_document = fitz.open(pdf_path)
+    
+    # Iterate through each page
+    for page_number in range(len(pdf_document)):
+        page = pdf_document.load_page(page_number)
+        images = page.get_images(full=True)
+        
+        # print the number of images on each page
+        print(f"Page {page_number+1}: {len(images)} images")
+        
+        # Extract each image
+        for image_index, img in enumerate(images):
+            xref = img[0]
 
+            base_image = pdf_document.extract_image(xref)
+            image_bytes = base_image["image"]
+            image_ext = base_image["ext"]
+            image_filename = f"{output_folder}/image_{page_number+1}_{image_index+1}.jpg"
+            
+            # Save the image
+            with open(image_filename, "wb") as image_file:
+                image_file.write(image_bytes)
+                
+            # create the image filename
+            # image_filename = f"{output_folder}/image_{page_number+1}_{image_index+1}.png"
+            
+            # # Convert image bytes to a PNG file using Pillow
+            # with BytesIO(image_bytes) as image_file:
+            #     image = Image.open(image_file)
+            #     image.save(image_filename, "PNG")
+                
+def delete_recurring_images(directory):
+    hashes = set()
+    to_delete = set()
+    for filename in os.listdir(directory):
+        path = os.path.join(directory, filename)
+        digest = hashlib.sha1(open(path,'rb').read()).digest()
+        if digest not in hashes:
+            hashes.add(digest)
+        else:
+            os.remove(path)
+            # delete original file (which added this hash) aswell
+            to_delete.add(digest)
+            
+    for digest in to_delete:
+        for filename in os.listdir(directory):
+            path = os.path.join(directory, filename)
+            if hashlib.sha1(open(path,'rb').read()).digest() == digest:
+                os.remove(path)
+                            
+def delete_small_images(directory):
+    # 10 KB
+    size_limit = 3 * 1024
 
+    # Loop through each file in the directory
+    for filename in os.listdir(directory):
+        filepath = os.path.join(directory, filename)
+        
+        # Check if it's a file (and not a directory) and its size
+        if os.path.isfile(filepath):
+            file_size = os.path.getsize(filepath)
+            
+            # If file size is smaller than the limit, delete it
+            if file_size < size_limit:
+                print(f"Deleting: {filename}, Size: {file_size} bytes")
+                os.remove(filepath)
+
+    #print("Done!")
+
+def merge_json_with_duplicate_removal(json1_path, json2_path, output_path):
+    # Load the first JSON file
+    with open(json1_path, 'r') as file1:
+        json1 = json.load(file1)
+    
+    # Load the second JSON file
+    with open(json2_path, 'r') as file2:
+        json2 = json.load(file2)[0]['pictures']
+    
+    # Merge the data
+    combined_data = json1['page'] + json2
+    
+    # Remove duplicates
+    unique_pictures = []
+    for pic1 in combined_data:
+        is_duplicate = False
+        for pic2 in unique_pictures:
+            if (pic1['page_no'] == pic2['page_no'] and
+                math.isclose(pic1['center_x'], pic2['center_x'], abs_tol=20) and
+                math.isclose(pic1['center_y'], pic2['center_y'], abs_tol=20)):
+                is_duplicate = True
+                print("duplicate found")
+                break
+        if not is_duplicate:
+            unique_pictures.append(pic1)
+    
+    # Write the result to a new JSON file
+    with open(output_path, 'w') as output_file:
+        json.dump({"page": unique_pictures}, output_file, indent=4)
+    print(f"Combined JSON written to {output_path}")
+
+def move_pictures_from_json(json_path, destination_folder):
+    # Create the destination folder if it doesn't exist
+    os.makedirs(destination_folder, exist_ok=True)
+
+    # Load the combined JSON
+    with open(json_path, 'r') as file:
+        data = json.load(file)
+    
+    # Extract picture URIs
+    pictures = [pic['picture_uri'] for pic in data['page']]
+
+    # Move each picture to the destination folder
+    for picture in pictures:
+        # Normalize file paths
+        source_path = os.path.normpath(picture)
+        file_name = os.path.basename(source_path)
+        destination_path = os.path.join(destination_folder, file_name)
+
+        try:
+            # Copy the file to the destination
+            shutil.copy(source_path, destination_path)
+            print(f"Moved: {source_path} -> {destination_path}")
+        except FileNotFoundError:
+            print(f"File not found: {source_path}. Skipping...")
+        except Exception as e:
+            print(f"Error moving {source_path}: {e}")
 
 # ----------------------------------------------------------------------------------------
-# extract_text_and_pictures() # docling
+#                                     Command line
+# ----------------------------------------------------------------------------------------
+extract_text_and_pictures() # docling
 # extract_text_from_pdf() # openai
 
-# import json file
 with open("data/output_docling/w5.json", "r", encoding="utf-8") as file:
     json_data = json.load(file)
+
+try:
+    height = json_data["pages"]["1"]["size"]["height"]
+except:
+    height = 842
+    print("height not found")
     
 # Calculate centers for bounding boxes in the JSON data
-json_data_with_centers = calculate_center_in_json(json_data)
+json_data_with_centers = calculate_center_in_json(json_data, height)
 
 # convert into nice jsons
 prompt_picture_json = "Take the input json and extract the pictures. For each picture, provide the page number, picture URI, and center coordinates."
-promt_text_json = "Take the input json and extract the text. For each text block, provide the page number, text, and center coordinates."
+# promt_text_json = "Take the input json and extract the text. For each text block, provide the page number, text, and center coordinates."
 structured_openai_api_call_with_picture_json(json_data_with_centers, prompt_picture_json)
-structured_openai_api_call_with_text_json(json_data_with_centers, promt_text_json)
+# centers = structured_openai_api_call_with_text_json(json_data_with_centers, promt_text_json)
 
+# # read in the json files
+# with open("data/output_openai_text/instructions_by_page.json", "r", encoding="utf-8") as file:
+#     instructions_openai = json.load(file)
+    
+# with open("data/output_docling/docling_text.json", "r", encoding="utf-8") as file:
+#     centers = json.load(file)
+
+# add_centers_to_instructions(instructions_openai, centers)
+
+# output folder
+# output_folder = "data/output_pictures"
+
+# clear output_pictures
+# for file in os.listdir(output_folder):
+#     os.remove(os.path.join(output_folder, file))
+    
+    
+# pdf_path = "data/input_pdf/w5.pdf"
+
+
+# extract_images_from_pdf(pdf_path, output_folder)
+# delete_recurring_images(output_folder)    
+# delete_small_images(output_folder)
+
+
+# merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json')
+
+move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
