@@ -3,91 +3,91 @@
         "pictures": [
             {
                 "page_no": 1,
-                "picture_uri": "pictures\\picture_001.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_001.jpg",
                 "center_x": 643,
                 "center_y": 691
             },
             {
                 "page_no": 1,
-                "picture_uri": "pictures\\picture_002.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_002.jpg",
                 "center_x": 544,
                 "center_y": 692
             },
             {
                 "page_no": 1,
-                "picture_uri": "pictures\\picture_003.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_003.jpg",
                 "center_x": 439,
                 "center_y": 691
             },
             {
                 "page_no": 2,
-                "picture_uri": "pictures\\picture_004.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_004.jpg",
                 "center_x": 679,
                 "center_y": 52
             },
             {
                 "page_no": 2,
-                "picture_uri": "pictures\\picture_005.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_005.jpg",
                 "center_x": 419,
                 "center_y": 262
             },
             {
                 "page_no": 2,
-                "picture_uri": "pictures\\picture_006.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_006.jpg",
                 "center_x": 419,
                 "center_y": 473
             },
             {
                 "page_no": 3,
-                "picture_uri": "pictures\\picture_007.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_007.jpg",
                 "center_x": 679,
                 "center_y": 52
             },
             {
                 "page_no": 3,
-                "picture_uri": "pictures\\picture_008.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_008.jpg",
                 "center_x": 420,
                 "center_y": 223
             },
             {
                 "page_no": 3,
-                "picture_uri": "pictures\\picture_009.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_009.jpg",
                 "center_x": 419,
                 "center_y": 460
             },
             {
                 "page_no": 4,
-                "picture_uri": "pictures\\picture_010.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_010.jpg",
                 "center_x": 418,
                 "center_y": 227
             },
             {
                 "page_no": 4,
-                "picture_uri": "pictures\\picture_011.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_011.jpg",
                 "center_x": 418,
                 "center_y": 441
             },
             {
                 "page_no": 5,
-                "picture_uri": "pictures\\picture_012.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_012.jpg",
                 "center_x": 679,
                 "center_y": 52
             },
             {
                 "page_no": 5,
-                "picture_uri": "pictures\\picture_013.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_013.jpg",
                 "center_x": 418,
                 "center_y": 228
             },
             {
                 "page_no": 5,
-                "picture_uri": "pictures\\picture_014.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_014.jpg",
                 "center_x": 419,
                 "center_y": 438
             },
             {
                 "page_no": 5,
-                "picture_uri": "pictures\\picture_015.jpg",
+                "picture_uri": "data\\output_docling\\pictures\\picture_015.jpg",
                 "center_x": 419,
                 "center_y": 642
             }

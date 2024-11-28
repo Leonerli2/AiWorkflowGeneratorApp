@@ -259,6 +259,8 @@ def extract_text_from_pdf():
     # Optionally, save to a file
     with open(output_path_folder + "/instructions_by_page.json", "w", encoding="utf-8") as file:
         file.write(output_json)
+    
+    return output_json
 
 def custom_serializer(obj):
     if hasattr(obj, 'export_to_dict'):
@@ -324,13 +326,15 @@ def extract_text_and_pictures(input_doc_name: str = "data/input_pdf/w5.pdf"):
             logging.info(f"Picture saved to {picture_path}")
              
             # add picture filename to the element (make new json entry) modify the json structure
-            element.image.uri = str(Path("pictures") / picture_filename)
+            element.image.uri = str(Path("data\output_docling\pictures") / picture_filename)
     print("Creating JSON file...")        
          
     with json_output_path.open("w", encoding="utf-8") as fp:
         json.dump(conv_result.document, fp, default=custom_serializer, indent=2)
 
-    logging.info(f"Full document JSON saved to {json_output_path}")    
+    logging.info(f"Full document JSON saved to {json_output_path}") 
+    
+    return conv_result.document   
        
 def structured_openai_api_call_with_picture_json(json_input: dict, system_prompt: str):
     """
@@ -680,28 +684,174 @@ def move_pictures_from_json(json_path, destination_folder):
         except Exception as e:
             print(f"Error moving {source_path}: {e}")
 
+def logo_decision(img):
+    """
+      Args:
+        img (PIL.Image.Image): The image to be processed.
+         system_prompt (str): The system prompt to guide the model's response.
+      Returns:
+           List[InstructionStep]: A list of parsed instructions extracted from the image, each containing:
+                - step (int): The step number.
+                 - text (str): The instruction text.
+                  - picture (bool): Whether a picture is associated with the step.
+                   - picture_description (str): Description of the picture if applicable.
+            - picture (bool): Whether a picture is associated with the step.
+            - picture_description (str): Description of the picture if applicable.
+    """
+    img_uri = get_img_uri(img)
+    system_prompt = "i have pictures from a work instruction on how to assemble something. \
+        Does this image show a step in the assembly process with good information of is it \
+        just a label / logo? Set to true if it is a logo and false if it is a step in the assembly process."
+    
+    client = OpenAI()
+
+    # Define the JSON structure for the instructions
+    class Logo(BaseModel):
+        is_logo: bool
+
+    # Structured API call to extract instructions
+    completion = client.beta.chat.completions.parse(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": system_prompt
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": img_uri,
+                        },
+                    },
+                ],
+            }
+        ],
+        response_format=Instruction,  # Parse into the defined schema
+    )
+
+    # Extract the parsed instructions
+    instructions = [choice.message.parsed for choice in completion.choices]
+
+    # Output the results as JSON
+    return instructions
+
+def delete_all_logos(input_folder = "data/output_all_pictures"):
+    # Load the combined JSON
+    with open("data/output_all_pictures/combined.json", 'r') as file:
+        data = json.load(file)
+    
+    # Extract picture URIs
+    pictures = [pic['picture_uri'] for pic in data['page']]
+
+    # Move each picture to the destination folder
+    for picture in pictures:
+        # Normalize file paths
+        source_path = os.path.normpath(picture)
+        file_name = os.path.basename(source_path)
+        destination_path = os.path.join(destination_folder, file_name)
+
+        try:
+            # Copy the file to the destination
+            shutil.copy(source_path, destination_path)
+            print(f"Moved: {source_path} -> {destination_path}")
+        except FileNotFoundError:
+            print(f"File not found: {source_path}. Skipping...")
+        except Exception as e:
+            print(f"Error moving {source_path}: {e}")
+
+
+
+
+def Convert_PDF_to_JSON():
+    
+    
+    
+    # -------------------------------------- docling --------------------------------------
+    docling_json = extract_text_and_pictures()
+    
+    # Load the JSON data from the docling extraction if needed
+    # with open("data/output_docling/w5.json", "r", encoding="utf-8") as file:
+        # json_data = json.load(file)
+        
+    # get height of pdf
+    try:
+        height = docling_json["pages"]["1"]["size"]["height"]
+    except:
+        height = 842
+        print("height not found")
+        
+    json_data_with_centers = calculate_center_in_json(docling_json, height)   
+    # convert into nice jsons
+    prompt_picture_json = "Take the input json and extract the pictures. For each picture, provide the page number, picture URI, and center coordinates."
+    promt_text_json = "Take the input json and extract the text. For each text block, provide the page number, text, and center coordinates."
+    structured_openai_api_call_with_picture_json(json_data_with_centers, prompt_picture_json)
+    centers = structured_openai_api_call_with_text_json(json_data_with_centers, promt_text_json)
+        
+    # -------------------------------------- openai --------------------------------------
+    instructions_openai = extract_text_from_pdf() 
+    
+    
+    # ------------------------------------ merge text -----------------------------------
+    # read in the json files
+    # with open("data/output_openai_text/instructions_by_page.json", "r", encoding="utf-8") as file:
+    #     instructions_openai = json.load(file)
+        
+    # with open("data/output_docling/docling_text.json", "r", encoding="utf-8") as file:
+    #     centers = json.load(file)
+
+    add_centers_to_instructions(instructions_openai, centers)
+    
+    
+    # ------------------------------------ picture extraction simple -----------------------------------
+    # output folder
+    output_folder_simple_picture_extraction = "data/output_pictures"
+
+    # clear output_pictures
+    for file in os.listdir(output_folder_simple_picture_extraction):
+        os.remove(os.path.join(output_folder_simple_picture_extraction, file))
+        
+        
+    pdf_path = "data/input_pdf/w5.pdf"
+
+
+    extract_images_from_pdf(pdf_path, output_folder_simple_picture_extraction)
+    delete_recurring_images(output_folder_simple_picture_extraction)    
+    delete_small_images(output_folder_simple_picture_extraction)
+
+
+    # ------------------------------------ merge pictures -----------------------------------
+    merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json')
+    move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
+    
+    # ------------------------------------ delete logos -----------------------------------
+    
+
+
 # ----------------------------------------------------------------------------------------
 #                                     Command line
 # ----------------------------------------------------------------------------------------
-extract_text_and_pictures() # docling
+# extract_text_and_pictures() # docling
 # extract_text_from_pdf() # openai
 
-with open("data/output_docling/w5.json", "r", encoding="utf-8") as file:
-    json_data = json.load(file)
+# with open("data/output_docling/w5.json", "r", encoding="utf-8") as file:
+#     json_data = json.load(file)
 
-try:
-    height = json_data["pages"]["1"]["size"]["height"]
-except:
-    height = 842
-    print("height not found")
+# try:
+#     height = json_data["pages"]["1"]["size"]["height"]
+# except:
+#     height = 842
+#     print("height not found")
     
 # Calculate centers for bounding boxes in the JSON data
-json_data_with_centers = calculate_center_in_json(json_data, height)
+# json_data_with_centers = calculate_center_in_json(json_data, height)
 
 # convert into nice jsons
-prompt_picture_json = "Take the input json and extract the pictures. For each picture, provide the page number, picture URI, and center coordinates."
+# prompt_picture_json = "Take the input json and extract the pictures. For each picture, provide the page number, picture URI, and center coordinates."
 # promt_text_json = "Take the input json and extract the text. For each text block, provide the page number, text, and center coordinates."
-structured_openai_api_call_with_picture_json(json_data_with_centers, prompt_picture_json)
+# structured_openai_api_call_with_picture_json(json_data_with_centers, prompt_picture_json)
 # centers = structured_openai_api_call_with_text_json(json_data_with_centers, promt_text_json)
 
 # # read in the json files
@@ -731,4 +881,4 @@ structured_openai_api_call_with_picture_json(json_data_with_centers, prompt_pict
 
 # merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json')
 
-move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
+# move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
