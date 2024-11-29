@@ -1,0 +1,344 @@
+{
+    "duration": 77.11000061035156,
+    "language": "german",
+    "text": "Entnahme Mine und Quittierung an LED-Leuchte. Foto. Entnahme Feder und Quittierung an LED-Leuchte. Foto. Feder auf Mine stecken. Foto. Entnahme Stifth\u00fclle oben und Quittierung an LED-Leuchte. Foto. Mine und Feder in Oberteil stecken.  Entnahme Stifth\u00fclle unten und Quittierung an LED-Leuchte. Foto. Oberteil auf Unterteil schrauben. Video. Pr\u00fcfen Sie den Kugelschreiber. Erstens, wird die Mine ausgefahren? Foto. Kann die Mine wieder eingefahren werden? Foto.",
+    "segments": null,
+    "words": [
+        {
+            "end": 1.5,
+            "start": 0.0,
+            "word": "Entnahme"
+        },
+        {
+            "end": 2.0,
+            "start": 1.5,
+            "word": "Mine"
+        },
+        {
+            "end": 2.319999933242798,
+            "start": 2.0,
+            "word": "und"
+        },
+        {
+            "end": 2.9000000953674316,
+            "start": 2.319999933242798,
+            "word": "Quittierung"
+        },
+        {
+            "end": 3.1600000858306885,
+            "start": 2.9000000953674316,
+            "word": "an"
+        },
+        {
+            "end": 3.5399999618530273,
+            "start": 3.1600000858306885,
+            "word": "LED"
+        },
+        {
+            "end": 4.0,
+            "start": 3.5399999618530273,
+            "word": "Leuchte"
+        },
+        {
+            "end": 5.059999942779541,
+            "start": 4.260000228881836,
+            "word": "Foto"
+        },
+        {
+            "end": 9.220000267028809,
+            "start": 8.760000228881836,
+            "word": "Entnahme"
+        },
+        {
+            "end": 9.680000305175781,
+            "start": 9.220000267028809,
+            "word": "Feder"
+        },
+        {
+            "end": 10.039999961853027,
+            "start": 9.680000305175781,
+            "word": "und"
+        },
+        {
+            "end": 10.619999885559082,
+            "start": 10.039999961853027,
+            "word": "Quittierung"
+        },
+        {
+            "end": 10.920000076293945,
+            "start": 10.619999885559082,
+            "word": "an"
+        },
+        {
+            "end": 11.279999732971191,
+            "start": 10.920000076293945,
+            "word": "LED"
+        },
+        {
+            "end": 11.760000228881836,
+            "start": 11.279999732971191,
+            "word": "Leuchte"
+        },
+        {
+            "end": 13.199999809265137,
+            "start": 13.0600004196167,
+            "word": "Foto"
+        },
+        {
+            "end": 16.700000762939453,
+            "start": 16.360000610351562,
+            "word": "Feder"
+        },
+        {
+            "end": 17.15999984741211,
+            "start": 16.700000762939453,
+            "word": "auf"
+        },
+        {
+            "end": 17.6200008392334,
+            "start": 17.15999984741211,
+            "word": "Mine"
+        },
+        {
+            "end": 18.100000381469727,
+            "start": 17.6200008392334,
+            "word": "stecken"
+        },
+        {
+            "end": 21.6200008392334,
+            "start": 21.459999084472656,
+            "word": "Foto"
+        },
+        {
+            "end": 23.959999084472656,
+            "start": 23.479999542236328,
+            "word": "Entnahme"
+        },
+        {
+            "end": 24.700000762939453,
+            "start": 23.959999084472656,
+            "word": "Stifth\u00fclle"
+        },
+        {
+            "end": 25.18000030517578,
+            "start": 24.700000762939453,
+            "word": "oben"
+        },
+        {
+            "end": 25.440000534057617,
+            "start": 25.18000030517578,
+            "word": "und"
+        },
+        {
+            "end": 26.0,
+            "start": 25.440000534057617,
+            "word": "Quittierung"
+        },
+        {
+            "end": 26.3799991607666,
+            "start": 26.0,
+            "word": "an"
+        },
+        {
+            "end": 26.780000686645508,
+            "start": 26.3799991607666,
+            "word": "LED"
+        },
+        {
+            "end": 27.239999771118164,
+            "start": 26.780000686645508,
+            "word": "Leuchte"
+        },
+        {
+            "end": 28.8799991607666,
+            "start": 28.860000610351562,
+            "word": "Foto"
+        },
+        {
+            "end": 32.400001525878906,
+            "start": 31.399999618530273,
+            "word": "Mine"
+        },
+        {
+            "end": 32.70000076293945,
+            "start": 32.400001525878906,
+            "word": "und"
+        },
+        {
+            "end": 33.040000915527344,
+            "start": 32.70000076293945,
+            "word": "Feder"
+        },
+        {
+            "end": 33.2400016784668,
+            "start": 33.040000915527344,
+            "word": "in"
+        },
+        {
+            "end": 33.68000030517578,
+            "start": 33.2400016784668,
+            "word": "Oberteil"
+        },
+        {
+            "end": 34.18000030517578,
+            "start": 33.68000030517578,
+            "word": "stecken"
+        },
+        {
+            "end": 40.08000183105469,
+            "start": 39.5,
+            "word": "Entnahme"
+        },
+        {
+            "end": 40.91999816894531,
+            "start": 40.08000183105469,
+            "word": "Stifth\u00fclle"
+        },
+        {
+            "end": 41.52000045776367,
+            "start": 40.91999816894531,
+            "word": "unten"
+        },
+        {
+            "end": 41.779998779296875,
+            "start": 41.52000045776367,
+            "word": "und"
+        },
+        {
+            "end": 42.36000061035156,
+            "start": 41.779998779296875,
+            "word": "Quittierung"
+        },
+        {
+            "end": 42.65999984741211,
+            "start": 42.36000061035156,
+            "word": "an"
+        },
+        {
+            "end": 43.08000183105469,
+            "start": 42.65999984741211,
+            "word": "LED"
+        },
+        {
+            "end": 43.540000915527344,
+            "start": 43.08000183105469,
+            "word": "Leuchte"
+        },
+        {
+            "end": 46.560001373291016,
+            "start": 45.560001373291016,
+            "word": "Foto"
+        },
+        {
+            "end": 49.70000076293945,
+            "start": 49.29999923706055,
+            "word": "Oberteil"
+        },
+        {
+            "end": 49.97999954223633,
+            "start": 49.70000076293945,
+            "word": "auf"
+        },
+        {
+            "end": 50.5,
+            "start": 49.97999954223633,
+            "word": "Unterteil"
+        },
+        {
+            "end": 51.0,
+            "start": 50.5,
+            "word": "schrauben"
+        },
+        {
+            "end": 51.70000076293945,
+            "start": 51.47999954223633,
+            "word": "Video"
+        },
+        {
+            "end": 61.119998931884766,
+            "start": 60.15999984741211,
+            "word": "Pr\u00fcfen"
+        },
+        {
+            "end": 61.47999954223633,
+            "start": 61.119998931884766,
+            "word": "Sie"
+        },
+        {
+            "end": 61.70000076293945,
+            "start": 61.47999954223633,
+            "word": "den"
+        },
+        {
+            "end": 62.439998626708984,
+            "start": 61.70000076293945,
+            "word": "Kugelschreiber"
+        },
+        {
+            "end": 63.58000183105469,
+            "start": 63.220001220703125,
+            "word": "Erstens"
+        },
+        {
+            "end": 63.779998779296875,
+            "start": 63.7400016784668,
+            "word": "wird"
+        },
+        {
+            "end": 64.18000030517578,
+            "start": 63.779998779296875,
+            "word": "die"
+        },
+        {
+            "end": 64.18000030517578,
+            "start": 64.18000030517578,
+            "word": "Mine"
+        },
+        {
+            "end": 64.95999908447266,
+            "start": 64.18000030517578,
+            "word": "ausgefahren"
+        },
+        {
+            "end": 67.12000274658203,
+            "start": 66.76000213623047,
+            "word": "Foto"
+        },
+        {
+            "end": 70.62000274658203,
+            "start": 69.66000366210938,
+            "word": "Kann"
+        },
+        {
+            "end": 70.81999969482422,
+            "start": 70.62000274658203,
+            "word": "die"
+        },
+        {
+            "end": 71.4800033569336,
+            "start": 70.81999969482422,
+            "word": "Mine"
+        },
+        {
+            "end": 71.80000305175781,
+            "start": 71.4800033569336,
+            "word": "wieder"
+        },
+        {
+            "end": 72.36000061035156,
+            "start": 71.80000305175781,
+            "word": "eingefahren"
+        },
+        {
+            "end": 72.69999694824219,
+            "start": 72.36000061035156,
+            "word": "werden"
+        },
+        {
+            "end": 74.08000183105469,
+            "start": 73.73999786376953,
+            "word": "Foto"
+        }
+    ],
+    "task": "transcribe"
+}
