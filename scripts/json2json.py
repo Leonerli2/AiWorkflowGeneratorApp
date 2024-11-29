@@ -14,6 +14,7 @@ class BaseTask(BaseModel):
     task: str
     description: str
     image_uri: str
+    imagefilename: str
 
 class Manual(BaseTask):
     pass
@@ -129,6 +130,8 @@ def instruction_basic_json_2_instruction_advanced_json(instruction_basic_json_pa
         "Info": Info,
         "ChecklistItem": ChecklistItem,
     }
+
+
 
     # Loop over the steps in the instruction JSON and process each one with the OpenAI API
     for instruction in tqdm(instruction_basic_json['instructions']):
@@ -315,6 +318,19 @@ def instruction_advanced_json_2_elam_flowchart_json(instruction_advanced_json_pa
         "width": 300,
         "height": 100
     }
+
+    # Mapping of task types to their required attributes
+    task_attributes = {
+        "Manual": [],
+        "Scan": [],
+        "Tightening": ["count", "program"],
+        "Rivet": ["count", "program"],
+        "Smartlabel": ["durationgui", "targetnumber"],
+        "Pick_to_Light": ["count"],
+        "SmartTower": ["count"],
+        "Info": ["durationgui"],
+        "Checklist": ["checklist"]
+    }
     
     # Add start shape
     new_flowchart["shapes"].append(start_shape)
@@ -322,17 +338,23 @@ def instruction_advanced_json_2_elam_flowchart_json(instruction_advanced_json_pa
     # Create shapes for instructions
     y_position = y_step_size
     for idx, instruction in enumerate(instruction_advanced_json):
+        task_type = instruction.get("task", "Manual")
+        attributes = task_attributes.get(task_type, [])
+        
+        # Populate only the required attributes in customData
+        custom_data = {
+            "name": instruction.get("name", None),
+            "task": task_type,
+            "description": f"<p style=\"text-align: center;\">{instruction.get('description', None)}</p>",
+            "imagefilename": instruction.get("image_uri", None)
+        }
+        for attr in attributes:
+            if attr in instruction:  # Add only if the attribute exists in the instruction
+                custom_data[attr] = instruction.get(attr, None)
         shape = {
             "key": str(idx + 1),
             "dataKey": None,
-            "customData": {
-                "name": instruction.get("name", None),
-                "task": instruction.get("task", None),
-                "description": "<p style=\"text-align: center;\">" + instruction.get("description", None) + "</p>",
-                # "image": None,
-                # "count": instruction.get("count", None),
-                # "program": instruction.get("program", None),
-            },
+            "customData": custom_data,
             "locked": False,
             "zIndex": 0,
             "type": get_type_id(instruction.get("task", "Manual")),

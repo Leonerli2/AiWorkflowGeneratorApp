@@ -5,6 +5,7 @@ import streamlit as st
 
 # Path to your JSON file
 JSON_PATH = "data/output/elam/elam50.json"
+JSON_PATH = "data/output/pdf/elam/elam5.json"
 
 # Function to parse JSON and create Plotly flowchart with S-curve edges and colored nodes
 def create_flowchart_with_icons(data, scale_factor=5.0, max_nodes_per_column=10, downward_offset=1.0):

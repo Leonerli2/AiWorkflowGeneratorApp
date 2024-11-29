@@ -1,168 +1,188 @@
 [
     {
         "id": 1,
-        "name": "Kameraaktivierung und Pumpengeh\u00e4useentnahme",
-        "task": "Manual",
-        "description": "Aktiviere die Kamera und entnehme das Pumpengeh\u00e4use.",
-        "image_uri": "data/output/images/video51/instruction51_1.jpg"
+        "name": "Kamera starten",
+        "task": "Scan",
+        "description": "Um sicherzustellen, dass alle relevanten Schritte w\u00e4hrend des Prozesses visualisiert werden, starten Sie zuerst die Kamera.",
+        "image_uri": "data/output/video/images/video51/instruction51_1.jpg",
+        "imagefilename": "instruction51_1.jpg"
     },
     {
         "id": 2,
-        "name": "Pumpengeh\u00e4use einlegen",
+        "name": "Pumpengeh\u00e4use entnehmen",
         "task": "Manual",
-        "description": "Das Pumpengeh\u00e4use wird sicher in die vorgesehene Halterung eingelegt, um die nachfolgenden Arbeitsschritte zu erm\u00f6glichen.",
-        "image_uri": "data/output/images/video51/instruction51_2.jpg"
+        "description": "Entnehmen Sie das Pumpengeh\u00e4use vorsichtig aus der Halterung.",
+        "image_uri": "data/output/video/images/video51/instruction51_2.jpg",
+        "imagefilename": "instruction51_2.jpg"
     },
     {
         "id": 3,
-        "name": "Zylinder entnehmen",
+        "name": "Pumpengeh\u00e4use in Aufnahme einlegen",
         "task": "Manual",
-        "description": "Entnehmen Sie den Zylinder sorgf\u00e4ltig aus dem Pumpengeh\u00e4use. Achten Sie darauf, die Bauteile nicht zu besch\u00e4digen.",
-        "image_uri": "data/output/images/video51/instruction51_3.jpg"
+        "description": "Legen Sie das entnommene Pumpengeh\u00e4use vorsichtig in die vorgesehene Aufnahme ein, um den n\u00e4chsten Arbeitsschritt durchzuf\u00fchren.",
+        "image_uri": "data/output/video/images/video51/instruction51_3.jpg",
+        "imagefilename": "instruction51_3.jpg"
     },
     {
         "id": 4,
-        "name": "Zylinder einlegen",
-        "task": "Manual",
-        "description": "Der Zylinder wird in die daf\u00fcr vorgesehene Halterung eingelegt.",
-        "image_uri": "data/output/images/video51/instruction51_4.jpg"
+        "name": "Zylinder entnehmen",
+        "task": "Pick_to_Light",
+        "description": "Entnehmen Sie den Zylinder aus dem vorgesehenen Austauschbereich.",
+        "image_uri": "data/output/video/images/video51/instruction51_4.jpg",
+        "imagefilename": "instruction51_4.jpg",
+        "count": 1
     },
     {
         "id": 5,
-        "name": "Pumpengeh\u00e4use erneut entnehmen",
+        "name": "Zylinder in Aufnahme einsetzen",
         "task": "Manual",
-        "description": "Das Pumpengeh\u00e4use wird ein weiteres Mal aus der Vorrichtung entnommen.",
-        "image_uri": "data/output/images/video51/instruction51_5.jpg"
+        "description": "Setze den entnommenen Zylinder in die vorgesehene Aufnahme ein, um mit dem n\u00e4chsten Schritt fortzufahren.",
+        "image_uri": "data/output/video/images/video51/instruction51_5.jpg",
+        "imagefilename": "instruction51_5.jpg"
     },
     {
         "id": 6,
-        "name": "Pumpengeh\u00e4use Positionierung",
+        "name": "Pumpengeh\u00e4use erneut entnehmen",
         "task": "Manual",
-        "description": "Positioniere das Pumpengeh\u00e4use sorgf\u00e4ltig an der vorgesehenen Stelle, um den n\u00e4chsten Arbeitsschritt vorzubereiten.",
-        "image_uri": "data/output/images/video51/instruction51_6.jpg"
+        "description": "Das Pumpengeh\u00e4use wird erneut entnommen, um f\u00fcr die n\u00e4chste Bearbeitung bereitgestellt zu werden.",
+        "image_uri": "data/output/video/images/video51/instruction51_6.jpg",
+        "imagefilename": "instruction51_6.jpg"
     },
     {
         "id": 7,
-        "name": "Drei Schrauben entnehmen",
-        "task": "Pick_to_Light",
-        "description": "Entnehmen Sie drei Schrauben aus dem vorgesehenen Beh\u00e4lter.",
-        "image_uri": "data/output/images/video51/instruction51_7.jpg",
-        "count": 3
+        "name": "Pumpengeh\u00e4use Positionierung",
+        "task": "Manual",
+        "description": "Positioniere das Pumpengeh\u00e4use sorgf\u00e4ltig f\u00fcr die n\u00e4chste Bearbeitungsschritt.",
+        "image_uri": "data/output/video/images/video51/instruction51_7.jpg",
+        "imagefilename": "instruction51_7.jpg"
     },
     {
         "id": 8,
-        "name": "Schrauben ansetzen",
-        "task": "Manual",
-        "description": "Setze die Schrauben an der vorgesehenen Stelle an.",
-        "image_uri": "data/output/images/video51/instruction51_8.jpg"
+        "name": "Schrauben Entnehmen",
+        "task": "Pick_to_Light",
+        "description": "Entnehmen Sie drei Schrauben, die f\u00fcr die Montage ben\u00f6tigt werden.",
+        "image_uri": "data/output/video/images/video51/instruction51_8.jpg",
+        "imagefilename": "instruction51_8.jpg",
+        "count": 3
     },
     {
         "id": 9,
-        "name": "Schrauben mit Smart Tool anziehen",
+        "name": "Schrauben anbringen",
         "task": "Tightening",
-        "description": "Ziehen Sie die Schrauben mit einem Smart Tool fest an, um sicherzustellen, dass sie ordnungsgem\u00e4\u00df montiert sind.",
-        "image_uri": "data/output/images/video51/instruction51_9.jpg",
-        "count": 3,
-        "program": 0
+        "description": "Setzen Sie die Schrauben an die entsprechenden Stellen, um die Montage zu beginnen.",
+        "image_uri": "data/output/video/images/video51/instruction51_9.jpg",
+        "imagefilename": "instruction51_9.jpg"
     },
     {
         "id": 10,
-        "name": "Drei Schrauben erneut entnehmen",
-        "task": "Manual",
-        "description": "Anweisung zum erneuten Entnehmen von drei Schrauben.",
-        "image_uri": "data/output/images/video51/instruction51_10.jpg"
-    },
-    {
-        "id": 11,
-        "name": "Schrauben ansetzen mit Smart Tool",
+        "name": "Schrauben mit Smart Tool festziehen",
         "task": "Tightening",
-        "description": "Die Schrauben werden pr\u00e4zise mit einem Smart Tool angesetzt, um eine korrekte Fixierung zu gew\u00e4hrleisten.",
-        "image_uri": "data/output/images/video51/instruction51_11.jpg",
-        "count": 3,
+        "description": "Die Schrauben werden mit einem Smart Tool sicher und festgezogen, um die Stabilit\u00e4t der Montagesicherung zu gew\u00e4hrleisten.",
+        "image_uri": "data/output/video/images/video51/instruction51_10.jpg",
+        "imagefilename": "instruction51_10.jpg",
+        "count": 0,
         "program": 0
     },
     {
+        "id": 11,
+        "name": "Drei Schrauben entnehmen",
+        "task": "Pick_to_Light",
+        "description": "Entnehmen Sie erneut drei Schrauben, die f\u00fcr die Montage ben\u00f6tigt werden.",
+        "image_uri": "data/output/video/images/video51/instruction51_11.jpg",
+        "imagefilename": "instruction51_11.jpg"
+    },
+    {
         "id": 12,
-        "name": "Mitnehmerscheibe entnehmen",
-        "task": "Manual",
-        "description": "Entnehmen Sie die Mitnehmerscheibe vorsichtig aus dem Ger\u00e4t.",
-        "image_uri": "data/output/images/video51/instruction51_12.jpg"
+        "name": "Drei Schrauben entnehmen",
+        "task": "Pick_to_Light",
+        "description": "Entnehmen Sie erneut drei Schrauben, die f\u00fcr die Montage ben\u00f6tigt werden. Stellen Sie sicher, dass die Schrauben ordnungsgem\u00e4\u00df gelagert sind und zur Verwendung bereitstehen.",
+        "image_uri": "data/output/video/images/video51/instruction51_12.jpg",
+        "imagefilename": "instruction51_12.jpg"
     },
     {
         "id": 13,
-        "name": "Mitnehmerscheibe einlegen",
-        "task": "Manual",
-        "description": "Legen Sie die Mitnehmerscheibe in die vorgesehene Position ein, um die Montage fortzusetzen.",
-        "image_uri": "data/output/images/video51/instruction51_13.jpg"
+        "name": "Schrauben entnehmen",
+        "task": "Pick_to_Light",
+        "description": "Entnehmen Sie erneut drei Schrauben, die f\u00fcr die Montage des Pumpengeh\u00e4uses ben\u00f6tigt werden.",
+        "image_uri": "data/output/video/images/video51/instruction51_13.jpg",
+        "imagefilename": "instruction51_13.jpg"
     },
     {
         "id": 14,
-        "name": "Lochplatte entnehmen",
+        "name": "Pumpengeh\u00e4usedecke entnehmen",
         "task": "Manual",
-        "description": "Entnehmen Sie die Lochplatte vorsichtig aus der Halterung.",
-        "image_uri": "data/output/images/video51/instruction51_14.jpg"
+        "description": "In diesem Schritt entnehmen Sie die Pumpengeh\u00e4usedecke vorsichtig aus der Baugruppe, um mit der weiteren Bearbeitung fortzufahren.",
+        "image_uri": "data/output/video/images/video51/instruction51_14.jpg",
+        "imagefilename": "instruction51_14.jpg"
     },
     {
         "id": 15,
-        "name": "Lochplatte einlegen",
+        "name": "Pumpengeh\u00e4usedecke positionieren",
         "task": "Manual",
-        "description": "Die Lochplatte wird in den vorgesehenen Platz eingelegt, um den Montageprozess fortzusetzen.",
-        "image_uri": "data/output/images/video51/instruction51_15.jpg"
+        "description": "Positionieren Sie die Pumpengeh\u00e4usedecke sorgf\u00e4ltig an der vorgesehenen Stelle f\u00fcr die Montage.",
+        "image_uri": "data/output/video/images/video51/instruction51_15.jpg",
+        "imagefilename": "instruction51_15.jpg"
     },
     {
         "id": 16,
-        "name": "Pumpengeh\u00e4usedeckel entnehmen",
-        "task": "Manual",
-        "description": "Der Pumpengeh\u00e4usedeckel wird vorsichtig entnommen, um den Montage- oder Reparaturprozess fortzusetzen.",
-        "image_uri": "data/output/images/video51/instruction51_16.jpg"
+        "name": "Schraubenentnahme zur Sicherung der Pumpengeh\u00e4usedecke",
+        "task": "Tightening",
+        "description": "F\u00fcnf Schrauben werden entnommen, um die Pumpengeh\u00e4usedecke ordnungsgem\u00e4\u00df zu sichern.",
+        "image_uri": "data/output/video/images/video51/instruction51_16.jpg",
+        "imagefilename": "instruction51_16.jpg"
     },
     {
         "id": 17,
-        "name": "Pumpengeh\u00e4usedeckel positionieren",
-        "task": "Manual",
-        "description": "Positioniere das Pumpengeh\u00e4usedeckel korrekt auf dem Pumpengeh\u00e4use.",
-        "image_uri": "data/output/images/video51/instruction51_17.jpg"
+        "name": "Deckelschrauben mit Smart Tool verschrauben",
+        "task": "Tightening",
+        "description": "Die Deckel-Schrauben werden mit einem Smart Tool verschraubt, um sicherzustellen, dass sie fest und korrekt sitzen.",
+        "image_uri": "data/output/video/images/video51/instruction51_17.jpg",
+        "imagefilename": "instruction51_17.jpg",
+        "count": 5,
+        "program": 0
     },
     {
-        "id": 18,
-        "name": "F\u00fcnf Schrauben entnehmen",
-        "task": "Pick_to_Light",
-        "description": "Nehmen Sie f\u00fcnf Schrauben aus dem Beh\u00e4lter.",
-        "image_uri": "data/output/images/video51/instruction51_18.jpg",
-        "count": 5
+        "id": 1,
+        "name": "\u00dcberpr\u00fcfung der Anschl\u00fcsse",
+        "task": "Info",
+        "description": "\u00dcberpr\u00fcfen Sie, ob die Anschl\u00fcsse sauber sind, um sicherzustellen, dass keine Verunreinigungen die Funktionalit\u00e4t beeintr\u00e4chtigen.",
+        "image_uri": "data/output/video/images/video51/instruction51_18.jpg",
+        "imagefilename": "instruction51_18.jpg",
+        "durationgui": 0
     },
     {
         "id": 19,
-        "name": "Schrauben ansetzen",
-        "task": "Tightening",
-        "description": "Setzen Sie die Schrauben an den vorgesehenen Stellen an, um die Teile zu fixieren.",
-        "image_uri": "data/output/images/video51/instruction51_19.jpg",
-        "count": 3,
-        "program": 1
+        "name": "Schaden\u00fcberpr\u00fcfung",
+        "task": "Info",
+        "description": "\u00dcberpr\u00fcfen Sie, ob Sch\u00e4den an den Komponenten vorhanden sind.",
+        "image_uri": "data/output/video/images/video51/instruction51_19.jpg",
+        "imagefilename": "instruction51_19.jpg",
+        "durationgui": 0
     },
     {
         "id": 20,
-        "name": "Deckel verschrauben",
-        "task": "Tightening",
-        "description": "Der Deckel wird mit dem Smart Tool festgeschraubt, um eine sichere Verbindung zu gew\u00e4hrleisten.",
-        "image_uri": "data/output/images/video51/instruction51_20.jpg",
-        "count": 5,
-        "program": 1
+        "name": "Wertvergleich eingeben",
+        "task": "Info",
+        "description": "Geben Sie den erwarteten Wert im Vergleich zu den gemessenen Werten ein.",
+        "image_uri": "data/output/video/images/video51/instruction51_20.jpg",
+        "imagefilename": "instruction51_20.jpg",
+        "durationgui": 0
     },
     {
         "id": 21,
-        "name": "Pr\u00fcfung der Anschl\u00fcsse",
-        "task": "ChecklistItem",
-        "description": "\u00dcberpr\u00fcfen, ob die Anschl\u00fcsse sauber sind und keine Sch\u00e4den aufweisen. F\u00fchren Sie den Wertvergleich durch und wiederholen Sie den Test bei Bedarf.",
-        "image_uri": "data/output/images/video51/instruction51_21.jpg",
-        "question": "Sind die Anschl\u00fcsse sauber und ohne Sch\u00e4den?",
-        "correctAnswer": "Ja, alle Anschl\u00fcsse sind sauber und in einwandfreiem Zustand."
+        "name": "Testwiederholung zur Funktions\u00fcberpr\u00fcfung",
+        "task": "Info",
+        "description": "Der Test wird erneut durchgef\u00fchrt, um die Funktionsf\u00e4higkeit des Systems zu validieren.",
+        "image_uri": "data/output/video/images/video51/instruction51_21.jpg",
+        "imagefilename": "instruction51_21.jpg",
+        "durationgui": 0
     },
     {
         "id": 22,
-        "name": "Vorgang abschlie\u00dfen",
-        "task": "Manual",
-        "description": "Beenden Sie den Vorgang, indem Sie ein Fragezeichen setzen, um die Anleitung abzuschlie\u00dfen.",
-        "image_uri": "data/output/images/video51/instruction51_22.jpg"
+        "name": "Arbeit abschlie\u00dfen",
+        "task": "Info",
+        "description": "Die Arbeit wird mit einer \u00dcberpr\u00fcfung abgeschlossen, wobei dargestellt wird, dass alle Schritte erfolgreich durchgef\u00fchrt wurden. Achten Sie darauf, dass alle Informationen klar sind.",
+        "image_uri": "data/output/video/images/video51/instruction51_22.jpg",
+        "imagefilename": "instruction51_22.jpg"
     }
 ]
