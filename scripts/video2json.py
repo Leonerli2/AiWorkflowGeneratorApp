@@ -9,7 +9,7 @@ from moviepy import VideoFileClip
 OPENAI_API_KEY = "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"
 
 
-class PathHandler:
+class VideoPathHandler:
     def __init__(self, video_dir: str, audio_dir: str, transcription_with_timestamps_json_dir: str, instructions_with_timestamps_json_dir: str, instructions_basic_json_dir: str, instructions_advanced_json_dir: str, elam_json_dir: str, image_output_dir: str):
         self.video_dir = video_dir
         self.audio_dir = audio_dir

@@ -405,8 +405,39 @@ def instruction_advanced_json_2_elam_flowchart_json(instruction_advanced_json_pa
         json.dump(new_flowchart, file, indent=4)
     print(f"Saved ELAM flowchart JSON to {elam_json_path}")
 
-    # Return the new flowchart JSON
-    return new_flowchart
+
+
+def pdf_basic_json_2_instruction_basic_json(pdf_basic_json_path, instruction_basic_json_path):
+    print(f"\n### Start converting PDF basic JSON to basic instruction JSON ###")
+    # Load the PDF basic JSON
+    with open(pdf_basic_json_path, 'r') as file:
+        pdf_basic_json = json.load(file)
+    print(f"Loaded PDF basic JSON from {pdf_basic_json_path}")
+
+    # Initialize the output JSON
+    output_json = {
+        "instructions": []
+    }
+
+
+    for page in pdf_basic_json.get('pdf_document', []):
+        for instruction in page.get('instructions', []):
+            step = instruction.get("step")
+            text = instruction.get("text")
+            picture_array = instruction.get("pictures_array", [])
+            
+            # Add the instruction to the output
+            output_json["instructions"].append({
+                "step": step,
+                "text": text,
+                "image_uri": picture_array
+            })
+
+    # Save the output JSON to a file
+    os.makedirs(os.path.dirname(instruction_basic_json_path), exist_ok=True)
+    with open(instruction_basic_json_path, 'w') as file:
+        json.dump(output_json, file, indent=4)
+    print(f"Saved basic instruction JSON to {instruction_basic_json_path}")
 
 
 
