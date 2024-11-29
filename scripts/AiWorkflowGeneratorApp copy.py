@@ -4,12 +4,6 @@ import json
 import subprocess
 import atexit
 from contextlib import contextmanager
-import qrcode
-from io import BytesIO
-from pathlib import Path
-import socket
-import time
-import re
 
 from video2json import *
 from json2json import *
@@ -51,34 +45,6 @@ def manage_process():
 # Register cleanup function using atexit
 atexit.register(lambda: manage_process())
 
-# Function to handle video conversion
-def convert_mov_to_mp4(mov_file, output_dir):
-    output_path = os.path.join(output_dir, mov_file.name.split('.')[0] + '.mp4')
-    command = f"ffmpeg -i {mov_file.name} -vcodec libx264 -acodec aac {output_path}"
-    subprocess.run(command, shell=True)
-    return output_path
-
-def start_video_upload_streamlit_app():
-    # Start the Streamlit app as a subprocess
-    process = subprocess.Popen(
-        ["streamlit", "run", "scripts/VideoUploadApp.py", "--server.port", "8503"],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE
-    )
-
-    # Wait for the Streamlit process to output the URL (takes a few seconds)
-    time.sleep(3)
-
-    # Read the output from the Streamlit process
-    output = process.stdout.read().decode("utf-8")
-
-    # Search for the URL in the output
-    match = re.search(r'Local URL: (http://\S+)', output)
-    if match:
-        return match.group(1)  # Extract the URL
-    else:
-        return None
-
 # Main Interface
 def main():
     global elam_simulation_process
@@ -99,74 +65,19 @@ def main():
         
         # Video Mode Buttons
         video_file = st.file_uploader("Choose Video", type=["mp4", "avi", "mov"])
-        qrcode_button = st.button("Show QR Code for Video Upload")
-
-        if qrcode_button:
-            # # Generate a URL for the upload page (this could be a local URL or remote server)
-            # # find the ip address of the machine and replace the localhost with the ip address
-            # get ip address 
-            def get_local_ip():
-                hostname = socket.gethostname()
-                local_ip = socket.gethostbyname(hostname)
-                return local_ip
-            
-            upload_url = "http://" + get_local_ip() + ":8503"
-            print(upload_url)
-
-            # Start the upload app as a subprocess (you can use a different port each time if needed)
-            subprocess.Popen(["streamlit", "run", "scripts/VideoUploadApp.py", "--server.address", "0.0.0.0", "--server.port", "8503"])
-
-            # Generate a QR code for the upload URL
-            img = qrcode.make(upload_url)
-            buf = BytesIO()
-            img.save(buf)
-            buf.seek(0)
-
-            upload_url = start_video_upload_streamlit_app()
-
-            if upload_url:
-                # Generate a QR code for the upload URL
-                img = qrcode.make(upload_url)
-                buf = BytesIO()
-                img.save(buf)
-                buf.seek(0)
-
-                # Display the QR code in the main app
-                st.image(buf, caption="Scan to upload video")
-
-                st.write(f"Upload page has been started at {upload_url}. Please scan the QR code to upload a video.")
-            else:
-                st.error("Failed to retrieve the Streamlit app URL.")
-
-            # Display the QR code in the main app
-            st.image(buf, caption="Scan to upload video")
-
-            st.write(f"Upload page has been started at {upload_url}. Please scan the QR code to upload a video.")
-
-      
 
         if video_file:
             st.video(video_file)
             video_nr = video_file.name.split("video")[1].split('.')[0]
 
             # Create three columns for the buttons
-            col1, col2, col3, col4 = st.columns([1, 1, 1, 1])  # Add one more column for the QR code
+            col1, col2, col3 = st.columns([1, 1, 1])  # 1 unit of space per column, adjust if needed
             with col1:
                 ai_wizard_button = st.button("Start AI-Wizard")
             with col2:
                 elam_sim_button = st.button("Start ELAM Sim")
             with col3:
                 flowchart_button = st.button("Display Flowchart")
-            with col4:
-                # Add a button to show QR Code for the upload link
-                if st.button("Upload via QR Code"):
-                    # Generate a QR code with a URL that links to a video upload page
-                    upload_url = "http://your-web-upload-link.com"
-                    img = qrcode.make(upload_url)
-                    buf = BytesIO()
-                    img.save(buf)
-                    buf.seek(0)
-                    st.image(buf, caption="Scan to upload video")
 
             # AI Wizard Confirmation
             if ai_wizard_button or st.session_state.ai_wizard_started:
@@ -261,6 +172,7 @@ def main():
                     show_flowchart(flowchart_path)
                 else:
                     st.write(f"No ELAM JSON found for this video under {flowchart_path}.")
+
 
 
 # Function to show the flowchart

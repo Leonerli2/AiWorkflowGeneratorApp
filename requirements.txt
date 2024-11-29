@@ -13,3 +13,5 @@ networkx
 plotly
 streamlit
 IPython
+qrcode
+ffmpeg-python
