@@ -2,66 +2,66 @@
     "instructions": [
         {
             "step": 1,
-            "text": "Miene entnehmen. Hier wird die Miene des Stiftes entnommen, was bedeutet, dass ein Teil des Stiftes entfernt wird. Keines der speziellen Werkzeuge ist hierbei erforderlich. Es wird nur die Hand ben\u00f6tigt.",
+            "text": "Entnehmen Sie die Miene aus dem Stift. Dies geschieht mit der Hand und erfordert keine Werkzeuge. Es wird keine spezifische Anzahl an Teilen ben\u00f6tigt, au\u00dfer der Miene selbst.",
             "picture_time": 7.58,
             "start_time": 0.0,
             "end_time": 2.48
         },
         {
             "step": 2,
-            "text": "Stifth\u00fclle oben entnehmen. Um die Miene zu entfernen, wird die Oberseite der Stifth\u00fclle abgenommen. Auch hier wird lediglich die Hand eingesetzt, ohne zus\u00e4tzliches Werkzeug.",
+            "text": "Entnehmen Sie die obere Stifth\u00fclle. Dies wird ebenfalls mit der Hand gemacht, ohne Verwendung von weiteren Werkzeugen. Die Teile umfassen die Stifth\u00fclle und die Miene.",
             "picture_time": 14.44,
-            "start_time": 2.48,
-            "end_time": 9.9
+            "start_time": 9.9,
+            "end_time": 11.26
         },
         {
             "step": 3,
-            "text": "Miene in Stifth\u00fclle einf\u00fchren. Nachdem die Miene entnommen wurde, wird sie nun wieder in die Stifth\u00fclle eingef\u00fchrt. Hierbei wird wieder nur die Hand verwendet.",
+            "text": "F\u00fchren Sie die Miene in die Stifth\u00fclle ein. Hierbei wird die Miene von Hand in die Stifth\u00fclle geschoben.",
             "picture_time": 22.48,
-            "start_time": 9.9,
+            "start_time": 19.96,
             "end_time": 20.68
         },
         {
             "step": 4,
-            "text": "Feder entnehmen. Als n\u00e4chstes wird die Feder des Stiftes entfernt. Auch hier kommt nur die Hand zum Einsatz und es sind keine Werkzeuge notwendig.",
+            "text": "Entnehmen Sie die Feder vom Stift. Dies erfordert, dass die Feder abgenommen wird, was mit der Hand erfolgt. Die Teile, die hier verwendet werden, sind die Feder und die Stifth\u00fclle.",
             "picture_time": 28.28,
-            "start_time": 20.68,
-            "end_time": 25.04
+            "start_time": 25.04,
+            "end_time": 26.06
         },
         {
             "step": 5,
-            "text": "Feder auf Miene stecken. Die entnommene Feder wird nun auf die Miene gesteckt, was ebenfalls keine speziellen Werkzeuge erfordert. Es wird nur mit der Hand gearbeitet.",
+            "text": "Stecken Sie die Feder auf die Miene. Dies geschieht ebenfalls per Hand, ohne Werkzeuge.",
             "picture_time": 33.98,
-            "start_time": 25.04,
-            "end_time": 30.3
+            "start_time": 30.3,
+            "end_time": 31.94
         },
         {
             "step": 6,
-            "text": "Stifth\u00fclle unten entnehmen. Hierbei wird die Unterseite der Stifth\u00fclle abgenommen, um weitere Teile des Stiftes zu erreichen. Dies geschieht ohne Werkzeuge, nur mit der Hand.",
+            "text": "Entnehmen Sie die untere Stifth\u00fclle. Diese Bewegung erfolgt mit der Hand, ohne zus\u00e4tzliche Werkzeuge. Die Teile sind die untere Stifth\u00fclle und die Feder.",
             "picture_time": 38.4,
-            "start_time": 30.3,
-            "end_time": 36.62
+            "start_time": 36.62,
+            "end_time": 37.12
         },
         {
             "step": 7,
-            "text": "Stifth\u00fclle auf Stifth\u00fclle schrauben. In diesem Schritt werden die beiden Teile der Stifth\u00fclle miteinander verschraubt. Hierzu k\u00f6nnte eventuell ein kleines Werkzeug wie ein Schraubendreher verwendet werden, was aber nicht ausdr\u00fccklich erw\u00e4hnt wird.",
+            "text": "Schrauben Sie die obere Stifth\u00fclle auf die untere Stifth\u00fclle. Dies erfolgt von Hand und benutzt keine anderen Werkzeuge, nur die Stifth\u00fcllen werden ben\u00f6tigt.",
             "picture_time": 49.0,
-            "start_time": 36.62,
-            "end_time": 45.98
+            "start_time": 45.24,
+            "end_time": 47.16
         },
         {
             "step": 8,
-            "text": "Funktionstest. Der Stift wird getestet, um sicherzustellen, dass alles korrekt montiert ist. Hier sind keine Werkzeuge notwendig; es wird nur das Testen der Funktionalit\u00e4t durchgef\u00fchrt.",
+            "text": "F\u00fchren Sie einen Funktionstest durch. Hier wird \u00fcberpr\u00fcft, ob der Stift funktioniert. Weitere Teile sind nicht erforderlich, nur der zusammengebaute Stift ist notwendig.",
             "picture_time": 54.64,
-            "start_time": 45.98,
+            "start_time": 51.36,
             "end_time": 52.34
         },
         {
             "step": 9,
-            "text": "Fertig. Der gesamte Prozess wird hier als abgeschlossen erkl\u00e4rt. Es sind erneut keine spezifischen Werkzeuge erforderlich. Dieser Schritt schlie\u00dft die Operation ab.",
+            "text": "Das Zusammensetzen des Stifts ist nun fertig. Es wird gepr\u00fcft, ob alles korrekt zusammengef\u00fcgt wurde und der Stift einsatzbereit ist. Es sind keine zus\u00e4tzlichen Teile n\u00f6tig, au\u00dfer die bereits verwendeten Teile.",
             "picture_time": null,
-            "start_time": 52.34,
-            "end_time": 57.38
+            "start_time": 57.38,
+            "end_time": 60.09
         }
     ]
 }

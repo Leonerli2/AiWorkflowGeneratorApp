@@ -1,0 +1,1581 @@
+{
+    "shapes": [
+        {
+            "key": "0",
+            "customData": {
+                "name": "Start"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "start",
+            "text": "Start",
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "1",
+            "dataKey": null,
+            "customData": {
+                "name": "Kameraaktivierung und Pumpengeh\u00e4useentnahme",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Aktiviere die Kamera und entnehme das Pumpengeh\u00e4use.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Kameraaktivierung und Pumpengeh\u00e4useentnahme",
+            "x": 500,
+            "y": 3000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "2",
+            "dataKey": null,
+            "customData": {
+                "name": "Pumpengeh\u00e4use einlegen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Das Pumpengeh\u00e4use wird sicher in die vorgesehene Halterung eingelegt, um die nachfolgenden Arbeitsschritte zu erm\u00f6glichen.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Pumpengeh\u00e4use einlegen",
+            "x": 500,
+            "y": 6000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "3",
+            "dataKey": null,
+            "customData": {
+                "name": "Zylinder entnehmen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Entnehmen Sie den Zylinder sorgf\u00e4ltig aus dem Pumpengeh\u00e4use. Achten Sie darauf, die Bauteile nicht zu besch\u00e4digen.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Zylinder entnehmen",
+            "x": 500,
+            "y": 9000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "4",
+            "dataKey": null,
+            "customData": {
+                "name": "Zylinder einlegen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Der Zylinder wird in die daf\u00fcr vorgesehene Halterung eingelegt.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Zylinder einlegen",
+            "x": 500,
+            "y": 12000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "5",
+            "dataKey": null,
+            "customData": {
+                "name": "Pumpengeh\u00e4use erneut entnehmen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Das Pumpengeh\u00e4use wird ein weiteres Mal aus der Vorrichtung entnommen.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Pumpengeh\u00e4use erneut entnehmen",
+            "x": 500,
+            "y": 15000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "6",
+            "dataKey": null,
+            "customData": {
+                "name": "Pumpengeh\u00e4use Positionierung",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Positioniere das Pumpengeh\u00e4use sorgf\u00e4ltig an der vorgesehenen Stelle, um den n\u00e4chsten Arbeitsschritt vorzubereiten.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Pumpengeh\u00e4use Positionierung",
+            "x": 500,
+            "y": 18000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "7",
+            "dataKey": null,
+            "customData": {
+                "name": "Drei Schrauben entnehmen",
+                "task": "Pick_to_Light",
+                "description": "<p style=\"text-align: center;\">Entnehmen Sie drei Schrauben aus dem vorgesehenen Beh\u00e4lter.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "ddb791b5-7395-4f13-883d-2f3efb05d1ba",
+            "text": "Drei Schrauben entnehmen",
+            "x": 500,
+            "y": 21000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "8",
+            "dataKey": null,
+            "customData": {
+                "name": "Schrauben ansetzen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Setze die Schrauben an der vorgesehenen Stelle an.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Schrauben ansetzen",
+            "x": 500,
+            "y": 24000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "9",
+            "dataKey": null,
+            "customData": {
+                "name": "Schrauben mit Smart Tool anziehen",
+                "task": "Tightening",
+                "description": "<p style=\"text-align: center;\">Ziehen Sie die Schrauben mit einem Smart Tool fest an, um sicherzustellen, dass sie ordnungsgem\u00e4\u00df montiert sind.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "083deae0-2901-4956-8322-7b75a55ce30b",
+            "text": "Schrauben mit Smart Tool anziehen",
+            "x": 500,
+            "y": 27000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "10",
+            "dataKey": null,
+            "customData": {
+                "name": "Drei Schrauben erneut entnehmen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Anweisung zum erneuten Entnehmen von drei Schrauben.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Drei Schrauben erneut entnehmen",
+            "x": 500,
+            "y": 30000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "11",
+            "dataKey": null,
+            "customData": {
+                "name": "Schrauben ansetzen mit Smart Tool",
+                "task": "Tightening",
+                "description": "<p style=\"text-align: center;\">Die Schrauben werden pr\u00e4zise mit einem Smart Tool angesetzt, um eine korrekte Fixierung zu gew\u00e4hrleisten.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "083deae0-2901-4956-8322-7b75a55ce30b",
+            "text": "Schrauben ansetzen mit Smart Tool",
+            "x": 500,
+            "y": 33000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "12",
+            "dataKey": null,
+            "customData": {
+                "name": "Mitnehmerscheibe entnehmen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Entnehmen Sie die Mitnehmerscheibe vorsichtig aus dem Ger\u00e4t.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Mitnehmerscheibe entnehmen",
+            "x": 500,
+            "y": 36000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "13",
+            "dataKey": null,
+            "customData": {
+                "name": "Mitnehmerscheibe einlegen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Legen Sie die Mitnehmerscheibe in die vorgesehene Position ein, um die Montage fortzusetzen.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Mitnehmerscheibe einlegen",
+            "x": 500,
+            "y": 39000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "14",
+            "dataKey": null,
+            "customData": {
+                "name": "Lochplatte entnehmen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Entnehmen Sie die Lochplatte vorsichtig aus der Halterung.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Lochplatte entnehmen",
+            "x": 500,
+            "y": 42000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "15",
+            "dataKey": null,
+            "customData": {
+                "name": "Lochplatte einlegen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Die Lochplatte wird in den vorgesehenen Platz eingelegt, um den Montageprozess fortzusetzen.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Lochplatte einlegen",
+            "x": 500,
+            "y": 45000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "16",
+            "dataKey": null,
+            "customData": {
+                "name": "Pumpengeh\u00e4usedeckel entnehmen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Der Pumpengeh\u00e4usedeckel wird vorsichtig entnommen, um den Montage- oder Reparaturprozess fortzusetzen.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Pumpengeh\u00e4usedeckel entnehmen",
+            "x": 500,
+            "y": 48000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "17",
+            "dataKey": null,
+            "customData": {
+                "name": "Pumpengeh\u00e4usedeckel positionieren",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Positioniere das Pumpengeh\u00e4usedeckel korrekt auf dem Pumpengeh\u00e4use.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Pumpengeh\u00e4usedeckel positionieren",
+            "x": 500,
+            "y": 51000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "18",
+            "dataKey": null,
+            "customData": {
+                "name": "F\u00fcnf Schrauben entnehmen",
+                "task": "Pick_to_Light",
+                "description": "<p style=\"text-align: center;\">Nehmen Sie f\u00fcnf Schrauben aus dem Beh\u00e4lter.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "ddb791b5-7395-4f13-883d-2f3efb05d1ba",
+            "text": "F\u00fcnf Schrauben entnehmen",
+            "x": 500,
+            "y": 54000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "19",
+            "dataKey": null,
+            "customData": {
+                "name": "Schrauben ansetzen",
+                "task": "Tightening",
+                "description": "<p style=\"text-align: center;\">Setzen Sie die Schrauben an den vorgesehenen Stellen an, um die Teile zu fixieren.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "083deae0-2901-4956-8322-7b75a55ce30b",
+            "text": "Schrauben ansetzen",
+            "x": 500,
+            "y": 57000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "20",
+            "dataKey": null,
+            "customData": {
+                "name": "Deckel verschrauben",
+                "task": "Tightening",
+                "description": "<p style=\"text-align: center;\">Der Deckel wird mit dem Smart Tool festgeschraubt, um eine sichere Verbindung zu gew\u00e4hrleisten.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "083deae0-2901-4956-8322-7b75a55ce30b",
+            "text": "Deckel verschrauben",
+            "x": 500,
+            "y": 60000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "21",
+            "dataKey": null,
+            "customData": {
+                "name": "Pr\u00fcfung der Anschl\u00fcsse",
+                "task": "ChecklistItem",
+                "description": "<p style=\"text-align: center;\">\u00dcberpr\u00fcfen, ob die Anschl\u00fcsse sauber sind und keine Sch\u00e4den aufweisen. F\u00fchren Sie den Wertvergleich durch und wiederholen Sie den Test bei Bedarf.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "545c8959-7452-4f8e-8dcf-e098912f5082",
+            "text": "Pr\u00fcfung der Anschl\u00fcsse",
+            "x": 500,
+            "y": 63000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "22",
+            "dataKey": null,
+            "customData": {
+                "name": "Vorgang abschlie\u00dfen",
+                "task": "Manual",
+                "description": "<p style=\"text-align: center;\">Beenden Sie den Vorgang, indem Sie ein Fragezeichen setzen, um die Anleitung abzuschlie\u00dfen.</p>"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
+            "text": "Vorgang abschlie\u00dfen",
+            "x": 500,
+            "y": 66000,
+            "width": 300,
+            "height": 100
+        },
+        {
+            "key": "23",
+            "customData": {
+                "name": "End"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "type": "end",
+            "text": "End",
+            "x": 0,
+            "y": 69000,
+            "width": 300,
+            "height": 100
+        }
+    ],
+    "connectors": [
+        {
+            "key": "25",
+            "dataKey": "1",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 50
+                },
+                {
+                    "x": 650,
+                    "y": 3050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 50,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 3050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "0",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "1",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "26",
+            "dataKey": "2",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 3050
+                },
+                {
+                    "x": 650,
+                    "y": 6050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 3050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 6050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "1",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "2",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "27",
+            "dataKey": "3",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 6050
+                },
+                {
+                    "x": 650,
+                    "y": 9050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 6050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 9050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "2",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "3",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "28",
+            "dataKey": "4",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 9050
+                },
+                {
+                    "x": 650,
+                    "y": 12050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 9050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 12050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "3",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "4",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "29",
+            "dataKey": "5",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 12050
+                },
+                {
+                    "x": 650,
+                    "y": 15050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 12050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 15050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "4",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "5",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "30",
+            "dataKey": "6",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 15050
+                },
+                {
+                    "x": 650,
+                    "y": 18050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 15050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 18050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "5",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "6",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "31",
+            "dataKey": "7",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 18050
+                },
+                {
+                    "x": 650,
+                    "y": 21050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 18050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 21050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "6",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "7",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "32",
+            "dataKey": "8",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 21050
+                },
+                {
+                    "x": 650,
+                    "y": 24050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 21050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 24050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "7",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "8",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "33",
+            "dataKey": "9",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 24050
+                },
+                {
+                    "x": 650,
+                    "y": 27050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 24050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 27050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "8",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "9",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "34",
+            "dataKey": "10",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 27050
+                },
+                {
+                    "x": 650,
+                    "y": 30050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 27050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 30050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "9",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "10",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "35",
+            "dataKey": "11",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 30050
+                },
+                {
+                    "x": 650,
+                    "y": 33050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 30050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 33050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "10",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "11",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "36",
+            "dataKey": "12",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 33050
+                },
+                {
+                    "x": 650,
+                    "y": 36050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 33050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 36050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "11",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "12",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "37",
+            "dataKey": "13",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 36050
+                },
+                {
+                    "x": 650,
+                    "y": 39050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 36050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 39050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "12",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "13",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "38",
+            "dataKey": "14",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 39050
+                },
+                {
+                    "x": 650,
+                    "y": 42050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 39050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 42050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "13",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "14",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "39",
+            "dataKey": "15",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 42050
+                },
+                {
+                    "x": 650,
+                    "y": 45050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 42050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 45050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "14",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "15",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "40",
+            "dataKey": "16",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 45050
+                },
+                {
+                    "x": 650,
+                    "y": 48050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 45050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 48050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "15",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "16",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "41",
+            "dataKey": "17",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 48050
+                },
+                {
+                    "x": 650,
+                    "y": 51050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 48050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 51050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "16",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "17",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "42",
+            "dataKey": "18",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 51050
+                },
+                {
+                    "x": 650,
+                    "y": 54050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 51050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 54050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "17",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "18",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "43",
+            "dataKey": "19",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 54050
+                },
+                {
+                    "x": 650,
+                    "y": 57050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 54050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 57050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "18",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "19",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "44",
+            "dataKey": "20",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 57050
+                },
+                {
+                    "x": 650,
+                    "y": 60050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 57050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 60050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "19",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "20",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "45",
+            "dataKey": "21",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 60050
+                },
+                {
+                    "x": 650,
+                    "y": 63050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 60050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 63050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "20",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "21",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "46",
+            "dataKey": "22",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 63050
+                },
+                {
+                    "x": 650,
+                    "y": 66050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 63050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 66050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "21",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "22",
+            "endConnectionPointIndex": 0
+        },
+        {
+            "key": "47",
+            "dataKey": "23",
+            "customData": {
+                "sourceOutcome": "OK",
+                "translationKey": "OK"
+            },
+            "locked": false,
+            "zIndex": 0,
+            "points": [
+                {
+                    "x": 650,
+                    "y": 66050
+                },
+                {
+                    "x": 650,
+                    "y": 69050
+                }
+            ],
+            "texts": {
+                "0.5": "OK"
+            },
+            "properties": {
+                "endLineEnding": 3
+            },
+            "style": {
+                "stroke": "#707070",
+                "stroke-width": "1"
+            },
+            "context": {
+                "actualRoutingMode": 0,
+                "renderPoints": [
+                    {
+                        "x": 650,
+                        "y": 66050,
+                        "pointIndex": 0,
+                        "skipped": false
+                    },
+                    {
+                        "x": 650,
+                        "y": 69050,
+                        "pointIndex": 1,
+                        "skipped": false
+                    }
+                ]
+            },
+            "beginItemKey": "22",
+            "beginConnectionPointIndex": 2,
+            "endItemKey": "23",
+            "endConnectionPointIndex": 0
+        }
+    ]
+}

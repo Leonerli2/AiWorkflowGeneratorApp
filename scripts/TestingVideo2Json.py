@@ -4,7 +4,7 @@ from json2json import *
 OPENAI_API_KEY = "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"
 
 
-video_nr = 51
+video_nr = 50
 
 path_handler = PathHandler(
     video_dir="data/input/videos",
@@ -17,28 +17,28 @@ path_handler = PathHandler(
     image_output_dir="data/output/images"
 )
 
-if True:
+if False:
     # Extract audio from the video
     video_path = path_handler.get_video_path(video_nr)
     audio_output = path_handler.get_audio_path(video_nr)
 
     extract_audio(video_path, audio_output)
 
-if True:
+if False:
     # Extract transcription with timestamps from the audio
     audio_file_path = path_handler.get_audio_path(video_nr)
     json_file_path = path_handler.get_transcription_with_timestamps_json_path(video_nr)
     
     audio_text_extraction_timestamps(audio_file_path, json_file_path)
 
-if True:
+if False:
     # Extract instructions from the video transcription with timestamps
     transcription_with_timestamps_json_path = path_handler.get_transcription_with_timestamps_json_path(video_nr)
     output_json_path = path_handler.get_instructions_with_timestamps_json_path(video_nr)
 
     instructions = video_transcription_with_timestamps_json_2_instructions_with_timestamps_json(transcription_with_timestamps_json_path, output_json_path)
 
-if True:
+if False:
     # Extract frames from the video
     video_path = path_handler.get_video_path(video_nr)
     instructions_json_path = path_handler.get_instructions_with_timestamps_json_path(video_nr)
@@ -46,7 +46,7 @@ if True:
 
     extract_frames(video_nr, video_path, instructions_json_path, output_dir)
 
-if True:
+if False:
     # Convert the instructions JSON to a basic instruction JSON
     instructions_with_timestamps_json_path = path_handler.get_instructions_with_timestamps_json_path(video_nr)
     output_json_path = path_handler.get_instructions_basic_json_path(video_nr)
@@ -60,3 +60,10 @@ if True:
     output_json_path = path_handler.get_instructions_advanced_json_path(video_nr)
 
     instruction_basic_json_2_instruction_advanced_json(instructions_basic_json_path, output_json_path)
+
+if True:
+    # Bring into ELAM format
+    instructions_advanced_json_path = path_handler.get_instructions_advanced_json_path(video_nr)
+    output_json_path = path_handler.get_elam_json_path(video_nr)
+
+    instruction_advanced_json_2_elam_flowchart_json(instructions_advanced_json_path, output_json_path)

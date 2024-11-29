@@ -1,59 +1,66 @@
 [
     {
         "id": 1,
-        "name": "Miene entnehmen",
+        "name": "Entnahme der Miene aus dem Stift",
         "task": "Manual",
-        "description": "Entfernen Sie die Miene des Stiftes, indem Sie einfach mit der Hand den Teil des Stiftes abnehmen. Es sind keine speziellen Werkzeuge erforderlich.",
+        "description": "Entnehmen Sie die Miene aus dem Stift, indem Sie dies mit der Hand tun. Werkzeuge sind daf\u00fcr nicht erforderlich. Es wird keine spezifische Anzahl an Teilen ben\u00f6tigt, au\u00dfer der Miene selbst.",
         "image_uri": "data/output/images/video50/instruction50_1.jpg"
     },
     {
         "id": 2,
-        "name": "Stifth\u00fclle Entnehmen",
+        "name": "Obere Stifth\u00fclle entnehmen",
         "task": "Manual",
-        "description": "Um die Miene zu entfernen, die Oberseite der Stifth\u00fclle abnehmen. Dies geschieht ausschlie\u00dflich mit der Hand, ohne zus\u00e4tzliches Werkzeug.",
+        "description": "Entnehmen Sie die obere Stifth\u00fclle vorsichtig mit der Hand, ohne Werkzeuge zu verwenden. Die Komponenten, die dabei verwendet werden, sind die Stifth\u00fclle und die Miene.",
         "image_uri": "data/output/images/video50/instruction50_2.jpg"
     },
     {
-        "id": 3,
-        "name": "Miene in Stifth\u00fclle einf\u00fchren",
+        "id": 1,
+        "name": "Miene in die Stifth\u00fclle einf\u00fchren",
         "task": "Manual",
-        "description": "Setzen Sie die Miene wieder in die Stifth\u00fclle ein, nachdem sie entnommen wurde. Verwenden Sie lediglich Ihre Hand, um diesen Vorgang durchzuf\u00fchren.",
+        "description": "F\u00fchren Sie die Miene vorsichtig in die Stifth\u00fclle ein, indem Sie sie von Hand hinein schieben. Achten Sie darauf, die Miene gerade und ohne Kraftaufwand einzuf\u00fchren, um Besch\u00e4digungen zu vermeiden.",
         "image_uri": "data/output/images/video50/instruction50_3.jpg"
     },
     {
         "id": 4,
-        "name": "Feder entnehmen",
+        "name": "Feder vom Stift entnehmen",
         "task": "Manual",
-        "description": "Entnehmen Sie die Feder des Stiftes. In diesem Schritt verwenden Sie ausschlie\u00dflich Ihre H\u00e4nde, es sind keine Werkzeuge erforderlich.",
+        "description": "Um die Feder vom Stift zu entnehmen, greifen Sie die Feder mit der Hand und ziehen Sie sie vorsichtig ab. Achten Sie darauf, die Stifth\u00fclle dabei nicht zu besch\u00e4digen. Sie ben\u00f6tigen keine speziellen Werkzeuge, nur Ihre H\u00e4nde.",
         "image_uri": "data/output/images/video50/instruction50_4.jpg"
     },
     {
         "id": 5,
         "name": "Feder auf Miene stecken",
         "task": "Manual",
-        "description": "Stecken Sie die entnommene Feder auf die Miene. Dieser Schritt erfordert keine speziellen Werkzeuge und wird vollst\u00e4ndig mit der Hand ausgef\u00fchrt.",
+        "description": "Legen Sie die Feder auf die Miene. Dieser Schritt erfolgt von Hand, ohne den Einsatz von Werkzeugen.",
         "image_uri": "data/output/images/video50/instruction50_5.jpg"
     },
     {
         "id": 6,
-        "name": "Stifth\u00fclle unten entnehmen",
+        "name": "Entnahme der unteren Stifth\u00fclle",
         "task": "Manual",
-        "description": "Entnehmen Sie die Unterseite der Stifth\u00fclle, um Zugang zu weiteren Teilen des Stiftes zu erhalten. Dieser Schritt erfolgt ohne Werkzeug, lediglich mit der Hand.",
+        "description": "Entnehmen Sie die untere Stifth\u00fclle mit der Hand, ohne zus\u00e4tzliche Werkzeuge. Die Teile, die hierbei verwendet werden, sind die untere Stifth\u00fclle und die Feder.",
         "image_uri": "data/output/images/video50/instruction50_6.jpg"
     },
     {
         "id": 7,
-        "name": "Stifth\u00fclle verschrauben",
-        "task": "Tightening",
-        "description": "In diesem Schritt werden die beiden Teile der Stifth\u00fclle miteinander verschraubt. Ein kleines Werkzeug wie ein Schraubendreher kann verwendet werden, um die Verbindung zu sichern.",
-        "image_uri": "data/output/images/video50/instruction50_7.jpg",
-        "count": 2,
-        "program": 1
+        "name": "Stifth\u00fcllen zusammensetzen",
+        "task": "Manual",
+        "description": "Schrauben Sie die obere Stifth\u00fclle sorgf\u00e4ltig auf die untere Stifth\u00fclle. Dieser Arbeitsschritt erfolgt manuell, ohne die Verwendung von zus\u00e4tzlichen Werkzeugen. Es sind lediglich die beiden Stifth\u00fcllen erforderlich.",
+        "image_uri": "data/output/images/video50/instruction50_7.jpg"
     },
     {
+        "id": 8,
+        "name": "Funktionstest f\u00fcr den Stift",
+        "task": "Info",
+        "description": "F\u00fchren Sie einen Funktionstest durch, um sicherzustellen, dass der Stift ordnungsgem\u00e4\u00df funktioniert. Nur der zusammengebaute Stift ist f\u00fcr diesen Test erforderlich; es sind keine weiteren Teile notwendig.",
+        "image_uri": "data/output/images/video50/instruction50_8.jpg",
         "durationgui": 0
     },
     {
-        "durationgui": 0
+        "id": 9,
+        "name": "Pr\u00fcfung der Stiftmontage",
+        "task": "Manual",
+        "description": "Nachdem der Stift zusammengesetzt wurde, \u00fcberpr\u00fcfen Sie sorgf\u00e4ltig, ob alle Teile korrekt montiert sind und der Stift einsatzbereit ist. Es sind keine zus\u00e4tzlichen Teile erforderlich, au\u00dfer den bereits verwendeten Komponenten.",
+        "image_uri": "data/output/images/video50/instruction50_9.jpg"
     }
 ]
