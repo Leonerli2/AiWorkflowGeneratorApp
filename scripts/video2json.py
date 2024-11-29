@@ -8,120 +8,6 @@ from moviepy import VideoFileClip
 
 OPENAI_API_KEY = "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"
 
-def video2json_structured_openai_api_call(transcription_with_timestamps):
-    """
-      Args:
-        img (PIL.Image.Image): The image to be processed.
-         system_prompt (str): The system prompt to guide the model's response.
-      Returns:
-           List[InstructionStep]: A list of parsed instructions extracted from the image, each containing:
-                - step (int): The step number.
-                 - text (str): The instruction text.
-                  - picture (bool): Whether a picture is associated with the step.
-                   - picture_description (str): Description of the picture if applicable.
-            - picture (bool): Whether a picture is associated with the step.
-            - picture_description (str): Description of the picture if applicable.
-    """
-    client = OpenAI(api_key=OPENAI_API_KEY)
-
-    system_prompt = "Sie sind ein Assistent, der Videotranskriptionsdaten verarbeitet, die in Anweisungen im JSON-Format umgewandelt werden sollen."
-    user_prompt = f"""Sie haben eine Transkriptions-JSON mit einer kompletten Arbeitsanweisung, die jeweils Zeitstempel und gesprochenen Text enthalten, welcher mithilfe von whisper von einem Video extrahiert wurde.
-        Bitte extrahiren sie jeden einzelnen Schritt der Arbeitsanweisung und führen sie die folgenden Schritte aus:
-        1. Welche Art von Anweisung ist es? Es soll aus einer der folgenden Klassennamen gewählt werden: Manual, Scan, Tightening, Rivet, Smartlabel, Pick_to_Light, SmartTower, Info, ChecklistItem und in das Feld "type" eingetragen werden.
-        2. Extrahieren Sie die Beschreibung des Arbeitsschritts. -> welcher dan in die jeweilige Anweisung unter "description" eingetragen wird.
-        3. Einen Titel für die art der Anweisung erstellen -> welcher dan in die jeweilige Anweisung unter "name" eingetragen wird.
-        3. Einen Titel für die Anweisung erstellen -> welcher dan in die jeweilige Anweisung unter "task" eingetragen wird.
-        2. Überprüfen Sie, ob das Wort "Foto" im Text erwähnt wird:
-        - Falls "Foto" erscheint, notieren Sie den Zeitstempel, an dem es erstmals in diesem Arbeitsschritt erwähnt wird.
-        - Falls "Foto" nicht erwähnt wird, setzen Sie dieses Feld auf null.
-        3. Geben Sie jede Arbeitsanweisung zurück mit:
-        - Zeitstempeln für Beginn und Ende der jeweiligen Anweisung, welche in den Feldern "task_start_time" und "task_end_time" eingetragen werden.
-        - Erstelle einen separaten Eintrag für den "Foto"-Zeitstempel, welcher auch null sein kann und schreibe es in das Feld "image_frame_time".
-
-        Hier ist die zu analysierende Transkriptions-JSON:
-        {transcription_with_timestamps}
-        """
-
-    # Define the JSON structure for the separate instruction blocks of ELAM
-    class BaseTask(BaseModel):
-        name: str
-        task: str
-        description: str
-        image_frame_time: float
-        task_start_time: float
-        task_end_time: float
-
-    class Manual(BaseTask):
-        pass
-
-    class Scan(BaseTask):
-        pass
-
-    class Tightening(BaseTask):
-        count: int
-        program: int
-
-    class Rivet(BaseTask):
-        count: int
-        program: int
-
-    class Smartlabel(BaseTask):
-        duretiongui: int
-        targetnumber: int
-
-    class Pick_to_Light(BaseTask):
-        count: int
-
-    class SmartTower(BaseTask):
-        count: int
-
-    class Info(BaseModel):
-        durationgui: int
-
-    class Checklist(BaseTask):
-        checklist: List['ChecklistItem']
-
-    class ChecklistItem(BaseModel):
-        id: int
-        question: str
-        correctAnswer: str
-
-
-    class InstructionStep(BaseModel):
-        type: str
-        count: int
-        program: int
-        duretiongui: int
-        targetnumber: int
-        id: int
-        question: str
-        correctAnswer: str
-
-    class Instruction(BaseModel):
-        instructions: List[InstructionStep]
-
-    # Structured API call to extract instructions
-    completion = client.beta.chat.completions.parse(
-        model="gpt-4o-mini",
-        messages=[
-            {
-                "role": "system",
-                "content": system_prompt
-            },
-            {
-                "role": "user",
-                "content": user_prompt,
-            }
-        ],
-        response_format=Instruction,  # Parse into the defined schema
-    )
-
-    # Extract the parsed instructions
-    instructions = [choice.message.parsed for choice in completion.choices]
-
-    # Output the results as JSON
-    return instructions
-
 
 class PathHandler:
     def __init__(self, video_dir: str, audio_dir: str, transcription_with_timestamps_json_dir: str, instructions_with_timestamps_json_dir: str, instructions_basic_json_dir: str, image_output_dir: str):
@@ -351,7 +237,7 @@ def instructions_with_timestamps_json_2_basic_instruction_json(video_nr, instruc
 
 if __name__ == "__main__":
 
-    video_nr = 50
+    video_nr = 51
 
     path_handler = PathHandler(
         video_dir="data/input/videos",
@@ -362,28 +248,28 @@ if __name__ == "__main__":
         image_output_dir="data/output/images"
     )
 
-    if False:
+    if True:
         # Extract audio from the video
         video_path = path_handler.get_video_path(video_nr)
         audio_output = path_handler.get_audio_path(video_nr)
 
         extract_audio(video_path, audio_output)
 
-    if False:
+    if True:
         # Extract transcription with timestamps from the audio
         audio_file_path = path_handler.get_audio_path(video_nr)
         json_file_path = path_handler.get_transcription_with_timestamps_json_path(video_nr)
         
         audio_text_extraction_timestamps(audio_file_path, json_file_path)
 
-    if False:
+    if True:
         # Extract instructions from the video transcription with timestamps
         transcription_with_timestamps_json_path = path_handler.get_transcription_with_timestamps_json_path(video_nr)
         output_json_path = path_handler.get_instructions_with_timestamps_json_path(video_nr)
 
         instructions = video_transcription_with_timestamps_json_2_instructions_with_timestamps_json(transcription_with_timestamps_json_path, output_json_path)
 
-    if False:
+    if True:
         # Extract frames from the video
         video_path = path_handler.get_video_path(video_nr)
         instructions_json_path = path_handler.get_instructions_with_timestamps_json_path(video_nr)
