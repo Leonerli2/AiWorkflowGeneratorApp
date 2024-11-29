@@ -10,12 +10,14 @@ OPENAI_API_KEY = "sk-proj-uYDyuC5kIrDXpZSsLaIOm2XA7r9tKBd43OrUHHRwVgy-4LDx73eNJ3
 
 
 class PathHandler:
-    def __init__(self, video_dir: str, audio_dir: str, transcription_with_timestamps_json_dir: str, instructions_with_timestamps_json_dir: str, instructions_basic_json_dir: str, image_output_dir: str):
+    def __init__(self, video_dir: str, audio_dir: str, transcription_with_timestamps_json_dir: str, instructions_with_timestamps_json_dir: str, instructions_basic_json_dir: str, instructions_advanced_json_dir: str, elam_json_dir: str, image_output_dir: str):
         self.video_dir = video_dir
         self.audio_dir = audio_dir
         self.transcription_with_timestamps_json_dir = transcription_with_timestamps_json_dir
         self.instructions_with_timestamps_json_dir = instructions_with_timestamps_json_dir
         self.instructions_basic_json_dir = instructions_basic_json_dir
+        self.instructions_advanced_json_dir = instructions_advanced_json_dir
+        self.elam_json_dir = elam_json_dir
         self.image_output_dir = image_output_dir
 
     def get_video_path(self, video_nr):
@@ -32,6 +34,12 @@ class PathHandler:
     
     def get_instructions_basic_json_path(self, video_nr):
         return f"{self.instructions_basic_json_dir}/instructions_basic{video_nr}.json"
+    
+    def get_instructions_advanced_json_path(self, video_nr):
+        return f"{self.instructions_advanced_json_dir}/instructions_advanced{video_nr}.json"
+    
+    def get_elam_json_path(self, video_nr):
+        return f"{self.elam_json_dir}/elam{video_nr}.json"
     
     def get_image_output_dir(self, video_nr):
         return f"{self.image_output_dir}/video{video_nr}"
@@ -113,6 +121,7 @@ def video_transcription_with_timestamps_json_2_instructions_with_timestamps_json
     # Convert the message content to JSON and store it
     instructions_json = json.loads(response.choices[0].message.content)
     if save_instructions:
+        os.makedirs(os.path.dirname(output_json_path), exist_ok=True)
         with open(output_json_path, "w") as json_file:
             json.dump(instructions_json, json_file, indent=4)
         print(f"Instructions saved to {output_json_path}")
@@ -155,7 +164,7 @@ def extract_frames(video_nr, video_path, instructions_json_path, output_dir):
         ret, frame = cap.read()
 
         if ret:
-            # Save the frame as an image file
+            # Save the frame as an image file)
             output_path = f"{output_dir}/instructions{video_nr}/instruction{video_nr}_{idx+1}.jpg"
             # Create the output directory if it does not exist
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -179,6 +188,7 @@ def extract_audio(video_path, audio_output="speech.mp3"):
     audio = video.audio
     
     # Write the audio file
+    os.makedirs(os.path.dirname(audio_output), exist_ok=True)
     audio.write_audiofile(audio_output)
     print(f"Audio extracted successfully to {audio_output}")
     
@@ -202,6 +212,7 @@ def audio_text_extraction_timestamps(audio_file_path, json_file_path = "src/tran
     timestamp_granularities=["word"]
     )
     # Store the transcript data in a JSON file
+    os.makedirs(os.path.dirname(json_file_path), exist_ok=True)
     with open(json_file_path, "w") as json_file:
         json.dump(transcript.model_dump(), json_file, indent=4)
     
@@ -225,6 +236,7 @@ def instructions_with_timestamps_json_2_basic_instruction_json(video_nr, instruc
         instruction["image_uri"] = f"{images_dir}/instruction{video_nr}_{instruction['step']}.jpg"
 
     if save_instructions:
+        os.makedirs(os.path.dirname(output_json_path), exist_ok=True)
         with open(output_json_path, "w") as json_file:
             json.dump(instruction_output, json_file, indent=4)
         print(f"Instructions saved to {output_json_path}")
@@ -232,55 +244,3 @@ def instructions_with_timestamps_json_2_basic_instruction_json(video_nr, instruc
     print("Instructions extracted successfully!")
 
 
-
-
-
-if __name__ == "__main__":
-
-    video_nr = 51
-
-    path_handler = PathHandler(
-        video_dir="data/input/videos",
-        audio_dir="data/output/audio",
-        transcription_with_timestamps_json_dir="data/output/transcription_with_timestamps",
-        instructions_with_timestamps_json_dir="data/output/instructions_with_timestamps",
-        instructions_basic_json_dir="data/output/instructions_basic",
-        image_output_dir="data/output/images"
-    )
-
-    if True:
-        # Extract audio from the video
-        video_path = path_handler.get_video_path(video_nr)
-        audio_output = path_handler.get_audio_path(video_nr)
-
-        extract_audio(video_path, audio_output)
-
-    if True:
-        # Extract transcription with timestamps from the audio
-        audio_file_path = path_handler.get_audio_path(video_nr)
-        json_file_path = path_handler.get_transcription_with_timestamps_json_path(video_nr)
-        
-        audio_text_extraction_timestamps(audio_file_path, json_file_path)
-
-    if True:
-        # Extract instructions from the video transcription with timestamps
-        transcription_with_timestamps_json_path = path_handler.get_transcription_with_timestamps_json_path(video_nr)
-        output_json_path = path_handler.get_instructions_with_timestamps_json_path(video_nr)
-
-        instructions = video_transcription_with_timestamps_json_2_instructions_with_timestamps_json(transcription_with_timestamps_json_path, output_json_path)
-
-    if True:
-        # Extract frames from the video
-        video_path = path_handler.get_video_path(video_nr)
-        instructions_json_path = path_handler.get_instructions_with_timestamps_json_path(video_nr)
-        output_dir = path_handler.get_image_output_dir(video_nr)
-
-        extract_frames(video_nr, video_path, instructions_json_path, output_dir)
-
-    if True:
-        # Convert the instructions JSON to a basic instruction JSON
-        instructions_with_timestamps_json_path = path_handler.get_instructions_with_timestamps_json_path(video_nr)
-        output_json_path = path_handler.get_instructions_basic_json_path(video_nr)
-        images_dir = path_handler.get_image_output_dir(video_nr)
-
-        instructions_with_timestamps_json_2_basic_instruction_json(video_nr, instructions_with_timestamps_json_path, output_json_path, images_dir)

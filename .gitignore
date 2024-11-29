@@ -1,3 +1,5 @@
 .DS_Store
 Videos
 data/input/videos/*.mp4
+data/output/audio
+data/output/images

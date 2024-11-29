@@ -1,0 +1,49 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Miene entnehmen. Hier wird die Miene des Stiftes entnommen, was bedeutet, dass ein Teil des Stiftes entfernt wird. Keines der speziellen Werkzeuge ist hierbei erforderlich. Es wird nur die Hand ben\u00f6tigt.",
+            "image_uri": "data/output/images/video50/instruction50_1.jpg"
+        },
+        {
+            "step": 2,
+            "text": "Stifth\u00fclle oben entnehmen. Um die Miene zu entfernen, wird die Oberseite der Stifth\u00fclle abgenommen. Auch hier wird lediglich die Hand eingesetzt, ohne zus\u00e4tzliches Werkzeug.",
+            "image_uri": "data/output/images/video50/instruction50_2.jpg"
+        },
+        {
+            "step": 3,
+            "text": "Miene in Stifth\u00fclle einf\u00fchren. Nachdem die Miene entnommen wurde, wird sie nun wieder in die Stifth\u00fclle eingef\u00fchrt. Hierbei wird wieder nur die Hand verwendet.",
+            "image_uri": "data/output/images/video50/instruction50_3.jpg"
+        },
+        {
+            "step": 4,
+            "text": "Feder entnehmen. Als n\u00e4chstes wird die Feder des Stiftes entfernt. Auch hier kommt nur die Hand zum Einsatz und es sind keine Werkzeuge notwendig.",
+            "image_uri": "data/output/images/video50/instruction50_4.jpg"
+        },
+        {
+            "step": 5,
+            "text": "Feder auf Miene stecken. Die entnommene Feder wird nun auf die Miene gesteckt, was ebenfalls keine speziellen Werkzeuge erfordert. Es wird nur mit der Hand gearbeitet.",
+            "image_uri": "data/output/images/video50/instruction50_5.jpg"
+        },
+        {
+            "step": 6,
+            "text": "Stifth\u00fclle unten entnehmen. Hierbei wird die Unterseite der Stifth\u00fclle abgenommen, um weitere Teile des Stiftes zu erreichen. Dies geschieht ohne Werkzeuge, nur mit der Hand.",
+            "image_uri": "data/output/images/video50/instruction50_6.jpg"
+        },
+        {
+            "step": 7,
+            "text": "Stifth\u00fclle auf Stifth\u00fclle schrauben. In diesem Schritt werden die beiden Teile der Stifth\u00fclle miteinander verschraubt. Hierzu k\u00f6nnte eventuell ein kleines Werkzeug wie ein Schraubendreher verwendet werden, was aber nicht ausdr\u00fccklich erw\u00e4hnt wird.",
+            "image_uri": "data/output/images/video50/instruction50_7.jpg"
+        },
+        {
+            "step": 8,
+            "text": "Funktionstest. Der Stift wird getestet, um sicherzustellen, dass alles korrekt montiert ist. Hier sind keine Werkzeuge notwendig; es wird nur das Testen der Funktionalit\u00e4t durchgef\u00fchrt.",
+            "image_uri": "data/output/images/video50/instruction50_8.jpg"
+        },
+        {
+            "step": 9,
+            "text": "Fertig. Der gesamte Prozess wird hier als abgeschlossen erkl\u00e4rt. Es sind erneut keine spezifischen Werkzeuge erforderlich. Dieser Schritt schlie\u00dft die Operation ab.",
+            "image_uri": "data/output/images/video50/instruction50_9.jpg"
+        }
+    ]
+}

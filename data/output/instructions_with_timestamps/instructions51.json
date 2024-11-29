@@ -1,0 +1,158 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Die Kamera wird aktiviert und l\u00e4uft nun. Es wird das Pumpengeh\u00e4use entnommen.",
+            "picture_time": 11.76,
+            "start_time": 1.98,
+            "end_time": 4.78
+        },
+        {
+            "step": 2,
+            "text": "Das Pumpengeh\u00e4use wird eingelegt.",
+            "picture_time": 18.3,
+            "start_time": 12.7,
+            "end_time": 13.6
+        },
+        {
+            "step": 3,
+            "text": "Der Zylinder wird entnommen.",
+            "picture_time": 23.02,
+            "start_time": 21.3,
+            "end_time": 21.9
+        },
+        {
+            "step": 4,
+            "text": "Der Zylinder wird eingelegt.",
+            "picture_time": 29.92,
+            "start_time": 26.32,
+            "end_time": 27.02
+        },
+        {
+            "step": 5,
+            "text": "Das Pumpengeh\u00e4use wird erneut entnommen.",
+            "picture_time": 36.5,
+            "start_time": 31.64,
+            "end_time": 33.68
+        },
+        {
+            "step": 6,
+            "text": "Das Pumpengeh\u00e4use wird positioniert.",
+            "picture_time": 54.0,
+            "start_time": 46.32,
+            "end_time": 41.52
+        },
+        {
+            "step": 7,
+            "text": "Drei Schrauben werden entnommen.",
+            "picture_time": 59.8,
+            "start_time": 56.16,
+            "end_time": 57.26
+        },
+        {
+            "step": 8,
+            "text": "Die Schrauben werden angesetzt.",
+            "picture_time": 69.76,
+            "start_time": 61.92,
+            "end_time": 62.7
+        },
+        {
+            "step": 9,
+            "text": "Die Schrauben werden mit einem Smart Tool angezogen.",
+            "picture_time": 77.08,
+            "start_time": 75.4,
+            "end_time": 75.4
+        },
+        {
+            "step": 10,
+            "text": "Drei Schrauben werden erneut entnommen.",
+            "picture_time": 127.4,
+            "start_time": 127.4,
+            "end_time": 127.4
+        },
+        {
+            "step": 11,
+            "text": "Die Schrauben werden mit einem Smart Tool angesetzt.",
+            "picture_time": 127.54,
+            "start_time": 127.54,
+            "end_time": 127.54
+        },
+        {
+            "step": 12,
+            "text": "Die Mitnehmerscheibe wird entnommen.",
+            "picture_time": 131.66,
+            "start_time": 128.58,
+            "end_time": 130.0
+        },
+        {
+            "step": 13,
+            "text": "Die Mitnehmerscheibe wird eingelegt.",
+            "picture_time": 137.64,
+            "start_time": 134.14,
+            "end_time": 135.24
+        },
+        {
+            "step": 14,
+            "text": "Die Lochplatte wird entnommen.",
+            "picture_time": 141.78,
+            "start_time": 138.84,
+            "end_time": 139.66
+        },
+        {
+            "step": 15,
+            "text": "Die Lochplatte wird eingelegt.",
+            "picture_time": 145.78,
+            "start_time": 144.2,
+            "end_time": 144.84
+        },
+        {
+            "step": 16,
+            "text": "Das Pumpengeh\u00e4usedeckel wird entnommen.",
+            "picture_time": 155.0,
+            "start_time": 150.66,
+            "end_time": 152.96
+        },
+        {
+            "step": 17,
+            "text": "Das Pumpengeh\u00e4usedeckel wird positioniert.",
+            "picture_time": 160.96,
+            "start_time": 157.62,
+            "end_time": 159.08
+        },
+        {
+            "step": 18,
+            "text": "F\u00fcnf Schrauben werden entnommen.",
+            "picture_time": 166.76,
+            "start_time": 163.92,
+            "end_time": 164.24
+        },
+        {
+            "step": 19,
+            "text": "Die Schrauben werden angesetzt.",
+            "picture_time": 169.82,
+            "start_time": 168.94,
+            "end_time": 168.94
+        },
+        {
+            "step": 20,
+            "text": "Der Deckel wird verschraubt mit dem Smart Tool.",
+            "picture_time": 185.54,
+            "start_time": 181.42,
+            "end_time": 182.86
+        },
+        {
+            "step": 21,
+            "text": "Eine Pr\u00fcfung findet statt, ob die Anschl\u00fcsse sauber sind und ob irgendwelche Sch\u00e4den vorhanden sind. Der Wertvergleich wird eingegeben und der Test wird wiederholt.",
+            "picture_time": null,
+            "start_time": 238.14,
+            "end_time": 257.94
+        },
+        {
+            "step": 22,
+            "text": "Der Vorgang wird mit einem Fragezeichen abgeschlossen.",
+            "picture_time": null,
+            "start_time": 255.5,
+            "end_time": 257.94
+        }
+    ]
+}

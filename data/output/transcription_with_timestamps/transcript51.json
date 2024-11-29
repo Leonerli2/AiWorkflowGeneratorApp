@@ -1,0 +1,474 @@
+{
+    "duration": 262.05999755859375,
+    "language": "german",
+    "text": "Also Kamera l\u00e4uft, Entnahme Pumpengeh\u00e4use, Foto, Pumpengeh\u00e4use einlegen, Foto, Entnahme Zylinder, Foto, Zylinder einlegen, Foto, Entnahme Pumpengeh\u00e4use, Foto, Pumpengeh\u00e4use positionieren, Foto, Entnahme Schrauben dreimal, Foto, Schrauben ansetzen, Foto, Schrauben mit Smart Tool anziehen. Foto, Entnahme Schrauben dreimal, Foto, Entnahme Schrauben mit Smart Tool ansetzen, Foto, Entnahme Mitnehmerscheibe, Foto, Einlegen Mitnehmerscheibe, Foto, Entnahme Lochplatte, Foto, Einlegen Lochplatte, Foto, Entnahme Pumpengeh\u00e4usedecke, Foto, positionieren Pumpengeh\u00e4usedecke, Foto, Entnahme Schraube f\u00fcnf mal, Foto, Schrauben ansetzen, Foto, Deckel verschrauben mit Smart Tool, Foto, Pr\u00fcfung, sind die Anschl\u00fcsse sauber, sind welche Sch\u00e4den vorhanden, Wertvergleich eingeben, Test wiederholen, Fragezeichen, fertig, Foto.",
+    "segments": null,
+    "words": [
+        {
+            "end": 3.380000114440918,
+            "start": 1.9800000190734863,
+            "word": "Also"
+        },
+        {
+            "end": 4.78000020980835,
+            "start": 3.380000114440918,
+            "word": "Kamera"
+        },
+        {
+            "end": 6.079999923706055,
+            "start": 4.78000020980835,
+            "word": "l\u00e4uft"
+        },
+        {
+            "end": 7.119999885559082,
+            "start": 7.119999885559082,
+            "word": "Entnahme"
+        },
+        {
+            "end": 8.380000114440918,
+            "start": 7.119999885559082,
+            "word": "Pumpengeh\u00e4use"
+        },
+        {
+            "end": 11.760000228881836,
+            "start": 9.920000076293945,
+            "word": "Foto"
+        },
+        {
+            "end": 13.600000381469727,
+            "start": 12.699999809265137,
+            "word": "Pumpengeh\u00e4use"
+        },
+        {
+            "end": 14.619999885559082,
+            "start": 13.600000381469727,
+            "word": "einlegen"
+        },
+        {
+            "end": 18.299999237060547,
+            "start": 17.299999237060547,
+            "word": "Foto"
+        },
+        {
+            "end": 21.299999237060547,
+            "start": 21.299999237060547,
+            "word": "Entnahme"
+        },
+        {
+            "end": 21.899999618530273,
+            "start": 21.299999237060547,
+            "word": "Zylinder"
+        },
+        {
+            "end": 23.020000457763672,
+            "start": 22.760000228881836,
+            "word": "Foto"
+        },
+        {
+            "end": 26.31999969482422,
+            "start": 24.6200008392334,
+            "word": "Zylinder"
+        },
+        {
+            "end": 27.020000457763672,
+            "start": 26.31999969482422,
+            "word": "einlegen"
+        },
+        {
+            "end": 29.920000076293945,
+            "start": 28.280000686645508,
+            "word": "Foto"
+        },
+        {
+            "end": 31.639999389648438,
+            "start": 31.639999389648438,
+            "word": "Entnahme"
+        },
+        {
+            "end": 33.68000030517578,
+            "start": 31.639999389648438,
+            "word": "Pumpengeh\u00e4use"
+        },
+        {
+            "end": 36.5,
+            "start": 36.31999969482422,
+            "word": "Foto"
+        },
+        {
+            "end": 41.52000045776367,
+            "start": 40.939998626708984,
+            "word": "Pumpengeh\u00e4use"
+        },
+        {
+            "end": 46.31999969482422,
+            "start": 44.91999816894531,
+            "word": "positionieren"
+        },
+        {
+            "end": 54.0,
+            "start": 54.0,
+            "word": "Foto"
+        },
+        {
+            "end": 55.560001373291016,
+            "start": 55.15999984741211,
+            "word": "Entnahme"
+        },
+        {
+            "end": 56.15999984741211,
+            "start": 55.560001373291016,
+            "word": "Schrauben"
+        },
+        {
+            "end": 57.2599983215332,
+            "start": 56.15999984741211,
+            "word": "dreimal"
+        },
+        {
+            "end": 59.79999923706055,
+            "start": 58.779998779296875,
+            "word": "Foto"
+        },
+        {
+            "end": 61.91999816894531,
+            "start": 61.91999816894531,
+            "word": "Schrauben"
+        },
+        {
+            "end": 62.70000076293945,
+            "start": 61.91999816894531,
+            "word": "ansetzen"
+        },
+        {
+            "end": 69.76000213623047,
+            "start": 69.76000213623047,
+            "word": "Foto"
+        },
+        {
+            "end": 72.86000061035156,
+            "start": 71.45999908447266,
+            "word": "Schrauben"
+        },
+        {
+            "end": 73.58000183105469,
+            "start": 72.86000061035156,
+            "word": "mit"
+        },
+        {
+            "end": 75.05999755859375,
+            "start": 73.58000183105469,
+            "word": "Smart"
+        },
+        {
+            "end": 75.4000015258789,
+            "start": 75.05999755859375,
+            "word": "Tool"
+        },
+        {
+            "end": 77.08000183105469,
+            "start": 75.4000015258789,
+            "word": "anziehen"
+        },
+        {
+            "end": 127.37999725341797,
+            "start": 126.58000183105469,
+            "word": "Foto"
+        },
+        {
+            "end": 127.4000015258789,
+            "start": 127.37999725341797,
+            "word": "Entnahme"
+        },
+        {
+            "end": 127.4000015258789,
+            "start": 127.4000015258789,
+            "word": "Schrauben"
+        },
+        {
+            "end": 127.4000015258789,
+            "start": 127.4000015258789,
+            "word": "dreimal"
+        },
+        {
+            "end": 127.4000015258789,
+            "start": 127.4000015258789,
+            "word": "Foto"
+        },
+        {
+            "end": 127.4000015258789,
+            "start": 127.4000015258789,
+            "word": "Entnahme"
+        },
+        {
+            "end": 127.54000091552734,
+            "start": 127.4000015258789,
+            "word": "Schrauben"
+        },
+        {
+            "end": 127.54000091552734,
+            "start": 127.54000091552734,
+            "word": "mit"
+        },
+        {
+            "end": 127.54000091552734,
+            "start": 127.54000091552734,
+            "word": "Smart"
+        },
+        {
+            "end": 127.54000091552734,
+            "start": 127.54000091552734,
+            "word": "Tool"
+        },
+        {
+            "end": 127.54000091552734,
+            "start": 127.54000091552734,
+            "word": "ansetzen"
+        },
+        {
+            "end": 127.54000091552734,
+            "start": 127.54000091552734,
+            "word": "Foto"
+        },
+        {
+            "end": 128.5800018310547,
+            "start": 128.17999267578125,
+            "word": "Entnahme"
+        },
+        {
+            "end": 130.0,
+            "start": 128.5800018310547,
+            "word": "Mitnehmerscheibe"
+        },
+        {
+            "end": 131.66000366210938,
+            "start": 131.02000427246094,
+            "word": "Foto"
+        },
+        {
+            "end": 134.13999938964844,
+            "start": 133.60000610351562,
+            "word": "Einlegen"
+        },
+        {
+            "end": 135.24000549316406,
+            "start": 134.13999938964844,
+            "word": "Mitnehmerscheibe"
+        },
+        {
+            "end": 137.63999938964844,
+            "start": 136.10000610351562,
+            "word": "Foto"
+        },
+        {
+            "end": 138.83999633789062,
+            "start": 138.36000061035156,
+            "word": "Entnahme"
+        },
+        {
+            "end": 139.66000366210938,
+            "start": 138.83999633789062,
+            "word": "Lochplatte"
+        },
+        {
+            "end": 141.77999877929688,
+            "start": 140.74000549316406,
+            "word": "Foto"
+        },
+        {
+            "end": 144.1999969482422,
+            "start": 143.9199981689453,
+            "word": "Einlegen"
+        },
+        {
+            "end": 144.83999633789062,
+            "start": 144.1999969482422,
+            "word": "Lochplatte"
+        },
+        {
+            "end": 145.77999877929688,
+            "start": 144.83999633789062,
+            "word": "Foto"
+        },
+        {
+            "end": 150.66000366210938,
+            "start": 150.0,
+            "word": "Entnahme"
+        },
+        {
+            "end": 152.9600067138672,
+            "start": 150.66000366210938,
+            "word": "Pumpengeh\u00e4usedecke"
+        },
+        {
+            "end": 155.05999755859375,
+            "start": 154.3800048828125,
+            "word": "Foto"
+        },
+        {
+            "end": 157.6199951171875,
+            "start": 156.77999877929688,
+            "word": "positionieren"
+        },
+        {
+            "end": 159.0800018310547,
+            "start": 157.6199951171875,
+            "word": "Pumpengeh\u00e4usedecke"
+        },
+        {
+            "end": 160.9600067138672,
+            "start": 160.9600067138672,
+            "word": "Foto"
+        },
+        {
+            "end": 162.9199981689453,
+            "start": 162.5800018310547,
+            "word": "Entnahme"
+        },
+        {
+            "end": 163.4199981689453,
+            "start": 162.9199981689453,
+            "word": "Schraube"
+        },
+        {
+            "end": 163.9199981689453,
+            "start": 163.4199981689453,
+            "word": "f\u00fcnf"
+        },
+        {
+            "end": 164.24000549316406,
+            "start": 163.9199981689453,
+            "word": "mal"
+        },
+        {
+            "end": 166.75999450683594,
+            "start": 164.24000549316406,
+            "word": "Foto"
+        },
+        {
+            "end": 168.94000244140625,
+            "start": 168.16000366210938,
+            "word": "Schrauben"
+        },
+        {
+            "end": 169.82000732421875,
+            "start": 168.94000244140625,
+            "word": "ansetzen"
+        },
+        {
+            "end": 178.24000549316406,
+            "start": 178.0399932861328,
+            "word": "Foto"
+        },
+        {
+            "end": 181.4199981689453,
+            "start": 181.3000030517578,
+            "word": "Deckel"
+        },
+        {
+            "end": 182.0800018310547,
+            "start": 181.4199981689453,
+            "word": "verschrauben"
+        },
+        {
+            "end": 182.86000061035156,
+            "start": 182.0800018310547,
+            "word": "mit"
+        },
+        {
+            "end": 183.3000030517578,
+            "start": 182.86000061035156,
+            "word": "Smart"
+        },
+        {
+            "end": 183.5,
+            "start": 183.3000030517578,
+            "word": "Tool"
+        },
+        {
+            "end": 185.5399932861328,
+            "start": 185.5399932861328,
+            "word": "Foto"
+        },
+        {
+            "end": 238.13999938964844,
+            "start": 236.89999389648438,
+            "word": "Pr\u00fcfung"
+        },
+        {
+            "end": 239.0,
+            "start": 239.0,
+            "word": "sind"
+        },
+        {
+            "end": 239.22000122070312,
+            "start": 239.0,
+            "word": "die"
+        },
+        {
+            "end": 239.8000030517578,
+            "start": 239.22000122070312,
+            "word": "Anschl\u00fcsse"
+        },
+        {
+            "end": 240.27999877929688,
+            "start": 239.8000030517578,
+            "word": "sauber"
+        },
+        {
+            "end": 241.74000549316406,
+            "start": 240.89999389648438,
+            "word": "sind"
+        },
+        {
+            "end": 242.16000366210938,
+            "start": 241.74000549316406,
+            "word": "welche"
+        },
+        {
+            "end": 242.5800018310547,
+            "start": 242.16000366210938,
+            "word": "Sch\u00e4den"
+        },
+        {
+            "end": 243.5,
+            "start": 242.5800018310547,
+            "word": "vorhanden"
+        },
+        {
+            "end": 248.36000061035156,
+            "start": 246.9600067138672,
+            "word": "Wertvergleich"
+        },
+        {
+            "end": 249.27999877929688,
+            "start": 248.36000061035156,
+            "word": "eingeben"
+        },
+        {
+            "end": 252.16000366210938,
+            "start": 251.47999572753906,
+            "word": "Test"
+        },
+        {
+            "end": 252.72000122070312,
+            "start": 252.16000366210938,
+            "word": "wiederholen"
+        },
+        {
+            "end": 255.39999389648438,
+            "start": 253.63999938964844,
+            "word": "Fragezeichen"
+        },
+        {
+            "end": 257.94000244140625,
+            "start": 255.5,
+            "word": "fertig"
+        },
+        {
+            "end": 259.44000244140625,
+            "start": 259.0799865722656,
+            "word": "Foto"
+        }
+    ],
+    "task": "transcribe"
+}

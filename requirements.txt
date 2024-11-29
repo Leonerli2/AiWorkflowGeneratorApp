@@ -5,3 +5,6 @@ pillow
 python-dotenv
 tqdm
 docling
+opencv-python
+numpy
+moviepy

@@ -1,0 +1,114 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Die Kamera wird aktiviert und l\u00e4uft nun. Es wird das Pumpengeh\u00e4use entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_1.jpg"
+        },
+        {
+            "step": 2,
+            "text": "Das Pumpengeh\u00e4use wird eingelegt.",
+            "image_uri": "data/output/images/video51/instruction51_2.jpg"
+        },
+        {
+            "step": 3,
+            "text": "Der Zylinder wird entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_3.jpg"
+        },
+        {
+            "step": 4,
+            "text": "Der Zylinder wird eingelegt.",
+            "image_uri": "data/output/images/video51/instruction51_4.jpg"
+        },
+        {
+            "step": 5,
+            "text": "Das Pumpengeh\u00e4use wird erneut entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_5.jpg"
+        },
+        {
+            "step": 6,
+            "text": "Das Pumpengeh\u00e4use wird positioniert.",
+            "image_uri": "data/output/images/video51/instruction51_6.jpg"
+        },
+        {
+            "step": 7,
+            "text": "Drei Schrauben werden entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_7.jpg"
+        },
+        {
+            "step": 8,
+            "text": "Die Schrauben werden angesetzt.",
+            "image_uri": "data/output/images/video51/instruction51_8.jpg"
+        },
+        {
+            "step": 9,
+            "text": "Die Schrauben werden mit einem Smart Tool angezogen.",
+            "image_uri": "data/output/images/video51/instruction51_9.jpg"
+        },
+        {
+            "step": 10,
+            "text": "Drei Schrauben werden erneut entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_10.jpg"
+        },
+        {
+            "step": 11,
+            "text": "Die Schrauben werden mit einem Smart Tool angesetzt.",
+            "image_uri": "data/output/images/video51/instruction51_11.jpg"
+        },
+        {
+            "step": 12,
+            "text": "Die Mitnehmerscheibe wird entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_12.jpg"
+        },
+        {
+            "step": 13,
+            "text": "Die Mitnehmerscheibe wird eingelegt.",
+            "image_uri": "data/output/images/video51/instruction51_13.jpg"
+        },
+        {
+            "step": 14,
+            "text": "Die Lochplatte wird entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_14.jpg"
+        },
+        {
+            "step": 15,
+            "text": "Die Lochplatte wird eingelegt.",
+            "image_uri": "data/output/images/video51/instruction51_15.jpg"
+        },
+        {
+            "step": 16,
+            "text": "Das Pumpengeh\u00e4usedeckel wird entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_16.jpg"
+        },
+        {
+            "step": 17,
+            "text": "Das Pumpengeh\u00e4usedeckel wird positioniert.",
+            "image_uri": "data/output/images/video51/instruction51_17.jpg"
+        },
+        {
+            "step": 18,
+            "text": "F\u00fcnf Schrauben werden entnommen.",
+            "image_uri": "data/output/images/video51/instruction51_18.jpg"
+        },
+        {
+            "step": 19,
+            "text": "Die Schrauben werden angesetzt.",
+            "image_uri": "data/output/images/video51/instruction51_19.jpg"
+        },
+        {
+            "step": 20,
+            "text": "Der Deckel wird verschraubt mit dem Smart Tool.",
+            "image_uri": "data/output/images/video51/instruction51_20.jpg"
+        },
+        {
+            "step": 21,
+            "text": "Eine Pr\u00fcfung findet statt, ob die Anschl\u00fcsse sauber sind und ob irgendwelche Sch\u00e4den vorhanden sind. Der Wertvergleich wird eingegeben und der Test wird wiederholt.",
+            "image_uri": "data/output/images/video51/instruction51_21.jpg"
+        },
+        {
+            "step": 22,
+            "text": "Der Vorgang wird mit einem Fragezeichen abgeschlossen.",
+            "image_uri": "data/output/images/video51/instruction51_22.jpg"
+        }
+    ]
+}
