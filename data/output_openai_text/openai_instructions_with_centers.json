@@ -6,22 +6,30 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Zweck: Dient als Montagehilfe.",
+                        "text": "Zweck: Dienst als Montagehilfe",
                         "picture": false,
                         "picture_description": "",
                         "centers": [
                             {
+                                "center_x": 90,
+                                "center_y": 593
+                            },
+                            {
                                 "center_x": 132,
-                                "center_y": 581
+                                "center_y": 577
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "Geltungsbereich: Dieses Dokument darf nur für internen Gebrauch verwendet werden.",
+                        "text": "Geltungsbereich: Dieses Dokument darf nur für internen Gebrauch verwendet werden",
                         "picture": false,
                         "picture_description": "",
                         "centers": [
+                            {
+                                "center_x": 110,
+                                "center_y": 545
+                            },
                             {
                                 "center_x": 225,
                                 "center_y": 533
@@ -30,10 +38,14 @@
                     },
                     {
                         "step": 3,
-                        "text": "Definitionen (Begriffsklärung): Q in-Line Qualitätsicherung in der Linie.",
+                        "text": "Definitionen (Begriffsklärung): Q-in-Line Qualitätsicherung in der Linie",
                         "picture": false,
                         "picture_description": "",
                         "centers": [
+                            {
+                                "center_x": 151,
+                                "center_y": 496
+                            },
                             {
                                 "center_x": 166,
                                 "center_y": 484
@@ -42,10 +54,14 @@
                     },
                     {
                         "step": 4,
-                        "text": "Verfahren: Beschreibt die Vorgehensweise für eine Montagetätigkeit.",
+                        "text": "Verfahren: Beschreibt die Vorgehensweise für eine Montagearbeit",
                         "picture": false,
                         "picture_description": "",
                         "centers": [
+                            {
+                                "center_x": 95,
+                                "center_y": 405
+                            },
                             {
                                 "center_x": 198,
                                 "center_y": 393
@@ -54,153 +70,17 @@
                     },
                     {
                         "step": 5,
-                        "text": "Verantwortlichkeiten: Der Mitarbeiter ist in Sinne von Q in Line verantwortlich, dass die Montagetätigkeiten nach den Verfahrensergüssen E-P003 PRODUKTE HERSTELLEN ausgeführt werden.",
+                        "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, dass die Montagearbeiten den entsprechenden Verfahrensregeln E-P003 PRODUKTE HERSTELLEN entsprechen",
                         "picture": false,
                         "picture_description": "",
                         "centers": [
                             {
-                                "center_x": 288,
-                                "center_y": 338
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 2,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Achtung! Korrekten Sitz des Sicherungsringes in der Nut des Achskörpers überprüfen.",
-                        "picture": true,
-                        "picture_description": "An image showing a close-up of a part with a circular opening.",
-                        "centers": [
+                                "center_x": 111,
+                                "center_y": 367
+                            },
                             {
-                                "center_x": 161,
-                                "center_y": 612
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Die Kone der Aufnahmepunkte der Wattgestänge am Chassis reinigen.",
-                        "picture": true,
-                        "picture_description": "An image depicting cleaning equipment being used on a chassis part.",
-                        "centers": [
-                            {
-                                "center_x": 166,
-                                "center_y": 459
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 3,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Längsführung am Chassis und an der Achse mit STAUBRAGS fetten.",
-                        "picture": true,
-                        "picture_description": "Image showing a close-up of the chassis and axle with grease applied.",
-                        "centers": [
-                            {
-                                "center_x": 166,
-                                "center_y": 701
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Achse unter dem Chassis positionieren und an den Kran hängen.",
-                        "picture": true,
-                        "picture_description": "Image showing the axle being positioned under the chassis and suspended with a crane.",
-                        "centers": [
-                            {
-                                "center_x": 156,
-                                "center_y": 471
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 4,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Achse vorne mit 2 Spanngurt fixieren.",
-                        "picture": true,
-                        "picture_description": "Image showing a front axle with strapping mechanism.",
-                        "centers": [
-                            {
-                                "center_x": 126,
-                                "center_y": 709
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Stossdämpfer, Wattstützen und Fangseile anbringen. Die vorderen Federn können mit dem Kran hochgezogen werden.",
-                        "picture": true,
-                        "picture_description": "Image showing the assembly of shock absorbers, support rods, and safety cables.",
-                        "centers": [
-                            {
-                                "center_x": 166,
-                                "center_y": 490
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 5,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Stoßdämpfer, Wattgestänge und Fanggel mit Drehmoment befestigen.",
-                        "picture": true,
-                        "picture_description": "An image showing the installation of dampers and mountings.",
-                        "centers": [
-                            {
-                                "center_x": 146,
-                                "center_y": 703
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Die hinteren 2 Federn mit Hilfe des Federspanners montieren.",
-                        "picture": true,
-                        "picture_description": "An image showing the installation of springs using a spring compressor.",
-                        "centers": [
-                            {
-                                "center_x": 157,
-                                "center_y": 673
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Wattgestänge montieren.",
-                        "picture": true,
-                        "picture_description": "An image showing the installation of a watt link.",
-                        "centers": [
-                            {
-                                "center_x": 103,
-                                "center_y": 498
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Splinthülsen der Kugelköpfe senkrecht ausrichten.",
-                        "picture": true,
-                        "picture_description": "An image showing the alignment of retaining sleeves for ball joints.",
-                        "centers": [
-                            {
-                                "center_x": 165,
-                                "center_y": 289
+                                "center_x": 353,
+                                "center_y": 317
                             }
                         ]
                     }

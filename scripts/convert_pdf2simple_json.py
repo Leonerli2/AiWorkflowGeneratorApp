@@ -22,6 +22,7 @@ import numpy as np
 from skimage.metrics import structural_similarity as ssim
 import math
 import shutil
+from picture_extraction_simple import extract_pictures
 
 # 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
 
@@ -257,7 +258,7 @@ def extract_text_from_pdf():
 
     
     # Optionally, save to a file
-    with open(output_path_folder + "/instructions_by_page.json", "w", encoding="utf-8") as file:
+    with open(output_path_folder / "instructions_by_page.json", "w", encoding="utf-8") as file:
         file.write(output_json)
     
     return output_json
@@ -685,20 +686,8 @@ def move_pictures_from_json(json_path, destination_folder):
             print(f"Error moving {source_path}: {e}")
 
 def logo_decision(img):
-    """
-      Args:
-        img (PIL.Image.Image): The image to be processed.
-         system_prompt (str): The system prompt to guide the model's response.
-      Returns:
-           List[InstructionStep]: A list of parsed instructions extracted from the image, each containing:
-                - step (int): The step number.
-                 - text (str): The instruction text.
-                  - picture (bool): Whether a picture is associated with the step.
-                   - picture_description (str): Description of the picture if applicable.
-            - picture (bool): Whether a picture is associated with the step.
-            - picture_description (str): Description of the picture if applicable.
-    """
     img_uri = get_img_uri(img)
+    
     system_prompt = "i have pictures from a work instruction on how to assemble something. \
         Does this image show a step in the assembly process with good information of is it \
         just a label / logo? Set to true if it is a logo and false if it is a step in the assembly process."
@@ -729,7 +718,7 @@ def logo_decision(img):
                 ],
             }
         ],
-        response_format=Instruction,  # Parse into the defined schema
+        response_format=Logo,  # Parse into the defined schema
     )
 
     # Extract the parsed instructions
@@ -739,34 +728,28 @@ def logo_decision(img):
     return instructions
 
 def delete_all_logos(input_folder = "data/output_all_pictures"):
-    # Load the combined JSON
-    with open("data/output_all_pictures/combined.json", 'r') as file:
-        data = json.load(file)
-    
-    # Extract picture URIs
-    pictures = [pic['picture_uri'] for pic in data['page']]
-
-    # Move each picture to the destination folder
-    for picture in pictures:
-        # Normalize file paths
-        source_path = os.path.normpath(picture)
-        file_name = os.path.basename(source_path)
-        destination_path = os.path.join(destination_folder, file_name)
-
-        try:
-            # Copy the file to the destination
-            shutil.copy(source_path, destination_path)
-            print(f"Moved: {source_path} -> {destination_path}")
-        except FileNotFoundError:
-            print(f"File not found: {source_path}. Skipping...")
-        except Exception as e:
-            print(f"Error moving {source_path}: {e}")
-
-
-
+    # iterate over all images in the folder
+    for filename in os.listdir(input_folder):
+        path = os.path.join(input_folder, filename)
+        img = Image.open(path)
+        
+        # check if the image is a logo
+        is_logo = logo_decision(img)
+        # print(is_logo)
+        
+        
+        decision = [instr.dict() for instr in is_logo]
+        
+        # print(decision)
+        
+        # if the image is a logo -> delete it
+        if decision[0]['is_logo']:
+            os.remove(path)
+            print(f"Deleted: {path}")
 
 def Convert_PDF_to_JSON():
-    
+    # does the pipeline have to be cleared after each run? -> how long does it take to run the pipeline? 
+    # -> dependant on that we want to clear the pipeline -> probably want to store
     
     
     # -------------------------------------- docling --------------------------------------
@@ -817,17 +800,23 @@ def Convert_PDF_to_JSON():
     pdf_path = "data/input_pdf/w5.pdf"
 
 
-    extract_images_from_pdf(pdf_path, output_folder_simple_picture_extraction)
-    delete_recurring_images(output_folder_simple_picture_extraction)    
-    delete_small_images(output_folder_simple_picture_extraction)
+    # extract_images_from_pdf(pdf_path, output_folder_simple_picture_extraction)
+    # delete_recurring_images(output_folder_simple_picture_extraction)    
+    # delete_small_images(output_folder_simple_picture_extraction)
+    
+    
+    extract_pictures(pdf_path, output_folder_simple_picture_extraction)
 
 
     # ------------------------------------ merge pictures -----------------------------------
     merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json')
     move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
     
-    # ------------------------------------ delete logos -----------------------------------
+    delete_recurring_images('data/output_all_pictures')
+    delete_small_images('data/output_all_pictures')
     
+    # ------------------------------------ delete logos -----------------------------------
+    delete_all_logos()
 
 
 # ----------------------------------------------------------------------------------------
@@ -882,3 +871,6 @@ def Convert_PDF_to_JSON():
 # merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json')
 
 # move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
+# move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
+# delete_all_logos()
+Convert_PDF_to_JSON()
