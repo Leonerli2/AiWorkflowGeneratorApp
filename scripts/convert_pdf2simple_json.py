@@ -237,7 +237,7 @@ def extract_text_from_pdf():
         # Get the structured JSON for the current page
         instructions_list = structured_openai_api_call(
             image,
-            "Extract all work instructions form the image. Order them in steps. Say if there is a corresponding picture (true/false) and add a picture description if applicable."
+            "Extract all work instructions form the image. Order them in steps. Say if there is a corresponding picture (true/false) and add a picture description if applicable. Make sure to only use character that 'charmap' codec can decode."
         )
                 
         # Print progress
@@ -335,7 +335,7 @@ def extract_text_and_pictures(input_doc_name: str = "data/input_pdf/w5.pdf"):
 
     logging.info(f"Full document JSON saved to {json_output_path}") 
     
-    return conv_result.document   
+    return conv_result.document
        
 def structured_openai_api_call_with_picture_json(json_input: dict, system_prompt: str):
     """
@@ -396,7 +396,7 @@ def structured_openai_api_call_with_picture_json(json_input: dict, system_prompt
     # Output the results as JSON
     return output_json
 
-def calculate_center_in_json(data, heigth):
+def calculate_center_in_json(data, height):
     """
     Recursively iterates over JSON data to find entries with 'bbox',
     calculates the center of the bounding box, and adds it as 'center'.
@@ -415,7 +415,7 @@ def calculate_center_in_json(data, heigth):
             bbox = data['bbox']
             if all(key in bbox for key in ['l', 't', 'r', 'b']):
                 # Calculate center
-                center_x = height - (bbox['l'] + bbox['r']) / 2
+                center_x = (bbox['l'] + bbox['r']) / 2
                 center_y = height - (bbox['b'] + bbox['t']) / 2
                 # Add center as a tuple of integers
                 data['bbox']['center'] = (int(center_x), int(center_y))
@@ -487,6 +487,29 @@ def structured_openai_api_call_with_text_json(json_input: dict, system_prompt: s
     # Output the results as JSON
     return output_json
 
+def combine_centers(json_data):
+    # Iterate through each document and its pages
+    for document in json_data:
+        for page in document.get("pdf_document", []):
+            for instruction in page.get("instructions", []):
+                # Extract centers
+                centers = instruction.get("centers", [])
+                if centers:
+                    # Calculate the average of x and y coordinates
+                    avg_center_x = sum(center["center_x"] for center in centers) / len(centers)
+                    avg_center_y = sum(center["center_y"] for center in centers) / len(centers)
+                    # Replace centers with the average center
+                    instruction["centers"] = [{"center_x": avg_center_x, "center_y": avg_center_y}]
+                    
+    # save it 
+    output_dir = Path("data/output_openai_text")
+    output_json = json.dumps(json_data, ensure_ascii=False, indent=4)
+    with open(output_dir / "instructions_with_one_center.json", "w", encoding="utf-8") as file:
+        file.write(output_json)
+    
+    
+    return json_data
+
 # -------------------------------------------------------------------------------------
 #                               Combination of methods
 # -------------------------------------------------------------------------------------
@@ -495,8 +518,10 @@ def add_centers_to_instructions(instructions: dict, centers: dict):
     
     system_prompt = "Take the given instructions JSON, which contains full instruction text, \
         and determine the center points for each instruction based on smaller text snippets provided in another JSON. Specifically:\
-        1. Use the smaller text snippets with their center locations to identify which snippets belong to each instruction.\
+        1. Use the smaller text snippets and identify which snippets belong to each instruction.\
         2. If a text snippet belongs to an instruction, add its center to a 'center list' in the instructions JSON.\
+        3. Try to add atleast one center to each instruction.\
+        4. Do this fo every page\
         Work with the full instructions and ensure the centers are added only for snippets that match the corresponding instruction"
     
     
@@ -524,7 +549,7 @@ def add_centers_to_instructions(instructions: dict, centers: dict):
 
     # Structured API call to extract instructions
     completion = client.beta.chat.completions.parse(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             {
                 "role": "system",
@@ -599,6 +624,7 @@ def delete_recurring_images(directory):
             hashes.add(digest)
         else:
             os.remove(path)
+            print("Deleted: ", path)
             # delete original file (which added this hash) aswell
             to_delete.add(digest)
             
@@ -607,10 +633,11 @@ def delete_recurring_images(directory):
             path = os.path.join(directory, filename)
             if hashlib.sha1(open(path,'rb').read()).digest() == digest:
                 os.remove(path)
+                print("Deleted: ", path)
                             
 def delete_small_images(directory):
     # 10 KB
-    size_limit = 3 * 1024
+    size_limit = 10 * 1024
 
     # Loop through each file in the directory
     for filename in os.listdir(directory):
@@ -747,24 +774,301 @@ def delete_all_logos(input_folder = "data/output_all_pictures"):
             os.remove(path)
             print(f"Deleted: {path}")
 
-def Convert_PDF_to_JSON():
+def clean_combined_json(input_file = "data/output_openai_text/combined.json", output_file="data/output_openai_text/combined_cleaned.json"):
+    with open(input_file, 'r') as f:
+        data = json.load(f)
+
+    # New data to hold filtered and updated entries
+    processed_data = {"page": []}
+
+    # Directory where valid images reside
+    valid_folder = "data\\output_all_pictures"
+
+    # Process each entry
+    for entry in data["page"]:
+        # Extract file name from the current URI
+        file_name = os.path.basename(entry["picture_uri"])
+
+        # Check if the file exists in the valid folder
+        new_uri = os.path.join(valid_folder, file_name)
+        if os.path.exists(new_uri.replace("\\", os.sep)):  # Adjust for OS path
+            # Update the URI
+            entry["picture_uri"] = new_uri
+            # Add entry to the new data list
+            processed_data["page"].append(entry)
+
+    # Write the processed data back to the output file
+    with open(output_file, 'w') as f:
+        json.dump(processed_data, f, indent=4)
+  
+# ------------------------------------------------------------------------------------------------
+#                                       mapping pictures to instructions
+# ------------------------------------------------------------------------------------------------
+def map_pictures_to_instructions_with_centers(instructions_json, pictures_json):
+    """
+    Maps pictures to the closest instructions for each page based on center coordinates.
+    
+    Parameters:
+        instructions_json (list): JSON list of pages, each containing instructions with center coordinates.
+        pictures_json (dict): JSON object with picture data including page numbers and coordinates.
+    
+    Returns:
+        list: Updated instructions JSON with a "pictures_array" field added to each instruction.
+    """
+    
+    # Helper function to calculate distance
+    def calculate_distance(x1, y1, x2, y2):
+        return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
+    
+    # Iterate through documents in the instructions JSON
+    for document in instructions_json:
+        for page in document['pdf_document']:
+            page_number = page['page_no']
+            
+            # Get pictures for the current page
+            pictures_on_page = [
+                picture for picture in pictures_json['page'] if picture['page_no'] == page_number
+            ]
+            
+            # Map pictures to each instruction
+            for instruction in page['instructions']:
+                if 'centers' in instruction and pictures_on_page:
+                    instruction_center = instruction['centers'][0]  # Assuming one center per instruction
+                    distances = [
+                        (
+                            picture['picture_uri'], 
+                            calculate_distance(instruction_center['center_x'], instruction_center['center_y'],
+                                               picture['center_x'], picture['center_y'])
+                        )
+                        for picture in pictures_on_page
+                    ]
+                    # Sort by distance and select closest pictures
+                    distances.sort(key=lambda x: x[1])
+                    instruction['pictures_array'] = [dist[0] for dist in distances[:1]]
+                else:
+                    instruction['pictures_array'] = []
+    
+    return instructions_json
+
+def match_pictures_to_instructions_simple(pictures_json, instructions_json):
+    instructions_json = instructions_json[0]
+    # Find the closest instruction for each picture
+    def find_closest_instruction(picture, instructions):
+        closest_instruction = None
+        min_distance = float('inf')
+
+        for instruction in instructions:
+            for center in instruction['centers']:
+                # distance = math.sqrt((picture['center_x'] - center['center_x'])**2 + (picture['center_y'] - center['center_y'])**2)
+                distance = abs(picture['center_x'] - center['center_x']) + 10 * abs(picture['center_y'] - center['center_y'])
+                if distance < min_distance:
+                    min_distance = distance
+                    closest_instruction = instruction
+
+        return closest_instruction
+
+    # Iterate over the pictures and find the closest instruction
+    for picture in pictures_json['page']:
+        page_no = picture['page_no']
+        instructions_on_page = [inst for inst in instructions_json['pdf_document'] if inst['page_no'] == page_no]
+        
+        if not instructions_on_page:
+            continue
+
+        instructions_on_page = instructions_on_page[0]['instructions']
+        closest_instruction = find_closest_instruction(picture, instructions_on_page)
+
+        if 'pictures_array' not in closest_instruction:
+            closest_instruction['pictures_array'] = []
+        closest_instruction['pictures_array'].append(picture['picture_uri'])
+
+    return instructions_json 
+
+def map_pictures_and_instructions_by_sequence(instructions_json, pictures_json):
+    """
+    Maps pictures to instructions based on unified reading order of instructions and pictures.
+
+    Parameters:
+        instructions_json (list): List of instruction pages with centers for each instruction.
+        pictures_json (dict): Dictionary of pictures grouped by page with centers.
+
+    Returns:
+        list: Updated instructions JSON with pictures mapped based on sequence logic.
+    """
+    for document in instructions_json:
+        for page in document['pdf_document']:
+            page_number = page['page_no']
+
+            # Get pictures for the current page
+            pictures_on_page = [
+                {'type': 'picture', 'data': picture}
+                for picture in pictures_json['page']
+                if picture['page_no'] == page_number
+            ]
+
+            # Get instructions for the current page
+            instructions_on_page = [
+                {'type': 'instruction', 'data': instruction}
+                for instruction in page['instructions']
+            ]
+
+            # Combine and sort by reading order
+            combined = sorted(
+                pictures_on_page + instructions_on_page,
+                key=lambda item: (
+                    item['data']['centers'][0]['center_y'] if 'centers' in item['data'] else item['data']['center_y'],
+                    item['data']['centers'][0]['center_x'] if 'centers' in item['data'] else item['data']['center_x']
+                )
+            )
+
+            # Sequentially process the sorted elements
+            pending_instructions = []
+            last_instruction = None
+            for item in combined:
+                if item['type'] == 'instruction':
+                    instruction = item['data']
+                    if instruction['picture']:
+                        # If this instruction needs a picture, add to pending list
+                        pending_instructions.append(instruction)
+                    else:
+                        # Ensure no pictures are mapped
+                        instruction['pictures_array'] = []
+                    last_instruction = instruction
+                elif item['type'] == 'picture':
+                    picture = item['data']
+                    if pending_instructions:
+                        # Assign the picture to all pending instructions
+                        for pending in pending_instructions:
+                            if 'pictures_array' not in pending:
+                                pending['pictures_array'] = []
+                            pending['pictures_array'].append(picture['picture_uri'])
+                        pending_instructions.clear()
+                    else:
+                        # Map the picture to the last seen instruction if no pending instructions
+                        if last_instruction:
+                            if 'pictures_array' not in last_instruction:
+                                last_instruction['pictures_array'] = []
+                            last_instruction['pictures_array'].append(picture['picture_uri'])
+
+    return instructions_json
+
+
+def find_closest_instruction_to_instruction(target_instruction, instructions):
+    """
+    Finds the closest instruction to the target instruction based on (center_x, center_y).
+    """
+    closest_instruction = None
+    min_distance = float('inf')
+
+    for instruction in instructions:
+        # Skip the target itself
+        if instruction == target_instruction:
+            continue
+
+        # Skip instructions without a pictures array
+        if 'pictures_array' not in instruction:
+            continue
+
+        for center in instruction['centers']:
+            for target_center in target_instruction['centers']:
+                # Calculate distance
+                distance = abs(target_center['center_x'] - center['center_x']) + 10 * abs(target_center['center_y'] - center['center_y'])
+                if distance < min_distance:
+                    min_distance = distance
+                    closest_instruction = instruction
+
+    return closest_instruction
+def match_pictures_to_instructions2(pictures_json, instructions_json):
+    """
+    Maps pictures to instructions, ensuring "picture" == False instructions are skipped.
+    Ensures any instruction with "picture" == True but no pictures array gets closest instruction's pictures.
+    """
+    instructions_json = instructions_json[0]
+
+    # Find the closest instruction for each picture
+    def find_closest_instruction(picture, instructions):
+        closest_instruction = None
+        min_distance = float('inf')
+
+        for instruction in instructions:
+            # Skip instructions where "picture" is False
+            if not instruction.get("picture", False):
+                continue
+
+            for center in instruction['centers']:
+                # Calculate distance with higher weight for vertical proximity
+                distance = abs(picture['center_x'] - center['center_x']) + 10 * abs(picture['center_y'] - center['center_y'])
+                if distance < min_distance:
+                    min_distance = distance
+                    closest_instruction = instruction
+
+        return closest_instruction
+
+    # Iterate over the pictures and find the closest instruction
+    for picture in pictures_json['page']:
+        page_no = picture['page_no']
+        instructions_on_page = [inst for inst in instructions_json['pdf_document'] if inst['page_no'] == page_no]
+        
+        if not instructions_on_page:
+            continue
+
+        instructions_on_page = instructions_on_page[0]['instructions']
+        closest_instruction = find_closest_instruction(picture, instructions_on_page)
+
+        # Skip if no valid instruction is found
+        if not closest_instruction:
+            continue
+
+        # Assign picture to the closest instruction
+        if 'pictures_array' not in closest_instruction:
+            closest_instruction['pictures_array'] = []
+        closest_instruction['pictures_array'].append(picture['picture_uri'])
+
+    # Add missing pictures from the closest instruction for "picture" == True
+    for document in instructions_json['pdf_document']:
+        for instruction in document['instructions']:
+            if instruction.get("picture", False) and 'pictures_array' not in instruction:
+                # Find the closest instruction with a pictures array
+                closest_instruction = find_closest_instruction_to_instruction(instruction, document['instructions'])
+                if closest_instruction and 'pictures_array' in closest_instruction:
+                    instruction['pictures_array'] = closest_instruction['pictures_array']
+
+    return instructions_json
+# ------------------------------------------------------------------------------------------------
+def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w3.pdf"):
     # does the pipeline have to be cleared after each run? -> how long does it take to run the pipeline? 
     # -> dependant on that we want to clear the pipeline -> probably want to store
+    # clear all the folders: output_docling, output_openai_text, output_pictures, output_all_pictures
+    for folder in ["data/output_docling/pictures", "data/output_docling", "data/output_openai_text", "data/output_pictures", "data/output_all_pictures"]:
+        for file in os.listdir(folder):
+            if file != "pictures":
+                os.remove(os.path.join(folder, file))
+    
     
     
     # -------------------------------------- docling --------------------------------------
-    docling_json = extract_text_and_pictures()
+    docling_document = extract_text_and_pictures(input_workinstruction_pdf_path)
+    # print(str(docling_document))
+    # print("docling_document type: ", type(docling_document))
+    # print("docling_document ", docling_document)
+    # print(json.dumps(str(docling_document)))
+    
+    # docling_json= json.dumps(str(docling_document))
     
     # Load the JSON data from the docling extraction if needed
-    # with open("data/output_docling/w5.json", "r", encoding="utf-8") as file:
-        # json_data = json.load(file)
-        
+    with open(input_workinstruction_pdf_path, "r", encoding="utf-8") as file:
+        docling_json = json.load(file)
+    # print(type(docling_json))
+
     # get height of pdf
     try:
         height = docling_json["pages"]["1"]["size"]["height"]
+        print("Height found ", height)
     except:
         height = 842
+        print(docling_json)
         print("height not found")
+        
         
     json_data_with_centers = calculate_center_in_json(docling_json, height)   
     # convert into nice jsons
@@ -772,6 +1076,9 @@ def Convert_PDF_to_JSON():
     promt_text_json = "Take the input json and extract the text. For each text block, provide the page number, text, and center coordinates."
     structured_openai_api_call_with_picture_json(json_data_with_centers, prompt_picture_json)
     centers = structured_openai_api_call_with_text_json(json_data_with_centers, promt_text_json)
+        
+        
+        
         
     # -------------------------------------- openai --------------------------------------
     instructions_openai = extract_text_from_pdf() 
@@ -784,8 +1091,9 @@ def Convert_PDF_to_JSON():
         
     # with open("data/output_docling/docling_text.json", "r", encoding="utf-8") as file:
     #     centers = json.load(file)
-
     add_centers_to_instructions(instructions_openai, centers)
+    
+    combine_centers(json.load(open("data/output_openai_text/openai_instructions_with_centers.json")))
     
     
     # ------------------------------------ picture extraction simple -----------------------------------
@@ -797,7 +1105,6 @@ def Convert_PDF_to_JSON():
         os.remove(os.path.join(output_folder_simple_picture_extraction, file))
         
         
-    pdf_path = "data/input_pdf/w5.pdf"
 
 
     # extract_images_from_pdf(pdf_path, output_folder_simple_picture_extraction)
@@ -805,7 +1112,7 @@ def Convert_PDF_to_JSON():
     # delete_small_images(output_folder_simple_picture_extraction)
     
     
-    extract_pictures(pdf_path, output_folder_simple_picture_extraction)
+    extract_pictures(input_workinstruction_pdf_path, output_folder_simple_picture_extraction)
 
 
     # ------------------------------------ merge pictures -----------------------------------
@@ -817,60 +1124,22 @@ def Convert_PDF_to_JSON():
     
     # ------------------------------------ delete logos -----------------------------------
     delete_all_logos()
+    
+    clean_combined_json('data/output_openai_text/combined.json')
+    
+    instructions_json = json.load(open("data/output_openai_text/instructions_with_one_center.json"))
+    pictures_json = json.load(open("data/output_openai_text/combined_cleaned.json"))
+
+    finished_json = match_pictures_to_instructions2(pictures_json=pictures_json, instructions_json=instructions_json)
+    # finished_json = match_pictures_to_instructions_simple(pictures_json=pictures_json, instructions_json=instructions_json)
+    # finished_json = map_pictures_to_instructions_with_centers(instructions_json, pictures_json)
+
+    with open("data/output_openai_text/final_instructions.json", "w") as file:
+        json.dump(finished_json, file, indent=4)
+
 
 
 # ----------------------------------------------------------------------------------------
 #                                     Command line
 # ----------------------------------------------------------------------------------------
-# extract_text_and_pictures() # docling
-# extract_text_from_pdf() # openai
-
-# with open("data/output_docling/w5.json", "r", encoding="utf-8") as file:
-#     json_data = json.load(file)
-
-# try:
-#     height = json_data["pages"]["1"]["size"]["height"]
-# except:
-#     height = 842
-#     print("height not found")
-    
-# Calculate centers for bounding boxes in the JSON data
-# json_data_with_centers = calculate_center_in_json(json_data, height)
-
-# convert into nice jsons
-# prompt_picture_json = "Take the input json and extract the pictures. For each picture, provide the page number, picture URI, and center coordinates."
-# promt_text_json = "Take the input json and extract the text. For each text block, provide the page number, text, and center coordinates."
-# structured_openai_api_call_with_picture_json(json_data_with_centers, prompt_picture_json)
-# centers = structured_openai_api_call_with_text_json(json_data_with_centers, promt_text_json)
-
-# # read in the json files
-# with open("data/output_openai_text/instructions_by_page.json", "r", encoding="utf-8") as file:
-#     instructions_openai = json.load(file)
-    
-# with open("data/output_docling/docling_text.json", "r", encoding="utf-8") as file:
-#     centers = json.load(file)
-
-# add_centers_to_instructions(instructions_openai, centers)
-
-# output folder
-# output_folder = "data/output_pictures"
-
-# clear output_pictures
-# for file in os.listdir(output_folder):
-#     os.remove(os.path.join(output_folder, file))
-    
-    
-# pdf_path = "data/input_pdf/w5.pdf"
-
-
-# extract_images_from_pdf(pdf_path, output_folder)
-# delete_recurring_images(output_folder)    
-# delete_small_images(output_folder)
-
-
-# merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json')
-
-# move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
-# move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
-# delete_all_logos()
 Convert_PDF_to_JSON()
