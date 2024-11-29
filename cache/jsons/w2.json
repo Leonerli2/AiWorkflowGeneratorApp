@@ -1,0 +1,63 @@
+{
+    "pdf_document": [
+        {
+            "page_no": 1,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Follow instructions on the Line Clearance Sheet to prepare workstation for production.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Verify all Components at the workstation against the Production Specification.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Use manual assembly, with or without pad printing as applicable.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 212.0,
+                            "center_y": 58.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Stainless Steel bins JFX2375 must be used whenever P80 lubricant is needed.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "Do not apply P80 or any other lubricant to the Gaskets or Rubber Valves unless specifically stated in Work Inst.",
+                    "picture": true,
+                    "picture_description": "A warning symbol is shown, indicating the prohibition of using certain lubricants.",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "Immediately place nonconforming parts into the scrap bin.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "Report the nonconforming quantity on the tally sheet to the assessor.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        }
+    ]
+}

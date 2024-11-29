@@ -1,0 +1,1022 @@
+{
+    "pdf_document": [
+        {
+            "page_no": 1,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Alle gevind sm\u00c3\u0192\u00c2\u00b8res med QRUBENS fedt.",
+                    "picture": true,
+                    "picture_description": "Diagrams showing different views of the assembly.",
+                    "centers": [
+                        {
+                            "center_x": 161.0,
+                            "center_y": 634.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_1_2.jpg",
+                        "data\\output_all_pictures\\image_1_3.jpg",
+                        "data\\output_all_pictures\\picture_001.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Alle moment strammes.",
+                    "picture": true,
+                    "picture_description": "Illustration indicating tightening torque specifications.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Alle emner farves i gevind inden montere tilsporing.",
+                    "picture": true,
+                    "picture_description": "Diagram depicting color coding for threads.",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Ved tilsp\u00c3\u0192\u00c2\u00a6nding med moment, kontrolleres momentet p\u00c3\u0192\u00c2\u00a5 v\u00c3\u0192\u00c2\u00a6rkt\u00c3\u0192\u00c2\u00b8jet f\u00c3\u0192\u00c2\u00b8r og efter brug.",
+                    "picture": true,
+                    "picture_description": "Tool verification procedure illustrated.",
+                    "centers": [
+                        {
+                            "center_x": 260.0,
+                            "center_y": 678.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_1_2.jpg",
+                        "data\\output_all_pictures\\image_1_3.jpg",
+                        "data\\output_all_pictures\\picture_001.jpg"
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Ventiler med O-ringe skrues til manuelt.",
+                    "picture": true,
+                    "picture_description": "Manual assembly of valves with O-rings shown.",
+                    "centers": [
+                        {
+                            "center_x": 158.0,
+                            "center_y": 693.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_1_2.jpg",
+                        "data\\output_all_pictures\\image_1_3.jpg",
+                        "data\\output_all_pictures\\picture_001.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 2,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Rev 03 released on 02 February 2022 includes text and images related to packing instructions.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 84.0,
+                            "center_y": 147.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Rev 04 released on 16 May 2022 indicates a change to the mounting standard.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 84.0,
+                            "center_y": 189.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 3,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "HG2123R00 placeres i montagest stand.",
+                    "picture": true,
+                    "picture_description": "An image showing a metallic component placed in a mounting stand.",
+                    "centers": [
+                        {
+                            "center_x": 182.0,
+                            "center_y": 292.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_2.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "2 stk. VSKR1/8 monteres.",
+                    "picture": true,
+                    "picture_description": "An image showing the attachment of VSKR1/8 components.",
+                    "centers": [
+                        {
+                            "center_x": 158.0,
+                            "center_y": 308.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 327.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "1 stk. VSKR1/4 monteres.",
+                    "picture": true,
+                    "picture_description": "An image showing the attachment of a VSKR1/4 component.",
+                    "centers": [
+                        {
+                            "center_x": 158.0,
+                            "center_y": 345.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_2.jpg"
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 25 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 364.0
+                        }
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "1 stk. VSKR3/4 monteres.",
+                    "picture": true,
+                    "picture_description": "An image showing the attachment of a VSKR3/4 component.",
+                    "centers": [
+                        {
+                            "center_x": 158.0,
+                            "center_y": 615.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_3.jpg"
+                    ]
+                },
+                {
+                    "step": 7,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 80 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 634.0
+                        }
+                    ]
+                },
+                {
+                    "step": 8,
+                    "text": "1 stk. VSKR1/2 monteres.",
+                    "picture": true,
+                    "picture_description": "An image showing the attachment of a VSKR1/2 component.",
+                    "centers": [
+                        {
+                            "center_x": 158.0,
+                            "center_y": 652.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_3.jpg"
+                    ]
+                },
+                {
+                    "step": 9,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 671.0
+                        }
+                    ]
+                },
+                {
+                    "step": 10,
+                    "text": "1 stk. VSKR1 monteres.",
+                    "picture": true,
+                    "picture_description": "An image showing the attachment of a VSKR1 component.",
+                    "centers": [
+                        {
+                            "center_x": 153.0,
+                            "center_y": 689.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_3.jpg"
+                    ]
+                },
+                {
+                    "step": 11,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 160 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 144.0,
+                            "center_y": 708.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 4,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "2 stk. SKK260G1/4-PC monteres.",
+                    "picture": true,
+                    "picture_description": "A metal component with several threaded holes.",
+                    "centers": [
+                        {
+                            "center_x": 169.0,
+                            "center_y": 360.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_4_3.jpg",
+                        "data\\output_all_pictures\\image_4_4.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 379.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "2171256 monteres, sp\u00c3\u0192\u00c2\u00a6ndes til med fingrene.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 200.0,
+                            "center_y": 397.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 416.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Blokken drejes.",
+                    "picture": true,
+                    "picture_description": "A hand holding a tool near the component being adjusted.",
+                    "centers": [
+                        {
+                            "center_x": 128.0,
+                            "center_y": 432.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_4_3.jpg",
+                        "data\\output_all_pictures\\image_4_4.jpg"
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "1 stk. dyse DYSE-10/1.0S monteres i RN2.",
+                    "picture": true,
+                    "picture_description": "A close-up of a nozzle being attached to the component.",
+                    "centers": [
+                        {
+                            "center_x": 194.0,
+                            "center_y": 628.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_4_3.jpg",
+                        "data\\output_all_pictures\\image_4_4.jpg"
+                    ]
+                },
+                {
+                    "step": 7,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 10 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 647.0
+                        }
+                    ]
+                },
+                {
+                    "step": 8,
+                    "text": "1 stk. dyse DYSE-6/0.0S monteres i RN1.",
+                    "picture": true,
+                    "picture_description": "A close-up of a different nozzle being attached.",
+                    "centers": [
+                        {
+                            "center_x": 194.0,
+                            "center_y": 665.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_4_3.jpg",
+                        "data\\output_all_pictures\\image_4_4.jpg"
+                    ]
+                },
+                {
+                    "step": 9,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 1,2 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 142.0,
+                            "center_y": 684.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 5,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "VSCHR1/8 mont\u00c3\u0192\u00c2\u00a9rs.",
+                    "picture": true,
+                    "picture_description": "Image of a work piece with several holes and color-coded markings.",
+                    "centers": [
+                        {
+                            "center_x": 145.0,
+                            "center_y": 315.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_2.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 334.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "VSCHR1/4 mont\u00c3\u0192\u00c2\u00a9rs.",
+                    "picture": true,
+                    "picture_description": "Image of a work piece with several holes and color-coded markings.",
+                    "centers": [
+                        {
+                            "center_x": 145.0,
+                            "center_y": 352.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_2.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 25 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 371.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "SKZK2061/4-PC mont\u00c3\u0192\u00c2\u00a9rs.",
+                    "picture": true,
+                    "picture_description": "Image of a work piece with several holes and color-coded markings.",
+                    "centers": [
+                        {
+                            "center_x": 156.0,
+                            "center_y": 389.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_2.jpg"
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 408.0
+                        }
+                    ]
+                },
+                {
+                    "step": 7,
+                    "text": "063G2387 mont\u00c3\u0192\u00c2\u00a9rs.",
+                    "picture": true,
+                    "picture_description": "Image of a work piece with several holes and color-coded markings.",
+                    "centers": [
+                        {
+                            "center_x": 145.0,
+                            "center_y": 425.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_2.jpg"
+                    ]
+                },
+                {
+                    "step": 8,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 30 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 445.0
+                        }
+                    ]
+                },
+                {
+                    "step": 9,
+                    "text": "Aksidel af 400510057 mont\u00c3\u0192\u00c2\u00a9rs.",
+                    "picture": true,
+                    "picture_description": "Image of a work piece with several holes and color-coded markings.",
+                    "centers": [
+                        {
+                            "center_x": 173.0,
+                            "center_y": 652.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_3.jpg",
+                        "data\\output_all_pictures\\image_5_4.jpg"
+                    ]
+                },
+                {
+                    "step": 10,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 8 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 136.0,
+                            "center_y": 671.0
+                        }
+                    ]
+                },
+                {
+                    "step": 11,
+                    "text": "Sidste del af 400510057 mont\u00c3\u0192\u00c2\u00a9rs.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 176.0,
+                            "center_y": 690.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 6,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Aksidel af 400511005 montoreres.",
+                    "picture": true,
+                    "picture_description": "A detailed view of a hydraulic component with markings and components highlighted.",
+                    "centers": [
+                        {
+                            "center_x": 209.0,
+                            "center_y": 388.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_6_2.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+                    "picture": true,
+                    "picture_description": "A close-up showing the tightening torque of 45 Nm being applied.",
+                    "centers": [
+                        {
+                            "center_x": 176.0,
+                            "center_y": 407.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_6_3.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Sidste del af 400511005 montoreres.",
+                    "picture": true,
+                    "picture_description": "Final view of the assembly process of part 400511005.",
+                    "centers": [
+                        {
+                            "center_x": 212.0,
+                            "center_y": 425.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_6_3.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Aksidel af 400511112 montoreres.",
+                    "picture": true,
+                    "picture_description": "Assembly of part 400511112.",
+                    "centers": [
+                        {
+                            "center_x": 209.0,
+                            "center_y": 658.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_6_3.jpg"
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+                    "picture": true,
+                    "picture_description": "Tightening process indicated at 45 Nm for the second part.",
+                    "centers": [
+                        {
+                            "center_x": 176.0,
+                            "center_y": 677.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_6_3.jpg"
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "Sidste del af 400511112 montoreres.",
+                    "picture": true,
+                    "picture_description": "Final assembly of part 400511112.",
+                    "centers": [
+                        {
+                            "center_x": 212.0,
+                            "center_y": 695.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_6_3.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 7,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Monteres 2 stk. VSCHR1/8.",
+                    "picture": true,
+                    "picture_description": "A device with multiple fittings and bolts.",
+                    "centers": [
+                        {
+                            "center_x": 159.0,
+                            "center_y": 330.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_7_2.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 349.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Monteres 2 stk. VSCHR1/4.",
+                    "picture": true,
+                    "picture_description": "Another view of the device, showing different components.",
+                    "centers": [
+                        {
+                            "center_x": 158.0,
+                            "center_y": 367.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_7_2.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 386.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Monteres 2 stk. SKK20G1/4-PC.",
+                    "picture": true,
+                    "picture_description": "A detailed view showing the components being worked on.",
+                    "centers": [
+                        {
+                            "center_x": 169.0,
+                            "center_y": 659.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_7_3.jpg"
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 678.0
+                        }
+                    ]
+                },
+                {
+                    "step": 7,
+                    "text": "Monteres 2171256, sp\u00c3\u0192\u00c2\u00a6ndes ti med fingrene.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 200.0,
+                            "center_y": 696.0
+                        }
+                    ]
+                },
+                {
+                    "step": 8,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 715.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 8,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Monter 1 stk. dyse DYSE-6/0.60US i RNS",
+                    "picture": true,
+                    "picture_description": "A valve or control panel with various holes and fittings.",
+                    "centers": [
+                        {
+                            "center_x": 194.0,
+                            "center_y": 292.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_8_2.jpg",
+                        "data\\output_all_pictures\\image_8_3.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 1.2 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 142.0,
+                            "center_y": 311.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Monter 3 stk. VSKHR1/8.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 159.0,
+                            "center_y": 329.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 140.0,
+                            "center_y": 348.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Monter aksel del af VW-29156288, sp\u00c3\u0192\u00c2\u00a6ndes til med fingrene.",
+                    "picture": true,
+                    "picture_description": "Another view of the valve assembly with specific parts highlighted.",
+                    "centers": [
+                        {
+                            "center_x": 241.0,
+                            "center_y": 604.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_8_4.jpg",
+                        "data\\output_all_pictures\\image_8_5.jpg"
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 160 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 144.0,
+                            "center_y": 623.0
+                        }
+                    ]
+                },
+                {
+                    "step": 7,
+                    "text": "Monter resten af VW-29156288.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 176.0,
+                            "center_y": 641.0
+                        }
+                    ]
+                },
+                {
+                    "step": 8,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 6 Nm.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 144.0,
+                            "center_y": 660.0
+                        }
+                    ]
+                },
+                {
+                    "step": 9,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm, og ventil sp\u00c3\u0192\u00c2\u00a6ndes til (lukkes).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 206.0,
+                            "center_y": 697.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 9,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "VUI p\u00c3\u0192\u00c2\u00a5s\u00c3\u0192\u00c2\u00a6ttes",
+                    "picture": true,
+                    "picture_description": "An image of a control panel or mechanism with various buttons and components.",
+                    "centers": [
+                        {
+                            "center_x": 125.0,
+                            "center_y": 359.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_9_2.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Enheden er nu klar til tryktest",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 276.0,
+                            "center_y": 534.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 10,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "2 Stk. GRU106 montoreres.",
+                    "picture": true,
+                    "picture_description": "First image showing a hydraulic component.",
+                    "centers": [
+                        {
+                            "center_x": 152.0,
+                            "center_y": 347.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "5 Stk. 100020293.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 138.0,
+                            "center_y": 363.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "2 Stk. GRU106 montoreres.",
+                    "picture": true,
+                    "picture_description": "Second image showing a hydraulic component.",
+                    "centers": [
+                        {
+                            "center_x": 152.0,
+                            "center_y": 656.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "2 Stk. 100020293.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 138.0,
+                            "center_y": 672.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 11,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Enheden l\u00c3\u0192\u00c2\u00a6gges i en pose Z743-903",
+                    "picture": true,
+                    "picture_description": "A bag containing labeled items.",
+                    "centers": [
+                        {
+                            "center_x": 177.0,
+                            "center_y": 344.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_11_3.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Gul varelabel med varenummer s\u00c3\u0192\u00c2\u00a6ttes p\u00c3\u0192\u00c2\u00a5 posen.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 206.0,
+                            "center_y": 359.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Enheden lukkes med 1435-001010.",
+                    "picture": true,
+                    "picture_description": "An image of a closed unit with packaging.",
+                    "centers": [
+                        {
+                            "center_x": 177.0,
+                            "center_y": 375.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_11_3.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "12 stk. pakkes i palle.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 141.0,
+                            "center_y": 679.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Palle-seddel laves.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 135.0,
+                            "center_y": 694.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

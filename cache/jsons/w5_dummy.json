@@ -1,0 +1,251 @@
+{
+    "pdf_document": [
+        {
+            "page_no": 1,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Zweck: Dient als Montagehilfe.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 132.0,
+                            "center_y": 260.0
+                        }
+                    ],
+                    "pictures_array": []
+                },
+                {
+                    "step": 2,
+                    "text": "Geltungsbereich: Dieses Dokument darf nur f\u00c3\u0192\u00c2\u00bcr internen Gebrauch verwendet werden.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 225.0,
+                            "center_y": 308.0
+                        }
+                    ],
+                    "pictures_array": []
+                },
+                {
+                    "step": 3,
+                    "text": "Definitionen (Begriffskl\u00c3\u0192\u00c2\u00a4rung): Q-in-Line Qualit\u00c3\u0192\u00c2\u00a4tsicherung in der Linie.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 166.0,
+                            "center_y": 357.0
+                        }
+                    ],
+                    "pictures_array": []
+                },
+                {
+                    "step": 4,
+                    "text": "Verfahren: Beschreibt die Vorgehensweise f\u00c3\u0192\u00c2\u00bcr eine Montaget\u00c3\u0192\u00c2\u00a4tigkeit.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 198.0,
+                            "center_y": 448.0
+                        }
+                    ],
+                    "pictures_array": []
+                },
+                {
+                    "step": 5,
+                    "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, dass die Montaget\u00c3\u0192\u00c2\u00a4tigkeiten nach den beschriebenen Verfahrensanweisungen E-P003 PRODUKTE HERSTELLEN ausgef\u00c3\u0192\u00c2\u00bchrt werden.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 288.0,
+                            "center_y": 503.0
+                        }
+                    ],
+                    "pictures_array": []
+                }
+            ]
+        },
+        {
+            "page_no": 2,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Korrekten Sitz des Sicherungsrings in der Nut des Achsk\u00c3\u0192\u00c2\u00b6rpers \u00c3\u0192\u00c2\u00bcberpr\u00c3\u0192\u00c2\u00bcfen.",
+                    "picture": true,
+                    "picture_description": "A close-up image showing a circular component, likely related to the suspension or axle area.",
+                    "centers": [
+                        {
+                            "center_x": 161.0,
+                            "center_y": 229.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_2_2.jpg",
+                        "data\\output_all_pictures\\image_2_3.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Die Cone der Aufnahmepunkte der Wattgest\u00c3\u0192\u00c2\u00a4nge am Chassis reinigen.",
+                    "picture": true,
+                    "picture_description": "An image showing a tool being used on a chassis component.",
+                    "centers": [
+                        {
+                            "center_x": 166.0,
+                            "center_y": 382.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_2_3.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 3,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Langsicherung am Chassis und an der Achse mit STABURAGS fetten.",
+                    "picture": true,
+                    "picture_description": "A close-up image showing the greasing of a chassis and axle.",
+                    "centers": [
+                        {
+                            "center_x": 166.0,
+                            "center_y": 140.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_2.jpg",
+                        "data\\output_all_pictures\\image_3_3.jpg",
+                        "data\\output_all_pictures\\image_3_4.jpg",
+                        "data\\output_all_pictures\\picture_008.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Achse unter dem Chassis positionieren und an den Kran h\u00c3\u0192\u00c2\u00a4ngen.",
+                    "picture": true,
+                    "picture_description": "An image showing the positioning of an axle under the chassis, with a crane involved.",
+                    "centers": [
+                        {
+                            "center_x": 156.0,
+                            "center_y": 370.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_2.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 4,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Achse vorne mit 2 Spannset fixieren.",
+                    "picture": true,
+                    "picture_description": "An image showing the front axle being secured with 2 straps.",
+                    "centers": [
+                        {
+                            "center_x": 126.0,
+                            "center_y": 132.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_4_2.jpg",
+                        "data\\output_all_pictures\\image_4_3.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Stossd\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangseil ansetzen. Die vorderen Federn k\u00c3\u0192\u00c2\u00b6nnen mit dem Kran hochgezogen werden.",
+                    "picture": true,
+                    "picture_description": "An image detailing the installation of shock absorbers, a Watt linkage, and a safety cable.",
+                    "centers": [
+                        {
+                            "center_x": 166.0,
+                            "center_y": 351.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_4_3.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 5,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fanggel mit Drehmoment befestigen.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 166.0,
+                            "center_y": 138.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_2.jpg",
+                        "data\\output_all_pictures\\image_5_3.jpg",
+                        "data\\output_all_pictures\\image_5_4.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Die hinteren 2 Federn mit Hilfe des Federspaners montieren.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 157.0,
+                            "center_y": 168.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Wattgest\u00c3\u0192\u00c2\u00a4nge montieren.",
+                    "picture": true,
+                    "picture_description": "Image showing the assembly of the watt linkage.",
+                    "centers": [
+                        {
+                            "center_x": 103.0,
+                            "center_y": 343.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_3.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Splintholrungen der Kugelk\u00c3\u0192\u00c2\u00b6pfe senkrecht ausrichten.",
+                    "picture": true,
+                    "picture_description": "Image detailing the alignment of the ball joint holes.",
+                    "centers": [
+                        {
+                            "center_x": 165.0,
+                            "center_y": 552.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_4.jpg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

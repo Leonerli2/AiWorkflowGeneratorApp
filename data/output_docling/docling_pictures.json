@@ -1,0 +1,240 @@
+[
+    {
+        "pictures": [
+            {
+                "page_no": 1,
+                "picture_uri": "data\\output_docling\\pictures\\picture_001.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 1,
+                "picture_uri": "data\\output_docling\\pictures\\picture_002.jpg",
+                "center_x": 297,
+                "center_y": 368
+            },
+            {
+                "page_no": 1,
+                "picture_uri": "data\\output_docling\\pictures\\picture_003.jpg",
+                "center_x": 428,
+                "center_y": 687
+            },
+            {
+                "page_no": 2,
+                "picture_uri": "data\\output_docling\\pictures\\picture_004.jpg",
+                "center_x": 155,
+                "center_y": 577
+            },
+            {
+                "page_no": 2,
+                "picture_uri": "data\\output_docling\\pictures\\picture_005.jpg",
+                "center_x": 400,
+                "center_y": 576
+            },
+            {
+                "page_no": 2,
+                "picture_uri": "data\\output_docling\\pictures\\picture_006.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 3,
+                "picture_uri": "data\\output_docling\\pictures\\picture_007.jpg",
+                "center_x": 168,
+                "center_y": 227
+            },
+            {
+                "page_no": 3,
+                "picture_uri": "data\\output_docling\\pictures\\picture_008.jpg",
+                "center_x": 417,
+                "center_y": 228
+            },
+            {
+                "page_no": 3,
+                "picture_uri": "data\\output_docling\\pictures\\picture_009.jpg",
+                "center_x": 309,
+                "center_y": 510
+            },
+            {
+                "page_no": 3,
+                "picture_uri": "data\\output_docling\\pictures\\picture_010.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 4,
+                "picture_uri": "data\\output_docling\\pictures\\picture_011.jpg",
+                "center_x": 297,
+                "center_y": 281
+            },
+            {
+                "page_no": 4,
+                "picture_uri": "data\\output_docling\\pictures\\picture_012.jpg",
+                "center_x": 446,
+                "center_y": 538
+            },
+            {
+                "page_no": 4,
+                "picture_uri": "data\\output_docling\\pictures\\picture_013.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 5,
+                "picture_uri": "data\\output_docling\\pictures\\picture_014.jpg",
+                "center_x": 297,
+                "center_y": 273
+            },
+            {
+                "page_no": 5,
+                "picture_uri": "data\\output_docling\\pictures\\picture_015.jpg",
+                "center_x": 296,
+                "center_y": 588
+            },
+            {
+                "page_no": 5,
+                "picture_uri": "data\\output_docling\\pictures\\picture_016.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 6,
+                "picture_uri": "data\\output_docling\\pictures\\picture_017.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 6,
+                "picture_uri": "data\\output_docling\\pictures\\picture_018.jpg",
+                "center_x": 359,
+                "center_y": 218
+            },
+            {
+                "page_no": 6,
+                "picture_uri": "data\\output_docling\\pictures\\picture_019.jpg",
+                "center_x": 296,
+                "center_y": 538
+            },
+            {
+                "page_no": 7,
+                "picture_uri": "data\\output_docling\\pictures\\picture_020.jpg",
+                "center_x": 297,
+                "center_y": 221
+            },
+            {
+                "page_no": 7,
+                "picture_uri": "data\\output_docling\\pictures\\picture_021.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 7,
+                "picture_uri": "data\\output_docling\\pictures\\picture_022.jpg",
+                "center_x": 506,
+                "center_y": 570
+            },
+            {
+                "page_no": 8,
+                "picture_uri": "data\\output_docling\\pictures\\picture_024.jpg",
+                "center_x": 297,
+                "center_y": 194
+            },
+            {
+                "page_no": 8,
+                "picture_uri": "data\\output_docling\\pictures\\picture_025.jpg",
+                "center_x": 299,
+                "center_y": 457
+            },
+            {
+                "page_no": 8,
+                "picture_uri": "data\\output_docling\\pictures\\picture_026.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 9,
+                "picture_uri": "data\\output_docling\\pictures\\picture_028.jpg",
+                "center_x": 297,
+                "center_y": 252
+            },
+            {
+                "page_no": 9,
+                "picture_uri": "data\\output_docling\\pictures\\picture_029.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 10,
+                "picture_uri": "data\\output_docling\\pictures\\picture_031.jpg",
+                "center_x": 297,
+                "center_y": 389
+            },
+            {
+                "page_no": 11,
+                "picture_uri": "data\\output_docling\\pictures\\picture_032.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 11,
+                "picture_uri": "data\\output_docling\\pictures\\picture_033.jpg",
+                "center_x": 307,
+                "center_y": 223
+            },
+            {
+                "page_no": 11,
+                "picture_uri": "data\\output_docling\\pictures\\picture_034.jpg",
+                "center_x": 306,
+                "center_y": 519
+            },
+            {
+                "page_no": 12,
+                "picture_uri": "data\\output_docling\\pictures\\picture_035.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 12,
+                "picture_uri": "data\\output_docling\\pictures\\picture_036.jpg",
+                "center_x": 297,
+                "center_y": 306
+            },
+            {
+                "page_no": 13,
+                "picture_uri": "data\\output_docling\\pictures\\picture_038.jpg",
+                "center_x": 203,
+                "center_y": 544
+            },
+            {
+                "page_no": 13,
+                "picture_uri": "data\\output_docling\\pictures\\picture_039.jpg",
+                "center_x": 425,
+                "center_y": 520
+            },
+            {
+                "page_no": 14,
+                "picture_uri": "data\\output_docling\\pictures\\picture_041.jpg",
+                "center_x": 504,
+                "center_y": 57
+            },
+            {
+                "page_no": 15,
+                "picture_uri": "data\\output_docling\\pictures\\picture_043.jpg",
+                "center_x": 296,
+                "center_y": 274
+            },
+            {
+                "page_no": 15,
+                "picture_uri": "data\\output_docling\\pictures\\picture_044.jpg",
+                "center_x": 297,
+                "center_y": 571
+            },
+            {
+                "page_no": 15,
+                "picture_uri": "data\\output_docling\\pictures\\picture_045.jpg",
+                "center_x": 504,
+                "center_y": 57
+            }
+        ]
+    }
+]

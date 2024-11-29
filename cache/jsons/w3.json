@@ -1,0 +1,68 @@
+{
+    "page1": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Remove Nose Housing (DPN239-009) and Nose Housing Nut (DPN239-011) from the tool.",
+                    "picture": true,
+                    "picture_description": "An image of the tool, including the nose housing and nose housing nut."
+                },
+                {
+                    "step": 2,
+                    "text": "Remove Jaw Guide (DPN239-006, Jaws (PRG402-8A), Jaw Pusher (DPN239-144), and Pusher Spring (DPN901-001) from the pusher.",
+                    "picture": true,
+                    "picture_description": "An image showing the removal of various tool components."
+                },
+                {
+                    "step": 3,
+                    "text": "Prepare tool for CORNER HEAD installation.",
+                    "picture": true,
+                    "picture_description": "An image depicting the tool ready for the installation."
+                },
+                {
+                    "step": 4,
+                    "text": "Attach Draw Bolt Adapter (DPN239-192) and tighten.",
+                    "picture": true,
+                    "picture_description": "An image of attaching the draw bolt adapter to the tool."
+                }
+            ]
+        }
+    ],
+    "page2": [
+        {
+            "instructions": [
+                {
+                    "step": 5,
+                    "text": "Attach Corner Head Adapter (DPN239-191) and tighten.",
+                    "picture": true,
+                    "picture_description": "A device being assembled with a corner head adapter."
+                },
+                {
+                    "step": 7,
+                    "text": "Tighten Socket Head Screw (DPN907-003) and fix the spin of Draw Bolt Adapter.",
+                    "picture": true,
+                    "picture_description": "The tightening of a socket head screw during assembly."
+                },
+                {
+                    "step": 9,
+                    "text": "Remove Socket Screw (DPN907-003) and attach CORNER HEAD to Corner Head Adapter (DPN239-191).",
+                    "picture": true,
+                    "picture_description": "The removal of a socket screw to attach a corner head."
+                },
+                {
+                    "step": 11,
+                    "text": "Set 8.5mm or less between CORNER HEAD and Corner Head Adapter (DPN239-191).",
+                    "picture": true,
+                    "picture_description": "Measurement being conducted to ensure proper spacing between components."
+                },
+                {
+                    "step": 12,
+                    "text": "Tighten Nut of Corner Head to Corner Head Adapter (DPN239-191).",
+                    "picture": true,
+                    "picture_description": "The final tightening of the nut to secure the corner head."
+                }
+            ]
+        }
+    ]
+}

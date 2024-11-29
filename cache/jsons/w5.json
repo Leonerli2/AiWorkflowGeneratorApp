@@ -5,7 +5,7 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Zweck: Dient als Montagehilfe",
+                    "text": "Zweck: Dient als Montagehilfe.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -17,7 +17,7 @@
                 },
                 {
                     "step": 2,
-                    "text": "Geltungsbereich: Dieses Dokument darf nur f\u00c3\u0192\u00c2\u00bcr internen Gebrauch verwendet werden",
+                    "text": "Geltungsbereich: Dieses Dokument darf nur f\u00c3\u0192\u00c2\u00bcr internen Gebrauch verwendet werden.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -29,7 +29,7 @@
                 },
                 {
                     "step": 3,
-                    "text": "Definitionen (Begriffserkl\u00c3\u0192\u00c2\u00a4rung): Q-in-Line Qualit\u00c3\u0192\u00c2\u00a4tsicherung in der Linie",
+                    "text": "Definitionen (Begriffskl\u00c3\u0192\u00c2\u00a4rung): Q-in-Line Qualit\u00c3\u0192\u00c2\u00a4tsicherung in der Linie.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -41,7 +41,7 @@
                 },
                 {
                     "step": 4,
-                    "text": "Verfahren: Beschreibt die Vorgehensweise f\u00c3\u0192\u00c2\u00bcr eine Montagearbeit",
+                    "text": "Verfahren: Beschreibt die Vorgehensweise f\u00c3\u0192\u00c2\u00bcr eine Montaget\u00c3\u0192\u00c2\u00a4tigkeit.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -53,7 +53,7 @@
                 },
                 {
                     "step": 5,
-                    "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, das die Montaget\u00c3\u0192\u00c2\u00a4tigkeiten bedenkt. Verfahrensregelung E-P003 PRODUKTE HERSTELLEN aufgef\u00c3\u0192\u00c2\u00bchrt werden",
+                    "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, dass die Montaget\u00c3\u0192\u00c2\u00a4tigkeiten nach den beschriebenen Verfahrensanweisungen E-P003 PRODUKTE HERSTELLEN ausgef\u00c3\u0192\u00c2\u00bchrt werden.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -70,9 +70,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Korrektes Sitz des Sicherungsringes in der Nut des Achsk\u00c3\u0192\u00c2\u00b6rpers \u00c3\u0192\u00c2\u00bcberpr\u00c3\u0192\u00c2\u00bcfen.",
+                    "text": "Korrekten Sitz des Sicherungsrings in der Nut des Achsk\u00c3\u0192\u00c2\u00b6rpers \u00c3\u0192\u00c2\u00bcberpr\u00c3\u0192\u00c2\u00bcfen.",
                     "picture": true,
-                    "picture_description": "A close-up view of a part with a circular opening.",
+                    "picture_description": "A close-up image showing a circular component, likely related to the suspension or axle area.",
                     "centers": [
                         {
                             "center_x": 161.0,
@@ -85,9 +85,9 @@
                 },
                 {
                     "step": 2,
-                    "text": "Die Konen der Aufnahmepunkte der Wattgest\u00c3\u0192\u00c2\u00a4nge am Chassis reinigen.",
+                    "text": "Die Cone der Aufnahmepunkte der Wattgest\u00c3\u0192\u00c2\u00a4nge am Chassis reinigen.",
                     "picture": true,
-                    "picture_description": "A person using a tool to clean a part affixed to a chassis.",
+                    "picture_description": "An image showing a tool being used on a chassis component.",
                     "centers": [
                         {
                             "center_x": 166.0,
@@ -107,7 +107,7 @@
                     "step": 1,
                     "text": "Langsicherung am Chassis und an der Achse mit STABURAGS fetten.",
                     "picture": true,
-                    "picture_description": "The image shows a close-up of a chassis and axle connection where lubrication is being applied.",
+                    "picture_description": "A close-up image showing the greasing of a chassis and axle.",
                     "centers": [
                         {
                             "center_x": 166.0,
@@ -124,7 +124,7 @@
                     "step": 2,
                     "text": "Achse unter dem Chassis positionieren und an den Kran h\u00c3\u0192\u00c2\u00a4ngen.",
                     "picture": true,
-                    "picture_description": "The image shows an axle being positioned under a chassis with a crane attending to lift it.",
+                    "picture_description": "An image showing the positioning of an axle under the chassis, with a crane involved.",
                     "centers": [
                         {
                             "center_x": 156.0,
@@ -142,12 +142,12 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Achse vorne mit 2 Spanngurt fixieren.",
+                    "text": "Achse vorne mit 2 Spannset fixieren.",
                     "picture": true,
-                    "picture_description": "Image showing a mechanical setup with bolts and hardware.",
+                    "picture_description": "An image showing the front axle being secured with 2 straps.",
                     "centers": [
                         {
-                            "center_x": 146.0,
+                            "center_x": 126.0,
                             "center_y": 132.0
                         }
                     ],
@@ -157,9 +157,9 @@
                 },
                 {
                     "step": 2,
-                    "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangseil anbringen. Die vorderen Federn k\u00c3\u0192\u00c2\u00b6nnen mit dem Kran hochgezogen werden.",
+                    "text": "Stossd\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangseil ansetzen. Die vorderen Federn k\u00c3\u0192\u00c2\u00b6nnen mit dem Kran hochgezogen werden.",
                     "picture": true,
-                    "picture_description": "Image showing the assembly of components related to the vehicle suspension.",
+                    "picture_description": "An image detailing the installation of shock absorbers, a Watt linkage, and a safety cable.",
                     "centers": [
                         {
                             "center_x": 166.0,
@@ -177,7 +177,7 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangteil mit Drehmoment befestigen.",
+                    "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fanggel mit Drehmoment befestigen.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -189,7 +189,7 @@
                 },
                 {
                     "step": 2,
-                    "text": "Die hinteren 2 Federn mit Hilfe des Federationers montieren.",
+                    "text": "Die hinteren 2 Federn mit Hilfe des Federspaners montieren.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -203,7 +203,7 @@
                     "step": 3,
                     "text": "Wattgest\u00c3\u0192\u00c2\u00a4nge montieren.",
                     "picture": true,
-                    "picture_description": "Image shows the assembly of a component, likely related to vehicle suspension.",
+                    "picture_description": "Image showing the assembly of the watt linkage.",
                     "centers": [
                         {
                             "center_x": 103.0,
@@ -217,9 +217,9 @@
                 },
                 {
                     "step": 4,
-                    "text": "Splinth\u00c3\u0192\u00c2\u00bclsen der Kugelk\u00c3\u0192\u00c2\u00b6pfe senkrecht ausrichten.",
+                    "text": "Splintholrungen der Kugelk\u00c3\u0192\u00c2\u00b6pfe senkrecht ausrichten.",
                     "picture": true,
-                    "picture_description": "Image displays alignment of components, possibly involving ball joints.",
+                    "picture_description": "Image detailing the alignment of the ball joint holes.",
                     "centers": [
                         {
                             "center_x": 165.0,

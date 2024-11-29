@@ -1,0 +1,1245 @@
+{
+    "pdf_document": [
+        {
+            "page_no": 1,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 241.0,
+                            "center_y": 521.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "707-30331A-01: WINDOW, HALO2.0 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "707-30330A-01: OUTER GASKET, HALO2.0, WINDOW, EPDM \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "707-30327A-01: INNER GASKET, HALO2.0, WINDOW, EPDM \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "707-30074A-01: BK, BEZEL, WINDOW, EXT \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "Fasteners: HN4065: HNHX5MM.SS.NLN \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 12 (Ed1.2)",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "Remove the protective film from the inside and outside surface of the window. Keep the protective film to reapply to the outside surface of the window at completion of assembly.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 8,
+                    "text": "Ensure the middle section of the Vinyl has not been removed as shown in Figure 54.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 2,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Assemble the Bezel (707-3074A-01), followed by the Outer Gasket (707-3003A-01), followed by the Window (707-3001A-01), followed by Inner Gasket (707-3302A-01) and then fit the assembly onto the front face of the enclosure. Ensure that the vinyl is on the inside of the enclosure.",
+                    "picture": true,
+                    "picture_description": "A diagram showing the assembly parts (Bezel, Gaskets, Window).",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 3,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Apply the protective film to the outside surface of the window.",
+                    "picture": true,
+                    "picture_description": "Figure showing the assembly parts of the enclosure.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Obtain the following parts for assembly of Flash/Radar Pivot Mounts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "707-301204-01: BKT, MOUNT, MODULE, UNIV, RT \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "707-301204-02: BKT, MOUNT, MODULE, UNIV, LT \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "707-301201-01: BKT, PIVOT, RADAR/FLASH \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "707-301313-02: PIVOT, RADAR/FLASH \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Qty: 2",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "Use WAA-061: WAA*M4, L*6, SM/XM10, PCWHT \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Qty: 4",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 8,
+                    "text": "Use WMA-0042: WMA*PH1, M3X8MM ST7 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Qty: 4",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 4,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Insert the Right and Left Radar/Flash Pivot Brackets onto their respective Right and Left Mount Brackets.",
+                    "picture": true,
+                    "picture_description": "Figure 56 showing the assembly of Right and Left Radar/Flash Pivot Brackets on Mount Brackets.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Place washers on the hex nuts and fasten with hex nuts as shown in Figure 56.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Tighten the hex nuts sufficiently so that the brackets pivot but are not loose.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Fasten the bottom Right and Left Pivot Brackets with x4 M3X8MM screws in the holes shown in Figure 57.",
+                    "picture": true,
+                    "picture_description": "Figure 57 showing the fastening of bottom Right and Left Pivot Brackets.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 5,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 222.0,
+                            "center_y": 262.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "707-2002A-02: VLMNT, ENC, HALO2 - Qty 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "707-301202A-01: BKT, MOUNT, MODULE, UNI, LT - Qty 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "707-301202A-02: BKT, MOUNT, MODULE, UNI, RT - Qty 2",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "707-30145A-02: PLT, INDICATOR ANGLE FLASH/RADAR, RT - Qty 2",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "707-30141A-01: BKT, RISER, SWITCH, PROX - Qty 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "Fasteners:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 8,
+                    "text": "HN-0020: HN.5X5MM.ST.ZN.LN - Qty: 20 (Edit. 2)",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 9,
+                    "text": "HN-0065: HN.M5X5MM.SS.N - Qty: 2",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 10,
+                    "text": "Fasten the Right Mount Bracket (707-30120A-01) into the Enclosure Body studs (707-2002A-02) and secure it with 26 M5 hex nuts (HN-0020) as shown in Figure 58.",
+                    "picture": true,
+                    "picture_description": "A diagram of the enclosure body with brackets and components.",
+                    "centers": []
+                },
+                {
+                    "step": 11,
+                    "text": "Repeat with the Left Mount Bracket (707-30120A-02).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 6,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Insert the Right Angle Indicators (707-3014542) onto the Enclosure Body studs (707-20002A-01) and fasten with M5 hex nuts (HN-0020) as shown in Figure 59.",
+                    "picture": true,
+                    "picture_description": "Illustration of the Right Angle Indicators installed on the Enclosure Body.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Repeat with the Left Angle Indicators (707-301454-01).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Insert the Switch Riser Bracket into the following stud positions and fasten with x2 M4 hex nuts (HN-0065) as shown in Figure 60.",
+                    "picture": true,
+                    "picture_description": "Illustration of the Switch Riser Bracket installation.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 7,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 225.0,
+                            "center_y": 228.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "1. O-Ring (707-602464-01): 35, 3MM, 3MM, BUNA, N, 70A - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "2. BOSS MNT (707-301354-10) - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "3. BEARING, LINEAR, DRIVING, ST., ZN - Qty: 4",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "4. BKT, RISER, CAMERA, MODULE, LT - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "Fasteners:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "1. HN-0065: HN.HAXM5M.SS.NL.N - Qty: 12",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 8,
+                    "text": "2. MS-0107: MS.PH.PK.M16X21MZ.ST.ZN.EX.KP - Qty: 8",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 9,
+                    "text": "3. HB-0019: HB.M10X12MM35 - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 10,
+                    "text": "Slide the O-Ring (707-602464-01) onto the Eyebolt Mount (707-301354-10). Then insert the Eyebolt Mount into the top of the Enclosure Body and fasten with M4 hex nuts (HN-0065) as shown in Figure 61.",
+                    "picture": true,
+                    "picture_description": "A diagram showing the camera riser assembly with parts labeled.",
+                    "centers": []
+                },
+                {
+                    "step": 11,
+                    "text": "Fasten the M10X12MM screw (HB-0019) onto the top of the Eyebolt Mount as shown in Figure 61.",
+                    "picture": true,
+                    "picture_description": "A diagram showing the camera riser assembly with parts labeled.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 8,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Screw x4 Bearing Blocks (707-60162A-01) onto the Left and Right Camera Module Riser Brackets (707-30075A-01, 707-30075A-02) using x6 M6X12MM (MSM-10T) screws as shown in Figure 62.",
+                    "picture": true,
+                    "picture_description": "A diagram showing the placement of bearing blocks on riser brackets.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Then fasten the Left and Right Camera Module Riser Brackets (707-30075A-01, 707-30075A-02) onto the top of the Enclosure Body (707-20002A-01) and fasten with x8 M4 hex nuts (HN-0055) as shown in Figure 63.",
+                    "picture": true,
+                    "picture_description": "A diagram illustrating the assembly of the riser brackets onto the enclosure body.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 9,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 222.0,
+                            "center_y": 402.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "5158-900-01: HALO-2.1 Cable Assembly, Power IEC 320-C13, 300mm - US - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "700-703640-01: TRMLN BLK, ZP06, 30A, 300V, 12.64MM - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "700-601714-01: SPACER, ALUM, 8MMX19.2MMX2.6MM - Qty: 2",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "707-300604-01: BKT, MNT, TOP, SUNSHIELD - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "707-300608-01: BKT, SUNSHIELD, LT - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "707-301674-01: BKT, RISER, TERM BULK - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 8,
+                    "text": "707-301946-01: BKT, SUNSHIELD, 1 QUICK LIFT - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 9,
+                    "text": "707-303329-01: BKT, COVER, FIELD WIRING - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 10,
+                    "text": "700-606620-01: BSNG, OPEN, 2F, SS - Qty: 2 (Ed. 1)",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 11,
+                    "text": "707-301949-01: HINGE, LFT OFF, RINE, CHROME ML - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 12,
+                    "text": "700-406560-01: LABEL, WARNING, ELECTRIC SHOCK HAZARD, 1K2, VINYL - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 13,
+                    "text": "Obtain the following fasteners:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 14,
+                    "text": "MS-0018: MS.PH1.F8.32X3/8SS - Qty: 4 (Ed. 1)",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 15,
+                    "text": "MS-0019: PH.PH1.7MXXHAMX8/MMX3/2N - Qty: 1 (Ed. 2)",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 16,
+                    "text": "AH-42: BH. 1/4 INCH, FLAT, AL ST - Qty: 2 - (Ed. 1)",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 17,
+                    "text": "HN-28: HINGE, 7 IN, 2 - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 18,
+                    "text": "HN-30: HINGE S/S, MNX 25X25 - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 19,
+                    "text": "HN-45: HN. H6MMXSMS.SN.LNY - Qty: 2 (Ed. 2)",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 20,
+                    "text": "Screw the terminal block (700-703640-01) onto the Terminal Block Riser Bracket using an M3X18MM (MS-0018) screws as shown in Figure 64.",
+                    "picture": true,
+                    "picture_description": "Figure 64 shows the terminal block mounted on the Terminal Block Riser Bracket.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 10,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Place the Terminal Block Riser Bracket onto the studs of the Enclosure Body (707-20002A-01) as shown in Figure 65. Fasten with x3 M3 (NH-0044) hex nuts.",
+                    "picture": true,
+                    "picture_description": "A diagram showing the placement of a Terminal Block Riser Bracket on an enclosure.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Connect the black and white cables of 1518-9001-08 to bottom ceramic terminal block as shown in Figure 66 (black cable at bottom, white cable at top).",
+                    "picture": true,
+                    "picture_description": "An image depicting the connection of black and white cables to a terminal block.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Place #1 NH-0038 hex nut onto the earth stud as shown in Figure 66.",
+                    "picture": true,
+                    "picture_description": "An image illustrating the positioning of a hex nut on the earth stud.",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "If a permanent earth marking or engraving is not applied to the metalwork, apply an Earth sticker label in the following location as shown in Figure 66.",
+                    "picture": true,
+                    "picture_description": "An image showing where to apply an Earth sticker label on the metalwork.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 11,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Clip the x1 700-60662A-01 bushing in the location shown in Figure 67. Secure 5158-9001-08 to the left bushing.",
+                    "picture": true,
+                    "picture_description": "Figure 67 shows the bushing clip location.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Pack the remaining x1 700-60662A-01 bushing into a separate bag. Ensure they are wrapped and shipped with the enclosure.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Perform 2 rivets (AK-42-28) to reinforce the Field Wiring Cover Bracket (707-30339A-01) as shown in Figure 68.",
+                    "picture": true,
+                    "picture_description": "Figure 68 shows the Field Wiring Cover Bracket.",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Place the 700-40665A-01 warning label on the cover of the bracket.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "Place the Field Wiring Cover Bracket (707-30339A-01) onto the Enclosure Body and fasten with x2 HN-0202 hex nuts as shown in Figure 69 (right-hand side).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 12,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Place x4 P-Clips (700-7697A.01) onto the Enclosure Body and fasten with x4 M4 (HN-0065) hex nuts as shown in Figure 70.",
+                    "picture": true,
+                    "picture_description": "Figure 70 shows the placement of P-Clips on the Enclosure Body.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Clip 515B-9001-08 to the left most P-Clips shown in Figure 70.",
+                    "picture": true,
+                    "picture_description": "Figure 70 shows where to attach Clip 515B-9001-08.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Place the x2 hinges (706-270A.01) onto the Enclosure Body (707-2002A.01) and fasten with x4 8-32x3/8 flat Phillips Head screws as shown in Figure 71.",
+                    "picture": true,
+                    "picture_description": "Figure 71 shows the placement of the hinges on the Enclosure Body.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 13,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Refer to Figure 71 for the assembly layout.",
+                    "picture": true,
+                    "picture_description": "A diagram showing the inside of an enclosure with labeled components.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Ensure all parts are available as listed in the parts list.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Prepare the assembly area with the necessary tools such as a screwdriver and pliers.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Begin by aligning the main components as shown in the diagram.",
+                    "picture": true,
+                    "picture_description": "The diagram depicts how to position components within the enclosure.",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "Secure the components using the provided screws and bolts.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "Double-check the assembly against Figure 71 to ensure accuracy.",
+                    "picture": true,
+                    "picture_description": "Final assembly check with component layout.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 14,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts: 707-100664-01 S/A DOOR, SERVICE PNL - QTY: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Position the door at a 90\u00c3\u201a\u00c2\u00b0 angle to the enclosure and align the hinges.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "When the hinges are aligned, lower the door so that the hinges engage.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 15,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 214.0,
+                            "center_y": 228.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "700-60171A-01: SPACER, ALUM, 0.315X0.750X1.00 - Qty: 2",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "707-300640-01: BKT, MNT, TOP, SUNSHIELD - Qty: 2",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "707-300864-01: BKT, SUNSHIELD, LT - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "707-300865-01: BKT, SUNSHIELD, RT - Qty: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "707-301494-01: BKT, SPACER, SUNSHIELD, QUICK LIFT - Qty: 4",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "Obtain the following fasteners:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 8,
+                    "text": "HB-0020: HB.HS1X14MM.SS - Qty: 2",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 9,
+                    "text": "MS-0132: MS.PHT.F.3X3/8.SS - Qty: 12",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 10,
+                    "text": "HN-0020: HN.MSXSMSM.ST.ZN.LN - Qty: 8",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 16,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Insert the Aluminium Spacers (700-6017A-01) onto the studs located on the top side of the Enclosure Body as shown in Figure 73 (left-hand side).",
+                    "picture": true,
+                    "picture_description": "Figure 73 shows the left-hand side of the enclosure with aluminium spacers.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Add QTY: 8 - M5 Hex nuts (HN-0020) to the studs on each side of the Enclosure Body as shown in Figure 73 (right-hand side) with 4 each side. Leave a gap of 3mm between the flange of the nut and the enclosure side.",
+                    "picture": true,
+                    "picture_description": "Figure 73 shows the right-hand side of the enclosure with hex nuts positioned.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Add QTY: 2 - Bracket 707-30119A-01 to the left-hand Sunshield and fasten using QTY: 6 - fasteners MS-1012 as shown in Figure 74.",
+                    "picture": true,
+                    "picture_description": "Figure 74 illustrates the left-hand sunshield with brackets and fasteners.",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Repeat for the right-hand Sunshield.",
+                    "picture": true,
+                    "picture_description": "Figure 74 also represents the action for the right-hand sunshield similarly.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 17,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Place the Left and Right Sunshields (707-300864A-01, 707-300864A-02) onto the Enclosure Body.",
+                    "picture": true,
+                    "picture_description": "A diagram showing the placement of Left and Right Sunshields on the Enclosure Body.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "If the brackets are difficult to locate onto the hex nuts, loosen them slightly until the sun shields fit securely.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Insert the 2 Sunshield Mounts (707-300864A-01) into the slots and fasten with 2 MSX14MM hex screws (HB-0202) as shown in Figure 75.",
+                    "picture": true,
+                    "picture_description": "A diagram showing the insertion of Sunshield Mounts and fastening with hex screws.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 18,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Place the PATCH PANEL PCB (5158-0007-00) onto the stand-offs and fit 4 x MS-0098 fasteners (circled yellow).",
+                    "picture": true,
+                    "picture_description": "A detailed image of the PATCH PANEL PCB with highlighted fasteners.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Attach the Patch Panel Bracket to the right side of the enclosure using 3 x HN-0020 fasteners (circled as shown in figure below).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Attach the RJ45-RJ45 coupler jack (700-7269A-01) to the Patch Panel Bracket (highlighted in green in the orientation shown below).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 19,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 222.0,
+                            "center_y": 434.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "- 515B-1020-00: HALO2 - CABLE ASSEMBLY, PATCH PANEL TO DCDC \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "- 700-706274-01: P/S, D/C, 9.36V IN, 24V OUT - QTY: 1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "- Fasteners: HN-0044: HMMX34MM.SS.NLN \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Qty: 4",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "Attach the DC-DC converter to the right side of the enclosure using a 4 x M3 (HN-0044) hex nut fasteners (circled yellow) as shown in figure below.",
+                    "picture": true,
+                    "picture_description": "Two images showing correct and incorrect methods of connecting the DC-DC converter.",
+                    "centers": []
+                },
+                {
+                    "step": 6,
+                    "text": "Connect 515B-1020-00 to the DCDC converter and patch panel (shown in above picture).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "IMPORTANT: The cable colours shown in image are not correct. Refer below for correct cable colour connections.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 8,
+                    "text": "- Red: +Vin",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 9,
+                    "text": "- Green: -Vin (GND_IN)",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 10,
+                    "text": "- Yellow: +Vout",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 20,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Identify the Black -Vout (GND.OUT) connection.",
+                    "picture": true,
+                    "picture_description": "Figure 77 shows the Black -Vout connection.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Check the connection point as indicated in Figure 78.",
+                    "picture": true,
+                    "picture_description": "Figure 78 shows another view of the connection point.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Inspect the overall wiring as shown in Figure 79.",
+                    "picture": true,
+                    "picture_description": "Figure 79 provides a comprehensive view of the wiring setup.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 21,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts: 707-303344-01 (Plate, Seal, Antennae, Outer/Inner - QTY: 1), 707-303346-01 (Plate, Seal, Antennae, Mid - QTY: 1), 707-603346-01 (Gasket, Seal, Antennae, Flp - QTY: 1), 707-303344-02 (Gasket, Seal, Antennae, Inner - QTY: 1), Fasteners: HH-0020: HMNX5X5MM, ST, ZN,NLN - QTY: 3 (Ed. 2).",
+                    "picture": true,
+                    "picture_description": "A circular sealing component displayed with an adhesive surface.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Stick the adhesive side of the Gasket (707-603346-A-01) onto the Outer Plate (707-303344-A-01) as shown in Figure 80.",
+                    "picture": true,
+                    "picture_description": "The gasket being adhered to the outer plate.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Fit the Seal Plate (707-303344-01) onto the Outer Plate studs. Then place the Inner Plate (707-303344-02) on the underside and fasten with x3 M5 hex nuts (HH-0020).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 22,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Ensure all components are present before beginning assembly.",
+                    "picture": true,
+                    "picture_description": "An illustration of the enclosure with labeled components.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Position the enclosure on a stable surface to prevent tipping during assembly.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Insert the necessary screws into the designated holes as per the diagram.",
+                    "picture": true,
+                    "picture_description": "An illustration showing the placement of screws.",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Tighten screws to secure the components in place, ensuring everything is aligned properly.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "Complete the assembly by attaching the top cover securely onto the enclosure.",
+                    "picture": true,
+                    "picture_description": "An illustration of the enclosure with the top cover being placed.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 23,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Take the Camera Module that was assembled earlier in the work instruction.",
+                    "picture": true,
+                    "picture_description": "An assembly of components indicating where to place the Camera Module.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Align the rails on the Camera Module with the Bearings on the ceiling of the enclosure and slide the module into position.",
+                    "picture": true,
+                    "picture_description": "Illustration showing the alignment process of the Camera Module.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Tighten the captive screws indicated in white arrows to lock the module in position.",
+                    "picture": true,
+                    "picture_description": "Close-up view of captive screws that need to be tightened.",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Connect 5158-1001-00 to the Patch Panel J/S port as shown in the figure.",
+                    "picture": true,
+                    "picture_description": "Detailed view of the Patch Panel J/S port connection.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 24,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts: 707-300674-01: BKT, TIEDOWN, CABLE ENTRY - QTY - 1; 707-306634-01: GSKT, PEDISTAL, CABLE ENTRY, BTM - QTY - 1; 707-306634-02: GSKT, PEDISTAL, CABLE ENTRY, TOP - QTY - 1; Fasteners: HN-0034: HN8.32X15/64,5S80, NL - QTY - 4.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 236.0,
+                            "center_y": 193.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Remove the backing from bottom gasket 707-300644-01 and stick it centered over the hole in the base of the enclosure.",
+                    "picture": true,
+                    "picture_description": "An illustration showing the placement of the gasket over the hole in the enclosure.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Remove the backing from top gasket 707-306634-02 and stick centered on the Cable Entry Plate.",
+                    "picture": true,
+                    "picture_description": "An illustration showing the top gasket being placed on the Cable Entry Plate.",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Attach the Plate (gasket assembly) on the 4 studs in the centre of the enclosure base and secure with fasteners x4 HN-0034 hex nuts as shown in Figure 86.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 25,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Locate the enclosure as shown in Figure 86.",
+                    "picture": true,
+                    "picture_description": "A diagram of the enclosure and its components, including a circular base and mounting parts.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Identify the mounting points inside the enclosure.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Secure the circular component using the provided screws.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Ensure all connections are tight to avoid any movement.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "Finalize the assembly by checking for any missing components.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 26,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Obtain the following parts:",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "S/A JUNCTION BOX, P/S, A/C/D/C - QTY-1",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Take the Junction Box Module that was assembled earlier in the work instruction.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Place it at the back of the enclosure aligning it with the studs indicated in yellow.",
+                    "picture": true,
+                    "picture_description": "The image shows the junction box being aligned with studs in an enclosure.",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "Fasten with 3 M5 hex nuts (HN-0020).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 27,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Refer to the torque settings for metric fasteners as listed in the table.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Identify the thread size (e.g., M3, M4, M5, M6, M8) of the fasteners you are using.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Choose the correct torque value according to the material type (zinc plated steel or stainless steel 304) and the type of fastener (socket head, etc.) from the table.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 4,
+                    "text": "Apply the specified torque setting while fastening.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        }
+    ]
+}
