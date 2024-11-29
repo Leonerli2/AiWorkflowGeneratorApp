@@ -1035,7 +1035,7 @@ def match_pictures_to_instructions2(pictures_json, instructions_json):
 
     return instructions_json
 # ------------------------------------------------------------------------------------------------
-def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w3.pdf"):
+def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w5.pdf"):
     # does the pipeline have to be cleared after each run? -> how long does it take to run the pipeline? 
     # -> dependant on that we want to clear the pipeline -> probably want to store
     # clear all the folders: output_docling, output_openai_text, output_pictures, output_all_pictures
@@ -1047,7 +1047,7 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w3.pdf"
     
     
     # -------------------------------------- docling --------------------------------------
-    docling_document = extract_text_and_pictures(input_workinstruction_pdf_path)
+    extract_text_and_pictures(input_workinstruction_pdf_path)
     # print(str(docling_document))
     # print("docling_document type: ", type(docling_document))
     # print("docling_document ", docling_document)
@@ -1056,7 +1056,7 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w3.pdf"
     # docling_json= json.dumps(str(docling_document))
     
     # Load the JSON data from the docling extraction if needed
-    with open(input_workinstruction_pdf_path, "r", encoding="utf-8") as file:
+    with open(input_workinstruction_pdf_path, "r", encoding="utf-8", errors="replace") as file:
         docling_json = json.load(file)
     # print(type(docling_json))
 
