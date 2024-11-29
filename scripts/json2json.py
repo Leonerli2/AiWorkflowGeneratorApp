@@ -1,12 +1,15 @@
 import json
-from typing import List
+from typing import List, Union
 from pydantic import BaseModel
 from openai import OpenAI
+import os
+from tqdm import tqdm
 
 OPENAI_API_KEY = "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"
 
 # Define the JSON structure for the separate instruction blocks of ELAM
 class BaseTask(BaseModel):
+    id: int
     name: str
     task: str
     description: str
@@ -42,7 +45,7 @@ class Info(BaseModel):
 class Checklist(BaseTask):
     checklist: List['ChecklistItem']
 
-class ChecklistItem(BaseModel):
+class ChecklistItem(BaseTask):
     id: int
     question: str
     correctAnswer: str
@@ -62,8 +65,46 @@ class Instruction(BaseModel):
     instructions: List[InstructionStep]
 
 
-def instruction_basic_json_2_ELAM_flowchart_json(instruction_basic_json_path, elam_flowchart_json_path):
-    print(f"\n### Start converting basic instruction JSON to final ELAM flowchart JSON ###")
+def predict_instruction_type(instruction_text):
+
+    # Initialize the OpenAI API client
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
+    system_prompt = "Sie assistieren bei einer interpretation einer Arbeitsanweisung und sollen die Art der Anweisung bestimmen. Da sie spezialisiert sind für die Bossard ELAM software sollen sie die Anweisung in eine der folgenden Kategorien einordnen: Manual, Scan, Tightening, Rivet, Smartlabel, Pick_to_Light, SmartTower, Info, ChecklistItem."
+    user_prompt = f"""
+    Ich gebe Ihnen eine Anweisung, und Sie sollen vorhersagen, um welche Art von Anweisung es sich handelt.
+    Die möglichen Anweisungstypen sind:
+    Manual, Scan, Tightening, Rivet, Smartlabel, Pick_to_Light, SmartTower, Info, ChecklistItem
+    
+    Anweisung: "{instruction_text}"
+    
+    Bitte geben Sie nur die Art der Anweisung an (z.B. 'Scan', 'Manual', etc.).
+
+    Falls Sie nicht sicher sind, geben Sie 'Unsicher' an.
+    """
+
+    # Call to the OpenAI API to predict the instruction type
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": system_prompt
+            },
+            {
+                "role": "user",
+                "content": user_prompt,
+            }
+        ]
+    )
+
+    # Extract and return the response text (which should be the instruction type)
+    instruction_type = response.choices[0].message.content
+    return instruction_type
+
+
+def instruction_basic_json_2_instruction_advanced_json(instruction_basic_json_path, instruction_advanced_json_path):
+    print(f"\n### Start converting basic instruction JSON to advanced JSON with different types of instructions ###")
     
     with open(instruction_basic_json_path, 'r') as file:
         instruction_basic_json = json.load(file)
@@ -73,8 +114,36 @@ def instruction_basic_json_2_ELAM_flowchart_json(instruction_basic_json_path, el
     # Initialize the OpenAI API client
     client = OpenAI(api_key=OPENAI_API_KEY)
 
+    # Empty list to store the parsed instructions
+    instructions = []
+    
+    # Create a dictionary to map instruction type strings to their respective classes
+    instruction_type_to_class = {
+        "Manual": Manual,
+        "Scan": Scan,
+        "Tightening": Tightening,
+        "Rivet": Rivet,
+        "Smartlabel": Smartlabel,
+        "Pick_to_Light": Pick_to_Light,
+        "SmartTower": SmartTower,
+        "Info": Info,
+        "ChecklistItem": ChecklistItem,
+    }
+
     # Loop over the steps in the instruction JSON and process each one with the OpenAI API
-    for instruction in instruction_basic_json['instructions']:
+    for instruction in tqdm(instruction_basic_json['instructions']):
+
+        # Predict the instruction type
+        instruction_text = instruction['text']
+        # print(f"\nPredicting instruction type for: {instruction_text}")
+        instruction_type = predict_instruction_type(instruction_text)
+        # print(f"Predicted instruction type: {instruction_type}")
+        if instruction_type == "Unsicher":
+            instruction_type = "Manual"
+            print(f"Defaulting to Manual instruction type")
+
+
+
         # Define the system and user prompts for the API call
         system_prompt = "Sie sind ein Assistent, der Videotranskriptionsdaten verarbeitet, die in Anweisungen im JSON-Format umgewandelt werden sollen."
         user_prompt = f"""### KONTEXRT:
@@ -114,37 +183,17 @@ def instruction_basic_json_2_ELAM_flowchart_json(instruction_basic_json_path, el
                     correctAnswer: str (Korrekte Antwort auf die Fragestellung/Aufgabe der Checklisten-Aufgabe)
 
 
-            ### BEMERKUNG:
-
-
-
-            ### TRANSKTIPTION-JSON FÜR DIE ANALYSE:
-
+            ### INSTRUCTION WELCHE ANALYSIERT WERDEN SOLL:
+            {instruction}
 
 
             ### ZUSATZWISSEN -  KOMPLETTE ANLEITUNG:
-            {instruction_basic_json}
-
-            Sie haben eine Transkriptions-JSON mit einer kompletten Arbeitsanweisung, die jeweils Zeitstempel und gesprochenen Text enthalten, welcher mithilfe von whisper von einem Video extrahiert wurde.
-            Bitte extrahiren sie jeden einzelnen Schritt der Arbeitsanweisung und führen sie die folgenden Schritte aus:
-            1. Welche Art von Anweisung ist es? Es soll aus einer der folgenden Klassennamen gewählt werden: Manual, Scan, Tightening, Rivet, Smartlabel, Pick_to_Light, SmartTower, Info, ChecklistItem und in das Feld "type" eingetragen werden.
-            2. Extrahieren Sie die Beschreibung des Arbeitsschritts. -> welcher dan in die jeweilige Anweisung unter "description" eingetragen wird.
-            3. Einen Titel für die art der Anweisung erstellen -> welcher dan in die jeweilige Anweisung unter "name" eingetragen wird.
-            3. Einen Titel für die Anweisung erstellen -> welcher dan in die jeweilige Anweisung unter "task" eingetragen wird.
-            2. Überprüfen Sie, ob das Wort "Foto" im Text erwähnt wird:
-            - Falls "Foto" erscheint, notieren Sie den Zeitstempel, an dem es erstmals in diesem Arbeitsschritt erwähnt wird.
-            - Falls "Foto" nicht erwähnt wird, setzen Sie dieses Feld auf null.
-            3. Geben Sie jede Arbeitsanweisung zurück mit:
-            - Zeitstempeln für Beginn und Ende der jeweiligen Anweisung, welche in den Feldern "task_start_time" und "task_end_time" eingetragen werden.
-            - Erstelle einen separaten Eintrag für den "Foto"-Zeitstempel, welcher auch null sein kann und schreibe es in das Feld "image_frame_time".
-
-            Hier ist die zu analysierende Transkriptions-JSON:
             {instruction_basic_json}
             """
 
 
         # Structured API call to extract instructions
-        completion = client.beta.chat.completions.parse(
+        response = client.beta.chat.completions.parse(
             model="gpt-4o-mini",
             messages=[
                 {
@@ -156,33 +205,25 @@ def instruction_basic_json_2_ELAM_flowchart_json(instruction_basic_json_path, el
                     "content": user_prompt,
                 }
             ],
-            response_format=Instruction,  # Parse into the defined schema
+            response_format=instruction_type_to_class[instruction_type]
         )
 
-        # Extract the parsed instructions
-        instructions = [choice.message.parsed for choice in completion.choices]
+        # Append the parsed instruction to the list
+        instructions.append(json.loads(response.choices[0].message.content))
+
+
+
+    print(f"Converted {len(instructions)} basic instructions to advanced instructions")
+
+    # Save the parsed instructions to a new JSON file
+    os.makedirs(os.path.dirname(instruction_advanced_json_path), exist_ok=True)
+    with open(instruction_advanced_json_path, 'w') as file:
+        json.dump(instructions, file, indent=4)
+    print(f"Saved advanced instruction JSON to {instruction_advanced_json_path}")
 
     # Output the results as JSON
     return instructions
 
-
-
-    elam_flowchart_json = {
-        "steps": []
-    }
-    
-    for step in instruction_basic_json["steps"]:
-        elam_flowchart_json["steps"].append({
-            "description": step["description"],
-            "start_time": step["start_time"],
-            "end_time": step["end_time"],
-            "photo_timestamp": step["photo_timestamp"]
-        })
-    
-    with open(elam_flowchart_json_path, "w") as json_file:
-        json.dump(elam_flowchart_json, json_file, indent=4)
-        
-    return elam_flowchart_json
 
 
 
