@@ -1,0 +1,49 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Entnahme der Mine und Quittierung an der LED-Leuchte. Bei diesem Schritt wird die Mine eines Kugelschreibers entnommen und an einer LED-Leuchte quittiert. Dieses Werkzeug und Zubeh\u00f6r werden hierbei verwendet: Mine, Kugelschreiber und LED-Leuchte. Ein Foto wird bei diesem Schritt gemacht.",
+            "image_uri": "data/output/video/images/video52/instruction52_1.jpg"
+        },
+        {
+            "step": 2,
+            "text": "Entnahme der Feder und Quittierung an der LED-Leuchte. Hierbei wird die Feder des Kugelschreibers entnommen und an der LED-Leuchte quittiert. Werkzeuge sind die Feder und die LED-Leuchte. Auch hierbei wird ein Foto gemacht.",
+            "image_uri": "data/output/video/images/video52/instruction52_2.jpg"
+        },
+        {
+            "step": 3,
+            "text": "Die Feder auf die Mine stecken. In diesem Schritt wird die Feder wieder auf die entnommene Mine gesteckt. Es kommen die Feder und die Mine zum Einsatz. Ein Foto dieses Prozesses wird aufgenommen.",
+            "image_uri": "data/output/video/images/video52/instruction52_3.jpg"
+        },
+        {
+            "step": 4,
+            "text": "Entnahme der Stifth\u00fclle oben und Quittierung an der LED-Leuchte. Hier wird die obere Stifth\u00fclle des Kugelschreibers entnommen und die Quittierung erfolgt an der LED-Leuchte. Werkzeuge: obere Stifth\u00fclle, Kugelschreiber und LED-Leuchte. Ein Foto wird erstellt.",
+            "image_uri": "data/output/video/images/video52/instruction52_4.jpg"
+        },
+        {
+            "step": 5,
+            "text": "Mine und Feder in das Oberteil stecken. Bei diesem Schritt werden die zuvor bearbeiteten Teile (Mine und Feder) in das Oberteil des Kugelschreibers gesteckt. Dieses Werkzeug wird verwendet: Oberteil, Mine und Feder. Ein Foto wird hier nicht erw\u00e4hnt.",
+            "image_uri": "data/output/video/images/video52/instruction52_5.jpg"
+        },
+        {
+            "step": 6,
+            "text": "Entnahme der Stifth\u00fclle unten und Quittierung an der LED-Leuchte. Die untere Stifth\u00fclle wird hier entnommen und an der LED-Leuchte quittiert. Werkzeuge sind die untere Stifth\u00fclle und die LED-Leuchte. Au\u00dferdem wird ein Foto gemacht.",
+            "image_uri": "data/output/video/images/video52/instruction52_6.jpg"
+        },
+        {
+            "step": 7,
+            "text": "Das Oberteil auf das Unterteil schrauben. In diesem Schritt wird das Oberteil des Kugelschreibers auf das Unterteil geschraubt. Werkzeug: Oberteil und Unterteil. Hier wird kein Foto gemacht. Ein Video wird erstellt.",
+            "image_uri": "data/output/video/images/video52/instruction52_7.jpg"
+        },
+        {
+            "step": 8,
+            "text": "Pr\u00fcfen des Kugelschreibers. Zuerst wird \u00fcberpr\u00fcft, ob die Mine ausgefahren werden kann. Dieser Schritt beinhaltet die Kontrolle des Kugelschreibers selbst und des Mechanismus. Es wird ein Foto gemacht, um diesen Schritt zu dokumentieren.",
+            "image_uri": "data/output/video/images/video52/instruction52_8.jpg"
+        },
+        {
+            "step": 9,
+            "text": "\u00dcberpr\u00fcfung, ob die Mine wieder eingefahren werden kann. Hierbei wird getestet, ob die Mine wieder in den Kugelschreiber eingefahren werden kann. Es wird ein Foto von diesem \u00dcberpr\u00fcfungsprozess angefertigt.",
+            "image_uri": "data/output/video/images/video52/instruction52_9.jpg"
+        }
+    ]
+}

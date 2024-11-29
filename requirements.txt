@@ -8,3 +8,10 @@ docling
 opencv-python
 numpy
 moviepy
+matplotlib
+networkx
+plotly
+streamlit
+IPython
+qrcode
+ffmpeg-python

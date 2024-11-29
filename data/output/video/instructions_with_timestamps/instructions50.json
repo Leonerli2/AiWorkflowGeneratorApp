@@ -1,0 +1,67 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Die Miene des Stifts entnehmen. Hierbei wird die obere Kappe des Stifts entfernt, um Zugang zur Miene zu erhalten.",
+            "picture_time": 7.579999923706055,
+            "start_time": 0.0,
+            "end_time": 2.4800000190734863
+        },
+        {
+            "step": 2,
+            "text": "Die obere Stifth\u00fclle entnehmen. Dies geschieht durch das Abziehen der Kappe von der Vorderseite des Stifts.",
+            "picture_time": 14.4399995803833,
+            "start_time": 9.899999618530273,
+            "end_time": 11.260000228881836
+        },
+        {
+            "step": 3,
+            "text": "Die Miene in die Stifth\u00fclle einf\u00fchren. Achten Sie darauf, dass die Miene richtig positioniert wird, bevor die Stifth\u00fclle wieder montiert wird.",
+            "picture_time": 22.479999542236328,
+            "start_time": 19.540000915527344,
+            "end_time": 20.68000030517578
+        },
+        {
+            "step": 4,
+            "text": "Die Feder des Stifts entnehmen. Dies erfolgt durch das Herausziehen der Feder, die in der Stifth\u00fclle gehalten wird.",
+            "picture_time": 28.280000686645508,
+            "start_time": 25.040000915527344,
+            "end_time": 26.059999465942383
+        },
+        {
+            "step": 5,
+            "text": "Die Feder auf die Miene stecken. Diese erm\u00f6glicht den automatischen R\u00fcckmechanismus des Stifts, der das Schreiben erleichtert.",
+            "picture_time": 33.97999954223633,
+            "start_time": 30.299999237060547,
+            "end_time": 31.940000534057617
+        },
+        {
+            "step": 6,
+            "text": "Die untere Stifth\u00fclle entnehmen. Durch das Abziehen wird eine vollst\u00e4ndige Demontage des Stifts erm\u00f6glicht.",
+            "picture_time": 38.400001525878906,
+            "start_time": 35.91999816894531,
+            "end_time": 37.119998931884766
+        },
+        {
+            "step": 7,
+            "text": "Die obere Stifth\u00fclle auf die untere Stifth\u00fclle schrauben. Dies ist der letzte Schritt, um den Stift wieder zusammenzusetzen.",
+            "picture_time": 49.939998626708984,
+            "start_time": 45.2400016784668,
+            "end_time": 47.15999984741211
+        },
+        {
+            "step": 8,
+            "text": "Einen Funktionstest durchf\u00fchren. Hier wird \u00fcberpr\u00fcft, ob der Stift ordnungsgem\u00e4\u00df funktioniert und wieder bereitzustellen ist.",
+            "picture_time": 54.63999938964844,
+            "start_time": 52.34000015258789,
+            "end_time": 54.63999938964844
+        },
+        {
+            "step": 9,
+            "text": "Die Arbeit ist nun abgeschlossen und der Stift ist bereit f\u00fcr den Gebrauch.",
+            "picture_time": null,
+            "start_time": 57.380001068115234,
+            "end_time": 60.09000015258789
+        }
+    ]
+}

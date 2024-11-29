@@ -1,0 +1,158 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Zuerst wird die Kamera gestartet, um die n\u00f6tigen Schritte sichtbar zu machen.",
+            "picture_time": 11.760000228881836,
+            "start_time": 0.0,
+            "end_time": 7.119999885559082
+        },
+        {
+            "step": 2,
+            "text": "Das Pumpengeh\u00e4use wird entnommen.",
+            "picture_time": 18.299999237060547,
+            "start_time": 7.119999885559082,
+            "end_time": 12.699999809265137
+        },
+        {
+            "step": 3,
+            "text": "Das entnommene Pumpengeh\u00e4use wird in die vorgesehene Aufnahme eingelegt.",
+            "picture_time": 18.299999237060547,
+            "start_time": 12.699999809265137,
+            "end_time": 14.619999885559082
+        },
+        {
+            "step": 4,
+            "text": "Ein Zylinder wird entnommen.",
+            "picture_time": 22.760000228881836,
+            "start_time": 21.299999237060547,
+            "end_time": 26.31999969482422
+        },
+        {
+            "step": 5,
+            "text": "Der entnommene Zylinder wird in die vorgesehene Aufnahme eingelegt.",
+            "picture_time": 29.920000076293945,
+            "start_time": 26.31999969482422,
+            "end_time": 27.020000457763672
+        },
+        {
+            "step": 6,
+            "text": "Das Pumpengeh\u00e4use wird erneut entnommen.",
+            "picture_time": 36.5,
+            "start_time": 31.639999389648438,
+            "end_time": 33.68000030517578
+        },
+        {
+            "step": 7,
+            "text": "Das Pumpengeh\u00e4use wird f\u00fcr die n\u00e4chste Bearbeitung positioniert.",
+            "picture_time": 54.0,
+            "start_time": 40.939998626708984,
+            "end_time": 46.31999969482422
+        },
+        {
+            "step": 8,
+            "text": "Drei Schrauben werden entnommen, die f\u00fcr die Montage ben\u00f6tigt werden.",
+            "picture_time": 59.79999923706055,
+            "start_time": 55.560001373291016,
+            "end_time": 56.15999984741211
+        },
+        {
+            "step": 9,
+            "text": "Die Schrauben werden an die entsprechenden Stellen angesetzt.",
+            "picture_time": 69.76000213623047,
+            "start_time": 61.91999816894531,
+            "end_time": 62.70000076293945
+        },
+        {
+            "step": 10,
+            "text": "Die Schrauben werden mit einem Smart Tool festgezogen.",
+            "picture_time": 127.37999725341797,
+            "start_time": 73.58000183105469,
+            "end_time": 75.4000015258789
+        },
+        {
+            "step": 11,
+            "text": "Es werden erneut drei Schrauben entnommen.",
+            "picture_time": 127.4000015258789,
+            "start_time": 127.37999725341797,
+            "end_time": 127.4000015258789
+        },
+        {
+            "step": 12,
+            "text": "Wieder werden drei Schrauben entnommen.",
+            "picture_time": 128.55999755859375,
+            "start_time": 127.4000015258789,
+            "end_time": 127.54000091552734
+        },
+        {
+            "step": 13,
+            "text": "Und noch einmal werden drei Schrauben entnommen.",
+            "picture_time": 138.8800048828125,
+            "start_time": 129.5800018310547,
+            "end_time": 129.5800018310547
+        },
+        {
+            "step": 14,
+            "text": "Jetzt wird die Pumpengeh\u00e4usedecke entnommen.",
+            "picture_time": 154.22000122070312,
+            "start_time": 145.24000549316406,
+            "end_time": 152.97999572753906
+        },
+        {
+            "step": 15,
+            "text": "Die Pumpengeh\u00e4usedecke wird positioniert.",
+            "picture_time": 161.22000122070312,
+            "start_time": 156.60000610351562,
+            "end_time": 157.72000122070312
+        },
+        {
+            "step": 16,
+            "text": "F\u00fcnf Schrauben werden entnommen, um die Pumpengeh\u00e4usedecke zu sichern.",
+            "picture_time": 166.5,
+            "start_time": 163.4199981689453,
+            "end_time": 164.25999450683594
+        },
+        {
+            "step": 17,
+            "text": "Die Deckel-Schrauben werden mit einem Smart Tool verschraubt.",
+            "picture_time": 185.4600067138672,
+            "start_time": 181.44000244140625,
+            "end_time": 182.86000061035156
+        },
+        {
+            "step": 18,
+            "text": "Es wird \u00fcberpr\u00fcft, ob die Anschl\u00fcsse sauber sind.",
+            "picture_time": 239.8000030517578,
+            "start_time": 238.5800018310547,
+            "end_time": 240.3000030517578
+        },
+        {
+            "step": 19,
+            "text": "Es wird geschaut, ob Sch\u00e4den vorhanden sind.",
+            "picture_time": 242.5800018310547,
+            "start_time": 241.74000549316406,
+            "end_time": 244.5800018310547
+        },
+        {
+            "step": 20,
+            "text": "Ein Wertvergleich wird eingegeben.",
+            "picture_time": 248.33999633789062,
+            "start_time": 246.74000549316406,
+            "end_time": 249.47999572753906
+        },
+        {
+            "step": 21,
+            "text": "Der Test wird wiederholt, um die Funktionsf\u00e4higkeit zu \u00fcberpr\u00fcfen.",
+            "picture_time": 252.16000366210938,
+            "start_time": 252.0800018310547,
+            "end_time": 252.72000122070312
+        },
+        {
+            "step": 22,
+            "text": "Die Arbeit wird mit einem Fragezeichen abgeschlossen.",
+            "picture_time": 258.05999755859375,
+            "start_time": 257.67999267578125,
+            "end_time": 259.4599914550781
+        }
+    ]
+}

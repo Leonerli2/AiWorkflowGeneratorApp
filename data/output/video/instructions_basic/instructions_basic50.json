@@ -1,0 +1,49 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Die Miene des Stifts entnehmen. Hierbei wird die obere Kappe des Stifts entfernt, um Zugang zur Miene zu erhalten.",
+            "image_uri": "data/output/video/images/video50/instruction50_1.jpg"
+        },
+        {
+            "step": 2,
+            "text": "Die obere Stifth\u00fclle entnehmen. Dies geschieht durch das Abziehen der Kappe von der Vorderseite des Stifts.",
+            "image_uri": "data/output/video/images/video50/instruction50_2.jpg"
+        },
+        {
+            "step": 3,
+            "text": "Die Miene in die Stifth\u00fclle einf\u00fchren. Achten Sie darauf, dass die Miene richtig positioniert wird, bevor die Stifth\u00fclle wieder montiert wird.",
+            "image_uri": "data/output/video/images/video50/instruction50_3.jpg"
+        },
+        {
+            "step": 4,
+            "text": "Die Feder des Stifts entnehmen. Dies erfolgt durch das Herausziehen der Feder, die in der Stifth\u00fclle gehalten wird.",
+            "image_uri": "data/output/video/images/video50/instruction50_4.jpg"
+        },
+        {
+            "step": 5,
+            "text": "Die Feder auf die Miene stecken. Diese erm\u00f6glicht den automatischen R\u00fcckmechanismus des Stifts, der das Schreiben erleichtert.",
+            "image_uri": "data/output/video/images/video50/instruction50_5.jpg"
+        },
+        {
+            "step": 6,
+            "text": "Die untere Stifth\u00fclle entnehmen. Durch das Abziehen wird eine vollst\u00e4ndige Demontage des Stifts erm\u00f6glicht.",
+            "image_uri": "data/output/video/images/video50/instruction50_6.jpg"
+        },
+        {
+            "step": 7,
+            "text": "Die obere Stifth\u00fclle auf die untere Stifth\u00fclle schrauben. Dies ist der letzte Schritt, um den Stift wieder zusammenzusetzen.",
+            "image_uri": "data/output/video/images/video50/instruction50_7.jpg"
+        },
+        {
+            "step": 8,
+            "text": "Einen Funktionstest durchf\u00fchren. Hier wird \u00fcberpr\u00fcft, ob der Stift ordnungsgem\u00e4\u00df funktioniert und wieder bereitzustellen ist.",
+            "image_uri": "data/output/video/images/video50/instruction50_8.jpg"
+        },
+        {
+            "step": 9,
+            "text": "Die Arbeit ist nun abgeschlossen und der Stift ist bereit f\u00fcr den Gebrauch.",
+            "image_uri": "data/output/video/images/video50/instruction50_9.jpg"
+        }
+    ]
+}

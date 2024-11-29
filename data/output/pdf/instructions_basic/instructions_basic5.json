@@ -1,0 +1,98 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Zweck: Dient als Montagehilfe",
+            "image_uri": []
+        },
+        {
+            "step": 2,
+            "text": "Geltungsbereich: Dieses Dokument darf nur f\u00c3\u0192\u00c2\u00bcr internen Gebrauch verwendet werden",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "Definitionen (Begriffserkl\u00c3\u0192\u00c2\u00a4rung): Q-in-Line Qualit\u00c3\u0192\u00c2\u00a4tsicherung in der Linie",
+            "image_uri": []
+        },
+        {
+            "step": 4,
+            "text": "Verfahren: Beschreibt die Vorgehensweise f\u00c3\u0192\u00c2\u00bcr eine Montagearbeit",
+            "image_uri": []
+        },
+        {
+            "step": 5,
+            "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, das die Montaget\u00c3\u0192\u00c2\u00a4tigkeiten bedenkt. Verfahrensregelung E-P003 PRODUKTE HERSTELLEN aufgef\u00c3\u0192\u00c2\u00bchrt werden",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "Korrektes Sitz des Sicherungsringes in der Nut des Achsk\u00c3\u0192\u00c2\u00b6rpers \u00c3\u0192\u00c2\u00bcberpr\u00c3\u0192\u00c2\u00bcfen.",
+            "image_uri": [
+                "data\\output_all_pictures\\image_2_2.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Die Konen der Aufnahmepunkte der Wattgest\u00c3\u0192\u00c2\u00a4nge am Chassis reinigen.",
+            "image_uri": [
+                "data\\output_all_pictures\\image_2_3.jpg"
+            ]
+        },
+        {
+            "step": 1,
+            "text": "Langsicherung am Chassis und an der Achse mit STABURAGS fetten.",
+            "image_uri": [
+                "data\\output_all_pictures\\image_3_2.jpg",
+                "data\\output_all_pictures\\image_3_3.jpg",
+                "data\\output_all_pictures\\picture_008.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Achse unter dem Chassis positionieren und an den Kran h\u00c3\u0192\u00c2\u00a4ngen.",
+            "image_uri": [
+                "data\\output_all_pictures\\image_3_4.jpg"
+            ]
+        },
+        {
+            "step": 1,
+            "text": "Achse vorne mit 2 Spanngurt fixieren.",
+            "image_uri": [
+                "data\\output_all_pictures\\image_4_2.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangseil anbringen. Die vorderen Federn k\u00c3\u0192\u00c2\u00b6nnen mit dem Kran hochgezogen werden.",
+            "image_uri": [
+                "data\\output_all_pictures\\image_4_3.jpg"
+            ]
+        },
+        {
+            "step": 1,
+            "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangteil mit Drehmoment befestigen.",
+            "image_uri": []
+        },
+        {
+            "step": 2,
+            "text": "Die hinteren 2 Federn mit Hilfe des Federationers montieren.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "Wattgest\u00c3\u0192\u00c2\u00a4nge montieren.",
+            "image_uri": [
+                "data\\output_all_pictures\\image_5_2.jpg",
+                "data\\output_all_pictures\\image_5_3.jpg"
+            ]
+        },
+        {
+            "step": 4,
+            "text": "Splinth\u00c3\u0192\u00c2\u00bclsen der Kugelk\u00c3\u0192\u00c2\u00b6pfe senkrecht ausrichten.",
+            "image_uri": [
+                "data\\output_all_pictures\\image_5_4.jpg"
+            ]
+        }
+    ]
+}

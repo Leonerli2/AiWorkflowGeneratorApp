@@ -9,7 +9,7 @@ from moviepy import VideoFileClip
 OPENAI_API_KEY = "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"
 
 
-class PathHandler:
+class VideoPathHandler:
     def __init__(self, video_dir: str, audio_dir: str, transcription_with_timestamps_json_dir: str, instructions_with_timestamps_json_dir: str, instructions_basic_json_dir: str, instructions_advanced_json_dir: str, elam_json_dir: str, image_output_dir: str):
         self.video_dir = video_dir
         self.audio_dir = audio_dir
@@ -165,7 +165,7 @@ def extract_frames(video_nr, video_path, instructions_json_path, output_dir):
 
         if ret:
             # Save the frame as an image file)
-            output_path = f"{output_dir}/instructions{video_nr}/instruction{video_nr}_{idx+1}.jpg"
+            output_path = f"{output_dir}/instruction{video_nr}_{idx+1}.jpg"
             # Create the output directory if it does not exist
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
             cv2.imwrite(output_path, frame)
@@ -242,5 +242,7 @@ def instructions_with_timestamps_json_2_basic_instruction_json(video_nr, instruc
         print(f"Instructions saved to {output_json_path}")
 
     print("Instructions extracted successfully!")
+
+
 
 

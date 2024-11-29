@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Mine entnehmen und quittieren",
+        "task": "Manual",
+        "description": "In diesem Schritt wird die Mine eines Kugelschreibers entnommen und an einer LED-Leuchte quittiert. Verwendete Werkzeuge sind die Mine, der Kugelschreiber und die LED-Leuchte. Ein Bild dieses Schrittes wird erstellt.",
+        "image_uri": "data/output/video/images/video52/instruction52_1.jpg",
+        "imagefilename": "instruction52_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Entnahme der Feder",
+        "task": "Manual",
+        "description": "In diesem Schritt wird die Feder des Kugelschreibers entnommen und an der LED-Leuchte quittiert. Die ben\u00f6tigten Werkzeuge sind die Feder und die LED-Leuchte. Ein Foto von diesem Vorgang wird gemacht.",
+        "image_uri": "data/output/video/images/video52/instruction52_2.jpg",
+        "imagefilename": "instruction52_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Die Feder auf die Mine stecken",
+        "task": "Manual",
+        "description": "Stecken Sie die Feder wieder auf die entnommene Mine. In diesem Schritt kommen die Feder und die Mine zum Einsatz. Ein Foto dieses Prozesses wird aufgenommen.",
+        "image_uri": "data/output/video/images/video52/instruction52_3.jpg",
+        "imagefilename": "instruction52_3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Entnahme der oberen Stifth\u00fclle",
+        "task": "Manual",
+        "description": "In diesem Schritt wird die obere Stifth\u00fclle des Kugelschreibers entnommen und die Durchf\u00fchrung wird an einer LED-Leuchte quittiert. Ben\u00f6tigte Werkzeuge sind die obere Stifth\u00fclle, der Kugelschreiber und die LED-Leuchte. Ein Foto dieses Vorgangs wird erstellt.",
+        "image_uri": "data/output/video/images/video52/instruction52_4.jpg",
+        "imagefilename": "instruction52_4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Mine und Feder einsetzen",
+        "task": "Manual",
+        "description": "In diesem Schritt werden die zuvor bearbeiteten Teile (Mine und Feder) in das Oberteil des Kugelschreibers eingesetzt. Ben\u00f6tigte Werkzeuge: Oberteil, Mine und Feder. Es wird kein Foto f\u00fcr diese Anweisung ben\u00f6tigt.",
+        "image_uri": "data/output/video/images/video52/instruction52_5.jpg",
+        "imagefilename": "instruction52_5.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Entnahme der untere Stifth\u00fclle",
+        "task": "Manual",
+        "description": "In diesem Schritt wird die untere Stifth\u00fclle des Kugelschreibers entnommen und die Entnahme an der LED-Leuchte quittiert. Dabei werden die untere Stifth\u00fclle und die LED-Leuchte als Werkzeuge ben\u00f6tigt. Ein Foto wird zur Dokumentation dieses Schrittes angefertigt.",
+        "image_uri": "data/output/video/images/video52/instruction52_6.jpg",
+        "imagefilename": "instruction52_6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Oberteil auf Unterteil schrauben",
+        "task": "Tightening",
+        "description": "In diesem Schritt wird das Oberteil des Kugelschreibers auf das Unterteil geschraubt. Die verwendeten Werkzeuge sind das Oberteil und das Unterteil.",
+        "image_uri": "data/output/video/images/video52/instruction52_7.jpg",
+        "imagefilename": "instruction52_7.jpg",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 8,
+        "name": "Pr\u00fcfen des Kugelschreibers",
+        "task": "Info",
+        "description": "In diesem Schritt wird der Kugelschreiber auf seine Funktionsf\u00e4higkeit gepr\u00fcft. Zuerst wird kontrolliert, ob die Mine ausgefahren werden kann und anschlie\u00dfend wird der Mechanismus des Kugelschreibers \u00fcberpr\u00fcft. Ein Foto wird gemacht, um diesen Schritt zu dokumentieren.",
+        "image_uri": "data/output/video/images/video52/instruction52_8.jpg",
+        "imagefilename": "instruction52_8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mine wieder einklappen pr\u00fcfen",
+        "task": "Info",
+        "description": "\u00dcberpr\u00fcfen Sie, ob die Mine des Kugelschreibers wieder eingefahren werden kann. Ein Foto dieses \u00dcberpr\u00fcfungsprozesses wird angefertigt, um die Arbeitsschritte zu dokumentieren.",
+        "image_uri": "data/output/video/images/video52/instruction52_9.jpg",
+        "imagefilename": "instruction52_9.jpg",
+        "durationgui": 0
+    }
+]
