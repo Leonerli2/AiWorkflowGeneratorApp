@@ -13,7 +13,7 @@ class PDFPathHandler:
         self.image_output_dir = image_output_dir
 
     def get_pdf_path(self, pdf_nr):
-        return f"{self.pdf_dir}/w{pdf_nr}.mp4"
+        return f"{self.pdf_dir}/w{pdf_nr}.pdf"
     
     def get_pdf_basic_json_path(self, pdf_nr):
         return f"{self.pdf_basic_json_dir}/w{pdf_nr}.json"
