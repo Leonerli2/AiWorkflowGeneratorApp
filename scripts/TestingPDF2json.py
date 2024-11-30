@@ -46,7 +46,8 @@ pdf_path_handler = PDFPathHandler(
     image_output_dir="data/output/pdf/images"
 )
 
-if True:
+
+if False:
     # Convert the PDF to basic JSON
     pdf_path = pdf_path_handler.get_pdf_path(pdf_nr)
 

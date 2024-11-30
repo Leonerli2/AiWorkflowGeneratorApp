@@ -1262,7 +1262,7 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/
 # ----------------------------------------------------------------------------------------
 #                                     Command line
 # ----------------------------------------------------------------------------------------
-Convert_PDF_to_JSON()
+# Convert_PDF_to_JSON()
 
 # instructions_json = json.load(open("data/output_openai_text/instructions_with_one_center.json"))
 # pictures_json = json.load(open("data/output_openai_text/combined_cleaned.json"))

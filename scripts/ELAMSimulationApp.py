@@ -2,13 +2,18 @@ import json
 import sys
 import streamlit as st
 import argparse
-import atexit
+from pathlib import Path
+import os
+
 
 # Set the Streamlit page configuration to wide mode
 st.set_page_config(layout="wide")  # This will make the layout use the entire screen width
 
+
+
 # Function to display an instruction in ELAM simulation
 def show_instruction(instruction):
+    image_height = 400
     print(f"\n Showing instruction: {instruction}")
     col1, col2 = st.columns([2, 1])  # Adjust column widths to give 2/3 and 1/3 of the window
 
@@ -18,20 +23,37 @@ def show_instruction(instruction):
         else:
             image_url = instruction.get("imagefilename")
             print(f"Image URL: {image_url}")
-            try:
-                if image_url:  # Check if the image is not None or empty
-                    # Check if the image URL is a list, if so, loop through the list and display each image
-                    if isinstance(image_url, list):
-                        for url in image_url:
+            if image_url:  # Check if the image is not None or empty
+                try:
+                    # Check if there is a semicolon in the image URL
+                    if ";" in image_url:
+                        # Split the semicolon-separated string into a list
+                        image_urls = image_url.split(';')
+                        
+                        # Loop through each image URL and display it
+                        for url in image_urls:
+                            url = url.strip()  # Remove any extra spaces around the file paths
+                            # Check if wsl or mac is being used
+                            if os.name == 'posix':
+                                # Replace backslashes with forward slashes
+                                url = url.replace("\\", "/")
+                            print(f"Image URL: {url}")
                             st.image(url, use_container_width=True)
                     else:
-                        st.image(image_url, use_container_width=True)  # Image takes 2/3 of the window width
-                else:
+                        # Handle single image URL
+                        # Check if wsl or mac is being used
+                        if os.name == 'posix':
+                            # Replace backslashes with forward slashes
+                            image_url = image_url.replace("\\", "/")
+                        print(f"Image URL: {image_url}")
+
+                        # Display the image
+                        st.image(image_url, use_container_width=True)
+                except Exception as e:
                     st.markdown("**No image available for this step.**")
-            except Exception as e:
+                    print(f"Error loading image: {e}")
+            else:
                 st.markdown("**No image available for this step.**")
-                # st.error(f"Error loading image: {e}")
-                print(f"Error loading image: {e}")
 
     with col2:
         if instruction.get("name") != "Start" and instruction.get("name") != "End":
