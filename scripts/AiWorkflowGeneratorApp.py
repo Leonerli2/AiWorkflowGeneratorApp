@@ -27,6 +27,15 @@ VIDEO_PATH_HANDLER = VideoPathHandler(
     image_output_dir="data/output/video/images"
 )
 
+PDF_PATH_HANDLER = PDFPathHandler(
+    pdf_dir="data/input/pdfs",
+    pdf_basic_json_dir="cache/jsons",
+    instructions_basic_json_dir="data/output/pdf/instructions_basic",
+    instructions_advanced_json_dir="data/output/pdf/instructions_advanced",
+    elam_json_dir="data/output/pdf/elam",
+    image_output_dir="data/output/pdf/images"
+)
+
 # Global variable to store the subprocess reference
 elam_simulation_process = None
 

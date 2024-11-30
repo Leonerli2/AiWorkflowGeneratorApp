@@ -1,5 +1,6 @@
 from video2json import *
 from json2json import *
+from convert_pdf2simple_json import Convert_PDF_to_JSON
 
 OPENAI_API_KEY = "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"
 
@@ -17,10 +18,10 @@ class PDFPathHandler:
         self.image_output_dir = image_output_dir
 
     def get_pdf_path(self, pdf_nr):
-        return f"{self.video_dir}/pdf{pdf_nr}.mp4"
+        return f"{self.pdf_dir}/w{pdf_nr}.mp4"
     
     def get_pdf_basic_json_path(self, pdf_nr):
-        return f"{self.pdf_basic_json_dir}/pdf_basic{pdf_nr}.json"
+        return f"{self.pdf_basic_json_dir}/w{pdf_nr}.json"
     
     def get_instructions_basic_json_path(self, pdf_nr):
         return f"{self.instructions_basic_json_dir}/instructions_basic{pdf_nr}.json"
@@ -32,18 +33,24 @@ class PDFPathHandler:
         return f"{self.elam_json_dir}/elam{pdf_nr}.json"
     
     def get_image_output_dir(self, pdf_nr):
-        return f"{self.image_output_dir}/pdf{pdf_nr}"
+        return f"{self.image_output_dir}/w{pdf_nr}"
     
 
 
 pdf_path_handler = PDFPathHandler(
     pdf_dir="data/input/pdfs",
-    pdf_basic_json_dir="data/output/pdf/pdf_basic",
+    pdf_basic_json_dir="cache/jsons",
     instructions_basic_json_dir="data/output/pdf/instructions_basic",
     instructions_advanced_json_dir="data/output/pdf/instructions_advanced",
     elam_json_dir="data/output/pdf/elam",
     image_output_dir="data/output/pdf/images"
 )
+
+if True:
+    # Convert the PDF to basic JSON
+    pdf_path = pdf_path_handler.get_pdf_path(pdf_nr)
+
+    Convert_PDF_to_JSON(pdf_path)
 
 
 if True:

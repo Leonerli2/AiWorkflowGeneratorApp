@@ -20,7 +20,12 @@ def show_instruction(instruction):
             print(f"Image URL: {image_url}")
             try:
                 if image_url:  # Check if the image is not None or empty
-                    st.image(image_url, use_container_width=True)  # Image takes 2/3 of the window width
+                    # Check if the image URL is a list, if so, loop through the list and display each image
+                    if isinstance(image_url, list):
+                        for url in image_url:
+                            st.image(url, use_container_width=True)
+                    else:
+                        st.image(image_url, use_container_width=True)  # Image takes 2/3 of the window width
                 else:
                     st.markdown("**No image available for this step.**")
             except Exception as e:
