@@ -1,0 +1,536 @@
+{
+    "pdf_document": [
+        {
+            "page_no": 1,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Picking the Mounting Bracket: Take MOUNTING_BRACKET_ASSEMBLY.",
+                    "picture": true,
+                    "picture_description": "A close-up image of a mounting bracket resting on a surface.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 2,
+            "instructions": [
+                {
+                    "step": 2,
+                    "text": "Insert the BUTTON_EXTENSION for the reset button into the MAIN_BODY.",
+                    "picture": true,
+                    "picture_description": "Two images showing a hand holding a device part with the BUTTON_EXTENSION being inserted.",
+                    "centers": [
+                        {
+                            "center_x": 238.0,
+                            "center_y": 128.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_2_3.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 3,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Insert Motor with flexible PCBA halfway into the main body.",
+                    "picture": true,
+                    "picture_description": "An image showing a hand holding a motor with a flexible PCBA, partially inserted into the housing.",
+                    "centers": [
+                        {
+                            "center_x": 241.0,
+                            "center_y": 209.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_2.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Insert button extension halfway into the main body.",
+                    "picture": true,
+                    "picture_description": "An image showing the button extension positioned to be pushed into the housing.",
+                    "centers": [
+                        {
+                            "center_x": 235.0,
+                            "center_y": 236.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Afterwards, the motor can be pushed down to its final position as well as the button extension.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 243.0,
+                            "center_y": 263.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Attach the motor and PCBA to the housing by inserting the two MOTOR_SCREWs.",
+                    "picture": true,
+                    "picture_description": "An image showing the back side of the housing with the motor in place and visible screw holes.",
+                    "centers": [
+                        {
+                            "center_x": 239.0,
+                            "center_y": 290.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_1.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 4,
+            "instructions": [
+                {
+                    "step": 4,
+                    "text": "Insert MOUNTING_BUTTON_EXTENSION for the mounting button into MAIN_BODY.",
+                    "picture": true,
+                    "picture_description": "Image shows a hand inserting a mounting button extension into a main body.",
+                    "centers": []
+                },
+                {
+                    "step": 5,
+                    "text": "Put GEAR into the opening of the rotary encoder on PPCBA.",
+                    "picture": true,
+                    "picture_description": "Image shows a gear being placed into the rotary encoder on a PCB.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 5,
+            "instructions": [
+                {
+                    "step": 6,
+                    "text": "Place the PPCBA in the Main Body",
+                    "picture": true,
+                    "picture_description": "A person is placing a circuit board into a main housing.",
+                    "centers": []
+                },
+                {
+                    "step": 7,
+                    "text": "Insert PCB_SCREWs",
+                    "picture": true,
+                    "picture_description": "A hand is inserting screws into a circuit board within a housing.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 6,
+            "instructions": [
+                {
+                    "step": 7,
+                    "text": "Checking Mounting Quality\nMake sure the PCB cannot move at all after the insertion of the screws.",
+                    "picture": true,
+                    "picture_description": "Images showing how to check the PCB mounting quality.",
+                    "centers": []
+                },
+                {
+                    "step": 8,
+                    "text": "Connecting Flexible PCB to PPCBA\n1. Put the flex PCB into the connector.\n2. Flip the fastener to lock the PCB.",
+                    "picture": true,
+                    "picture_description": "Images displaying the connection process of the flexible PCB to the PPCBA.",
+                    "centers": []
+                },
+                {
+                    "step": 9,
+                    "text": "Positioning the White Sticker\nPlace the WHITE STICKER on the back of the flexible PCB.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 7,
+            "instructions": [
+                {
+                    "step": 10,
+                    "text": "Scanning of PCBA Serial",
+                    "picture": true,
+                    "picture_description": "Image showing the PCBA and the location of the serial number on the device.",
+                    "centers": []
+                },
+                {
+                    "step": 1,
+                    "text": "Scan EMS assigned PCBA serial number (sticker or engraved).",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 8,
+            "instructions": [
+                {
+                    "step": 11,
+                    "text": "Print the DEVICE_LABEL in accordance with the label printing instructions DEVICE_LABEL_LPI.",
+                    "picture": true,
+                    "picture_description": "A printer printing device labels.",
+                    "centers": []
+                },
+                {
+                    "step": 12,
+                    "text": "Attach the printed DEVICE_LABEL into the back of the main body.",
+                    "picture": true,
+                    "picture_description": "The back of a device with a printed label being attached.",
+                    "centers": []
+                },
+                {
+                    "step": 13,
+                    "text": "Position the flexible PCBA in display area using the yellow marked 2 locators. Make sure the FPCBA slides under the green marked edge.",
+                    "picture": true,
+                    "picture_description": "A person positioning a flexible PCB in a device with marked edges.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 9,
+            "instructions": [
+                {
+                    "step": 14,
+                    "text": "Positioning the Light Blocker",
+                    "picture": true,
+                    "picture_description": "A device's light blocker is being attached, showing a close-up of the device with hands positioning it.",
+                    "centers": [
+                        {
+                            "center_x": 239.0,
+                            "center_y": 416.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_9_3.jpg"
+                    ]
+                },
+                {
+                    "step": 1,
+                    "text": "Position the LIGHT_BLOCKER in display area using the 2 locators.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Attention: LIGHT_BLOCKER differs depending on target SKU.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 10,
+            "instructions": [
+                {
+                    "step": 15,
+                    "text": "Push DISPLAY_RING onto MAIN_BODY.",
+                    "picture": true,
+                    "picture_description": "A hand pushing the display ring onto the main body of the device.",
+                    "centers": []
+                },
+                {
+                    "step": 16,
+                    "text": "Attach BATTERY_COVER to MAIN_BODY.",
+                    "picture": true,
+                    "picture_description": "A hand holding the battery cover while attaching it to the main body of the device.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 11,
+            "instructions": [
+                {
+                    "step": 17,
+                    "text": "Put HINGE into hole to hold the BATTERY_COVER.",
+                    "picture": true,
+                    "picture_description": "A person holding a device with a hinge aligned with a battery cover.",
+                    "centers": []
+                },
+                {
+                    "step": 18,
+                    "text": "Push the DISPLAY_RING completely down.",
+                    "picture": true,
+                    "picture_description": "A person pushing down a display ring on a device.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 12,
+            "instructions": [
+                {
+                    "step": 19,
+                    "text": "Push the WHEEL onto the main body.",
+                    "picture": true,
+                    "picture_description": "A hand pushing a wheel onto a device's main body.",
+                    "centers": []
+                },
+                {
+                    "step": 20,
+                    "text": "Snap the FRONT_CAP onto the MAIN_BODY.",
+                    "picture": true,
+                    "picture_description": "A hand snapping the front cap onto the main body, ensuring proper alignment.",
+                    "centers": []
+                },
+                {
+                    "step": 23,
+                    "text": "Print the SETUP_LABEL in accordance with the label printing instructions SETUP_LABEL_LPI.",
+                    "picture": true,
+                    "picture_description": "A label printer printing setup labels, with a visible label on the output.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 13,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Place the SETUP_LABEL on the WHEEL.",
+                    "picture": true,
+                    "picture_description": "Image showing a device with a labeled setup position, displaying both horizontal and vertical orientations.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 14,
+            "instructions": [
+                {
+                    "step": 25,
+                    "text": "Remove the Mounting Bracket",
+                    "picture": true,
+                    "picture_description": "An image showing the mounting bracket being removed.",
+                    "centers": []
+                },
+                {
+                    "step": 26,
+                    "text": "Scan the Rear Serial Number. The station starts the EOL procedure.",
+                    "picture": true,
+                    "picture_description": "An image showing the rear of the device with a serial number and QR code.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 15,
+            "instructions": [
+                {
+                    "step": 27,
+                    "text": "Scan the Front Serial Number",
+                    "picture": true,
+                    "picture_description": "An image of a device with a visible QR code for scanning.",
+                    "centers": []
+                },
+                {
+                    "step": 28,
+                    "text": "Insert Batteries\n\n1. Open the battery compartment cover.\n2. Insert the AA BATTERIES.\n3. Close the battery compartment cover.",
+                    "picture": true,
+                    "picture_description": "An image showing a hand inserting batteries into a device.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 16,
+            "instructions": [
+                {
+                    "step": 29,
+                    "text": "Wait for EOL on display.\n1) If DUT shows FAIL, don't proceed, station should show FAIL.",
+                    "picture": true,
+                    "picture_description": "A device held in hand displaying the message EOL.",
+                    "centers": []
+                },
+                {
+                    "step": 30,
+                    "text": "Press the pairing button.\n1) DUT shows 00.",
+                    "picture": true,
+                    "picture_description": "The back of a device showing a circular button and an indicator for DUT status.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 17,
+            "instructions": [
+                {
+                    "step": 31,
+                    "text": "Turn the wheel to the right until all LEDs turn on\n1) DUT counts up\n2) DUT turns on all LEDs above maximum",
+                    "picture": true,
+                    "picture_description": "A hand turning a wheel on a device which displays '88P' and has an arrow pointing to the right.",
+                    "centers": []
+                },
+                {
+                    "step": 32,
+                    "text": "Turn the wheel to the left until all LEDs turn off\n1) DUT counts down\n2) DUT turns off all LEDs below minimum",
+                    "picture": true,
+                    "picture_description": "A hand turning a wheel on a device which shows an arrow pointing to the left.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 18,
+            "instructions": [
+                {
+                    "step": 33,
+                    "text": "Attach the Mounting Bracket",
+                    "picture": true,
+                    "picture_description": "A circular mounting bracket.",
+                    "centers": []
+                },
+                {
+                    "step": 34,
+                    "text": "Mount DUT using its adapter on the stand\n1) DUT shows CAL.\n2) DUT performs calibration",
+                    "picture": true,
+                    "picture_description": "A device mounted on a stand showing 'CAL' on its display.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 19,
+            "instructions": [
+                {
+                    "step": 35,
+                    "text": "Wait for PA or FA on DUT\n1) The station should show PASS or FAIL",
+                    "picture": true,
+                    "picture_description": "A display showing the statuses 'PA' (PASS) and 'FA' (FAIL), with a checkmark next to 'PA'.",
+                    "centers": []
+                },
+                {
+                    "step": 36,
+                    "text": "Remove DUT from stand",
+                    "picture": true,
+                    "picture_description": "An image showing a device under test (DUT) being removed from its stand.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 20,
+            "instructions": [
+                {
+                    "step": 37,
+                    "text": "Remove the Mounting Bracket from the device main body.",
+                    "picture": true,
+                    "picture_description": "Image showing the mounting bracket of the device.",
+                    "centers": []
+                },
+                {
+                    "step": 38,
+                    "text": "Open & Close the battery cover to interrupt the power supply.",
+                    "picture": true,
+                    "picture_description": "Image showing the interior of the device with the battery compartment.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 21,
+            "instructions": [
+                {
+                    "step": 39,
+                    "text": "Checking for Customer Mode: Check that the display shows the temperature when turning the wheel. Attention: If the device shows 'EOL', the EOL test has not been completed.",
+                    "picture": true,
+                    "picture_description": "Two images: one showing a display with a temperature of 22\u00c3\u201a\u00c2\u00b0, and another showing a display with 'WRONG'.",
+                    "centers": []
+                },
+                {
+                    "step": 40,
+                    "text": "Placing the Battery Tab: Open the battery compartment again. Place the BATTERY_TAB as shown. Close the battery compartment cover back. Attention: The battery tab must break the electric contact.",
+                    "picture": true,
+                    "picture_description": "An image showing a person placing the battery tab inside the battery compartment.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 22,
+            "instructions": [
+                {
+                    "step": 41,
+                    "text": "Close battery door",
+                    "picture": true,
+                    "picture_description": "An image showing a device with a battery door and an arrow indicator for closing it.",
+                    "centers": []
+                },
+                {
+                    "step": 42,
+                    "text": "Check Wheel on Torque Meter - Max allowed: 40mNm",
+                    "picture": true,
+                    "picture_description": "An image of a torque meter with a wheel indicator.",
+                    "centers": []
+                }
+            ]
+        },
+        {
+            "page_no": 23,
+            "instructions": [
+                {
+                    "step": 43,
+                    "text": "Wrap the Device(s) in PROTECTIVE_FOIL.",
+                    "picture": true,
+                    "picture_description": "An image showing a hand holding a device that appears to be in the process of being wrapped in foil.",
+                    "centers": [
+                        {
+                            "center_x": 205.0,
+                            "center_y": 121.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_23_2.jpg",
+                        "data\\output_all_pictures\\image_23_3.jpg",
+                        "data\\output_all_pictures\\picture_008.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 24,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Get between the Front Cap and the Wheel with a plastic tool at the red marked area.\nNote: DO NOT USE METAL. It will damage the wheel.",
+                    "picture": true,
+                    "picture_description": "A plastic tool is shown inserted between the Front Cap and the Wheel.",
+                    "centers": []
+                },
+                {
+                    "step": 2,
+                    "text": "Push the Front Cap up with the plastic tool until the lift side is fully lifted.",
+                    "picture": true,
+                    "picture_description": "The Front Cap is being pushed up with a plastic tool.",
+                    "centers": []
+                },
+                {
+                    "step": 3,
+                    "text": "Now you can pull up the Front Cap with your hands. Throw the Front Cap away.",
+                    "picture": true,
+                    "picture_description": "The Front Cap is being pulled off with hands, revealing internal components.",
+                    "centers": []
+                }
+            ]
+        }
+    ]
+}

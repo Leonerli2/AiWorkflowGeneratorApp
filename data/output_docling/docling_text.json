@@ -1,0 +1,930 @@
+[
+    {
+        "instructions": [
+            {
+                "page_no": 1,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 1,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 1,
+                "text": "529147577R04",
+                "center_x": 305,
+                "center_y": 155
+            },
+            {
+                "page_no": 1,
+                "text": "Gevind smøres generelt med Q8RUBENS .",
+                "center_x": 162,
+                "center_y": 555
+            },
+            {
+                "page_no": 1,
+                "text": "Alle moment markeres.",
+                "center_x": 121,
+                "center_y": 570
+            },
+            {
+                "page_no": 1,
+                "text": "Alle emner fanges i gevind inden moment tilspænding.",
+                "center_x": 190,
+                "center_y": 584
+            },
+            {
+                "page_no": 1,
+                "text": "Ved tilspænding med moment kontrolleres momentet på værktøjet før og efter brug.",
+                "center_x": 259,
+                "center_y": 599
+            },
+            {
+                "page_no": 1,
+                "text": ".",
+                "center_x": 69,
+                "center_y": 622
+            },
+            {
+                "page_no": 1,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 1,
+                "text": "1",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 1,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 2,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 2,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 2,
+                "text": "BACKLOG:",
+                "center_x": 119,
+                "center_y": 121
+            },
+            {
+                "page_no": 2,
+                "text": "Rev 04",
+                "center_x": 84,
+                "center_y": 147
+            },
+            {
+                "page_no": 2,
+                "text": "16. maj 2022",
+                "center_x": 173,
+                "center_y": 147
+            },
+            {
+                "page_no": 2,
+                "text": "Ændret til montage stand",
+                "center_x": 125,
+                "center_y": 163
+            },
+            {
+                "page_no": 2,
+                "text": "HG2048R01 lægges op i stativet og spændes fast.",
+                "center_x": 181,
+                "center_y": 706
+            },
+            {
+                "page_no": 2,
+                "text": "VUI label monteres. 29147577",
+                "center_x": 136,
+                "center_y": 721
+            },
+            {
+                "page_no": 2,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 2,
+                "text": "2",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 2,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 3,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 3,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 3,
+                "text": "$_{1.}$ 2 stk. Dyse -5/0,90U monteres i RN4 og RN2.",
+                "center_x": 202,
+                "center_y": 360
+            },
+            {
+                "page_no": 3,
+                "text": "$_{2.}$ 2 stk. Dyse -6/1,00U monteres i RN3 og RN1.",
+                "center_x": 199,
+                "center_y": 376
+            },
+            {
+                "page_no": 3,
+                "text": "$_{3.}$ Alle 4 dyser spændes 1,2 Nm .",
+                "center_x": 172,
+                "center_y": 396
+            },
+            {
+                "page_no": 3,
+                "text": "$_{4.}$ Lukkes med 4 stk. VSCHR1/8 .",
+                "center_x": 163,
+                "center_y": 626
+            },
+            {
+                "page_no": 3,
+                "text": "$_{5.}$ Spændes 12 Nm .",
+                "center_x": 143,
+                "center_y": 646
+            },
+            {
+                "page_no": 3,
+                "text": "$_{6.}$ 4 stk. 11169077 O-ringe og gevind smøres efter behov",
+                "center_x": 218,
+                "center_y": 665
+            },
+            {
+                "page_no": 3,
+                "text": "$_{7.}$ Spændes til med fingrene.",
+                "center_x": 154,
+                "center_y": 680
+            },
+            {
+                "page_no": 3,
+                "text": "$_{8.}$ Når de er spændt til med fingrene, spændes de 60 Nm .",
+                "center_x": 228,
+                "center_y": 700
+            },
+            {
+                "page_no": 3,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 3,
+                "text": "3",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 3,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 4,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 4,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 4,
+                "text": "$_{1.}$ 4 stk. SKK20G1/4-PC monteres.",
+                "center_x": 169,
+                "center_y": 485
+            },
+            {
+                "page_no": 4,
+                "text": "$_{2.}$ Spændes 45 Nm .",
+                "center_x": 143,
+                "center_y": 506
+            },
+            {
+                "page_no": 4,
+                "text": "$_{3.}$ 1 stk. 96302 monteres med 4 stk. 9123706040 .",
+                "center_x": 204,
+                "center_y": 525
+            },
+            {
+                "page_no": 4,
+                "text": "$_{4.}$ Spændes",
+                "center_x": 116,
+                "center_y": 546
+            },
+            {
+                "page_no": 4,
+                "text": "10",
+                "center_x": 156,
+                "center_y": 545
+            },
+            {
+                "page_no": 4,
+                "text": "Nm .",
+                "center_x": 185,
+                "center_y": 545
+            },
+            {
+                "page_no": 4,
+                "text": "$_{5.}$ Møtrikken spændes til ved fjederpalen.",
+                "center_x": 183,
+                "center_y": 563
+            },
+            {
+                "page_no": 4,
+                "text": "$_{6.}$ Fjederpalen skal kunne bevæges uhindret.",
+                "center_x": 190,
+                "center_y": 578
+            },
+            {
+                "page_no": 4,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 4,
+                "text": "4",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 4,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 5,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 5,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 5,
+                "text": "$_{1.}$ DH0113CA monteres med 4 stk. 9123705050 .",
+                "center_x": 202,
+                "center_y": 450
+            },
+            {
+                "page_no": 5,
+                "text": "$_{2.}$ Vær opmærksom på de 4 o-ringe er i ventilen.",
+                "center_x": 199,
+                "center_y": 464
+            },
+            {
+                "page_no": 5,
+                "text": "$_{3.}$ Spændes",
+                "center_x": 116,
+                "center_y": 486
+            },
+            {
+                "page_no": 5,
+                "text": "8 Nm",
+                "center_x": 167,
+                "center_y": 485
+            },
+            {
+                "page_no": 5,
+                "text": ".",
+                "center_x": 189,
+                "center_y": 487
+            },
+            {
+                "page_no": 5,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 5,
+                "text": "5",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 5,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 6,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 6,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 6,
+                "text": "$_{1.}$ 2 stk. VSCHR1/8 monteres.",
+                "center_x": 158,
+                "center_y": 360
+            },
+            {
+                "page_no": 6,
+                "text": "$_{2.}$ Spændes 12 Nm .",
+                "center_x": 143,
+                "center_y": 380
+            },
+            {
+                "page_no": 6,
+                "text": "$_{3.}$ 3 stk. RVS08L10S monteres i RM1,RM3 og RM5. med keglen ned i blokken.",
+                "center_x": 264,
+                "center_y": 399
+            },
+            {
+                "page_no": 6,
+                "text": "$_{4.}$ Brug special magnet til montering",
+                "center_x": 171,
+                "center_y": 414
+            },
+            {
+                "page_no": 6,
+                "text": "$_{5.}$ Lukkes med 3 stk. VSCHR1/4 .",
+                "center_x": 163,
+                "center_y": 640
+            },
+            {
+                "page_no": 6,
+                "text": "$_{6.}$ Spændes 25 Nm",
+                "center_x": 142,
+                "center_y": 661
+            },
+            {
+                "page_no": 6,
+                "text": "$_{7.}$ 4 stk. A10SR1/4WDX monteres.",
+                "center_x": 142,
+                "center_y": 700
+            },
+            {
+                "page_no": 6,
+                "text": "$_{8.}$ Spændes 40 Nm .",
+                "center_x": 142,
+                "center_y": 711
+            },
+            {
+                "page_no": 6,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 6,
+                "text": "6",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 6,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 7,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 7,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 7,
+                "text": "$_{1.}$ 8 stk. VSCHR1/8 monteres.",
+                "center_x": 158,
+                "center_y": 346
+            },
+            {
+                "page_no": 7,
+                "text": "$_{2.}$ Spændes",
+                "center_x": 116,
+                "center_y": 368
+            },
+            {
+                "page_no": 7,
+                "text": "12",
+                "center_x": 156,
+                "center_y": 367
+            },
+            {
+                "page_no": 7,
+                "text": "Nm .",
+                "center_x": 185,
+                "center_y": 367
+            },
+            {
+                "page_no": 7,
+                "text": "$_{3.}$ 1 stk. C02A3GZN monteres, skrues til med fingrene.",
+                "center_x": 213,
+                "center_y": 641
+            },
+            {
+                "page_no": 7,
+                "text": "$_{4.}$ Spændes 60 Nm .",
+                "center_x": 143,
+                "center_y": 662
+            },
+            {
+                "page_no": 7,
+                "text": "$_{5.}$ (Grov justering) af ventil. skruen drejes, så rillen er lidt over møtrikkens top.",
+                "center_x": 265,
+                "center_y": 680
+            },
+            {
+                "page_no": 7,
+                "text": "$_{6.}$ Den sidste 0338-08 monteres, spændes løst.",
+                "center_x": 196,
+                "center_y": 695
+            },
+            {
+                "page_no": 7,
+                "text": "1",
+                "center_x": 108,
+                "center_y": 711
+            },
+            {
+                "page_no": 7,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 7,
+                "text": "7",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 7,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 8,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 8,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 8,
+                "text": "$_{1.}$ 2 stk. VSCHR1/8 monteres",
+                "center_x": 157,
+                "center_y": 292
+            },
+            {
+                "page_no": 8,
+                "text": "$_{2.}$ Spændes 12 Nm .",
+                "center_x": 143,
+                "center_y": 313
+            },
+            {
+                "page_no": 8,
+                "text": "$_{3.}$ 2 stk. RVS08L10S monteres i RM4 og RM2 med keglen ned i blokken.",
+                "center_x": 251,
+                "center_y": 332
+            },
+            {
+                "page_no": 8,
+                "text": "$_{4.}$ Brug special magnet til montering.",
+                "center_x": 158,
+                "center_y": 347
+            },
+            {
+                "page_no": 8,
+                "text": "$_{5.}$ 3 stk. VSCHR1/4 monteres",
+                "center_x": 157,
+                "center_y": 573
+            },
+            {
+                "page_no": 8,
+                "text": "$_{6.}$ Spændes 25 Nm .",
+                "center_x": 143,
+                "center_y": 593
+            },
+            {
+                "page_no": 8,
+                "text": "$_{7.}$ 1 stk. A10RLWDX monteres i L10",
+                "center_x": 157,
+                "center_y": 612
+            },
+            {
+                "page_no": 8,
+                "text": "$_{8.}$ Spændes 40 Nm .",
+                "center_x": 142,
+                "center_y": 633
+            },
+            {
+                "page_no": 8,
+                "text": "$_{9.}$ 1 stk. A10SR1/4WDX monteres i S10",
+                "center_x": 180,
+                "center_y": 652
+            },
+            {
+                "page_no": 8,
+                "text": "10. Spændes 40 Nm .",
+                "center_x": 171,
+                "center_y": 672
+            },
+            {
+                "page_no": 8,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 8,
+                "text": "8",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 8,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 9,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 9,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 9,
+                "text": "$_{1.}$ 2 stk. VSCHR1/8 monteres.",
+                "center_x": 158,
+                "center_y": 405
+            },
+            {
+                "page_no": 9,
+                "text": "$_{2.}$ Spændes 12 Nm .",
+                "center_x": 143,
+                "center_y": 425
+            },
+            {
+                "page_no": 9,
+                "text": "$_{3.}$ 1 stk. VSCHR1/4 monteres.",
+                "center_x": 158,
+                "center_y": 444
+            },
+            {
+                "page_no": 9,
+                "text": "$_{4.}$ Spændes 25 Nm .",
+                "center_x": 143,
+                "center_y": 465
+            },
+            {
+                "page_no": 9,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 9,
+                "text": "9",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 9,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 10,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 10,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 10,
+                "text": "TESTES",
+                "center_x": 305,
+                "center_y": 650
+            },
+            {
+                "page_no": 10,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 10,
+                "text": "10",
+                "center_x": 516,
+                "center_y": 766
+            },
+            {
+                "page_no": 10,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 11,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 11,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 11,
+                "text": "$_{1.}$ 4 stk. PLUG13F monteres.",
+                "center_x": 155,
+                "center_y": 360
+            },
+            {
+                "page_no": 11,
+                "text": "$_{2.}$ 1 stk. PLUG12F monteres.",
+                "center_x": 155,
+                "center_y": 676
+            },
+            {
+                "page_no": 11,
+                "text": "$_{3.}$ 1 stk. PLUG13F monteres.",
+                "center_x": 155,
+                "center_y": 692
+            },
+            {
+                "page_no": 11,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 11,
+                "text": "11",
+                "center_x": 515,
+                "center_y": 766
+            },
+            {
+                "page_no": 11,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 12,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 12,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 12,
+                "text": "$_{1.}$ SC000761R00 monteres med 2 stk. 9121708020 .",
+                "center_x": 210,
+                "center_y": 517
+            },
+            {
+                "page_no": 12,
+                "text": "$_{2.}$ Spændes 25 Nm .",
+                "center_x": 143,
+                "center_y": 538
+            },
+            {
+                "page_no": 12,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 12,
+                "text": "12",
+                "center_x": 515,
+                "center_y": 766
+            },
+            {
+                "page_no": 12,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 13,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 13,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 13,
+                "text": "$_{1.}$ 1 stk. BR0192R00 monteres med 1 stk. 9121706060 .",
+                "center_x": 217,
+                "center_y": 427
+            },
+            {
+                "page_no": 13,
+                "text": "$_{2.}$ Spændes 10 Nm .",
+                "center_x": 143,
+                "center_y": 658
+            },
+            {
+                "page_no": 13,
+                "text": "$_{3.}$ Brug 1 stk. 1435-001010 til bespænding af aluklods.",
+                "center_x": 214,
+                "center_y": 677
+            },
+            {
+                "page_no": 13,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 13,
+                "text": "13",
+                "center_x": 515,
+                "center_y": 766
+            },
+            {
+                "page_no": 13,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 14,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 14,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 14,
+                "text": "$_{1.}$ Enheden lægges i pose Z743-903 .",
+                "center_x": 172,
+                "center_y": 427
+            },
+            {
+                "page_no": 14,
+                "text": "$_{2.}$ Manillamærke med varenummer og bloknummer sættes på med 1435-001010.",
+                "center_x": 275,
+                "center_y": 443
+            },
+            {
+                "page_no": 14,
+                "text": "$_{3.}$ Registreres i Sharepoint.",
+                "center_x": 150,
+                "center_y": 458
+            },
+            {
+                "page_no": 14,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 14,
+                "text": "14",
+                "center_x": 515,
+                "center_y": 766
+            },
+            {
+                "page_no": 14,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 15,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 15,
+                "text": "29147577R04",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 15,
+                "text": "$_{1.}$ Pakkes i palle.",
+                "center_x": 127,
+                "center_y": 426
+            },
+            {
+                "page_no": 15,
+                "text": "$_{2.}$ Blokkene sikres med 2 stk. lange pinde og 1 stk. kort.",
+                "center_x": 213,
+                "center_y": 441
+            },
+            {
+                "page_no": 15,
+                "text": "$_{3.}$ Palleseddel laves.",
+                "center_x": 135,
+                "center_y": 711
+            },
+            {
+                "page_no": 15,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 15,
+                "text": "15",
+                "center_x": 515,
+                "center_y": 766
+            },
+            {
+                "page_no": 15,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            }
+        ]
+    }
+]

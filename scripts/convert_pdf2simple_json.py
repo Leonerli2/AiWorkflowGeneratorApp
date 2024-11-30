@@ -637,7 +637,8 @@ def delete_recurring_images(directory):
                             
 def delete_small_images(directory):
     # 10 KB
-    size_limit = 10 * 1024
+    size_limit = 5 * 1024
+    count = 0
 
     # Loop through each file in the directory
     for filename in os.listdir(directory):
@@ -647,43 +648,64 @@ def delete_small_images(directory):
         if os.path.isfile(filepath):
             file_size = os.path.getsize(filepath)
             
-            # If file size is smaller than the limit, delete it
-            if file_size < size_limit:
+            # If file size is smaller than the limit and is a jpg, delete it
+            if file_size < size_limit and filename.endswith(".jpg"):
                 print(f"Deleting: {filename}, Size: {file_size} bytes")
                 os.remove(filepath)
+                count += 1
 
+    if count >= 15:
+        print(f"Deleted {count} small images... deleting all images extracted automatically")
+        # delete all images starting with image...
+        for filename in os.listdir(directory):
+            if filename.startswith("image"):
+                os.remove(os.path.join(directory, filename))
+                print(f"Deleted: {filename}")
+        return True
+    return False
     #print("Done!")
 
-def merge_json_with_duplicate_removal(json1_path, json2_path, output_path):
-    # Load the first JSON file
-    with open(json1_path, 'r') as file1:
-        json1 = json.load(file1)
-    
-    # Load the second JSON file
-    with open(json2_path, 'r') as file2:
-        json2 = json.load(file2)[0]['pictures']
-    
-    # Merge the data
-    combined_data = json1['page'] + json2
-    
-    # Remove duplicates
-    unique_pictures = []
-    for pic1 in combined_data:
-        is_duplicate = False
-        for pic2 in unique_pictures:
-            if (pic1['page_no'] == pic2['page_no'] and
-                math.isclose(pic1['center_x'], pic2['center_x'], abs_tol=20) and
-                math.isclose(pic1['center_y'], pic2['center_y'], abs_tol=20)):
-                is_duplicate = True
-                print("duplicate found")
-                break
-        if not is_duplicate:
-            unique_pictures.append(pic1)
-    
-    # Write the result to a new JSON file
-    with open(output_path, 'w') as output_file:
-        json.dump({"page": unique_pictures}, output_file, indent=4)
-    print(f"Combined JSON written to {output_path}")
+def merge_json_with_duplicate_removal(json1_path, json2_path, output_path, scanned_pdf):
+    if scanned_pdf == False:
+        # Load the first JSON file
+        with open(json1_path, 'r') as file1:
+            json1 = json.load(file1)
+        
+        # Load the second JSON file
+        with open(json2_path, 'r') as file2:
+            json2 = json.load(file2)[0]['pictures']
+        
+        # Merge the data
+        combined_data = json1['page'] + json2
+        
+        # Remove duplicates
+        unique_pictures = []
+        for pic1 in combined_data:
+            is_duplicate = False
+            for pic2 in unique_pictures:
+                if (pic1['page_no'] == pic2['page_no'] and
+                    math.isclose(pic1['center_x'], pic2['center_x'], abs_tol=20) and
+                    math.isclose(pic1['center_y'], pic2['center_y'], abs_tol=20)):
+                    is_duplicate = True
+                    print("duplicate found")
+                    break
+            if not is_duplicate:
+                unique_pictures.append(pic1)
+        
+        # Write the result to a new JSON file
+        with open(output_path, 'w') as output_file:
+            json.dump({"page": unique_pictures}, output_file, indent=4)
+        print(f"Combined JSON written to {output_path}")
+    else:
+        # just take json2
+        with open(json2_path, 'r') as file2:
+            json2 = json.load(file2)
+            
+        unique_pictures = json2[0]["pictures"]
+        
+        # Write the result to a new JSON file
+        with open(output_path, 'w') as output_file:
+            json.dump({"page": unique_pictures}, output_file, indent=4)
 
 def move_pictures_from_json(json_path, destination_folder):
     # Create the destination folder if it doesn't exist
@@ -1034,16 +1056,41 @@ def match_pictures_to_instructions2(pictures_json, instructions_json):
                     instruction['pictures_array'] = closest_instruction['pictures_array']
 
     return instructions_json
+
+def dummy_match_pictures_to_instructions(pictures_json, instructions_json):
+    # for each page just take the first instruction and add the pictures to it
+    for page in instructions_json[0]['pdf_document']:
+        if page['instructions']:
+            page['instructions'][0]['pictures_array'] = [pic['picture_uri'] for pic in pictures_json['page'] if pic['page_no'] == page['page_no']]
+    return instructions_json[0]
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ------------------------------------------------------------------------------------------------
-def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w5.pdf"):
+def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w7.pdf"):
+    name_of_pdf = input_workinstruction_pdf_path.split("/")[-1].split(".")[0]
+    print("Name of the pdf: ", name_of_pdf)
+    
     # does the pipeline have to be cleared after each run? -> how long does it take to run the pipeline? 
     # -> dependant on that we want to clear the pipeline -> probably want to store
     # clear all the folders: output_docling, output_openai_text, output_pictures, output_all_pictures
-    for folder in ["data/output_docling/pictures", "data/output_docling", "data/output_openai_text", "data/output_pictures", "data/output_all_pictures"]:
-        for file in os.listdir(folder):
-            if file != "pictures":
-                os.remove(os.path.join(folder, file))
-    
+    try: 
+        for folder in ["data/output_docling/pictures", "data/output_docling", "data/output_openai_text", "data/output_pictures", "data/output_all_pictures"]:
+            for file in os.listdir(folder):
+                if file != "pictures":
+                    os.remove(os.path.join(folder, file))
+    except:
+        ResourceWarning("Could not find all folders")
     
     
     # -------------------------------------- docling --------------------------------------
@@ -1055,8 +1102,10 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w5.pdf"
     
     # docling_json= json.dumps(str(docling_document))
     
+    
+        
     # Load the JSON data from the docling extraction if needed
-    with open(input_workinstruction_pdf_path, "r", encoding="utf-8", errors="replace") as file:
+    with open("data/output_docling/" + name_of_pdf + ".json", "r", encoding="utf-8", errors="replace") as file:
         docling_json = json.load(file)
     # print(type(docling_json))
 
@@ -1085,11 +1134,11 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w5.pdf"
     
     
     # ------------------------------------ merge text -----------------------------------
-    # read in the json files
+    # # read in the json files
     # with open("data/output_openai_text/instructions_by_page.json", "r", encoding="utf-8") as file:
     #     instructions_openai = json.load(file)
         
-    # with open("data/output_docling/docling_text.json", "r", encoding="utf-8") as file:
+    # # with open("data/output_docling/docling_text.json", "r", encoding="utf-8") as file:
     #     centers = json.load(file)
     add_centers_to_instructions(instructions_openai, centers)
     
@@ -1113,10 +1162,11 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w5.pdf"
     
     
     extract_pictures(input_workinstruction_pdf_path, output_folder_simple_picture_extraction)
-
+    delete_recurring_images(output_folder_simple_picture_extraction)
+    scanned_pdf = delete_small_images(output_folder_simple_picture_extraction)
 
     # ------------------------------------ merge pictures -----------------------------------
-    merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json')
+    merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json', scanned_pdf)
     move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
     
     delete_recurring_images('data/output_all_pictures')
@@ -1127,19 +1177,55 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w5.pdf"
     
     clean_combined_json('data/output_openai_text/combined.json')
     
+   
+    
     instructions_json = json.load(open("data/output_openai_text/instructions_with_one_center.json"))
     pictures_json = json.load(open("data/output_openai_text/combined_cleaned.json"))
 
-    finished_json = match_pictures_to_instructions2(pictures_json=pictures_json, instructions_json=instructions_json)
-    # finished_json = match_pictures_to_instructions_simple(pictures_json=pictures_json, instructions_json=instructions_json)
-    # finished_json = map_pictures_to_instructions_with_centers(instructions_json, pictures_json)
+    try: 
+        finished_json = match_pictures_to_instructions2(pictures_json=pictures_json, instructions_json=instructions_json)
+        with open("data/output_openai_text/final_instructions.json", "w") as file:
+            json.dump(finished_json, file, indent=4)
+        
+        # move the final json to cache/jsons/name_of_pdf.json (rename the json)
+        shutil.move("data/output_openai_text/final_instructions.json", "cache/jsons/")
+        os.rename("cache/jsons/final_instructions.json", "cache/jsons/" + name_of_pdf + ".json")
+    except:
+        print("Could not match pictures to instructions with distance")
+    
+    try:
+        # finished_json = match_pictures_to_instructions_simple(pictures_json=pictures_json, instructions_json=instructions_json)
+        finished_json_reading = map_pictures_to_instructions_with_centers(instructions_json, pictures_json)
+            
+        with open("data/output_openai_text/final_instructions_reading.json", "w") as file:
+            json.dump(finished_json_reading, file, indent=4)
+            
+        # move the final json to cache/jsons/name_of_pdf.json (rename the json)
+        shutil.move("data/output_openai_text/final_instructions_reading.json", "cache/jsons/")
+        os.rename("cache/jsons/final_instructions_reading.json", "cache/jsons/" + name_of_pdf + "_reading.json")
+    except:
+        print("Could not match pictures to instructions with reading order")
+        
 
-    with open("data/output_openai_text/final_instructions.json", "w") as file:
-        json.dump(finished_json, file, indent=4)
-
+    finished_json_dummy = dummy_match_pictures_to_instructions(pictures_json=pictures_json, instructions_json=instructions_json)
+    with open("data/output_openai_text/final_instructions_dummy.json", "w") as file:
+        json.dump(finished_json_dummy, file, indent=4)
+    
+    # move the final json to cache/jsons/name_of_pdf.json (rename the json)
+    shutil.move("data/output_openai_text/final_instructions_dummy.json", "cache/jsons/")
+    os.rename("cache/jsons/final_instructions_dummy.json", "cache/jsons/" + name_of_pdf + "_dummy.json")
+    # except:
+    #     print("Could not match pictures to instructions with dummy")
+    
+    # move all pictures to cache/pictures/name_of_pdf
+    # make dir 
+    os.makedirs("cache/pictures/" + name_of_pdf, exist_ok=True)
+    for file in os.listdir("data/output_all_pictures"):
+        shutil.move("data/output_all_pictures/" + file, "cache/pictures/" + name_of_pdf + "/" + file)
 
 
 # ----------------------------------------------------------------------------------------
 #                                     Command line
 # ----------------------------------------------------------------------------------------
 Convert_PDF_to_JSON()
+

@@ -1,0 +1,292 @@
+{
+    "page": [
+        {
+            "page_no": 1,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 1,
+            "picture_uri": "data\\output_pictures\\image_1_2.jpg",
+            "center_x": 429.09999084472656,
+            "center_y": 687.4639587402344
+        },
+        {
+            "page_no": 1,
+            "picture_uri": "data\\output_pictures\\image_1_3.jpg",
+            "center_x": 297.11447525024414,
+            "center_y": 369.74749755859375
+        },
+        {
+            "page_no": 2,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 2,
+            "picture_uri": "data\\output_pictures\\image_2_2.jpg",
+            "center_x": 155.5219955444336,
+            "center_y": 576.9299621582031
+        },
+        {
+            "page_no": 2,
+            "picture_uri": "data\\output_pictures\\image_2_3.jpg",
+            "center_x": 401.1699981689453,
+            "center_y": 576.9450225830078
+        },
+        {
+            "page_no": 3,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 3,
+            "picture_uri": "data\\output_pictures\\image_3_2.jpg",
+            "center_x": 168.31500244140625,
+            "center_y": 227.19998168945312
+        },
+        {
+            "page_no": 3,
+            "picture_uri": "data\\output_pictures\\image_3_3.jpg",
+            "center_x": 418.32000732421875,
+            "center_y": 229.02497100830078
+        },
+        {
+            "page_no": 3,
+            "picture_uri": "data\\output_pictures\\image_3_4.jpg",
+            "center_x": 309.8249969482422,
+            "center_y": 510.79498291015625
+        },
+        {
+            "page_no": 4,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 4,
+            "picture_uri": "data\\output_pictures\\image_4_2.jpg",
+            "center_x": 297.65000915527344,
+            "center_y": 282.2899627685547
+        },
+        {
+            "page_no": 4,
+            "picture_uri": "data\\output_pictures\\image_4_3.jpg",
+            "center_x": 447.40000915527344,
+            "center_y": 538.7149963378906
+        },
+        {
+            "page_no": 5,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 5,
+            "picture_uri": "data\\output_pictures\\image_5_2.jpg",
+            "center_x": 297.64500427246094,
+            "center_y": 273.8249816894531
+        },
+        {
+            "page_no": 5,
+            "picture_uri": "data\\output_pictures\\image_5_3.jpg",
+            "center_x": 297.63499450683594,
+            "center_y": 588.4099884033203
+        },
+        {
+            "page_no": 6,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 6,
+            "picture_uri": "data\\output_pictures\\image_6_2.jpg",
+            "center_x": 297.5849914550781,
+            "center_y": 218.59996795654297
+        },
+        {
+            "page_no": 6,
+            "picture_uri": "data\\output_pictures\\image_6_3.jpg",
+            "center_x": 473.3249816894531,
+            "center_y": 149.63750457763672
+        },
+        {
+            "page_no": 6,
+            "picture_uri": "data\\output_pictures\\image_6_4.jpg",
+            "center_x": 477.5250244140625,
+            "center_y": 257.52000427246094
+        },
+        {
+            "page_no": 6,
+            "picture_uri": "data\\output_pictures\\image_6_5.jpg",
+            "center_x": 297.62001037597656,
+            "center_y": 538.0950012207031
+        },
+        {
+            "page_no": 7,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 7,
+            "picture_uri": "data\\output_pictures\\image_7_2.jpg",
+            "center_x": 297.6400146484375,
+            "center_y": 221.37499237060547
+        },
+        {
+            "page_no": 7,
+            "picture_uri": "data\\output_pictures\\image_7_3.jpg",
+            "center_x": 297.6549987792969,
+            "center_y": 507.2449951171875
+        },
+        {
+            "page_no": 7,
+            "picture_uri": "data\\output_pictures\\image_7_4.jpg",
+            "center_x": 506.67498779296875,
+            "center_y": 570.6249542236328
+        },
+        {
+            "page_no": 8,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 8,
+            "picture_uri": "data\\output_pictures\\image_8_2.jpg",
+            "center_x": 297.59999084472656,
+            "center_y": 194.9499740600586
+        },
+        {
+            "page_no": 8,
+            "picture_uri": "data\\output_pictures\\image_8_3.jpg",
+            "center_x": 299.625,
+            "center_y": 457.6299743652344
+        },
+        {
+            "page_no": 8,
+            "picture_uri": "data\\output_pictures\\image_8_4.jpg",
+            "center_x": 333.37498474121094,
+            "center_y": 640.1900024414062
+        },
+        {
+            "page_no": 8,
+            "picture_uri": "data\\output_pictures\\image_8_5.jpg",
+            "center_x": 443.54998779296875,
+            "center_y": 640.010009765625
+        },
+        {
+            "page_no": 9,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 9,
+            "picture_uri": "data\\output_pictures\\image_9_2.jpg",
+            "center_x": 297.51499938964844,
+            "center_y": 252.37498474121094
+        },
+        {
+            "page_no": 10,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 10,
+            "picture_uri": "data\\output_pictures\\image_10_2.jpg",
+            "center_x": 297.3500061035156,
+            "center_y": 389.9500274658203
+        },
+        {
+            "page_no": 11,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 11,
+            "picture_uri": "data\\output_pictures\\image_11_2.jpg",
+            "center_x": 307.9649963378906,
+            "center_y": 224.02497100830078
+        },
+        {
+            "page_no": 11,
+            "picture_uri": "data\\output_pictures\\image_11_3.jpg",
+            "center_x": 307.3000030517578,
+            "center_y": 519.3599548339844
+        },
+        {
+            "page_no": 12,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 12,
+            "picture_uri": "data\\output_pictures\\image_12_2.jpg",
+            "center_x": 297.4250068664551,
+            "center_y": 306.7999725341797
+        },
+        {
+            "page_no": 13,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 13,
+            "picture_uri": "data\\output_pictures\\image_13_2.jpg",
+            "center_x": 297.64999771118164,
+            "center_y": 263.82496643066406
+        },
+        {
+            "page_no": 13,
+            "picture_uri": "data\\output_pictures\\image_13_3.jpg",
+            "center_x": 203.9250030517578,
+            "center_y": 544.9199523925781
+        },
+        {
+            "page_no": 13,
+            "picture_uri": "data\\output_pictures\\image_13_4.jpg",
+            "center_x": 425.9150085449219,
+            "center_y": 521.1549682617188
+        },
+        {
+            "page_no": 14,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 14,
+            "picture_uri": "data\\output_pictures\\image_14_2.jpg",
+            "center_x": 297.6500015258789,
+            "center_y": 256.2949981689453
+        },
+        {
+            "page_no": 15,
+            "picture_uri": "data\\output_pictures\\image_10_1.jpg",
+            "center_x": 514.25,
+            "center_y": 42.5
+        },
+        {
+            "page_no": 15,
+            "picture_uri": "data\\output_pictures\\image_15_2.jpg",
+            "center_x": 297.64501953125,
+            "center_y": 571.6249694824219
+        },
+        {
+            "page_no": 15,
+            "picture_uri": "data\\output_pictures\\image_15_3.jpg",
+            "center_x": 297.64500427246094,
+            "center_y": 274.2749938964844
+        }
+    ]
+}
