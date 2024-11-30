@@ -1,0 +1,110 @@
+[
+    {
+        "pdf_document": [
+            {
+                "page_no": 1,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Obtain the following parts: WINDOW, HALO2.0 \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1; OUTER GASKET, HALO2.0, WINDOW, EPDM \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1; INNER GASKET, HALO2.0, WINDOW, EPDM \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1; KIT, BEZEL, WINDOW, EXT \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 QTY: 1.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 241.0,
+                                "center_y": 521.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 2,
+                        "text": "Ensure to use Fasteners: HN-M4X5MM,SS,NLN \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Qty: 12 (Ed1.2).",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 241.0,
+                                "center_y": 521.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 3,
+                        "text": "Remove the protective film from the inside and outside surface of the window. Keep the protective film to reapply to the outside surface of the window at completion of assembly.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 241.0,
+                                "center_y": 521.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 4,
+                        "text": "Ensure the middle section of the Vinyl has not been removed as shown in Figure 54.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 241.0,
+                                "center_y": 521.0
+                            }
+                        ],
+                        "pictures_array": []
+                    }
+                ]
+            },
+            {
+                "page_no": 2,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Assemble the Bezel (707-30074A-01), followed by the Outer Gasket (707-30003A-01), followed by the Window (707-30011A-01), followed by the Inner Gasket (707-30032A-01) and then fit the assembly onto the front face of the enclosure. Ensure that the vinyl is on the inside of the enclosure.",
+                        "picture": true,
+                        "picture_description": "Diagram showing an enclosure assembly with parts labeled.",
+                        "centers": [
+                            {
+                                "center_x": 0,
+                                "center_y": 0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_004.jpg",
+                            "data\\output_all_pictures\\picture_004.jpg"
+                        ]
+                    },
+                    {
+                        "step": 2,
+                        "text": "Secure the window in place using the x12 HN-0065 from inside the enclosure.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 0,
+                                "center_y": 0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 3,
+                        "text": "Tighten all the nuts evenly to get even compression of the gasket.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 0,
+                                "center_y": 0
+                            }
+                        ],
+                        "pictures_array": []
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,670 @@
+[
+    {
+        "pdf_document": [
+            {
+                "page_no": 1,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Follow instructions on the Line Clearance Sheet to prepare workstation for production.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 395.0,
+                                "center_y": 31.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 2,
+                        "text": "Verify all Components at the Shipping area match the approved Production Specification Sheet. Verify as needed component: \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 Gaskets \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 springs \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153 size",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 524.0,
+                                "center_y": 586.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 3,
+                        "text": "When using P80: Stainless Steel bins JJKF2375 must be used whenever P80 Lubricant is needed. The Stainless bins are easier to clean than plastic and prevent P80 build up.",
+                        "picture": true,
+                        "picture_description": "Stainless steel bin with label",
+                        "centers": [
+                            {
+                                "center_x": 524.0,
+                                "center_y": 586.0
+                            }
+                        ]
+                    },
+                    {
+                        "step": 4,
+                        "text": "Unless specifically stated in Work Inst: Do NOT apply P80 or other lubricant to the Gaskets or Rubber Valves. Use of lubricant may interfere with the Gasket detection equipment or cause Valve to fail.",
+                        "picture": true,
+                        "picture_description": "Image showing a bottle with a red strike-through symbol",
+                        "centers": [
+                            {
+                                "center_x": 524.0,
+                                "center_y": 586.0
+                            }
+                        ]
+                    },
+                    {
+                        "step": 5,
+                        "text": "Scrap: Immediately place nonconforming parts into the scrap bin. Report the nonconforming quantity on the tally sheet at the end of each shift and dispose of the parts after you report the quantity.",
+                        "picture": true,
+                        "picture_description": "Orange scrap bin with parts in it",
+                        "centers": [
+                            {
+                                "center_x": 524.0,
+                                "center_y": 586.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "page_no": 2,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Place gasket into inner body. Use hand tool provided to properly seat gasket.",
+                        "picture": true,
+                        "picture_description": "A hand tool placing a gasket into an inner body.",
+                        "centers": [
+                            {
+                                "center_x": 330.0,
+                                "center_y": 131.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_001.jpg",
+                            "data\\output_all_pictures\\picture_001.jpg"
+                        ]
+                    },
+                    {
+                        "step": 2,
+                        "text": "With each new container, verify that you have the correct gasket per your production sheet. ",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 579.0,
+                                "center_y": 141.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 3,
+                        "text": "Install Pawl into Inner Body. Set that the legs of the Pawl engage with the teeth of the Inner Body.",
+                        "picture": true,
+                        "picture_description": "Hands installing a Pawl into an Inner Body, showing engagement with teeth.",
+                        "centers": [
+                            {
+                                "center_x": 692.0,
+                                "center_y": 276.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_003.jpg",
+                            "data\\output_all_pictures\\picture_003.jpg"
+                        ]
+                    },
+                    {
+                        "step": 4,
+                        "text": "Slide Felt over Inner Body if required. Note: Not all part numbers require Felt.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 689.0,
+                                "center_y": 316.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 5,
+                        "text": "Place Inner Body assembly onto nest of assembly machine.",
+                        "picture": true,
+                        "picture_description": "Inner Body assembly being placed onto an assembly machine.",
+                        "centers": [
+                            {
+                                "center_x": 328.0,
+                                "center_y": 425.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_002.jpg",
+                            "data\\output_all_pictures\\picture_004.jpg",
+                            "data\\output_all_pictures\\picture_002.jpg",
+                            "data\\output_all_pictures\\picture_002.jpg",
+                            "data\\output_all_pictures\\picture_004.jpg"
+                        ]
+                    },
+                    {
+                        "step": 6,
+                        "text": "Place Cap into top nest of assembly machine. The assembly machine will automatically cycle when the lid is inserted beyond the curtain.",
+                        "picture": true,
+                        "picture_description": "Placing a cap into the top nest of an assembly machine.",
+                        "centers": [
+                            {
+                                "center_x": 685.0,
+                                "center_y": 425.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_002.jpg",
+                            "data\\output_all_pictures\\picture_004.jpg",
+                            "data\\output_all_pictures\\picture_002.jpg",
+                            "data\\output_all_pictures\\picture_002.jpg",
+                            "data\\output_all_pictures\\picture_004.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "page_no": 3,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Place cap in tester. Photo is an example.",
+                        "picture": true,
+                        "picture_description": "A hand placing a cap in a testing device.",
+                        "centers": [
+                            {
+                                "center_x": 321.0,
+                                "center_y": 139.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_005.jpg",
+                            "data\\output_all_pictures\\picture_006.jpg",
+                            "data\\output_all_pictures\\picture_006.jpg",
+                            "data\\output_all_pictures\\picture_006.jpg",
+                            "data\\output_all_pictures\\picture_005.jpg"
+                        ]
+                    },
+                    {
+                        "step": 2,
+                        "text": "Cycle tester, press start. 'Green' light is a pass. 'Red' light is a fail. Red/Orange light will flash. Press 'reset' button.",
+                        "picture": true,
+                        "picture_description": "Tester machine with different colored lights. Press start button highlighted.",
+                        "centers": [
+                            {
+                                "center_x": 686.0,
+                                "center_y": 97.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_005.jpg",
+                            "data\\output_all_pictures\\picture_006.jpg",
+                            "data\\output_all_pictures\\picture_006.jpg",
+                            "data\\output_all_pictures\\picture_006.jpg",
+                            "data\\output_all_pictures\\picture_005.jpg"
+                        ]
+                    },
+                    {
+                        "step": 3,
+                        "text": "Verify Pass Test Mark. Photo is an example. New photo needed.",
+                        "picture": true,
+                        "picture_description": "Close-up of a pass test mark on a cap with an arrow pointing to it.",
+                        "centers": [
+                            {
+                                "center_x": 329.0,
+                                "center_y": 264.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_007.jpg",
+                            "data\\output_all_pictures\\picture_007.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "page_no": 4,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Load cap in laser engraver. No orientation to Kelch logo is required.",
+                        "picture": true,
+                        "picture_description": "Image of a cap being placed in a laser engraver.",
+                        "centers": [
+                            {
+                                "center_x": 318.0,
+                                "center_y": 109.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_008.jpg",
+                            "data\\output_all_pictures\\picture_010.jpg",
+                            "data\\output_all_pictures\\picture_008.jpg",
+                            "data\\output_all_pictures\\picture_008.jpg",
+                            "data\\output_all_pictures\\picture_010.jpg"
+                        ]
+                    },
+                    {
+                        "step": 2,
+                        "text": "Close door and cycle laser. The cycle will start when door is closed.",
+                        "picture": true,
+                        "picture_description": "Image showing a person closing the door of a machine, possibly a laser engraver.",
+                        "centers": [
+                            {
+                                "center_x": 318.0,
+                                "center_y": 109.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_008.jpg",
+                            "data\\output_all_pictures\\picture_010.jpg",
+                            "data\\output_all_pictures\\picture_008.jpg",
+                            "data\\output_all_pictures\\picture_008.jpg",
+                            "data\\output_all_pictures\\picture_010.jpg"
+                        ]
+                    },
+                    {
+                        "step": 3,
+                        "text": "Remove assembly.",
+                        "picture": true,
+                        "picture_description": "Image of a hand holding an engraved cap.",
+                        "centers": [
+                            {
+                                "center_x": 320.0,
+                                "center_y": 241.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_009.jpg",
+                            "data\\output_all_pictures\\picture_009.jpg"
+                        ]
+                    },
+                    {
+                        "step": 4,
+                        "text": "Verify Part Number, Date Code, and EPA Code or Customer Part Number, Etc. (if required) with print. Laser engraving to be centered and legible on Lug. Must Verify with Print.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 325.0,
+                                "center_y": 287.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 5,
+                        "text": "Torque Test Now See WI 758 and chart.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 503.0,
+                                "center_y": 316.0
+                            }
+                        ],
+                        "pictures_array": []
+                    }
+                ]
+            },
+            {
+                "page_no": 5,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Pad Printing During Assembly.",
+                        "picture": true,
+                        "picture_description": "A pad printing machine with a component set for printing.",
+                        "centers": [
+                            {
+                                "center_x": 322.0,
+                                "center_y": 86.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_011.jpg",
+                            "data\\output_all_pictures\\picture_011.jpg"
+                        ]
+                    },
+                    {
+                        "step": 2,
+                        "text": "Pad Print Now, when required. Use WI 349 and chart. Photo is an example. Verify With Production Sheet If Pad Printing Is Required.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 328.0,
+                                "center_y": 126.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 3,
+                        "text": "Rope Tether Assembly If Required, not all part numbers get a tether.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 322.0,
+                                "center_y": 270.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 4,
+                        "text": "Place ends of Tether into tether machine.",
+                        "picture": true,
+                        "picture_description": "Ends of tether are inserted into a machine slot.",
+                        "centers": [
+                            {
+                                "center_x": 331.0,
+                                "center_y": 304.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_012.jpg",
+                            "data\\output_all_pictures\\picture_013.jpg",
+                            "data\\output_all_pictures\\picture_012.jpg",
+                            "data\\output_all_pictures\\picture_012.jpg",
+                            "data\\output_all_pictures\\picture_013.jpg"
+                        ]
+                    },
+                    {
+                        "step": 5,
+                        "text": "Place Cap and Anchor into tether machine. Press buttons. Tether needs to stay in assembly. Tether ends are not installed into housing, snapped into place.",
+                        "picture": true,
+                        "picture_description": "Cap and anchor set in tether machine, with marked buttons to press.",
+                        "centers": [
+                            {
+                                "center_x": 685.0,
+                                "center_y": 264.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_012.jpg",
+                            "data\\output_all_pictures\\picture_013.jpg",
+                            "data\\output_all_pictures\\picture_012.jpg",
+                            "data\\output_all_pictures\\picture_012.jpg",
+                            "data\\output_all_pictures\\picture_013.jpg"
+                        ]
+                    },
+                    {
+                        "step": 6,
+                        "text": "The end of the ball socket is completely snapped in. Acceptable.",
+                        "picture": true,
+                        "picture_description": "Ball socket end is fully secure and snapped in.",
+                        "centers": [
+                            {
+                                "center_x": 314.0,
+                                "center_y": 443.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_014.jpg",
+                            "data\\output_all_pictures\\picture_014.jpg",
+                            "data\\output_all_pictures\\picture_014.jpg"
+                        ]
+                    },
+                    {
+                        "step": 7,
+                        "text": "The end of the ball socket is not completely snapped in. Unacceptable.",
+                        "picture": true,
+                        "picture_description": "Ball socket end is shown improperly secured, not snapped in.",
+                        "centers": [
+                            {
+                                "center_x": 679.0,
+                                "center_y": 443.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_014.jpg",
+                            "data\\output_all_pictures\\picture_014.jpg",
+                            "data\\output_all_pictures\\picture_014.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "page_no": 6,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Ensure the rope tether is not pinned into the anchor.",
+                        "picture": true,
+                        "picture_description": "Image showing rope tether pinned into the anchor with a label 'Unacceptable'.",
+                        "centers": [
+                            {
+                                "center_x": 395.0,
+                                "center_y": 31.0
+                            }
+                        ]
+                    },
+                    {
+                        "step": 2,
+                        "text": "Perform a Tether Pull Test when you have a tether. Refer to WI 2430.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 395.0,
+                                "center_y": 31.0
+                            }
+                        ],
+                        "pictures_array": []
+                    }
+                ]
+            },
+            {
+                "page_no": 7,
+                "instructions": [
+                    {
+                        "step": 1,
+                        "text": "Pack single layers of 9 layers per box.",
+                        "picture": true,
+                        "picture_description": "Box with single layers packed inside.",
+                        "centers": [
+                            {
+                                "center_x": 329.0,
+                                "center_y": 97.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_015.jpg",
+                            "data\\output_all_pictures\\picture_015.jpg"
+                        ]
+                    },
+                    {
+                        "step": 2,
+                        "text": "24 pcs per layer.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 317.0,
+                                "center_y": 114.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 3,
+                        "text": "Place chipboard between layers.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 315.0,
+                                "center_y": 131.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 4,
+                        "text": "Label completed carton.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 316.0,
+                                "center_y": 154.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 5,
+                        "text": "Place cable and label completed skid.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 316.0,
+                                "center_y": 177.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 6,
+                        "text": "Verify quantities and packaging with production sheet.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 322.0,
+                                "center_y": 222.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 7,
+                        "text": "Place tether inside the cap assembly.",
+                        "picture": true,
+                        "picture_description": "Tether placed inside a cap.",
+                        "centers": [
+                            {
+                                "center_x": 330.0,
+                                "center_y": 281.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_016.jpg",
+                            "data\\output_all_pictures\\picture_018.jpg",
+                            "data\\output_all_pictures\\picture_018.jpg",
+                            "data\\output_all_pictures\\picture_016.jpg"
+                        ]
+                    },
+                    {
+                        "step": 8,
+                        "text": "Place caps in bags or zip lock bags, when required.",
+                        "picture": true,
+                        "picture_description": "Bags with caps inside.",
+                        "centers": [
+                            {
+                                "center_x": 324.0,
+                                "center_y": 419.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_017.jpg",
+                            "data\\output_all_pictures\\picture_017.jpg",
+                            "data\\output_all_pictures\\picture_017.jpg"
+                        ]
+                    },
+                    {
+                        "step": 9,
+                        "text": "Verify quantities and packaging with production sheet.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 321.0,
+                                "center_y": 517.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 10,
+                        "text": "Neatly stack bags in box.",
+                        "picture": true,
+                        "picture_description": "Box with neatly stacked bags.",
+                        "centers": [
+                            {
+                                "center_x": 324.0,
+                                "center_y": 419.0
+                            }
+                        ],
+                        "pictures_array": [
+                            "data\\output_all_pictures\\picture_017.jpg",
+                            "data\\output_all_pictures\\picture_017.jpg",
+                            "data\\output_all_pictures\\picture_017.jpg"
+                        ]
+                    },
+                    {
+                        "step": 11,
+                        "text": "Label carton.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 307.0,
+                                "center_y": 437.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 12,
+                        "text": "Place carton on finished skid.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 324.0,
+                                "center_y": 477.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 13,
+                        "text": "Place cable label on skid.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 324.0,
+                                "center_y": 477.0
+                            }
+                        ],
+                        "pictures_array": []
+                    },
+                    {
+                        "step": 14,
+                        "text": "Verify quantities and packaging with production sheet.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 321.0,
+                                "center_y": 517.0
+                            }
+                        ],
+                        "pictures_array": []
+                    }
+                ]
+            }
+        ]
+    }
+]
