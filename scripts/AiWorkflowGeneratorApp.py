@@ -186,7 +186,7 @@ def main():
         if pdf_file:
             st.write(f"PDF file {pdf_file.name} loaded.")
 
-            pdf_nr = pdf_file.name.split("pdf")[1].split('.')[0]
+            pdf_nr = pdf_file.name.split("w")[1].split('.')[0]
 
 
             # Create three columns for the buttons
