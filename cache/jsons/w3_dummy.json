@@ -5,9 +5,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Remove Nose Housing(DPN239-009) and Nose Housing Nut(DPN239-011) from the tool.",
+                    "text": "Remove Nose Housing (DPN239-009) and Nose Housing Nut (PN239-011) from the tool.",
                     "picture": true,
-                    "picture_description": "A tool with a hand removing a component.",
+                    "picture_description": "Image showing the removal of the Nose Housing and Nose Housing Nut from the tool.",
                     "centers": [
                         {
                             "center_x": 167.0,
@@ -15,18 +15,18 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_001.jpg",
-                        "data\\output_all_pictures\\picture_002.jpg",
-                        "data\\output_all_pictures\\picture_003.jpg",
-                        "data\\output_all_pictures\\picture_004.jpg",
-                        "data\\output_all_pictures\\picture_005.jpg"
+                        "cache\\pictures\\w3\\picture_001.jpg",
+                        "cache\\pictures\\w3\\picture_002.jpg",
+                        "cache\\pictures\\w3\\picture_003.jpg",
+                        "cache\\pictures\\w3\\picture_004.jpg",
+                        "cache\\pictures\\w3\\picture_005.jpg"
                     ]
                 },
                 {
                     "step": 2,
-                    "text": "Remove Jaw Guide(DPN239-006), Jaws(PRG402-8A), Jaw Pusher(DPN239-144), Jaw Pusher Spring (DPN901-001) from the tool.",
+                    "text": "Remove Jaw Guide(DPN239-006), Jaws (PRG402-8A), Jaw Pusher (DPN239-144). Jaw Pusher Spring (DPN901-001) from the tool.",
                     "picture": true,
-                    "picture_description": "A hand disassembling parts from the tool.",
+                    "picture_description": "Image showing the components Jaw Guide, Jaws, Jaw Pusher, and Jaw Pusher Spring being removed from the tool.",
                     "centers": [
                         {
                             "center_x": 173.0,
@@ -34,14 +34,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_002.jpg"
+                        "cache\\pictures\\w3\\picture_002.jpg"
                     ]
                 },
                 {
                     "step": 3,
                     "text": "Tool ready for CORNER HEAD installation.",
                     "picture": true,
-                    "picture_description": "The tool prepared for new installation.",
+                    "picture_description": "Image showing the tool ready for corner head installation.",
                     "centers": [
                         {
                             "center_x": 409.0,
@@ -49,14 +49,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_004.jpg"
+                        "cache\\pictures\\w3\\picture_004.jpg"
                     ]
                 },
                 {
                     "step": 4,
-                    "text": "Attach Draw Bolt Adapter(DPN239-192) and tighten.",
+                    "text": "Attach Draw Bolt Adapter (DPN239-192) and tighten.",
                     "picture": true,
-                    "picture_description": "Attaching a component using a tool.",
+                    "picture_description": "Image showing the attachment of the Draw Bolt Adapter to the tool.",
                     "centers": [
                         {
                             "center_x": 666.0,
@@ -64,7 +64,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_005.jpg"
+                        "cache\\pictures\\w3\\picture_005.jpg"
                     ]
                 }
             ]
@@ -76,7 +76,7 @@
                     "step": 1,
                     "text": "Attach Corner Head Adapter (DPN239-191) and tighten.",
                     "picture": true,
-                    "picture_description": "Shows the Corner Head Adapter being attached.",
+                    "picture_description": "An attachment being tightened with a tool.",
                     "centers": [
                         {
                             "center_x": 154.0,
@@ -84,20 +84,21 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_006.jpg",
-                        "data\\output_all_pictures\\picture_007.jpg",
-                        "data\\output_all_pictures\\picture_008.jpg",
-                        "data\\output_all_pictures\\picture_009.jpg",
-                        "data\\output_all_pictures\\picture_010.jpg",
-                        "data\\output_all_pictures\\picture_011.jpg",
-                        "data\\output_all_pictures\\picture_012.jpg"
+                        "cache\\pictures\\w3\\picture_006.jpg",
+                        "cache\\pictures\\w3\\picture_007.jpg",
+                        "cache\\pictures\\w3\\picture_008.jpg",
+                        "cache\\pictures\\w3\\picture_009.jpg",
+                        "cache\\pictures\\w3\\picture_010.jpg",
+                        "cache\\pictures\\w3\\picture_011.jpg",
+                        "cache\\pictures\\w3\\picture_012.jpg",
+                        "cache\\pictures\\w3\\picture_013.jpg"
                     ]
                 },
                 {
                     "step": 2,
                     "text": "Tighten Socket Head Screw (DPN907-003) and fix the spin of Draw Bolt Adapter.",
                     "picture": true,
-                    "picture_description": "Shows the tightening of the Socket Head Screw.",
+                    "picture_description": "A tool being adjusted by tightening a socket head screw.",
                     "centers": [
                         {
                             "center_x": 414.0,
@@ -105,16 +106,18 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_008.jpg",
-                        "data\\output_all_pictures\\picture_009.jpg",
-                        "data\\output_all_pictures\\picture_007.jpg"
+                        "cache\\pictures\\w3\\picture_008.jpg",
+                        "cache\\pictures\\w3\\picture_009.jpg",
+                        "cache\\pictures\\w3\\picture_011.jpg",
+                        "cache\\pictures\\w3\\picture_012.jpg",
+                        "cache\\pictures\\w3\\picture_007.jpg"
                     ]
                 },
                 {
                     "step": 3,
-                    "text": "Attach Corner Head to Draw Bolt Adapter (DPN239-192).",
-                    "picture": true,
-                    "picture_description": "Shows the Corner Head being attached to the Draw Bolt Adapter.",
+                    "text": "Attach CORNER HEAD to Draw Bolt Adapter (DPN239-192).",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 699.0,
@@ -122,16 +125,15 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_011.jpg",
-                        "data\\output_all_pictures\\picture_007.jpg",
-                        "data\\output_all_pictures\\picture_009.jpg"
+                        "cache\\pictures\\w3\\picture_012.jpg",
+                        "cache\\pictures\\w3\\picture_009.jpg"
                     ]
                 },
                 {
                     "step": 4,
-                    "text": "Tighten Corner Head to Draw Bolt Adapter (DPN239-192).",
+                    "text": "Remove Socket Screw (DPN907-003) and attach CORNER HEAD to Corner Head Adapter (DPN239-191).",
                     "picture": true,
-                    "picture_description": "Shows the Corner Head being tightened to the Draw Bolt Adapter.",
+                    "picture_description": "A socket screw being removed and Corner Head being attached.",
                     "centers": [
                         {
                             "center_x": 156.0,
@@ -139,37 +141,15 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_010.jpg",
-                        "data\\output_all_pictures\\picture_012.jpg",
-                        "data\\output_all_pictures\\picture_012.jpg",
-                        "data\\output_all_pictures\\picture_010.jpg"
+                        "cache\\pictures\\w3\\picture_010.jpg",
+                        "cache\\pictures\\w3\\picture_013.jpg"
                     ]
                 },
                 {
                     "step": 5,
-                    "text": "Remove Socket Screw (DPN907-003) and attach Corner Head to Corner Head Adapter (DPN239-191).",
-                    "picture": true,
-                    "picture_description": "Shows the removal of Socket Screw and attachment of Corner Head.",
-                    "centers": [
-                        {
-                            "center_x": 0,
-                            "center_y": 0
-                        }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\picture_006.jpg",
-                        "data\\output_all_pictures\\picture_007.jpg",
-                        "data\\output_all_pictures\\picture_008.jpg",
-                        "data\\output_all_pictures\\picture_006.jpg",
-                        "data\\output_all_pictures\\picture_011.jpg",
-                        "data\\output_all_pictures\\picture_007.jpg"
-                    ]
-                },
-                {
-                    "step": 6,
                     "text": "Tighten Nut of Corner Head to Corner Head Adapter (DPN239-191).",
-                    "picture": true,
-                    "picture_description": "Shows the Nut being tightened.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 692.0,
@@ -177,17 +157,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_010.jpg",
-                        "data\\output_all_pictures\\picture_012.jpg",
-                        "data\\output_all_pictures\\picture_012.jpg",
-                        "data\\output_all_pictures\\picture_010.jpg"
+                        "cache\\pictures\\w3\\picture_010.jpg"
                     ]
                 },
                 {
-                    "step": 7,
-                    "text": "Set 8.5mm or less between Corner Head and Corner Head Adapter (DPN239-191).",
+                    "step": 6,
+                    "text": "Set 8.5mm or less between CORNER HEAD and Corner Head Adapter (DPN239-191).",
                     "picture": true,
-                    "picture_description": "Shows the measurement setting between Corner Head and Adapter.",
+                    "picture_description": "Two components being measured for spacing.",
                     "centers": [
                         {
                             "center_x": 191.0,
@@ -195,17 +172,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_010.jpg",
-                        "data\\output_all_pictures\\picture_012.jpg",
-                        "data\\output_all_pictures\\picture_012.jpg",
-                        "data\\output_all_pictures\\picture_010.jpg"
+                        "cache\\pictures\\w3\\picture_010.jpg"
                     ]
                 },
                 {
-                    "step": 8,
+                    "step": 7,
                     "text": "Tool is now ready for operation.",
                     "picture": true,
-                    "picture_description": "Shows the tool in its final ready state.",
+                    "picture_description": "The tool fully assembled and ready to use.",
                     "centers": [
                         {
                             "center_x": 604.0,
@@ -213,7 +187,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\picture_012.jpg"
+                        "cache\\pictures\\w3\\picture_013.jpg"
                     ]
                 }
             ]

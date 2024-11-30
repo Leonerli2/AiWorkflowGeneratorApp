@@ -17,7 +17,7 @@
                 },
                 {
                     "step": 2,
-                    "text": "Alle moment strammes.",
+                    "text": "Alle moment str\u00c3\u0192\u00c2\u00b8ges.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -29,7 +29,7 @@
                 },
                 {
                     "step": 3,
-                    "text": "Alle emner f\u00c3\u0192\u00c2\u00a6nges i gevind inden moment tilsp\u00c3\u0192\u00c2\u00a6nding.",
+                    "text": "Alle emner fanges i gevind inden moment tilsp\u00c3\u0192\u00c2\u00a6nding.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -70,7 +70,7 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Tekst og billeder, pakke instr.",
+                    "text": "Rev 03 - 02. februar 2022 - Tekst og billeder, pakke instr.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -82,7 +82,7 @@
                 },
                 {
                     "step": 2,
-                    "text": "\u00c3\u0192\u00e2\u20ac\u00a0ndret til montage stand.",
+                    "text": "Rev 04 - 16. maj 2022 - \u00c3\u0192\u00e2\u20ac\u00a0ndret til montagestand.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -99,19 +99,22 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "HG2123R00 places in mounting stand.",
-                    "picture": false,
-                    "picture_description": "",
+                    "text": "HG2123R00 placeres i montagestand.",
+                    "picture": true,
+                    "picture_description": "Metal block with three screws highlighted.",
                     "centers": [
                         {
                             "center_x": 182.0,
                             "center_y": 292.0
                         }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w8\\image_3_2.jpg"
                     ]
                 },
                 {
                     "step": 2,
-                    "text": "2 pcs. VSCHR1/8 mounts.",
+                    "text": "2 stk. VSCHRI/8 monteres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -123,7 +126,7 @@
                 },
                 {
                     "step": 3,
-                    "text": "Tighten to 12 Nm.",
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -135,7 +138,7 @@
                 },
                 {
                     "step": 4,
-                    "text": "1 pc. VSCHR1/4 mounts.",
+                    "text": "1 stk. VSCHRI/4 monteres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -147,9 +150,9 @@
                 },
                 {
                     "step": 5,
-                    "text": "Tighten to 25 Nm.",
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 25 Nm.",
                     "picture": true,
-                    "picture_description": "Image showing the mounting of components on a metal block.",
+                    "picture_description": "Different angle of the same metal block with four screws highlighted.",
                     "centers": [
                         {
                             "center_x": 140.0,
@@ -157,25 +160,24 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_3_2.jpg",
-                        "data\\output_all_pictures\\image_3_3.jpg"
+                        "cache\\pictures\\w8\\image_3_3.jpg"
                     ]
                 },
                 {
                     "step": 6,
-                    "text": "1 pc. VSCHR1/4 mounts.",
+                    "text": "1 stk. VSCHRI/4 monteres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
                         {
                             "center_x": 158.0,
-                            "center_y": 652.0
+                            "center_y": 615.0
                         }
                     ]
                 },
                 {
                     "step": 7,
-                    "text": "Tighten to 80 Nm.",
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 80 Nm.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -187,7 +189,7 @@
                 },
                 {
                     "step": 8,
-                    "text": "1 pc. VSCHR1/2 mounts.",
+                    "text": "1 stk. VSCHRI/2 monteres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -199,7 +201,7 @@
                 },
                 {
                     "step": 9,
-                    "text": "Tighten to 60 Nm.",
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -211,7 +213,7 @@
                 },
                 {
                     "step": 10,
-                    "text": "1 pc. VSCHR1 mounts.",
+                    "text": "1 stk. VSCHRI/1 monteres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -223,18 +225,14 @@
                 },
                 {
                     "step": 11,
-                    "text": "Tighten to 160 Nm.",
-                    "picture": true,
-                    "picture_description": "Image showing additional components mounted on a metal block.",
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 160 Nm.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 144.0,
                             "center_y": 708.0
                         }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\image_3_2.jpg",
-                        "data\\output_all_pictures\\image_3_3.jpg"
                     ]
                 }
             ]
@@ -244,9 +242,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "2 stk. SIKK20G1/4-PC monteres.",
+                    "text": "2 stk. SKK20G1/4-PC monteres.",
                     "picture": true,
-                    "picture_description": "Image of a metal block with several holes and components mounted.",
+                    "picture_description": "Top image shows a hydraulic block with SKK20G1/4-PC components mounted.",
                     "centers": [
                         {
                             "center_x": 169.0,
@@ -254,8 +252,8 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_4_3.jpg",
-                        "data\\output_all_pictures\\image_4_4.jpg"
+                        "cache\\pictures\\w8\\image_4_3.jpg",
+                        "cache\\pictures\\w8\\image_4_4.jpg"
                     ]
                 },
                 {
@@ -273,13 +271,17 @@
                 {
                     "step": 3,
                     "text": "2171256 monteres, sp\u00c3\u0192\u00c2\u00a6ndes til med fingrene.",
-                    "picture": false,
-                    "picture_description": "",
+                    "picture": true,
+                    "picture_description": "Middle-left image shows a hand installing 2171256 component.",
                     "centers": [
                         {
                             "center_x": 200.0,
                             "center_y": 397.0
                         }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w8\\image_4_3.jpg",
+                        "cache\\pictures\\w8\\image_4_4.jpg"
                     ]
                 },
                 {
@@ -298,7 +300,7 @@
                     "step": 5,
                     "text": "Blokken drejes",
                     "picture": true,
-                    "picture_description": "Image of a hand interacting with the block to rotate it.",
+                    "picture_description": "Middle-right image shows the block being rotated.",
                     "centers": [
                         {
                             "center_x": 128.0,
@@ -306,15 +308,15 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_4_3.jpg",
-                        "data\\output_all_pictures\\image_4_4.jpg"
+                        "cache\\pictures\\w8\\image_4_3.jpg",
+                        "cache\\pictures\\w8\\image_4_4.jpg"
                     ]
                 },
                 {
                     "step": 6,
                     "text": "1 stk. dyse DYSE-10/1.0US monteres i RN2",
                     "picture": true,
-                    "picture_description": "Image of a hand mounting a component into the block.",
+                    "picture_description": "Bottom-left image shows DYSE-10/1.0US being installed in RN2.",
                     "centers": [
                         {
                             "center_x": 194.0,
@@ -322,8 +324,8 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_4_3.jpg",
-                        "data\\output_all_pictures\\image_4_4.jpg"
+                        "cache\\pictures\\w8\\image_4_3.jpg",
+                        "cache\\pictures\\w8\\image_4_4.jpg"
                     ]
                 },
                 {
@@ -340,9 +342,9 @@
                 },
                 {
                     "step": 8,
-                    "text": "1 stk. dyse DYSE-6/0.6OUS monteres i RN1",
+                    "text": "1 stk. dyse DYSE-6/0.60US monteres i RN1",
                     "picture": true,
-                    "picture_description": "Image of a hand mounting another component into the block.",
+                    "picture_description": "Bottom-right image shows DYSE-6/0.60US being installed in RN1.",
                     "centers": [
                         {
                             "center_x": 194.0,
@@ -350,8 +352,8 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_4_3.jpg",
-                        "data\\output_all_pictures\\image_4_4.jpg"
+                        "cache\\pictures\\w8\\image_4_3.jpg",
+                        "cache\\pictures\\w8\\image_4_4.jpg"
                     ]
                 },
                 {
@@ -375,7 +377,7 @@
                     "step": 1,
                     "text": "VSCHR1/8 monteres.",
                     "picture": true,
-                    "picture_description": "Image shows a metal component with several threaded plugs and connectors.",
+                    "picture_description": "A panel with various mechanical components being assembled.",
                     "centers": [
                         {
                             "center_x": 145.0,
@@ -383,14 +385,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_5_2.jpg"
+                        "cache\\pictures\\w8\\image_5_2.jpg"
                     ]
                 },
                 {
                     "step": 2,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
                     "picture": false,
-                    "picture_description": "N/A",
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 140.0,
@@ -402,7 +404,7 @@
                     "step": 3,
                     "text": "VSCHR1/4 monteres.",
                     "picture": false,
-                    "picture_description": "N/A",
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 145.0,
@@ -414,7 +416,7 @@
                     "step": 4,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 25 Nm.",
                     "picture": false,
-                    "picture_description": "N/A",
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 140.0,
@@ -424,12 +426,12 @@
                 },
                 {
                     "step": 5,
-                    "text": "SKKZ06G1/4-PC monteres.",
+                    "text": "SSKR20G1/4-PC monteres.",
                     "picture": false,
-                    "picture_description": "N/A",
+                    "picture_description": "",
                     "centers": [
                         {
-                            "center_x": 156.0,
+                            "center_x": 140.0,
                             "center_y": 389.0
                         }
                     ]
@@ -438,7 +440,7 @@
                     "step": 6,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
                     "picture": false,
-                    "picture_description": "N/A",
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 140.0,
@@ -450,7 +452,7 @@
                     "step": 7,
                     "text": "063G2887 monteres.",
                     "picture": false,
-                    "picture_description": "N/A",
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 145.0,
@@ -462,7 +464,7 @@
                     "step": 8,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 30 Nm.",
                     "picture": false,
-                    "picture_description": "N/A",
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 140.0,
@@ -474,7 +476,7 @@
                     "step": 9,
                     "text": "Akseldel af 400510057 monteres.",
                     "picture": true,
-                    "picture_description": "Second image shows a metal assembly with an additional component being attached.",
+                    "picture_description": "Continuation of the assembly process with additional components.",
                     "centers": [
                         {
                             "center_x": 173.0,
@@ -482,31 +484,27 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_5_3.jpg",
-                        "data\\output_all_pictures\\image_5_4.jpg"
+                        "cache\\pictures\\w8\\image_5_3.jpg",
+                        "cache\\pictures\\w8\\image_5_4.jpg"
                     ]
                 },
                 {
                     "step": 10,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 8 Nm.",
-                    "picture": true,
-                    "picture_description": "Third image shows the same assembly with additional component tightened.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 136.0,
                             "center_y": 671.0
                         }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\image_5_3.jpg",
-                        "data\\output_all_pictures\\image_5_4.jpg"
                     ]
                 },
                 {
                     "step": 11,
                     "text": "Sidste del af 400510057 monteres.",
                     "picture": true,
-                    "picture_description": "The final image shows the completed assembly with all components in place.",
+                    "picture_description": "Final assembly step with the last component being attached.",
                     "centers": [
                         {
                             "center_x": 176.0,
@@ -514,8 +512,8 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_5_3.jpg",
-                        "data\\output_all_pictures\\image_5_4.jpg"
+                        "cache\\pictures\\w8\\image_5_3.jpg",
+                        "cache\\pictures\\w8\\image_5_4.jpg"
                     ]
                 }
             ]
@@ -525,9 +523,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Aksel del af 400511005 monteres.",
+                    "text": "Akseldel af 400511005 monteres.",
                     "picture": true,
-                    "picture_description": "The first image shows a component with multiple connectors and parts labeled.",
+                    "picture_description": "A mechanical assembly with parts labeled and highlighted.",
                     "centers": [
                         {
                             "center_x": 209.0,
@@ -535,14 +533,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_2.jpg"
+                        "cache\\pictures\\w8\\image_6_2.jpg"
                     ]
                 },
                 {
                     "step": 2,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
                     "picture": true,
-                    "picture_description": "The first image shows a component with multiple connectors and parts labeled.",
+                    "picture_description": "A close-up of a torque wrench set to 45 Nm.",
                     "centers": [
                         {
                             "center_x": 176.0,
@@ -550,14 +548,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_3.jpg"
+                        "cache\\pictures\\w8\\image_6_3.jpg"
                     ]
                 },
                 {
                     "step": 3,
                     "text": "Sidste del af 400511005 monteres.",
                     "picture": true,
-                    "picture_description": "The first image shows a component with multiple connectors and parts labeled.",
+                    "picture_description": "The continuation of the mechanical assembly process.",
                     "centers": [
                         {
                             "center_x": 212.0,
@@ -565,14 +563,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_3.jpg"
+                        "cache\\pictures\\w8\\image_6_3.jpg"
                     ]
                 },
                 {
                     "step": 4,
-                    "text": "Aksel del af 400511112 monteres.",
+                    "text": "Akseldel af 400511112 monteres.",
                     "picture": true,
-                    "picture_description": "The second image shows a similar component from a slightly different angle.",
+                    "picture_description": "Another mechanical assembly with distinct parts.",
                     "centers": [
                         {
                             "center_x": 209.0,
@@ -580,14 +578,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_3.jpg"
+                        "cache\\pictures\\w8\\image_6_3.jpg"
                     ]
                 },
                 {
                     "step": 5,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
                     "picture": true,
-                    "picture_description": "The second image shows a similar component from a slightly different angle.",
+                    "picture_description": "Another view of the torque wrench set to 45 Nm.",
                     "centers": [
                         {
                             "center_x": 176.0,
@@ -595,14 +593,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_3.jpg"
+                        "cache\\pictures\\w8\\image_6_3.jpg"
                     ]
                 },
                 {
                     "step": 6,
                     "text": "Sidste del af 400511112 monteres.",
                     "picture": true,
-                    "picture_description": "The second image shows a similar component from a slightly different angle.",
+                    "picture_description": "Completion of the assembly with final adjustments.",
                     "centers": [
                         {
                             "center_x": 212.0,
@@ -610,7 +608,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_3.jpg"
+                        "cache\\pictures\\w8\\image_6_3.jpg"
                     ]
                 }
             ]
@@ -622,7 +620,7 @@
                     "step": 1,
                     "text": "2 stk. VSCHR1/8 monteres.",
                     "picture": true,
-                    "picture_description": "Metallic component with several bolts attached, labeled in the image.",
+                    "picture_description": "Image showing bolt assembly on a metal plate.",
                     "centers": [
                         {
                             "center_x": 159.0,
@@ -630,7 +628,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_7_2.jpg"
+                        "cache\\pictures\\w8\\image_7_2.jpg"
                     ]
                 },
                 {
@@ -671,9 +669,9 @@
                 },
                 {
                     "step": 5,
-                    "text": "2 stk. SKK20G1/4-PC monteres.",
+                    "text": "2 stk. SKK2OG1/4-PC monteres.",
                     "picture": true,
-                    "picture_description": "Metallic component with additional components attached, labeled in the image.",
+                    "picture_description": "Another angle of the metal plate with additional components assembled.",
                     "centers": [
                         {
                             "center_x": 169.0,
@@ -681,7 +679,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_7_3.jpg"
+                        "cache\\pictures\\w8\\image_7_3.jpg"
                     ]
                 },
                 {
@@ -727,14 +725,18 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "1 stk. dyse DYSE-6/0.60US monteres i RNS",
-                    "picture": false,
-                    "picture_description": "",
+                    "text": "1 stk. dyse DYSE-6/0.600US monteres i RNS",
+                    "picture": true,
+                    "picture_description": "Image of hydraulic block with various ports and components.",
                     "centers": [
                         {
                             "center_x": 194.0,
-                            "center_y": 311.0
+                            "center_y": 292.0
                         }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w8\\image_8_2.jpg",
+                        "cache\\pictures\\w8\\image_8_3.jpg"
                     ]
                 },
                 {
@@ -745,7 +747,7 @@
                     "centers": [
                         {
                             "center_x": 142.0,
-                            "center_y": 329.0
+                            "center_y": 311.0
                         }
                     ]
                 },
@@ -757,31 +759,27 @@
                     "centers": [
                         {
                             "center_x": 159.0,
-                            "center_y": 348.0
+                            "center_y": 329.0
                         }
                     ]
                 },
                 {
                     "step": 4,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
-                    "picture": true,
-                    "picture_description": "Two close-up images of a metal block with multiple holes and connectors.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 140.0,
-                            "center_y": 375.0
+                            "center_y": 348.0
                         }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\image_8_2.jpg",
-                        "data\\output_all_pictures\\image_8_3.jpg"
                     ]
                 },
                 {
                     "step": 5,
                     "text": "Aksel del af VW-29156288 monteres, sp\u00c3\u0192\u00c2\u00a6ndes til med fingrene.",
                     "picture": true,
-                    "picture_description": "Two images of a metal block with connectors, one featuring a yellow cap.",
+                    "picture_description": "Image showing a component mounted on the hydraulic block.",
                     "centers": [
                         {
                             "center_x": 241.0,
@@ -789,8 +787,8 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_8_4.jpg",
-                        "data\\output_all_pictures\\image_8_5.jpg"
+                        "cache\\pictures\\w8\\image_8_4.jpg",
+                        "cache\\pictures\\w8\\image_8_5.jpg"
                     ]
                 },
                 {
@@ -801,19 +799,19 @@
                     "centers": [
                         {
                             "center_x": 144.0,
-                            "center_y": 641.0
+                            "center_y": 623.0
                         }
                     ]
                 },
                 {
                     "step": 7,
-                    "text": "Resten af VW-29156288 monteres.",
+                    "text": "Rester af VW-29156288 monteres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
                         {
                             "center_x": 176.0,
-                            "center_y": 660.0
+                            "center_y": 641.0
                         }
                     ]
                 },
@@ -824,14 +822,26 @@
                     "picture_description": "",
                     "centers": [
                         {
-                            "center_x": 144.0,
-                            "center_y": 678.0
+                            "center_x": 136.0,
+                            "center_y": 660.0
                         }
                     ]
                 },
                 {
                     "step": 9,
                     "text": "02172863 monteres.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 144.0,
+                            "center_y": 678.0
+                        }
+                    ]
+                },
+                {
+                    "step": 10,
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm. og ventil sp\u00c3\u0192\u00c2\u00a6ndes til (lukkes)",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -850,7 +860,7 @@
                     "step": 1,
                     "text": "VUI p\u00c3\u0192\u00c2\u00a5s\u00c3\u0192\u00c2\u00a6ttes",
                     "picture": true,
-                    "picture_description": "Close-up of a panel with various knobs, buttons, and connectors.",
+                    "picture_description": "Close-up image of a hydraulic control panel with various knobs and a red lever.",
                     "centers": [
                         {
                             "center_x": 125.0,
@@ -858,7 +868,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_9_2.jpg"
+                        "cache\\pictures\\w8\\image_9_2.jpg"
                     ]
                 },
                 {
@@ -882,7 +892,7 @@
                     "step": 1,
                     "text": "2 Stk. GRU106 monteres.",
                     "picture": true,
-                    "picture_description": "Top image showing a Hydra-Specma assembly.",
+                    "picture_description": "Hydraulic component with multiple ports and parts labeled Hydra Specma.",
                     "centers": [
                         {
                             "center_x": 152.0,
@@ -892,9 +902,9 @@
                 },
                 {
                     "step": 2,
-                    "text": "5 Stk. 100020293",
+                    "text": "5 Stk. 100002093.",
                     "picture": true,
-                    "picture_description": "Top image showing a Hydra-Specma assembly.",
+                    "picture_description": "Hydraulic component with multiple ports and parts labeled Hydra Specma.",
                     "centers": [
                         {
                             "center_x": 138.0,
@@ -906,7 +916,7 @@
                     "step": 3,
                     "text": "2 Stk. GRU106 monteres.",
                     "picture": true,
-                    "picture_description": "Bottom image showing a Hydra-Specma assembly.",
+                    "picture_description": "Close-up of a hydraulic component labeled Hydra Specma.",
                     "centers": [
                         {
                             "center_x": 152.0,
@@ -916,9 +926,9 @@
                 },
                 {
                     "step": 4,
-                    "text": "2 Stk. 100020293",
+                    "text": "2 Stk. 100002093.",
                     "picture": true,
-                    "picture_description": "Bottom image showing a Hydra-Specma assembly.",
+                    "picture_description": "Close-up of a hydraulic component labeled Hydra Specma.",
                     "centers": [
                         {
                             "center_x": 138.0,
@@ -933,9 +943,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Enheden l\u00c3\u0192\u00c2\u00a6gges i en pose Z743-903",
+                    "text": "Enheden l\u00c3\u0192\u00c2\u00a6gges i en pose 2743-903",
                     "picture": true,
-                    "picture_description": "A unit inside a green labeled plastic bag.",
+                    "picture_description": "A unit is placed inside a yellow-labeled plastic bag.",
                     "centers": [
                         {
                             "center_x": 177.0,
@@ -943,7 +953,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_11_3.jpg"
+                        "cache\\pictures\\w8\\image_11_3.jpg"
                     ]
                 },
                 {
@@ -961,28 +971,28 @@
                 {
                     "step": 3,
                     "text": "Enheden lukkes med 1435-001010.",
-                    "picture": true,
-                    "picture_description": "Multiple units secured and packed in a frame.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 177.0,
                             "center_y": 375.0
                         }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\image_11_3.jpg"
                     ]
                 },
                 {
                     "step": 4,
                     "text": "12 stk. pakkes i palle",
-                    "picture": false,
-                    "picture_description": "",
+                    "picture": true,
+                    "picture_description": "Twelve bagged units are packed onto a pallet.",
                     "centers": [
                         {
                             "center_x": 141.0,
                             "center_y": 679.0
                         }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w8\\image_11_3.jpg"
                     ]
                 },
                 {

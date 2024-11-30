@@ -1095,6 +1095,20 @@ def change_image_path(pdf_name, json_file):
 
 # ------------------------------------------------------------------------------------------------
 def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/w5.pdf"):
+    # delete cache if it exists for this pdf
+    try:
+        shutil.rmtree("cache/pictures/" + input_workinstruction_pdf_path.split("/")[-1].split(".")[0])
+        os.remove("cache/jsons/" + input_workinstruction_pdf_path.split("/")[-1].split(".")[0] + ".json")
+        print("Deleted cache, converting again...")
+    except:
+        print("New pdf selected, starting conversion...")
+        pass
+    try:
+        os.remove("cache/jsons/" + input_workinstruction_pdf_path.split("/")[-1].split(".")[0] + "_dummy.json")
+        os.remove("cache/jsons/" + input_workinstruction_pdf_path.split("/")[-1].split(".")[0] + "_reading.json")
+    except:
+        pass
+    
     # delete all the files int eh input folder
     for file in os.listdir("data/input_pdf"):
         os.remove(os.path.join("data/input_pdf", file))
@@ -1229,7 +1243,7 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/
         # finished_json = match_pictures_to_instructions_simple(pictures_json=pictures_json, instructions_json=instructions_json)
         finished_json_reading = map_pictures_and_instructions_by_sequence(instructions_json=instructions_json, pictures_json=pictures_json)
         
-        finished_json_reading = change_image_path(name_of_pdf, finished_json_reading)
+        finished_json_reading = change_image_path(name_of_pdf, finished_json_reading[0])
         
         with open("data/output_openai_text/final_instructions_reading.json", "w") as file:
             json.dump(finished_json_reading, file, indent=4)
@@ -1269,5 +1283,17 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/
 
 # finished_json_reading = map_pictures_and_instructions_by_sequence(instructions_json=instructions_json, pictures_json=pictures_json)
             
+# with open("data/output_openai_text/final_instructions_reading.json", "w") as file:
+#     json.dump(finished_json_reading, file, indent=4)
+
+# finished_json = match_pictures_to_instructions_simple(pictures_json=pictures_json, instructions_json=instructions_json)
+
+# name_of_pdf = "w7"
+# instructions_json = json.load(open("data/output_openai_text/instructions_with_one_center.json"))
+# pictures_json = json.load(open("data/output_openai_text/combined_cleaned.json"))
+# finished_json_reading = map_pictures_and_instructions_by_sequence(instructions_json=instructions_json, pictures_json=pictures_json)
+
+# finished_json_reading = change_image_path(name_of_pdf, finished_json_reading[0])
+
 # with open("data/output_openai_text/final_instructions_reading.json", "w") as file:
 #     json.dump(finished_json_reading, file, indent=4)

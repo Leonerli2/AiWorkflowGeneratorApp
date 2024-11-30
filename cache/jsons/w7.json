@@ -5,23 +5,19 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Gevind sm\u00c3\u0192\u00c2\u00b8res generelt med QBRUBENS.",
-                    "picture": true,
-                    "picture_description": "Various angles of a component showing threaded areas.",
+                    "text": "Gevind sm\u00c3\u0192\u00c2\u00b8res generelt med Q8RUBENS.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 162.0,
                             "center_y": 555.0
                         }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\image_1_2.jpg",
-                        "data\\output_all_pictures\\image_1_3.jpg"
                     ]
                 },
                 {
                     "step": 2,
-                    "text": "Alle moment markers.",
+                    "text": "Alle moment markeres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -33,7 +29,7 @@
                 },
                 {
                     "step": 3,
-                    "text": "Alle emner fanges i gevind inden tilsp\u00c3\u0192\u00c2\u00a6nding.",
+                    "text": "Alle emner fanges i gevind inden moment tilsp\u00c3\u0192\u00c2\u00a6nding.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -62,25 +58,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "\u00c3\u0192\u00e2\u20ac\u00a0ndret til montage stand",
-                    "picture": true,
-                    "picture_description": "A photo showcasing a metal component with various holes and attachments.",
-                    "centers": [
-                        {
-                            "center_x": 125.0,
-                            "center_y": 163.0
-                        }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\image_2_2.jpg",
-                        "data\\output_all_pictures\\image_2_3.jpg"
-                    ]
-                },
-                {
-                    "step": 2,
                     "text": "HG2048R01 l\u00c3\u0192\u00c2\u00a6gges op i stativet og sp\u00c3\u0192\u00c2\u00a6ndes fast.",
                     "picture": true,
-                    "picture_description": "Another photo of a machine part being fastened in place.",
+                    "picture_description": "Image of a metal component clamped in a fixture.",
                     "centers": [
                         {
                             "center_x": 181.0,
@@ -88,13 +68,13 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_2_2.jpg",
-                        "data\\output_all_pictures\\image_2_3.jpg"
+                        "cache\\pictures\\w7\\image_2_2.jpg",
+                        "cache\\pictures\\w7\\image_2_3.jpg"
                     ]
                 },
                 {
-                    "step": 3,
-                    "text": "VUI label monteres, 29147577",
+                    "step": 2,
+                    "text": "VUI label monteres. 29147577",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -111,9 +91,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "2 stk. Dyse \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u01535/0,90U monteres i RN4 og RN2.",
+                    "text": "2 stk. Dyse \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u01535/0,90U monteres i RN6 og RN2.",
                     "picture": true,
-                    "picture_description": "A machine component with several hose connections and marked circles.",
+                    "picture_description": "Metal block with red circles indicating specific positions for installation.",
                     "centers": [
                         {
                             "center_x": 202.0,
@@ -121,15 +101,15 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_3_2.jpg",
-                        "data\\output_all_pictures\\image_3_3.jpg"
+                        "cache\\pictures\\w7\\image_3_2.jpg",
+                        "cache\\pictures\\w7\\image_3_3.jpg"
                     ]
                 },
                 {
                     "step": 2,
                     "text": "2 stk. Dyse \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u01536/1,00U monteres i RN3 og RN1.",
                     "picture": true,
-                    "picture_description": "Same machine component, different marked hose connections.",
+                    "picture_description": "Metal block with blue circles indicating specific positions for installation.",
                     "centers": [
                         {
                             "center_x": 199.0,
@@ -137,7 +117,8 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_3_4.jpg"
+                        "cache\\pictures\\w7\\image_3_2.jpg",
+                        "cache\\pictures\\w7\\image_3_3.jpg"
                     ]
                 },
                 {
@@ -154,14 +135,17 @@
                 },
                 {
                     "step": 4,
-                    "text": "Lukkes med 4 stk. VSRCH1/8.",
-                    "picture": false,
-                    "picture_description": "",
+                    "text": "Lukkes med 4 stk. VSCHRI/8.",
+                    "picture": true,
+                    "picture_description": "Metal block with yellow circles showing areas for closure.",
                     "centers": [
                         {
                             "center_x": 163.0,
                             "center_y": 626.0
                         }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w7\\image_3_4.jpg"
                     ]
                 },
                 {
@@ -178,7 +162,7 @@
                 },
                 {
                     "step": 6,
-                    "text": "stk. 111689077O ringene og gevind sm\u00c3\u0192\u00c2\u00b8res efter behov.",
+                    "text": "4 stk. 111169077 O-ringe og gevind sm\u00c3\u0192\u00c2\u00b8res efter behov.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -190,7 +174,19 @@
                 },
                 {
                     "step": 7,
-                    "text": "N\u00c3\u0192\u00c2\u00a5r der er sp\u00c3\u0192\u00c2\u00a6ndt til med ringene, sp\u00c3\u0192\u00c2\u00a6ndes de 60 Nm.",
+                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes til med fingrene.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 154.0,
+                            "center_y": 680.0
+                        }
+                    ]
+                },
+                {
+                    "step": 8,
+                    "text": "N\u00c3\u0192\u00c2\u00a5r de er sp\u00c3\u0192\u00c2\u00a6ndt til med fingrene, sp\u00c3\u0192\u00c2\u00a6ndes de 60 Nm.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -207,9 +203,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "4 stk. SKK20G14-PC monteres.",
-                    "picture": true,
-                    "picture_description": "Image of a control panel with gauges and fittings.",
+                    "text": "4 stk. SKK2061/4-PC monteres.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 169.0,
@@ -248,14 +244,14 @@
                     "picture_description": "",
                     "centers": [
                         {
-                            "center_x": 116.0,
-                            "center_y": 546.0
+                            "center_x": 156.0,
+                            "center_y": 545.0
                         }
                     ]
                 },
                 {
                     "step": 5,
-                    "text": "M\u00c3\u0192\u00c2\u00b8trikken sp\u00c3\u0192\u00c2\u00a6ndes til fjederpladen.",
+                    "text": "Motorlinken sp\u00c3\u0192\u00c2\u00a6ndes til ved fjederpalen.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -267,7 +263,7 @@
                 },
                 {
                     "step": 6,
-                    "text": "Fjederpladen skal kunne bev\u00c3\u0192\u00c2\u00a6ges uhindret.",
+                    "text": "Fjederpalen skal kunne bev\u00c3\u0192\u00c2\u00a6ges uhindret.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -284,9 +280,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Monter DH0113CA med 4 stk. 91323705050.",
+                    "text": "DH0113CA monteres med 4 stk. 9123705050.",
                     "picture": true,
-                    "picture_description": "An assembly of equipment showing gauges and valves.",
+                    "picture_description": "Image of a mounted valve or control unit with various gauges and knobs.",
                     "centers": [
                         {
                             "center_x": 202.0,
@@ -294,13 +290,13 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_5_2.jpg",
-                        "data\\output_all_pictures\\image_5_3.jpg"
+                        "cache\\pictures\\w7\\image_5_2.jpg",
+                        "cache\\pictures\\w7\\image_5_3.jpg"
                     ]
                 },
                 {
                     "step": 2,
-                    "text": "V\u00c3\u0192\u00c2\u00a6r opm\u00c3\u0192\u00c2\u00a6rksom p\u00c3\u0192\u00c2\u00a5 at de o-ringe er i ventilen.",
+                    "text": "V\u00c3\u0192\u00c2\u00a6r opm\u00c3\u0192\u00c2\u00a6rksom p\u00c3\u0192\u00c2\u00a5 de o-ringe er i ventilen.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -317,24 +313,10 @@
                     "picture_description": "",
                     "centers": [
                         {
-                            "center_x": 116.0,
+                            "center_x": 167.0,
                             "center_y": 486.0
                         }
                     ]
-                },
-                {
-                    "step": 4,
-                    "text": "Monter 6 stk. VSHCRI/8.",
-                    "picture": true,
-                    "picture_description": "A different view of the equipment showing additional components.",
-                    "centers": []
-                },
-                {
-                    "step": 5,
-                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
-                    "picture": false,
-                    "picture_description": "",
-                    "centers": []
                 }
             ]
         },
@@ -343,9 +325,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Monter 2 stk. VSCHR1/8.",
+                    "text": "2 stk. VSCHR1/8 monteres.",
                     "picture": true,
-                    "picture_description": "Shows the assembly area with holes for VSCHR1/8.",
+                    "picture_description": "Metal block with several holes, some are filled with plugs.",
                     "centers": [
                         {
                             "center_x": 158.0,
@@ -353,9 +335,8 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_2.jpg",
-                        "data\\output_all_pictures\\image_6_3.jpg",
-                        "data\\output_all_pictures\\picture_018.jpg"
+                        "cache\\pictures\\w7\\image_6_2.jpg",
+                        "cache\\pictures\\w7\\image_6_3.jpg"
                     ]
                 },
                 {
@@ -372,24 +353,23 @@
                 },
                 {
                     "step": 3,
-                    "text": "Monter 3 stk. RVSB810S.",
+                    "text": "3 stk. RVSB18L05 monteres i RM1, RM3 og RM5. med keglen ned i blokken.",
                     "picture": true,
-                    "picture_description": "Shows the assembly area with RVSB810S.",
+                    "picture_description": "Insert being mounted, hand with a tool pointing to a specific hole.",
                     "centers": [
                         {
-                            "center_x": 264.0,
+                            "center_x": 265.0,
                             "center_y": 399.0
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_2.jpg",
-                        "data\\output_all_pictures\\image_6_3.jpg",
-                        "data\\output_all_pictures\\picture_018.jpg"
+                        "cache\\pictures\\w7\\image_6_2.jpg",
+                        "cache\\pictures\\w7\\image_6_3.jpg"
                     ]
                 },
                 {
                     "step": 4,
-                    "text": "Monter RM1, RM3 og RMS med keglen ned i blokken.",
+                    "text": "Brug special magnet til montering.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -401,16 +381,9 @@
                 },
                 {
                     "step": 5,
-                    "text": "Brug special magnet til montering.",
-                    "picture": false,
-                    "picture_description": "",
-                    "centers": []
-                },
-                {
-                    "step": 6,
                     "text": "Lukkes med 3 stk. VSCHR1/4.",
                     "picture": true,
-                    "picture_description": "Shows the assembly area with holes for VSCHR1/4.",
+                    "picture_description": "Metal block with several filled holes.",
                     "centers": [
                         {
                             "center_x": 163.0,
@@ -418,11 +391,11 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_6_5.jpg"
+                        "cache\\pictures\\w7\\image_6_5.jpg"
                     ]
                 },
                 {
-                    "step": 7,
+                    "step": 6,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 25 Nm.",
                     "picture": false,
                     "picture_description": "",
@@ -434,8 +407,8 @@
                     ]
                 },
                 {
-                    "step": 8,
-                    "text": "Monter 4 stk. A10SR1/AWDX.",
+                    "step": 7,
+                    "text": "4 stk. A10SR1/AWDX monteres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -446,14 +419,14 @@
                     ]
                 },
                 {
-                    "step": 9,
+                    "step": 8,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 40 Nm.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
                         {
                             "center_x": 142.0,
-                            "center_y": 711.0
+                            "center_y": 700.0
                         }
                     ]
                 }
@@ -464,9 +437,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Monter 8 stk. VSHCR1/8.",
+                    "text": "8 stk. VSCHR1/8 monteres.",
                     "picture": true,
-                    "picture_description": "A detailed photo of a component with markings for assembly.",
+                    "picture_description": "The image shows several bolts attached to a metal surface, with some highlighted.",
                     "centers": [
                         {
                             "center_x": 158.0,
@@ -474,7 +447,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_7_2.jpg"
+                        "cache\\pictures\\w7\\image_7_2.jpg"
                     ]
                 },
                 {
@@ -484,16 +457,16 @@
                     "picture_description": "",
                     "centers": [
                         {
-                            "center_x": 116.0,
-                            "center_y": 368.0
+                            "center_x": 156.0,
+                            "center_y": 367.0
                         }
                     ]
                 },
                 {
                     "step": 3,
-                    "text": "Monter 1 stk. C02A3GZN, skrues til med ringene.",
+                    "text": "1 stk. C02A3G2N monteres, skrues til med fingrene.",
                     "picture": true,
-                    "picture_description": "A close-up image showing the component with highlighted areas for assembly.",
+                    "picture_description": "The second image shows a different bolt being attached at the bottom right of a metal surface.",
                     "centers": [
                         {
                             "center_x": 213.0,
@@ -501,8 +474,8 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_7_3.jpg",
-                        "data\\output_all_pictures\\image_7_4.jpg"
+                        "cache\\pictures\\w7\\image_7_3.jpg",
+                        "cache\\pictures\\w7\\image_7_4.jpg"
                     ]
                 },
                 {
@@ -519,7 +492,7 @@
                 },
                 {
                     "step": 5,
-                    "text": "(Grov justering) af ventil. skruen drejes, s\u00c3\u0192\u00c2\u00a5 tillen er lidt over midtlinjens top.",
+                    "text": "Grov justering af ventil, skruen drejes, s\u00c3\u0192\u00c2\u00a5 rillen er lidt over matricens top.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -531,7 +504,7 @@
                 },
                 {
                     "step": 6,
-                    "text": "Den sidste 033B-08 monteres, sp\u00c3\u0192\u00c2\u00a6ndes last.",
+                    "text": "Den sidste 0338-08 monteres, sp\u00c3\u0192\u00c2\u00a6ndes l\u00c3\u0192\u00c2\u00b8st.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -548,9 +521,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "2 stk. VSCHR1/8 monteres",
+                    "text": "2 stk. VSCHRJ/8 monteres",
                     "picture": true,
-                    "picture_description": "Image showing assembly components.",
+                    "picture_description": "Image showing assembly of components with holes and fittings.",
                     "centers": [
                         {
                             "center_x": 157.0,
@@ -558,7 +531,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_8_2.jpg"
+                        "cache\\pictures\\w7\\image_8_2.jpg"
                     ]
                 },
                 {
@@ -575,7 +548,7 @@
                 },
                 {
                     "step": 3,
-                    "text": "2 stk. RVS08105 monteres i RM4 og RM2 med keglen ned i blokken.",
+                    "text": "2 stk. RVS80L105 monteres i RM4 og RM2 med keglen nede i blokken.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -599,9 +572,9 @@
                 },
                 {
                     "step": 5,
-                    "text": "3 stk. VSCHR1/4 monteres",
+                    "text": "5 stk. VSCHRJ/4 monteres",
                     "picture": true,
-                    "picture_description": "Image showing assembly components.",
+                    "picture_description": "Image showing additional assembly with marked areas.",
                     "centers": [
                         {
                             "center_x": 157.0,
@@ -609,9 +582,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_8_3.jpg",
-                        "data\\output_all_pictures\\image_8_4.jpg",
-                        "data\\output_all_pictures\\image_8_5.jpg"
+                        "cache\\pictures\\w7\\image_8_3.jpg"
                     ]
                 },
                 {
@@ -629,13 +600,18 @@
                 {
                     "step": 7,
                     "text": "1 stk. A10LRWDX monteres i L10",
-                    "picture": false,
-                    "picture_description": "",
+                    "picture": true,
+                    "picture_description": "Close-up image with red circle highlighting a specific fitting.",
                     "centers": [
                         {
-                            "center_x": 157.0,
-                            "center_y": 612.0
+                            "center_x": 142.0,
+                            "center_y": 633.0
                         }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w7\\image_8_4.jpg",
+                        "cache\\pictures\\w7\\image_8_5.jpg",
+                        "cache\\pictures\\w7\\picture_025.jpg"
                     ]
                 },
                 {
@@ -646,19 +622,19 @@
                     "centers": [
                         {
                             "center_x": 142.0,
-                            "center_y": 633.0
+                            "center_y": 652.0
                         }
                     ]
                 },
                 {
                     "step": 9,
-                    "text": "1 stk. A10S43/AWDX monteres i S10",
+                    "text": "1 stk. A10SRJ/4WDX monteres i S10",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
                         {
-                            "center_x": 180.0,
-                            "center_y": 652.0
+                            "center_x": 171.0,
+                            "center_y": 655.0
                         }
                     ]
                 },
@@ -670,7 +646,7 @@
                     "centers": [
                         {
                             "center_x": 171.0,
-                            "center_y": 672.0
+                            "center_y": 655.0
                         }
                     ]
                 }
@@ -681,9 +657,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "2 stk. VSCHR1/8 mont.eres.",
+                    "text": "2 stk. VSCHR1/8 monteres.",
                     "picture": true,
-                    "picture_description": "A photo showing a mechanical part with various components.",
+                    "picture_description": "Top view of a mechanical component with bolts and handles.",
                     "centers": [
                         {
                             "center_x": 158.0,
@@ -691,7 +667,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_9_2.jpg"
+                        "cache\\pictures\\w7\\image_9_2.jpg"
                     ]
                 },
                 {
@@ -708,7 +684,7 @@
                 },
                 {
                     "step": 3,
-                    "text": "1 stk. VSCHR1/4 mont.eres.",
+                    "text": "1 stk. VSCHR1/4 monteres.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -725,7 +701,7 @@
                     "picture_description": "",
                     "centers": [
                         {
-                            "center_x": 143.0,
+                            "center_x": 158.0,
                             "center_y": 465.0
                         }
                     ]
@@ -737,45 +713,42 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Set up the equipment in the designated area.",
+                    "text": "Inspect the machine for any visible issues or wear.",
                     "picture": true,
-                    "picture_description": "A clear workspace with equipment laid out.",
-                    "centers": []
+                    "picture_description": "A machine with cables inside it is visible in a transparent enclosure.",
+                    "centers": [
+                        {
+                            "center_x": 305.0,
+                            "center_y": 650.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w7\\image_10_2.jpg"
+                    ]
                 },
                 {
                     "step": 2,
-                    "text": "Connect the necessary cables and components as outlined in the schematic.",
-                    "picture": true,
-                    "picture_description": "Various cables connected to the main unit.",
-                    "centers": []
+                    "text": "Ensure all cable connections are secure.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
                 },
                 {
                     "step": 3,
-                    "text": "Double-check all connections to ensure they are secure.",
+                    "text": "Perform a functional test according to procedure.",
                     "picture": false,
                     "picture_description": "",
-                    "centers": []
-                },
-                {
-                    "step": 4,
-                    "text": "Perform initial testing to verify functionality.",
-                    "picture": true,
-                    "picture_description": "The testing setup with indicators showing operation.",
-                    "centers": []
-                },
-                {
-                    "step": 5,
-                    "text": "Document any discrepancies or issues encountered during testing.",
-                    "picture": false,
-                    "picture_description": "",
-                    "centers": []
-                },
-                {
-                    "step": 6,
-                    "text": "Finalize the setup and prepare for production use.",
-                    "picture": false,
-                    "picture_description": "",
-                    "centers": []
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
                 }
             ]
         },
@@ -784,9 +757,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Monter 4 stk. PLUG13F.",
+                    "text": "4 stk. PLUG13F monteres.",
                     "picture": true,
-                    "picture_description": "Image showing a metal component with red plugs.",
+                    "picture_description": "Image shows a block with four red plugs mounted on it.",
                     "centers": [
                         {
                             "center_x": 155.0,
@@ -794,14 +767,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_11_2.jpg"
+                        "cache\\pictures\\w7\\image_11_2.jpg"
                     ]
                 },
                 {
                     "step": 2,
-                    "text": "Monter 1 stk. PLUG12F.",
+                    "text": "1 stk. PLUG12F monteres.",
                     "picture": true,
-                    "picture_description": "Image showing a metal component with red plugs.",
+                    "picture_description": "Image shows a block partially fitted with plugs, displaying one red plug.",
                     "centers": [
                         {
                             "center_x": 155.0,
@@ -809,14 +782,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_11_3.jpg"
+                        "cache\\pictures\\w7\\image_11_3.jpg"
                     ]
                 },
                 {
                     "step": 3,
-                    "text": "Monter 1 stk. PLUG13F.",
+                    "text": "1 stk. PLUG13F monteres.",
                     "picture": true,
-                    "picture_description": "Image showing a metal component with red plugs.",
+                    "picture_description": "Image shows a block partially fitted with plugs, displaying one red plug.",
                     "centers": [
                         {
                             "center_x": 155.0,
@@ -824,7 +797,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_11_3.jpg"
+                        "cache\\pictures\\w7\\image_11_3.jpg"
                     ]
                 }
             ]
@@ -834,9 +807,9 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "SC000761R00 monteres med 2 stk. 91217080820.",
+                    "text": "SC006761R00 monteres med 2 stk. 9121708020.",
                     "picture": true,
-                    "picture_description": "A work instruction image showing a part assembly.",
+                    "picture_description": "A tool setup on a workbench with components and a blue parts bin.",
                     "centers": [
                         {
                             "center_x": 210.0,
@@ -844,12 +817,12 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_12_2.jpg"
+                        "cache\\pictures\\w7\\image_12_2.jpg"
                     ]
                 },
                 {
                     "step": 2,
-                    "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 25 Nm.",
+                    "text": "Spanendes 25 Nm.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -868,7 +841,7 @@
                     "step": 1,
                     "text": "1 stk. BR0192R00 monteres med 1 stk. 9121706060.",
                     "picture": true,
-                    "picture_description": "A machine component with labeled parts that may be installed.",
+                    "picture_description": "Image showing a component setup with a part labeled BR0192R00 being mounted with another part labeled 9121706060.",
                     "centers": [
                         {
                             "center_x": 217.0,
@@ -876,28 +849,30 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_13_2.jpg",
-                        "data\\output_all_pictures\\image_13_3.jpg",
-                        "data\\output_all_pictures\\image_13_4.jpg"
+                        "cache\\pictures\\w7\\image_13_2.jpg",
+                        "cache\\pictures\\w7\\image_13_4.jpg"
                     ]
                 },
                 {
                     "step": 2,
                     "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 10 Nm.",
-                    "picture": false,
-                    "picture_description": "",
+                    "picture": true,
+                    "picture_description": "Close-up image showing the mounted components with a focus on the torque specifications for tightening.",
                     "centers": [
                         {
                             "center_x": 143.0,
                             "center_y": 658.0
                         }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w7\\image_13_3.jpg"
                     ]
                 },
                 {
                     "step": 3,
-                    "text": "Brug 1 stk. 1435-001010 til bespaanding af aluklods.",
+                    "text": "Brug 1 stk. 1435-001010 til sp\u00c3\u0192\u00c2\u00a6nsanding af aktu\u00c3\u201e\u00c2\u00b7d\u00c3\u0192\u00c2\u00b3s.",
                     "picture": true,
-                    "picture_description": "Another machine component, likely related to the task.",
+                    "picture_description": "Another close-up image highlighting the use of part 1435-001010 for securing an actuator.",
                     "centers": [
                         {
                             "center_x": 214.0,
@@ -905,9 +880,7 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_13_2.jpg",
-                        "data\\output_all_pictures\\image_13_3.jpg",
-                        "data\\output_all_pictures\\image_13_4.jpg"
+                        "cache\\pictures\\w7\\image_13_3.jpg"
                     ]
                 }
             ]
@@ -919,7 +892,7 @@
                     "step": 1,
                     "text": "Enheden l\u00c3\u0192\u00c2\u00a6gges i pose 2743-903.",
                     "picture": true,
-                    "picture_description": "A picture showing items packaged in yellow bags.",
+                    "picture_description": "A device is placed in a green bag with a label.",
                     "centers": [
                         {
                             "center_x": 172.0,
@@ -927,12 +900,12 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_14_2.jpg"
+                        "cache\\pictures\\w7\\image_14_2.jpg"
                     ]
                 },
                 {
                     "step": 2,
-                    "text": "Manillam\u00c3\u0192\u00c2\u00a6rke med varenummer og bloknummer s\u00c3\u0192\u00c2\u00a6ttes p\u00c3\u0192\u00c2\u00a5 med 1435-01010.",
+                    "text": "Manillam\u00c3\u0192\u00c2\u00a6rke med varenummer og bloknummer s\u00c3\u0192\u00c2\u00a6ttes p\u00c3\u0192\u00c2\u00a5 med 1435-001010.",
                     "picture": false,
                     "picture_description": "",
                     "centers": [
@@ -963,7 +936,7 @@
                     "step": 1,
                     "text": "Pakkes i palle.",
                     "picture": true,
-                    "picture_description": "Image shows packaged items on a pallet.",
+                    "picture_description": "Image of items packed on a pallet.",
                     "centers": [
                         {
                             "center_x": 127.0,
@@ -971,14 +944,14 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_15_3.jpg"
+                        "cache\\pictures\\w7\\image_15_3.jpg"
                     ]
                 },
                 {
                     "step": 2,
                     "text": "Blokkene sikres med 2 stk. lange pinde og 1 stk. kort.",
                     "picture": true,
-                    "picture_description": "Image shows blocks secured with sticks on a pallet.",
+                    "picture_description": "Close-up image of secured blocks with sticks.",
                     "centers": [
                         {
                             "center_x": 213.0,
@@ -986,22 +959,19 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_15_3.jpg"
+                        "cache\\pictures\\w7\\image_15_3.jpg"
                     ]
                 },
                 {
                     "step": 3,
                     "text": "Palleseddel laves.",
-                    "picture": true,
-                    "picture_description": "Image shows a label being created for the pallet.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 135.0,
                             "center_y": 711.0
                         }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\image_15_3.jpg"
                     ]
                 }
             ]

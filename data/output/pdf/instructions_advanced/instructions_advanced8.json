@@ -1,0 +1,649 @@
+[
+    {
+        "id": 1,
+        "name": "Gevind einfetten",
+        "task": "Manual",
+        "description": "Trage alle Gewinde mit Q8RUBENS-Fett auf.",
+        "image_uri": "/path/to/image.jpg",
+        "imagefilename": "gewind_einfetten.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Alle Bauteile anziehen",
+        "task": "Tightening",
+        "description": "Alle Teile werden mit dem erforderlichen Drehmoment angezogen.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 3,
+        "name": "Fangen in Gewinde",
+        "task": "Tightening",
+        "description": "Alle Teile im Gewinde vor dem Momentanziehen fangen.",
+        "image_uri": "/path/to/image",
+        "imagefilename": "image_filename.jpg",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 4,
+        "name": "Momentkontrolle vor und nach der Anwendung",
+        "task": "Tightening",
+        "description": "Kontrolliere das Moment auf dem Werkzeug vor und nach der Nutzung.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 5,
+        "name": "Ventiler mit O-Ringen montieren",
+        "task": "Tightening",
+        "description": "Nehme die Ventile mit O-Ringen und schraube sie manuell fest.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "\u00dcberarbeitung der Anleitung",
+        "task": "Info",
+        "description": "Diese Anweisung beschreibt die Version 03 der Anleitung und deren Ver\u00f6ffentlichungdatum.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 2,
+        "name": "\u00dcberarbeiteter Montageschritt",
+        "task": "Info",
+        "description": "\u00dcberarbeitete Anleitung f\u00fcr den Montage-Stand.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Platzierung des HG2123R00",
+        "task": "Manual",
+        "description": "Nehme das Teil HG2123R00 aus dem Beh\u00e4lter und setze es in den Montagestand ein.",
+        "image_uri": "cache\\pictures\\w8\\image_3_2.jpg",
+        "imagefilename": "image_3_2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Montering von 2 stk. VSCHR1/8",
+        "task": "Manual",
+        "description": "Nehme zwei Teile aus dem Beh\u00e4lter und setze sie ein.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 3,
+        "name": "Spannen von Teilen",
+        "task": "Tightening",
+        "description": "Spanne die Teile auf 12 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 2,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage des Bauteils",
+        "task": "Tightening",
+        "description": "Montiere ein St\u00fcck VSCHRI/4.",
+        "image_uri": "/path/to/image.jpg",
+        "imagefilename": "image_4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Spannen von Bauteilen",
+        "task": "Tightening",
+        "description": "Drehen Sie das Teil auf 25 Nm.",
+        "image_uri": "cache\\pictures\\w8\\image_3_3.jpg",
+        "imagefilename": "image_3_3.jpg",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage eines einzelnen Bauteils",
+        "task": "Tightening",
+        "description": "Nehme ein Teil aus dem Beh\u00e4lter und setze es ein.",
+        "image_uri": "/path/to/image.jpg",
+        "imagefilename": "image.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Sp\u00e5ndes 80 Nm",
+        "task": "Tightening",
+        "description": "Drehe die Schraube mit einem Moment von 80 Nm an.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 8,
+        "name": "Montage von VSCHRI/2",
+        "task": "Tightening",
+        "description": "1 St\u00fcck VSCHRI/2 montieren.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 9,
+        "name": "Spannen mit 60 Nm",
+        "task": "Tightening",
+        "description": "Drehen Sie die Schraube mit einer Kraft von 60 Nm fest.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 10,
+        "name": "Montage eines VSCHRI/1",
+        "task": "Manual",
+        "description": "Nehme ein Teil aus der Box und setze es ein.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 11,
+        "name": "160 Nm anziehen",
+        "task": "Tightening",
+        "description": "Ziehe die Verbindung mit 160 Nm an.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage von SKK20G1/4-PC",
+        "task": "Tightening",
+        "description": "Zwei St\u00fcck SKK20G1/4-PC montieren.",
+        "image_uri": "cache\\pictures\\w8\\image_4_3.jpg",
+        "imagefilename": "image_4_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Spannen mit 45 Nm",
+        "task": "Tightening",
+        "description": "Spanne das Bauteil mit einem Drehmoment von 45 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 0,
+        "name": "Montage von Teil 2171256",
+        "task": "Tightening",
+        "description": "Nehme das Teil 2171256 aus dem Beh\u00e4lter und setze es ein, dann spanne es manuell mit den Fingern fest.",
+        "image_uri": "cache\\pictures\\w8\\image_4_3.jpg",
+        "imagefilename": "image_4_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Spannen mit 60 Nm",
+        "task": "Tightening",
+        "description": "Drehen Sie das Bauteil mit einem Drehmoment von 60 Nm fest.",
+        "image_uri": "/path/to/image.jpg",
+        "imagefilename": "image.jpg",
+        "count": 1,
+        "program": 1
+    },
+    {
+        "id": 5,
+        "name": "Blokken drehen",
+        "task": "Manual",
+        "description": "Drehen Sie das Blockelement.",
+        "image_uri": "cache\\pictures\\w8\\image_4_3.jpg",
+        "imagefilename": "image_4_3.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dyse DYSE-10/1.0US montieren",
+        "task": "Manual",
+        "description": "Nehme eine Dyse DYSE-10/1.0US aus dem Beh\u00e4lter und montiere sie in RN2.",
+        "image_uri": "cache\\pictures\\w8\\image_4_3.jpg",
+        "imagefilename": "image_4_3.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Spannen auf 10 Nm",
+        "task": "Tightening",
+        "description": "Spannen auf ein Drehmoment von 10 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Einbau der D\u00fcse DYSE-6/0.60US",
+        "task": "Manual",
+        "description": "Nehme ein St\u00fcck D\u00fcse DYSE-6/0.60US aus dem Beh\u00e4lter und setze es in RN1 ein.",
+        "image_uri": "cache\\pictures\\w8\\image_4_3.jpg",
+        "imagefilename": "image_4_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Schraube anziehen",
+        "task": "Tightening",
+        "description": "Spanne die Schraube auf das angegebene Drehmoment von 1,2 Nm.",
+        "image_uri": "/path/to/image.jpg",
+        "imagefilename": "tightening_step_image.jpg",
+        "count": 1,
+        "program": 1
+    },
+    {
+        "id": 1,
+        "name": "Montage von VSCHR1/8",
+        "task": "Tightening",
+        "description": "Setze ein Teil VSCHR1/8 ein.",
+        "image_uri": "cache\\pictures\\w8\\image_5_2.jpg",
+        "imagefilename": "image_5_2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Spannen der VSCHR1/8",
+        "task": "Tightening",
+        "description": "Spanne die VSCHR1/8 mit 12 Nm.",
+        "image_uri": "/path/to/image",
+        "imagefilename": "/path/to/image",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 3,
+        "name": "VSCHR1/4 Montage",
+        "task": "Tightening",
+        "description": "Montiere ein Teil namens VSCHR1/4.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Spannen mit 25 Nm",
+        "task": "Tightening",
+        "description": "Drehe das Teil mit einem Drehmoment von 25 Nm fest.",
+        "image_uri": "/path/to/image.jpg",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage des SSKR20G1/4-PC",
+        "task": "Manual",
+        "description": "Nehme ein SSKR20G1/4-PC Teil und montiere es.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Sp\u00e4nt mit 45 Nm",
+        "task": "Tightening",
+        "description": "Spannen Sie die Verbindungskomponente mit einem Drehmoment von 45 Nm.",
+        "image_uri": "/img/tightening_45Nm.jpg",
+        "imagefilename": "tightening_45Nm.jpg",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 7,
+        "name": "063G2887 montieren",
+        "task": "Tightening",
+        "description": "Nehme das Teil 063G2887 und setze es in die vorgesehene Halterung ein.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Montage des VSCHR1/2",
+        "task": "Tightening",
+        "description": "Nehme ein Teil aus dem Beh\u00e4lter und setze es ein.",
+        "image_uri": "cache\\pictures\\w8\\image_5_4.jpg",
+        "imagefilename": "image_5_4.jpg",
+        "count": 1,
+        "program": 30
+    },
+    {
+        "id": 9,
+        "name": "Akseldel Montage",
+        "task": "Manual",
+        "description": "Montiere die Akseldel des Teils 400510057.",
+        "image_uri": "cache\\pictures\\w8\\image_5_3.jpg, cache\\pictures\\w8\\image_5_4.jpg",
+        "imagefilename": ""
+    },
+    {
+        "id": 100,
+        "name": "Sp\u00e4nnungsanwendung",
+        "task": "Tightening",
+        "description": "Montere 1 stk. VSCHR1/1 und sp\u00e4nne auf 8 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 11,
+        "name": "Sidste Teil Montage 400510057",
+        "task": "Montage",
+        "description": "Montiere das letzte Teil der 400510057.",
+        "image_uri": "cache\\pictures\\w8\\image_5_3.jpg, cache\\pictures\\w8\\image_5_4.jpg",
+        "imagefilename": "image_5_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Akseldel montieren",
+        "task": "Manual",
+        "description": "Nehme die Akseldel mit der Nummer 400511005 und montiere sie.",
+        "image_uri": "cache\\pictures\\w8\\image_6_2.jpg, cache\\pictures\\w8\\image_6_3.jpg",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Spannen des Bauteils",
+        "task": "Tightening",
+        "description": "Das Bauteil mit 45 Nm anziehen.",
+        "image_uri": "cache\\pictures\\w8\\image_6_3.jpg",
+        "imagefilename": "image_6_3.jpg",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Monteur die letzte Teil von 400511005",
+        "task": "Manual",
+        "description": "Nehme das letzte Teil der 400511005 und setze es ein.",
+        "image_uri": "cache\\pictures\\w8\\image_6_3.jpg",
+        "imagefilename": "image_6_3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Akseldel montieren",
+        "task": "Manual",
+        "description": "Nehme die Akseldel der 400511112 aus dem Beh\u00e4lter und setze sie ein.",
+        "image_uri": "cache\\pictures\\w8\\image_6_3.jpg",
+        "imagefilename": "image_6_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Spannen von Bauteilen",
+        "task": "Tightening",
+        "description": "Spanne das Bauteil mit einem Drehmoment von 45 Nm.",
+        "image_uri": "cache\\pictures\\w8\\image_6_3.jpg",
+        "imagefilename": "image_6_3.jpg",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage der letzten Komponente",
+        "task": "Manual",
+        "description": "Nehme die letzte Komponente 400511112 aus der Box und setze sie ein.",
+        "image_uri": "cache\\pictures\\w8\\image_6_3.jpg",
+        "imagefilename": "image_6_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Montage von 2 St\u00fcck VSCHR1/8",
+        "task": "Tightening",
+        "description": "Nehme 2 St\u00fcck VSCHR1/8 aus dem Beh\u00e4lter und montiere sie.",
+        "image_uri": "cache\\pictures\\w8\\image_7_2.jpg",
+        "imagefilename": "image_7_2.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Schraube mit 12 Nm anziehen",
+        "task": "Tightening",
+        "description": "Ziehe die Schraube mit einem Drehmoment von 12 Nm an.",
+        "image_uri": "None",
+        "imagefilename": "None",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage der Schraube VSCHR1/4",
+        "task": "Tightening",
+        "description": "2 St\u00fcck VSCHR1/4 montieren.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm",
+        "task": "Tightening",
+        "description": "F\u00fchre das Drehmoment von 45 Nm an der Verbindung aus.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 5,
+        "name": "Montage von SKK2OG1/4-PC",
+        "task": "Tightening",
+        "description": "Nehme 2 St\u00fcck SKK2OG1/4-PC aus dem Beh\u00e4lter und montiere sie.",
+        "image_uri": "cache\\pictures\\w8\\image_7_3.jpg",
+        "imagefilename": "image_7_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Spannen 45 Nm",
+        "task": "Tightening",
+        "description": "Nehme ein Teil und spanne es mit 45 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "2171256 montieren",
+        "task": "Tightening",
+        "description": "Montiere das Teil 2171256 und ziehe es mit den H\u00e4nden fest.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 8,
+        "name": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm.",
+        "task": "Tightening",
+        "description": "Setze das Teil ein und ziehe es mit 60 Nm fest.",
+        "image_uri": "/none",
+        "imagefilename": "/none",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Dyse DYSE-6/0.600US montieren",
+        "task": "Manual",
+        "description": "Setze eine Dyse DYSE-6/0.600US in den RNS ein.",
+        "image_uri": "cache\\pictures\\w8\\image_8_2.jpg",
+        "imagefilename": "image_8_2.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Momentinformation",
+        "task": "Tightening",
+        "description": "Spanne 1,2 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage der Komponente VSCHR1/8",
+        "task": "Tightening",
+        "description": "3 St\u00fcck VSCHR1/8 werden montiert.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 4,
+        "name": "Spannen mit 12 Nm",
+        "task": "Tightening",
+        "description": "Drehen Sie das Teil mit einem Moment von 12 Nm fest.",
+        "image_uri": "cache\\pictures\\w8\\image_8_5.jpg",
+        "imagefilename": "image_8_5.jpg",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Aksel del af VW-29156288 montieren",
+        "task": "Manual",
+        "description": "Nehme ein Aksel Teil aus dem Beh\u00e4lter und montiere es.",
+        "image_uri": "cache\\pictures\\w8\\image_8_4.jpg",
+        "imagefilename": "image_8_4.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Spannen mit 160 Nm",
+        "task": "Tightening",
+        "description": "Setze das Teil ein und spanne es mit 160 Nm.",
+        "image_uri": "/images/step_11_image.jpg",
+        "imagefilename": "",
+        "count": 1,
+        "program": 160
+    },
+    {
+        "id": 7,
+        "name": "Montage der Teile von VW-29156288",
+        "task": "Manual",
+        "description": "Setzen Sie die Reste von VW-29156288 ein.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Schraube anziehen",
+        "task": "Tightening",
+        "description": "Setze die Schraube ein und ziehe sie mit einem Drehmoment von 6 Nm fest.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 9,
+        "name": "02172863 montieren",
+        "task": "Tightening",
+        "description": "Nehme das Bauteil 02172863 aus dem Beh\u00e4lter und setze es ein.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 10,
+        "name": "Spannen der Ventilkomponente",
+        "task": "Tightening",
+        "description": "Spannen Sie die Ventilkomponente auf 60 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "VUI Anbringung",
+        "task": "Manual",
+        "description": "Setze das VUI auf die vorgesehene Position.",
+        "image_uri": "cache\\pictures\\w8\\image_9_2.jpg",
+        "imagefilename": "image_9_2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bereit f\u00fcr den Drucktest",
+        "task": "Info",
+        "description": "Das Ger\u00e4t ist jetzt bereit f\u00fcr den Drucktest.",
+        "image_uri": "",
+        "imagefilename": "",
+        "durationgui": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage von GRU106",
+        "task": "Pick_to_Light",
+        "description": "Nehme 2 Teile GRU106 aus dem Beh\u00e4lter und montiere sie.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 2
+    },
+    {
+        "id": 5,
+        "name": "Bestellung der Teile",
+        "task": "Pick_to_Light",
+        "description": "Nehme 5 St\u00fcck 100002093 aus dem Beh\u00e4lter.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 5
+    },
+    {
+        "id": 0,
+        "name": "GRU106 Montage",
+        "task": "Tightening",
+        "description": "2 St\u00fcck GRU106 werden montiert.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 5,
+        "name": "Montage von 100002093",
+        "task": "Pick_to_Light",
+        "description": "Nehme 2 Teile aus dem Beh\u00e4lter und setze sie ein.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 2
+    },
+    {
+        "id": 1,
+        "name": "Anweisung zur Verpackung der Einheit",
+        "task": "Manual",
+        "description": "Nehme die Einheit und lege sie in die Tasche 2743-903.",
+        "image_uri": "cache\\pictures\\w8\\image_11_3.jpg",
+        "imagefilename": "image_11_3.jpg"
+    },
+    {
+        "id": 0,
+        "name": "Gul varelabel anbringen",
+        "task": "Smartlabel",
+        "description": "Bringe das gelbe Warenlabel mit der Warennummer auf die Tasche an.",
+        "image_uri": "",
+        "imagefilename": "",
+        "duretiongui": 0,
+        "targetnumber": 0
+    },
+    {
+        "id": 3,
+        "name": "Einheit mit 1435-001010 verschlie\u00dfen",
+        "task": "Tightening",
+        "description": "Die Einheit wird mit der Nummer 1435-001010 verschlossen.",
+        "image_uri": "/path/to/image.png",
+        "imagefilename": "1435-001010_image.png",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 4,
+        "name": "Pack 12 Units",
+        "task": "Pick_to_Light",
+        "description": "Nehme 12 Teile aus dem Beh\u00e4lter und packe sie auf die Palette.",
+        "image_uri": "cache\\pictures\\w8\\image_11_3.jpg",
+        "imagefilename": "image_11_3.jpg",
+        "count": 12
+    },
+    {
+        "id": 5,
+        "name": "Palleseddel erstellen",
+        "task": "Manual",
+        "description": "Erstelle ein Dokument f\u00fcr die Palette.",
+        "image_uri": "",
+        "imagefilename": ""
+    }
+]
