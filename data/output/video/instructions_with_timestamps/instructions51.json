@@ -2,157 +2,157 @@
     "instructions": [
         {
             "step": 1,
-            "text": "Zuerst wird die Kamera gestartet, um die n\u00f6tigen Schritte sichtbar zu machen.",
+            "text": "Kamera l\u00e4uft, Entnahme Pumpengeh\u00e4use.",
             "picture_time": 11.760000228881836,
-            "start_time": 0.0,
-            "end_time": 7.119999885559082
+            "start_time": 1.9800000190734863,
+            "end_time": 8.380000114440918
         },
         {
             "step": 2,
-            "text": "Das Pumpengeh\u00e4use wird entnommen.",
-            "picture_time": 18.299999237060547,
-            "start_time": 7.119999885559082,
-            "end_time": 12.699999809265137
-        },
-        {
-            "step": 3,
-            "text": "Das entnommene Pumpengeh\u00e4use wird in die vorgesehene Aufnahme eingelegt.",
+            "text": "Pumpengeh\u00e4use einlegen.",
             "picture_time": 18.299999237060547,
             "start_time": 12.699999809265137,
             "end_time": 14.619999885559082
         },
         {
-            "step": 4,
-            "text": "Ein Zylinder wird entnommen.",
-            "picture_time": 22.760000228881836,
+            "step": 3,
+            "text": "Entnahme Zylinder.",
+            "picture_time": 23.020000457763672,
             "start_time": 21.299999237060547,
-            "end_time": 26.31999969482422
+            "end_time": 21.899999618530273
         },
         {
-            "step": 5,
-            "text": "Der entnommene Zylinder wird in die vorgesehene Aufnahme eingelegt.",
+            "step": 4,
+            "text": "Zylinder einlegen.",
             "picture_time": 29.920000076293945,
             "start_time": 26.31999969482422,
             "end_time": 27.020000457763672
         },
         {
-            "step": 6,
-            "text": "Das Pumpengeh\u00e4use wird erneut entnommen.",
+            "step": 5,
+            "text": "Entnahme Pumpengeh\u00e4use.",
             "picture_time": 36.5,
             "start_time": 31.639999389648438,
             "end_time": 33.68000030517578
         },
         {
-            "step": 7,
-            "text": "Das Pumpengeh\u00e4use wird f\u00fcr die n\u00e4chste Bearbeitung positioniert.",
+            "step": 6,
+            "text": "Pumpengeh\u00e4use positionieren.",
             "picture_time": 54.0,
-            "start_time": 40.939998626708984,
+            "start_time": 44.91999816894531,
             "end_time": 46.31999969482422
         },
         {
-            "step": 8,
-            "text": "Drei Schrauben werden entnommen, die f\u00fcr die Montage ben\u00f6tigt werden.",
+            "step": 7,
+            "text": "Entnahme Schrauben dreimal.",
             "picture_time": 59.79999923706055,
-            "start_time": 55.560001373291016,
-            "end_time": 56.15999984741211
+            "start_time": 56.15999984741211,
+            "end_time": 57.2599983215332
         },
         {
-            "step": 9,
-            "text": "Die Schrauben werden an die entsprechenden Stellen angesetzt.",
+            "step": 8,
+            "text": "Schrauben ansetzen.",
             "picture_time": 69.76000213623047,
             "start_time": 61.91999816894531,
             "end_time": 62.70000076293945
         },
         {
-            "step": 10,
-            "text": "Die Schrauben werden mit einem Smart Tool festgezogen.",
-            "picture_time": 127.37999725341797,
+            "step": 9,
+            "text": "Schrauben mit Smart Tool anziehen.",
+            "picture_time": 77.08000183105469,
             "start_time": 73.58000183105469,
             "end_time": 75.4000015258789
         },
         {
+            "step": 10,
+            "text": "Entnahme mitnehmer Scheibe.",
+            "picture_time": 136.16000366210938,
+            "start_time": 115.04000091552734,
+            "end_time": 115.08000183105469
+        },
+        {
             "step": 11,
-            "text": "Es werden erneut drei Schrauben entnommen.",
-            "picture_time": 127.4000015258789,
-            "start_time": 127.37999725341797,
-            "end_time": 127.4000015258789
+            "text": "Einlegen Mitnehmerscheibe.",
+            "picture_time": 136.16000366210938,
+            "start_time": 134.17999267578125,
+            "end_time": 135.24000549316406
         },
         {
             "step": 12,
-            "text": "Wieder werden drei Schrauben entnommen.",
-            "picture_time": 128.55999755859375,
-            "start_time": 127.4000015258789,
-            "end_time": 127.54000091552734
+            "text": "Entnahme Lochplatte.",
+            "picture_time": 141.52000427246094,
+            "start_time": 138.83999633789062,
+            "end_time": 139.66000366210938
         },
         {
             "step": 13,
-            "text": "Und noch einmal werden drei Schrauben entnommen.",
-            "picture_time": 138.8800048828125,
-            "start_time": 129.5800018310547,
-            "end_time": 129.5800018310547
+            "text": "Einlegen Lochplatte.",
+            "picture_time": 145.05999755859375,
+            "start_time": 144.17999267578125,
+            "end_time": 144.83999633789062
         },
         {
             "step": 14,
-            "text": "Jetzt wird die Pumpengeh\u00e4usedecke entnommen.",
-            "picture_time": 154.22000122070312,
-            "start_time": 145.24000549316406,
-            "end_time": 152.97999572753906
+            "text": "Entnahme Pumpengeh\u00e4usedecke.",
+            "picture_time": 155.36000061035156,
+            "start_time": 151.6199951171875,
+            "end_time": 153.02000427246094
         },
         {
             "step": 15,
-            "text": "Die Pumpengeh\u00e4usedecke wird positioniert.",
+            "text": "Positionierten Pumpengeh\u00e4usedecke.",
             "picture_time": 161.22000122070312,
-            "start_time": 156.60000610351562,
-            "end_time": 157.72000122070312
+            "start_time": 157.63999938964844,
+            "end_time": 159.0800018310547
         },
         {
             "step": 16,
-            "text": "F\u00fcnf Schrauben werden entnommen, um die Pumpengeh\u00e4usedecke zu sichern.",
-            "picture_time": 166.5,
-            "start_time": 163.4199981689453,
-            "end_time": 164.25999450683594
+            "text": "Entnahme Schraube.",
+            "picture_time": 178.16000366210938,
+            "start_time": 174.22000122070312,
+            "end_time": 176.75999450683594
         },
         {
             "step": 17,
-            "text": "Die Deckel-Schrauben werden mit einem Smart Tool verschraubt.",
-            "picture_time": 185.4600067138672,
-            "start_time": 181.44000244140625,
+            "text": "Deckel verschrauben mit Smarttool.",
+            "picture_time": 185.86000061035156,
+            "start_time": 182.05999755859375,
             "end_time": 182.86000061035156
         },
         {
             "step": 18,
-            "text": "Es wird \u00fcberpr\u00fcft, ob die Anschl\u00fcsse sauber sind.",
-            "picture_time": 239.8000030517578,
-            "start_time": 238.5800018310547,
-            "end_time": 240.3000030517578
+            "text": "Entnahme Schraube.",
+            "picture_time": 234.1999969482422,
+            "start_time": 234.1999969482422,
+            "end_time": 234.1999969482422
         },
         {
             "step": 19,
-            "text": "Es wird geschaut, ob Sch\u00e4den vorhanden sind.",
-            "picture_time": 242.5800018310547,
-            "start_time": 241.74000549316406,
-            "end_time": 244.5800018310547
+            "text": "Pr\u00fcfung, sind die Anschl\u00fcsse sauber, sind welche Sch\u00e4den vorhanden.",
+            "picture_time": 238.9600067138672,
+            "start_time": 236.86000061035156,
+            "end_time": 240.27999877929688
         },
         {
             "step": 20,
-            "text": "Ein Wertvergleich wird eingegeben.",
-            "picture_time": 248.33999633789062,
-            "start_time": 246.74000549316406,
-            "end_time": 249.47999572753906
+            "text": "Wertvergleich eingeben.",
+            "picture_time": null,
+            "start_time": 248.36000061035156,
+            "end_time": 249.67999267578125
         },
         {
             "step": 21,
-            "text": "Der Test wird wiederholt, um die Funktionsf\u00e4higkeit zu \u00fcberpr\u00fcfen.",
-            "picture_time": 252.16000366210938,
-            "start_time": 252.0800018310547,
+            "text": "Test wiederholen.",
+            "picture_time": null,
+            "start_time": 252.13999938964844,
             "end_time": 252.72000122070312
         },
         {
             "step": 22,
-            "text": "Die Arbeit wird mit einem Fragezeichen abgeschlossen.",
-            "picture_time": 258.05999755859375,
-            "start_time": 257.67999267578125,
-            "end_time": 259.4599914550781
+            "text": "Fertig.",
+            "picture_time": 259.5,
+            "start_time": 257.70001220703125,
+            "end_time": 258.0199890136719
         }
     ]
 }

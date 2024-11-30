@@ -12,6 +12,7 @@ matplotlib
 networkx
 plotly
 streamlit
+streamlit_pdf_viewer
 IPython
 qrcode
 ffmpeg-python

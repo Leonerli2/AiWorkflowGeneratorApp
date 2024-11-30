@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_pdf_viewer import pdf_viewer
 import os
 import json
 import subprocess
@@ -6,10 +7,8 @@ import atexit
 from contextlib import contextmanager
 import qrcode
 from io import BytesIO
-from pathlib import Path
 import socket
-import time
-import re
+
 
 from video2json import *
 from json2json import *
@@ -36,6 +35,13 @@ if "elam_port_counter" not in st.session_state:
     st.session_state.elam_port_counter = 8502  # Starting port number for the first process
 if "video_upload_counter" not in st.session_state:
     st.session_state.video_upload_counter = 8552  # Starting port number for the first process
+
+# Initialize session state keys if not already initialized
+if "pdf" not in st.session_state:
+    st.session_state.pdf = None
+if "pdf_ref" not in st.session_state:
+    st.session_state.pdf_ref = None
+
 
 # Cleanup subprocess when the app is closed
 @contextmanager
@@ -170,6 +176,7 @@ def main():
 
         if pdf_file:
             st.write(f"PDF file {pdf_file.name} loaded.")
+
             pdf_nr = pdf_file.name.split("pdf")[1].split('.')[0]
 
 
@@ -219,6 +226,22 @@ def main():
                 else:
                     st.write(f"No ELAM JSON found for this video under {flowchart_path}.")
 
+                        
+            # Store the uploaded file in session state
+            st.session_state.pdf = pdf_file
+
+            # Backup the current PDF in pdf_ref
+            if st.session_state.pdf:
+                st.session_state.pdf_ref = st.session_state.pdf  # Backup
+
+            # Use pdf_ref for processing
+            if st.session_state.pdf_ref:
+                binary_data = st.session_state.pdf_ref.getvalue()
+
+                # Replace this with your PDF viewer function
+                st.markdown("### PDF Preview:")
+                pdf_viewer(input=binary_data, width=700)
+
 
 # Function to show the flowchart
 def show_flowchart(flowchart_path):
@@ -228,7 +251,7 @@ def show_flowchart(flowchart_path):
             flowchart_data = json.load(f)
         
         # Generate the flowchart using the imported function
-        flowchart = create_flowchart_with_icons(flowchart_data, scale_factor=8.0, max_nodes_per_column=12)
+        flowchart = create_flowchart_with_icons(flowchart_data, scale_factor=8.0, max_nodes_per_column=15)
 
         # Display the flowchart using Streamlit
         st.title("Interactive Flowchart")

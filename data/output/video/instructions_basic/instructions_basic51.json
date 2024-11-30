@@ -2,112 +2,112 @@
     "instructions": [
         {
             "step": 1,
-            "text": "Zuerst wird die Kamera gestartet, um die n\u00f6tigen Schritte sichtbar zu machen.",
+            "text": "Kamera l\u00e4uft, Entnahme Pumpengeh\u00e4use.",
             "image_uri": "data/output/video/images/video51/instruction51_1.jpg"
         },
         {
             "step": 2,
-            "text": "Das Pumpengeh\u00e4use wird entnommen.",
+            "text": "Pumpengeh\u00e4use einlegen.",
             "image_uri": "data/output/video/images/video51/instruction51_2.jpg"
         },
         {
             "step": 3,
-            "text": "Das entnommene Pumpengeh\u00e4use wird in die vorgesehene Aufnahme eingelegt.",
+            "text": "Entnahme Zylinder.",
             "image_uri": "data/output/video/images/video51/instruction51_3.jpg"
         },
         {
             "step": 4,
-            "text": "Ein Zylinder wird entnommen.",
+            "text": "Zylinder einlegen.",
             "image_uri": "data/output/video/images/video51/instruction51_4.jpg"
         },
         {
             "step": 5,
-            "text": "Der entnommene Zylinder wird in die vorgesehene Aufnahme eingelegt.",
+            "text": "Entnahme Pumpengeh\u00e4use.",
             "image_uri": "data/output/video/images/video51/instruction51_5.jpg"
         },
         {
             "step": 6,
-            "text": "Das Pumpengeh\u00e4use wird erneut entnommen.",
+            "text": "Pumpengeh\u00e4use positionieren.",
             "image_uri": "data/output/video/images/video51/instruction51_6.jpg"
         },
         {
             "step": 7,
-            "text": "Das Pumpengeh\u00e4use wird f\u00fcr die n\u00e4chste Bearbeitung positioniert.",
+            "text": "Entnahme Schrauben dreimal.",
             "image_uri": "data/output/video/images/video51/instruction51_7.jpg"
         },
         {
             "step": 8,
-            "text": "Drei Schrauben werden entnommen, die f\u00fcr die Montage ben\u00f6tigt werden.",
+            "text": "Schrauben ansetzen.",
             "image_uri": "data/output/video/images/video51/instruction51_8.jpg"
         },
         {
             "step": 9,
-            "text": "Die Schrauben werden an die entsprechenden Stellen angesetzt.",
+            "text": "Schrauben mit Smart Tool anziehen.",
             "image_uri": "data/output/video/images/video51/instruction51_9.jpg"
         },
         {
             "step": 10,
-            "text": "Die Schrauben werden mit einem Smart Tool festgezogen.",
+            "text": "Entnahme mitnehmer Scheibe.",
             "image_uri": "data/output/video/images/video51/instruction51_10.jpg"
         },
         {
             "step": 11,
-            "text": "Es werden erneut drei Schrauben entnommen.",
+            "text": "Einlegen Mitnehmerscheibe.",
             "image_uri": "data/output/video/images/video51/instruction51_11.jpg"
         },
         {
             "step": 12,
-            "text": "Wieder werden drei Schrauben entnommen.",
+            "text": "Entnahme Lochplatte.",
             "image_uri": "data/output/video/images/video51/instruction51_12.jpg"
         },
         {
             "step": 13,
-            "text": "Und noch einmal werden drei Schrauben entnommen.",
+            "text": "Einlegen Lochplatte.",
             "image_uri": "data/output/video/images/video51/instruction51_13.jpg"
         },
         {
             "step": 14,
-            "text": "Jetzt wird die Pumpengeh\u00e4usedecke entnommen.",
+            "text": "Entnahme Pumpengeh\u00e4usedecke.",
             "image_uri": "data/output/video/images/video51/instruction51_14.jpg"
         },
         {
             "step": 15,
-            "text": "Die Pumpengeh\u00e4usedecke wird positioniert.",
+            "text": "Positionierten Pumpengeh\u00e4usedecke.",
             "image_uri": "data/output/video/images/video51/instruction51_15.jpg"
         },
         {
             "step": 16,
-            "text": "F\u00fcnf Schrauben werden entnommen, um die Pumpengeh\u00e4usedecke zu sichern.",
+            "text": "Entnahme Schraube.",
             "image_uri": "data/output/video/images/video51/instruction51_16.jpg"
         },
         {
             "step": 17,
-            "text": "Die Deckel-Schrauben werden mit einem Smart Tool verschraubt.",
+            "text": "Deckel verschrauben mit Smarttool.",
             "image_uri": "data/output/video/images/video51/instruction51_17.jpg"
         },
         {
             "step": 18,
-            "text": "Es wird \u00fcberpr\u00fcft, ob die Anschl\u00fcsse sauber sind.",
+            "text": "Entnahme Schraube.",
             "image_uri": "data/output/video/images/video51/instruction51_18.jpg"
         },
         {
             "step": 19,
-            "text": "Es wird geschaut, ob Sch\u00e4den vorhanden sind.",
+            "text": "Pr\u00fcfung, sind die Anschl\u00fcsse sauber, sind welche Sch\u00e4den vorhanden.",
             "image_uri": "data/output/video/images/video51/instruction51_19.jpg"
         },
         {
             "step": 20,
-            "text": "Ein Wertvergleich wird eingegeben.",
+            "text": "Wertvergleich eingeben.",
             "image_uri": "data/output/video/images/video51/instruction51_20.jpg"
         },
         {
             "step": 21,
-            "text": "Der Test wird wiederholt, um die Funktionsf\u00e4higkeit zu \u00fcberpr\u00fcfen.",
+            "text": "Test wiederholen.",
             "image_uri": "data/output/video/images/video51/instruction51_21.jpg"
         },
         {
             "step": 22,
-            "text": "Die Arbeit wird mit einem Fragezeichen abgeschlossen.",
+            "text": "Fertig.",
             "image_uri": "data/output/video/images/video51/instruction51_22.jpg"
         }
     ]

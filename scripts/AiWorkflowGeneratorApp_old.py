@@ -1,9 +1,12 @@
 import streamlit as st
+
 import os
 import json
 import subprocess
 import atexit
 from contextlib import contextmanager
+import base64
+
 
 from video2json import *
 from json2json import *
@@ -44,6 +47,7 @@ def manage_process():
 
 # Register cleanup function using atexit
 atexit.register(lambda: manage_process())
+
 
 # Main Interface
 def main():
@@ -124,6 +128,9 @@ def main():
 
         if pdf_file:
             st.write(f"PDF file {pdf_file.name} loaded.")
+
+
+
             pdf_nr = pdf_file.name.split("pdf")[1].split('.')[0]
 
 
@@ -174,6 +181,12 @@ def main():
                     st.write(f"No ELAM JSON found for this video under {flowchart_path}.")
 
 
+def show_pdf(file_path):
+    with open(file_path, "rb") as pdf_file:
+        base64_pdf = base64.b64encode(pdf_file.read()).decode('utf-8')
+    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="800" style="border: none;"></iframe>'
+    st.components.v1.html(pdf_display, height=800)
+    print("PDF displayed.")
 
 # Function to show the flowchart
 def show_flowchart(flowchart_path):

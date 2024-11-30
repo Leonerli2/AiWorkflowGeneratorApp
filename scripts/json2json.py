@@ -52,18 +52,18 @@ class ChecklistItem(BaseTask):
     correctAnswer: str
 
 
-class InstructionStep(BaseModel):
-    type: str
-    count: int
-    program: int
-    duretiongui: int
-    targetnumber: int
-    id: int
-    question: str
-    correctAnswer: str
+# class InstructionStep(BaseModel):
+#     type: str
+#     count: int
+#     program: int
+#     duretiongui: int
+#     targetnumber: int
+#     id: int
+#     question: str
+#     correctAnswer: str
 
-class Instruction(BaseModel):
-    instructions: List[InstructionStep]
+# class Instruction(BaseModel):
+#     instructions: List[InstructionStep]
 
 
 def predict_instruction_type(instruction_text):
@@ -77,11 +77,23 @@ def predict_instruction_type(instruction_text):
     Die möglichen Anweisungstypen sind:
     Manual, Scan, Tightening, Rivet, Smartlabel, Pick_to_Light, SmartTower, Info, ChecklistItem
     
-    Anweisung: "{instruction_text}"
+    ### ANWEISUNG, DIE ANALYSIERT WERDEN SOLL:
+    {instruction_text}
     
-    Bitte geben Sie nur die Art der Anweisung an (z.B. 'Scan', 'Manual', etc.).
+    ### BEMERKUNGEN: 
+    - Manual ist der standardmässige Anweisungstyp. Die Anderen Anweisungstypen werden eher selten vorkommen und müssen spezifisch erwähnt werden.
+      Einzig wenn ein konkretes Tool bennant wird, wie z.B. Scanner oder Akkuschrauber, usw. 
+    - Bitte geben Sie nur die Art der Anweisung an (z.B. 'Scan', 'Manual', etc.).
+    - Falls Sie nicht sicher sind, geben Sie 'Unsicher' an.
+    - Tightening sind wirklich nur SmartTools wie Akkuschrauber oder ähnliches gemeint, keine manuellen Schraubenzieher oder sonstiges.
+    - Tightening soll nicht verwendet werden, wenn schrauben nur angesetzt (oder ähnliches) werden. Es muss wirklich ein Drehmoment oder eine Anzahl Umdrehungen erwähnt werden, sowie dass die Schrauben angezugen/festgezogen (oder ähnliches) werden.
+    - Sobald die Anzahl von Bauteilen, welche entnommen werden sollen, erwähnt wird, ist es Pick_to_Light.
+    - Fotos werden eigentlich nicht gemacht, diese Fotos sind einzig für die kreierung der Anweisungen. Nicht berücksichtigen für die Bemerkung und den Typen der Anweisung.
 
-    Falls Sie nicht sicher sind, geben Sie 'Unsicher' an.
+    ### WICHTIG:
+    Bitte geben Sie nur die Art der Anweisung an und zwar eine der folgenden Kategorien:
+    Manual, Scan, Tightening, Rivet, Smartlabel, Pick_to_Light, SmartTower, Info, ChecklistItem
+    Es muss exakt so geschrieben werden, wie oben angegeben.
     """
 
     # Call to the OpenAI API to predict the instruction type
@@ -158,7 +170,7 @@ def instruction_basic_json_2_instruction_advanced_json(instruction_basic_json_pa
                 - class BaseTask(BaseModel):
                     name: str (Titel für die Anweisung)
                     task: str (Titel für die Art der Anweisung)
-                    description: str (Optimierte Beschreibung des Arbeitsschritts)
+                    description: str (Beschreibung des Arbeitsschritts, kurz und bündig)
                     image_uri: str (Pfad zum Bild des Arbeitsschritts, falls vorhanden, sonst None)
             3. Extrahiere die spezifischen Informationen für die jeweilige Anweisung:
                 - class Manual(BaseTask):
@@ -184,6 +196,14 @@ def instruction_basic_json_2_instruction_advanced_json(instruction_basic_json_pa
                     id: int (ID der Checkliste, Nummer der aufgabe in der Checkliste, oft mehrere Punkte in einer Checkliste. Ist aus dem Kontext des Zusatzwissens zu entnehmen)
                     question: str () (Fragestellung/Aufgabe der Checklisten-Aufgabe)
                     correctAnswer: str (Korrekte Antwort auf die Fragestellung/Aufgabe der Checklisten-Aufgabe)
+
+                    
+            ### BEMERKUNGEN:
+            - Die Beschreibung muss nicht zu genau sein, sie soll den Arbeitsschritt beschreiben und nicht zu viel dazu erfinden. Die Beschreibung soll immer mit dem gesamten Kontext der Anweisung übereinstimmen und sinnvoll sein.
+              Denke immer daran, dass es sich um eine Montageanleitung handelt. Somit werden viele Teile aus einem Behälter/Box genommen und irgendwo eingebaut. -> Du kannst es also sehr langweilig beschreiben mit "Nehme ein Teil aus dem Behälter und setze es ein." oder "Nehme ein Teil aus der Box und setze es ein."
+            - Wenn nicht original erwähnt, dann lasse zusätzliche beschreibungen (wie bspw. vorsichtig, langsam, etc.) weg.
+            - Fotos werden eigentlich nicht gemacht, diese Fotos sind einzig für die kreierung der Anweisungen. Nicht berücksichtigen für die Bemerkung und den Typen der Anweisung.
+
 
 
             ### INSTRUCTION WELCHE ANALYSIERT WERDEN SOLL:
@@ -426,8 +446,6 @@ def instruction_advanced_json_2_elam_flowchart_json(instruction_advanced_json_pa
     with open(elam_json_path, 'w') as file:
         json.dump(new_flowchart, file, indent=4)
     print(f"Saved ELAM flowchart JSON to {elam_json_path}")
-
-
 
 def pdf_basic_json_2_instruction_basic_json(pdf_basic_json_path, instruction_basic_json_path):
     print(f"\n### Start converting PDF basic JSON to basic instruction JSON ###")

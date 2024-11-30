@@ -43,10 +43,6 @@ class VideoPathHandler:
     
     def get_image_output_dir(self, video_nr):
         return f"{self.image_output_dir}/video{video_nr}"
-    
-
-
-
 
 def video_transcription_with_timestamps_json_2_instructions_with_timestamps_json(transcription_with_timestamps_json_path, output_json_path, save_instructions=True):
     print("\n### Converting video transcription with timestamps to JSON with basic instructions...")
@@ -60,7 +56,7 @@ def video_transcription_with_timestamps_json_2_instructions_with_timestamps_json
     client = OpenAI(api_key = OPENAI_API_KEY)
     
     # Prompts
-    system_prompt = "Sie sind ein Assistent, der Videotranskriptionsdaten verarbeitet, die in einzelnen Anweisungen im JSON-Format umgewandelt werden sollen. Da es sich um eine erste extraktion handelt, sollen Sie die jeweilige Beschreibung des Arbeitsschritts so detailiert wie möglich angeben."
+    system_prompt = "Sie sind ein Assistent, der Videotranskriptionsdaten verarbeitet, die in einzelnen Anweisungen im JSON-Format umgewandelt werden sollen." # Da es sich um eine erste extraktion handelt, sollen Sie die jeweilige Beschreibung des Arbeitsschritts so detailiert wie möglich angeben."
     user_prompt = f""" ### KONTEXRT:
         Sie haben eine Transkriptions-JSON mit einer kompletten Arbeitsanweisung, welches von einem Video mithilfe von whisper extrahiert wurde, welches nun die jeweiligen Zeitstempel und gesprochenen Text enthalten.
         Das JSON enthält eine komplette Arbeitsanweisung und muss in konkrete einzelne Arbeitsschritte aufgeteilt werden.
@@ -80,9 +76,8 @@ def video_transcription_with_timestamps_json_2_instructions_with_timestamps_json
         ### BEMERKUNG:
         Da es sich um die erste Extraktion handelt, sollen die Arbeitsschritte so detailiert wie möglich angegeben werden! Es wird später nocheinmal reduziert und zusammengefasst. Es ist wichtig, dass folgendes in diesem Text enthalten ist:
         - was wird gemacht?
-        - welches tool wird verwendet?
-        - wie viele Teile werden verwendet?
-        Hallte all das in einem Fliesstext und wenn etwas nicht erwähnt wird, dann schreiben Sie es auch nicht in den Text.
+        - wird ein spezielles tool verwendet?
+        - wird eine exakte Anzahl von Teilen erwähnt?
 
         ### TRANSKTIPTION-JSON FÜR DIE ANALYSE:
         Hier ist die zu analysierende komplette Transkriptions-JSON:
@@ -194,8 +189,6 @@ def extract_audio(video_path, audio_output="speech.mp3"):
     
     # Close the video file to free up resources
     video.close()
-
-
 
 def audio_text_extraction_timestamps(audio_file_path, json_file_path = "src/transcript.json"):
     print("\n### Extracting text from audio with timestamps...")

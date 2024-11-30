@@ -1,78 +1,75 @@
 [
     {
         "id": 1,
-        "name": "Miene des Stifts entnehmen",
+        "name": "Miene entnehmen",
         "task": "Manual",
-        "description": "Entnehmen Sie die Miene des Stifts, indem Sie die obere Kappe des Stifts entfernen, um Zugang zur Miene zu erhalten.",
+        "description": "Nehme eine Miene aus dem Beh\u00e4lter.",
         "image_uri": "data/output/video/images/video50/instruction50_1.jpg",
         "imagefilename": "instruction50_1.jpg"
     },
     {
         "id": 2,
-        "name": "Obere Stifth\u00fclle entnehmen",
+        "name": "Stifth\u00fclle oben entnehmen",
         "task": "Manual",
-        "description": "Die obere Stifth\u00fclle kann abgenommen werden, indem die Kappe von der Vorderseite des Stifts vorsichtig abgezogen wird.",
+        "description": "Nehme die Stifth\u00fclle oben aus dem Stift.",
         "image_uri": "data/output/video/images/video50/instruction50_2.jpg",
         "imagefilename": "instruction50_2.jpg"
     },
     {
-        "id": 50,
+        "id": 3,
         "name": "Miene in Stifth\u00fclle einf\u00fchren",
         "task": "Manual",
-        "description": "F\u00fchren Sie die Miene in die Stifth\u00fclle ein und stellen Sie sicher, dass sie korrekt positioniert ist, bevor Sie die Stifth\u00fclle wieder montieren.",
+        "description": "F\u00fchre die Miene in die Stifth\u00fclle ein.",
         "image_uri": "data/output/video/images/video50/instruction50_3.jpg",
         "imagefilename": "instruction50_3.jpg"
     },
     {
         "id": 4,
-        "name": "Feder des Stifts entnehmen",
+        "name": "Feder entnehmen",
         "task": "Manual",
-        "description": "Entnehmen Sie die Feder des Stifts, indem Sie sie vorsichtig aus der Stifth\u00fclle herausziehen. Achten Sie darauf, dass die Feder vollst\u00e4ndig entfernt wird, um m\u00f6gliche Sch\u00e4den zu vermeiden.",
+        "description": "Nehme die Feder aus dem Beh\u00e4lter.",
         "image_uri": "data/output/video/images/video50/instruction50_4.jpg",
         "imagefilename": "instruction50_4.jpg"
     },
     {
         "id": 5,
-        "name": "Feder auf Miene setzen",
+        "name": "Feder auf Miene stecken",
         "task": "Manual",
-        "description": "Setzen Sie die Feder auf die Miene, um den automatischen R\u00fcckmechanismus des Stifts zu aktivieren und das Schreiben zu erleichtern.",
+        "description": "Nehme die Feder und setze sie auf die Miene.",
         "image_uri": "data/output/video/images/video50/instruction50_5.jpg",
         "imagefilename": "instruction50_5.jpg"
     },
     {
         "id": 6,
-        "name": "Entnahme der unteren Stifth\u00fclle",
+        "name": "Stifth\u00fclle unten entnehmen",
         "task": "Manual",
-        "description": "Entfernen Sie die untere Stifth\u00fclle, um eine vollst\u00e4ndige Demontage des Stifts zu erm\u00f6glichen. Achten Sie darauf, die H\u00fclle vorsichtig abzuziehen, um Besch\u00e4digungen zu vermeiden.",
+        "description": "Nehme die Stifth\u00fclle unten aus dem Geh\u00e4use.",
         "image_uri": "data/output/video/images/video50/instruction50_6.jpg",
         "imagefilename": "instruction50_6.jpg"
     },
     {
         "id": 7,
-        "name": "Stifth\u00fclle zusammenschrauben",
+        "name": "Stifth\u00fclle montieren",
         "task": "Tightening",
-        "description": "Schrauben Sie die obere Stifth\u00fclle fest auf die untere Stifth\u00fclle. Dies ist der letzte Schritt, um den Stift wieder vollst\u00e4ndig zusammenzusetzen.",
+        "description": "Schraube die Stifth\u00fclle auf die andere Stifth\u00fclle.",
         "image_uri": "data/output/video/images/video50/instruction50_7.jpg",
-        "imagefilename": "instruction50_7.jpg",
-        "count": 0,
-        "program": 0
+        "imagefilename": "instruction50_7.jpg"
     },
     {
         "id": 8,
         "name": "Funktionstest durchf\u00fchren",
         "task": "Info",
-        "description": "F\u00fchren Sie einen Funktionstest durch, um sicherzustellen, dass der Stift ordnungsgem\u00e4\u00df funktioniert und wieder bereitgestellt werden kann.",
+        "description": "F\u00fchren Sie einen Funktionstest des zusammengesetzten Teils durch.",
         "image_uri": "data/output/video/images/video50/instruction50_8.jpg",
         "imagefilename": "instruction50_8.jpg",
-        "durationgui": 5
+        "durationgui": 0
     },
     {
         "id": 9,
-        "name": "Arbeit abschlie\u00dfen",
-        "task": "Info",
-        "description": "Die Arbeit ist nun abgeschlossen und der Stift ist bereit f\u00fcr den Gebrauch.",
+        "name": "Fertigstellen der Montage.",
+        "task": "Manual",
+        "description": "Die Montage ist nun abgeschlossen.",
         "image_uri": "data/output/video/images/video50/instruction50_9.jpg",
-        "imagefilename": "instruction50_9.jpg",
-        "durationgui": 0
+        "imagefilename": "instruction50_9.jpg"
     }
 ]
