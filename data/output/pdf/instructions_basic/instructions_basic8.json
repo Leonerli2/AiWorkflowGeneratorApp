@@ -1,0 +1,441 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Alle gevind sm\u00c3\u0192\u00c2\u00b8res med Q8RUBENS fedt.",
+            "image_uri": []
+        },
+        {
+            "step": 2,
+            "text": "Alle moment str\u00c3\u0192\u00c2\u00b8ges.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "Alle emner fanges i gevind inden moment tilsp\u00c3\u0192\u00c2\u00a6nding.",
+            "image_uri": []
+        },
+        {
+            "step": 4,
+            "text": "Ved tilsp\u00c3\u0192\u00c2\u00a6nding med moment, kontrolleres momentet p\u00c3\u0192\u00c2\u00a5 v\u00c3\u0192\u00c2\u00a6rkt\u00c3\u0192\u00c2\u00b8jet f\u00c3\u0192\u00c2\u00b8r og efter brug.",
+            "image_uri": []
+        },
+        {
+            "step": 5,
+            "text": "Ventiler med O-ringe skrues til manuelt.",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "Rev 03 - 02. februar 2022 - Tekst og billeder, pakke instr.",
+            "image_uri": []
+        },
+        {
+            "step": 2,
+            "text": "Rev 04 - 16. maj 2022 - \u00c3\u0192\u00e2\u20ac\u00a0ndret til montagestand.",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "HG2123R00 placeres i montagestand.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_3_2.jpg",
+                "cache\\pictures\\w8\\image_3_3.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "2 stk. VSCHRI/8 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 4,
+            "text": "1 stk. VSCHRI/4 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 5,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 25 Nm.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_3_3.jpg",
+                "cache\\pictures\\w8\\image_3_3.jpg"
+            ]
+        },
+        {
+            "step": 6,
+            "text": "1 stk. VSCHRI/4 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 7,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 80 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 8,
+            "text": "1 stk. VSCHRI/2 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 9,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 10,
+            "text": "1 stk. VSCHRI/1 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 11,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 160 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "2 stk. SKK20G1/4-PC monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_4_3.jpg",
+                "cache\\pictures\\w8\\image_4_4.jpg",
+                "cache\\pictures\\w8\\image_4_4.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "2171256 monteres, sp\u00c3\u0192\u00c2\u00a6ndes til med fingrene.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_4_3.jpg",
+                "cache\\pictures\\w8\\image_4_4.jpg",
+                "cache\\pictures\\w8\\image_4_4.jpg"
+            ]
+        },
+        {
+            "step": 4,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 5,
+            "text": "Blokken drejes",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_4_3.jpg",
+                "cache\\pictures\\w8\\image_4_4.jpg",
+                "cache\\pictures\\w8\\image_4_4.jpg",
+                "cache\\pictures\\w8\\image_4_3.jpg"
+            ]
+        },
+        {
+            "step": 6,
+            "text": "1 stk. dyse DYSE-10/1.0US monteres i RN2",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_4_3.jpg",
+                "cache\\pictures\\w8\\image_4_4.jpg"
+            ]
+        },
+        {
+            "step": 7,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 10 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 8,
+            "text": "1 stk. dyse DYSE-6/0.60US monteres i RN1",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_4_3.jpg",
+                "cache\\pictures\\w8\\image_4_4.jpg"
+            ]
+        },
+        {
+            "step": 9,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 1,2 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "VSCHR1/8 monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_5_2.jpg",
+                "cache\\pictures\\w8\\image_5_3.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "VSCHR1/4 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 4,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 25 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 5,
+            "text": "SSKR20G1/4-PC monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 6,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 7,
+            "text": "063G2887 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 8,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 30 Nm.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_5_4.jpg"
+            ]
+        },
+        {
+            "step": 9,
+            "text": "Akseldel af 400510057 monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_5_3.jpg",
+                "cache\\pictures\\w8\\image_5_4.jpg"
+            ]
+        },
+        {
+            "step": 10,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 8 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 11,
+            "text": "Sidste del af 400510057 monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_5_3.jpg",
+                "cache\\pictures\\w8\\image_5_4.jpg"
+            ]
+        },
+        {
+            "step": 1,
+            "text": "Akseldel af 400511005 monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_6_2.jpg",
+                "cache\\pictures\\w8\\image_6_3.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_6_3.jpg",
+                "cache\\pictures\\w8\\image_6_3.jpg"
+            ]
+        },
+        {
+            "step": 3,
+            "text": "Sidste del af 400511005 monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_6_3.jpg",
+                "cache\\pictures\\w8\\image_6_3.jpg"
+            ]
+        },
+        {
+            "step": 4,
+            "text": "Akseldel af 400511112 monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_6_3.jpg"
+            ]
+        },
+        {
+            "step": 5,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_6_3.jpg"
+            ]
+        },
+        {
+            "step": 6,
+            "text": "Sidste del af 400511112 monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_6_3.jpg"
+            ]
+        },
+        {
+            "step": 1,
+            "text": "2 stk. VSCHR1/8 monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_7_2.jpg",
+                "cache\\pictures\\w8\\image_7_3.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "2 stk. VSCHR1/4 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 4,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 5,
+            "text": "2 stk. SKK2OG1/4-PC monteres.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_7_3.jpg"
+            ]
+        },
+        {
+            "step": 6,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 45 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 7,
+            "text": "2171256 monteres, sp\u00c3\u0192\u00c2\u00a6ndes til med fingrene.",
+            "image_uri": []
+        },
+        {
+            "step": 8,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "1 stk. dyse DYSE-6/0.600US monteres i RNS",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_8_2.jpg",
+                "cache\\pictures\\w8\\image_8_3.jpg",
+                "cache\\pictures\\w8\\image_8_4.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 1,2 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "3 stk. VSCHR1/8 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 4,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 12 Nm.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_8_5.jpg"
+            ]
+        },
+        {
+            "step": 5,
+            "text": "Aksel del af VW-29156288 monteres, sp\u00c3\u0192\u00c2\u00a6ndes til med fingrene.",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_8_4.jpg",
+                "cache\\pictures\\w8\\image_8_5.jpg"
+            ]
+        },
+        {
+            "step": 6,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 160 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 7,
+            "text": "Rester af VW-29156288 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 8,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 6 Nm.",
+            "image_uri": []
+        },
+        {
+            "step": 9,
+            "text": "02172863 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 10,
+            "text": "Sp\u00c3\u0192\u00c2\u00a6ndes 60 Nm. og ventil sp\u00c3\u0192\u00c2\u00a6ndes til (lukkes)",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "VUI p\u00c3\u0192\u00c2\u00a5s\u00c3\u0192\u00c2\u00a6ttes",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_9_2.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Enheden er nu klar til tryktest",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "2 Stk. GRU106 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 2,
+            "text": "5 Stk. 100002093.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "2 Stk. GRU106 monteres.",
+            "image_uri": []
+        },
+        {
+            "step": 4,
+            "text": "2 Stk. 100002093.",
+            "image_uri": []
+        },
+        {
+            "step": 1,
+            "text": "Enheden l\u00c3\u0192\u00c2\u00a6gges i en pose 2743-903",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_11_3.jpg",
+                "cache\\pictures\\w8\\image_11_3.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Gul varelabel med varenummer s\u00c3\u0192\u00c2\u00a6ttes p\u00c3\u0192\u00c2\u00a5 posen.",
+            "image_uri": []
+        },
+        {
+            "step": 3,
+            "text": "Enheden lukkes med 1435-001010.",
+            "image_uri": []
+        },
+        {
+            "step": 4,
+            "text": "12 stk. pakkes i palle",
+            "image_uri": [
+                "cache\\pictures\\w8\\image_11_3.jpg"
+            ]
+        },
+        {
+            "step": 5,
+            "text": "Palleseddel laves.",
+            "image_uri": []
+        }
+    ]
+}

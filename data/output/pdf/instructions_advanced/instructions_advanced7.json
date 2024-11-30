@@ -1,0 +1,593 @@
+[
+    {
+        "id": 1,
+        "name": "Gevind schmieren",
+        "task": "Manual",
+        "description": "Gevind generell mit Q8RUBENS schmieren.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 2,
+        "name": "Moment markieren",
+        "task": "Info",
+        "description": "Markiere alle Momentstellen.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 3,
+        "name": "Gevind vorher fangen",
+        "task": "Tightening",
+        "description": "Fangen Sie alle Bauteile im Gewinde an, bevor Sie mit der Anziehmomentierung fortfahren.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 4,
+        "name": "Moment Kontrolle",
+        "task": "Tightening",
+        "description": "Kontrolliere das Moment auf dem Werkzeug vor und nach Gebrauch.",
+        "image_uri": "/path/to/image",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Komponenten im Stativ montieren",
+        "task": "Manual",
+        "description": "Lege das Teil HG2048R01 in das Stativ und spanne es fest.",
+        "image_uri": "cache\\pictures\\w7\\image_2_2.jpg",
+        "imagefilename": "image_2_2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "VUI Label Montage",
+        "task": "Smartlabel",
+        "description": "Montiere das VUI-Label mit der Nummer 29147577.",
+        "image_uri": "",
+        "imagefilename": "",
+        "duretiongui": 0,
+        "targetnumber": 29147577
+    },
+    {
+        "id": 1,
+        "name": "Montage der Dyse",
+        "task": "Rivet",
+        "description": "Montiere 2 St\u00fcck 5/0,90U D\u00fcsen in die RN6 und RN2.",
+        "image_uri": "cache\\pictures\\w7\\image_3_2.jpg",
+        "imagefilename": "image_3_2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Montage der Dyse",
+        "task": "Tightening",
+        "description": "Nehme 2 St\u00fcck Dyse \u20136/1,00U aus dem Beh\u00e4lter und montiere sie in RN3 und RN1.",
+        "image_uri": "cache\\pictures\\w7\\image_3_2.jpg",
+        "imagefilename": "image_3_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Anziehen der D\u00fcsen",
+        "task": "Tightening",
+        "description": "Ziehen Sie alle 4 D\u00fcsen auf ein Drehmoment von 1,2 Nm an.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 4,
+        "program": 0
+    },
+    {
+        "id": 4,
+        "name": "Schrauben mit VSCHRI/8 abdecken",
+        "task": "Tightening",
+        "description": "Die Schrauben sollen mit 4 St\u00fcck VSCHRI/8 abgedeckt werden.",
+        "image_uri": "cache\\pictures\\w7\\image_3_4.jpg",
+        "imagefilename": "image_3_4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Spannkraft einstellen",
+        "task": "Tightening",
+        "description": "Spanne die Verbindung mit einem Drehmoment von 12 Nm fest.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 6,
+        "name": "O-Ringe und Gewinde schmieren",
+        "task": "Manual",
+        "description": "Nehme 4 St\u00fcck O-Ringe und schmiere das Gewinde nach Bedarf.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 7,
+        "name": "Manuelle Schraubenzug",
+        "task": "Tightening",
+        "description": "Schrauben mit den Fingern anziehen.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 8,
+        "name": "Anziehen der Bauteile",
+        "task": "Tightening",
+        "description": "Die Bauteile werden mit einem Drehmoment von 60 Nm angezogen, nachdem sie mit den Fingern angezogen wurden.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 60
+    },
+    {
+        "id": 1,
+        "name": "4 stk. SKK2061/4-PC monteres",
+        "task": "Tightening",
+        "description": "Nehme 4 Teile SKK2061/4-PC aus dem Beh\u00e4lter und setze sie ein.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 2,
+        "name": "Spannen auf 45 Nm",
+        "task": "Tightening",
+        "description": "Spanne die Komponente mit einem Drehmoment von 45 Nm fest.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Monterung eines Bauteils",
+        "task": "Tightening",
+        "description": "Ein Bauteil (1 stk. 96302) wird mit 4 weiteren Bauteilen (9123706040) montiert.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 4,
+        "name": "Spannen auf 10 Nm.",
+        "task": "Tightening",
+        "description": "Ziehen Sie die Verbindung auf 10 Nm an.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 5,
+        "name": "Motorlink anbringen",
+        "task": "Tightening",
+        "description": "Motorlinken wird am Fjederpalen befestigt.",
+        "image_uri": "/cache/pictures/w7/image_15_3.jpg",
+        "imagefilename": "image_15.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Fjederpalen Bewegung",
+        "task": "Info",
+        "description": "Stelle sicher, dass die Fjederpalen frei beweglich sind.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Montage von DH0113CA",
+        "task": "Rivet",
+        "description": "Setze das Bauteil DH0113CA mit 4 St\u00fcck der Nummer 9123705050 ein.",
+        "image_uri": "cache\\pictures\\w7\\image_5_2.jpg",
+        "imagefilename": "image_5_2.jpg"
+    },
+    {
+        "id": 0,
+        "name": "Achte auf die O-Ringe in der Ventileinheit.",
+        "task": "Info",
+        "description": "Stelle sicher, dass die O-Ringe korrekt in der Ventileinheit sitzen.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 3,
+        "name": "Spannung auf 8 Nm",
+        "task": "Tightening",
+        "description": "Spanne das Bauteil auf 8 Nm.",
+        "image_uri": "/images/spannung_8_nM.jpg",
+        "imagefilename": "spannung_8_nM.jpg",
+        "count": 0,
+        "program": 8
+    },
+    {
+        "id": 1,
+        "name": "Montage von VSCHR1/8",
+        "task": "Tightening",
+        "description": "2 St\u00fcck VSCHR1/8 in position bringen und montieren.",
+        "image_uri": "cache\\pictures\\w7\\image_6_2.jpg",
+        "imagefilename": "image_6_2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Spannen mit 12 Nm",
+        "task": "Tightening",
+        "description": "Setze die Verbindung mit einer Anzugskraft von 12 Nm zusammen.",
+        "image_uri": "/images/steps/step_5.jpg",
+        "imagefilename": "step_5.jpg",
+        "count": 1,
+        "program": 1
+    },
+    {
+        "id": 1,
+        "name": "Montage der RVSB18L05",
+        "task": "Rivet",
+        "description": "Montiere 3 St\u00fcck RVSB18L05 in die RM1, RM3 und RM5 mit der Kegelspitze nach unten in die Blockierung.",
+        "image_uri": "cache\\pictures\\w7\\image_6_2.jpg",
+        "imagefilename": "image_6_2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Brug special magnet til montering.",
+        "task": "Rivet",
+        "description": "Verwende einen speziellen Magneten zur Montage der Teile.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 5,
+        "name": "Verschlie\u00dfen mit 3 Schrauben VSCHR1/4",
+        "task": "Tightening",
+        "description": "Nehme 3 Schrauben VSCHR1/4 und verschlie\u00dfe die Verbindung.",
+        "image_uri": "cache\\pictures\\w7\\image_6_5.jpg",
+        "imagefilename": "image_6_5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Spannen auf 25 Nm",
+        "task": "Tightening",
+        "description": "Spanne das Bauteil auf 25 Nm.",
+        "image_uri": "/path/to/image.jpg",
+        "imagefilename": "image_filename.jpg",
+        "count": 4,
+        "program": 0
+    },
+    {
+        "id": 7,
+        "name": "Montage von A10SR1/AWDX",
+        "task": "Manual",
+        "description": "Montiere 4 Teile A10SR1/AWDX.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 8,
+        "name": "Spannung auf 40 Nm",
+        "task": "Tightening",
+        "description": "Spanne das Bauteil auf 40 Nm.",
+        "image_uri": "/images/step_8_image.png",
+        "imagefilename": "step_8_image.png",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage von 8 Schrauben VSCHR1/8",
+        "task": "Tightening",
+        "description": "Setze 8 Schrauben VSCHR1/8 ein.",
+        "image_uri": "cache\\pictures\\w7\\image_7_2.jpg",
+        "imagefilename": ""
+    },
+    {
+        "id": 5,
+        "name": "Spannen auf 12 Nm",
+        "task": "Tightening",
+        "description": "Drehe das Bauteil mit einer Drehmoment von 12 Nm fest.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 3,
+        "name": "Montage des Teils C02A3G2N",
+        "task": "Rivet",
+        "description": "Nehme ein Teil C02A3G2N aus dem Beh\u00e4lter und setze es ein, befestige es mit den H\u00e4nden.",
+        "image_uri": "cache\\pictures\\w7\\image_7_3.jpg",
+        "imagefilename": "image_7_3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Spannen mit 60 Nm",
+        "task": "Tightening",
+        "description": "Spanne das Teil mit einem Drehmoment von 60 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 5,
+        "name": "Grobe Einstellung der Ventile",
+        "task": "Tightening",
+        "description": "Drehe die Schraube der Ventile, sodass die Rille leicht \u00fcber die Oberkante der Matrize positioniert ist.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 6,
+        "name": "Montere die letzte 0338-08",
+        "task": "Tightening",
+        "description": "Monter die letzte 0338-08 und spanne sie lose.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "2 stk. VSCHR1/8 montieren",
+        "task": "Tightening",
+        "description": "Nehme zwei Teile VSCHR1/8 aus dem Beh\u00e4lter und setze sie ein.",
+        "image_uri": "cache\\pictures\\w7\\image_8_2.jpg",
+        "imagefilename": "image_8_2.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Spannung einstellen",
+        "task": "Tightening",
+        "description": "Spannen Sie die Verbindung mit einem Drehmoment von 12 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage der RVS80L105",
+        "task": "Rivet",
+        "description": "2 St\u00fcck RVS80L105 werden in RM4 und RM2 montiert, dabei mit der Kegelform nach unten in der Block eingesetzt.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 4,
+        "name": "Verwendung eines speziellen Magneten",
+        "task": "Rivet",
+        "description": "Benutze einen speziellen Magneten f\u00fcr die Montage.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 8,
+        "name": "Montage von VSCHRJ/4",
+        "task": "Tightening",
+        "description": "5 St\u00fcck VSCHRJ/4 werden montiert.",
+        "image_uri": "cache\\pictures\\w7\\image_8_3.jpg",
+        "imagefilename": "image_8_3.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Spannen auf 25 Nm",
+        "task": "Tightening",
+        "description": "Spanne das Bauteil mit einem Drehmoment von 25 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 7,
+        "name": "Bauteil A10LRWDX montieren",
+        "task": "Manual",
+        "description": "Setze ein Bauteil A10LRWDX in die Position L10 ein.",
+        "image_uri": "cache\\pictures\\w7\\image_8_4.jpg",
+        "imagefilename": "image_8_4.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Spannen auf 40 Nm",
+        "task": "Tightening",
+        "description": "Spanne das Teil mit einem Drehmoment von 40 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 9,
+        "name": "Einzelteil A10SRJ/4WDX montieren",
+        "task": "Montage",
+        "description": "Nehme ein Teil A10SRJ/4WDX aus dem Beh\u00e4lter und setze es in die Position S10 ein.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 10,
+        "name": "Verschrauben mit 40 Nm",
+        "task": "Tightening",
+        "description": "Schraube auf 40 Nm anziehen.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage der Schrauben VSCHR1/8",
+        "task": "Tightening",
+        "description": "Montiere 2 St\u00fcck der Schrauben VSCHR1/8.",
+        "image_uri": "cache\\pictures\\w7\\image_9_2.jpg",
+        "imagefilename": "image_9_2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Spannen auf 12 Nm",
+        "task": "Tightening",
+        "description": "Spanne die Verbindung mit einem Drehmoment von 12 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 3,
+        "name": "Montage von VSCHR1/4",
+        "task": "Tightening",
+        "description": "Nehme ein St\u00fcck VSCHR1/4 aus dem Beh\u00e4lter und setze es ein.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Spannen von Bauteilen",
+        "task": "Tightening",
+        "description": "Spanne das Bauteil mit einem Drehmoment von 25 Nm.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Maschineninspektion",
+        "task": "Info",
+        "description": "\u00dcberpr\u00fcfen Sie die Maschine auf sichtbare Probleme oder Abnutzung.",
+        "image_uri": "cache\\pictures\\w7\\image_10_2.jpg",
+        "imagefilename": "image_10_2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sichere Kabelverbindungen",
+        "task": "Info",
+        "description": "Stelle sicher, dass alle Kabelverbindungen sicher sind.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "Funktionstest durchf\u00fchren",
+        "task": "Info",
+        "description": "F\u00fchren Sie einen funktionalen Test gem\u00e4\u00df dem Verfahren durch.",
+        "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 1,
+        "name": "4 stk. PLUG13F montieren",
+        "task": "Manual",
+        "description": "Nehme 4 PLUG13F Teile aus dem Beh\u00e4lter und montiere sie.",
+        "image_uri": "cache\\pictures\\w7\\image_11_2.jpg",
+        "imagefilename": "image_11_2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "1 stk. PLUG12F montieren",
+        "task": "Manual",
+        "description": "Nehme ein Teil aus dem Beh\u00e4lter und setze es ein.",
+        "image_uri": "cache\\pictures\\w7\\image_11_3.jpg",
+        "imagefilename": "image_11_3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "PLUG13F Montage",
+        "task": "Tightening",
+        "description": "Setze ein PLUG13F Bauteil ein.",
+        "image_uri": "cache\\pictures\\w7\\image_11_3.jpg",
+        "imagefilename": "image_11_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Montage von SC006761R00",
+        "task": "Rivet",
+        "description": "Montiere SC006761R00 mit 2 St\u00fcck 9121708020.",
+        "image_uri": "cache\\pictures\\w7\\image_12_2.jpg",
+        "imagefilename": "image_12_2.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Spanne 25 Nm",
+        "task": "Tightening",
+        "description": "F\u00fchren Sie eine Spannung von 25 Nm durch.",
+        "image_uri": "/path/to/image.jpg",
+        "imagefilename": "image_13_3.jpg",
+        "count": 0,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Montage von BR0192R00",
+        "task": "Rivet",
+        "description": "Nehme 1 St\u00fcck BR0192R00 und setze es mit 1 St\u00fcck 9121706060 ein.",
+        "image_uri": "cache\\pictures\\w7\\image_13_2.jpg",
+        "imagefilename": "image_13_2.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Spannen der Verbindungselemente",
+        "task": "Tightening",
+        "description": "Spanne das Bauteil auf 10 Nm.",
+        "image_uri": "cache\\pictures\\w7\\image_13_3.jpg",
+        "imagefilename": "image_13_3.jpg",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Sp\u00e5nsanding der Aktuadors",
+        "task": "Manual",
+        "description": "Nehme ein Teil (1435-001010) zur Sp\u00e5nsanding des Aktuadors aus dem Beh\u00e4lter.",
+        "image_uri": "cache\\pictures\\w7\\image_13_3.jpg",
+        "imagefilename": "image_13_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Einheit in Tasche legen",
+        "task": "Manual",
+        "description": "Nehme die Einheit und lege sie in Tasche 2743-903.",
+        "image_uri": "cache\\pictures\\w7\\image_14_2.jpg",
+        "imagefilename": "image_14_2.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Etikettsetzung",
+        "task": "Smartlabel",
+        "description": "Setze das Manillam\u00e6rke mit der Artikelnummer und Blocknummer mit der Nummer 1435-001010 an.",
+        "image_uri": "",
+        "imagefilename": "",
+        "duretiongui": 0,
+        "targetnumber": 1435
+    },
+    {
+        "id": 3,
+        "name": "Registrierung im Sharepoint",
+        "task": "Info",
+        "description": "Das Element wird im Sharepoint registriert.",
+        "image_uri": "",
+        "imagefilename": "",
+        "durationgui": 0
+    },
+    {
+        "id": 1,
+        "name": "Paket in Palette verstauen",
+        "task": "Manual",
+        "description": "Nehme die Teile aus dem Beh\u00e4lter und packe sie auf die Palette.",
+        "image_uri": "cache\\pictures\\w7\\image_15_3.jpg",
+        "imagefilename": "image_15_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Befestigung der Bl\u00f6cke",
+        "task": "Manual",
+        "description": "Sichere die Bl\u00f6cke mit 2 langen Stiften und 1 kurzen Stift.",
+        "image_uri": "cache\\pictures\\w7\\image_15_3.jpg",
+        "imagefilename": "image_15_3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Palleseddel erstellen",
+        "task": "Manual",
+        "description": "Erstellen Sie einen Palleseddel.",
+        "image_uri": "",
+        "imagefilename": ""
+    }
+]

@@ -3,471 +3,807 @@
         "instructions": [
             {
                 "page_no": 1,
-                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
-                "center_x": 149,
-                "center_y": 106
-            },
-            {
-                "page_no": 1,
-                "text": "Arbeitsanweisung:",
-                "center_x": 99,
-                "center_y": 141
-            },
-            {
-                "page_no": 1,
-                "text": "Montage der Hinterachse",
-                "center_x": 119,
-                "center_y": 157
-            },
-            {
-                "page_no": 1,
-                "text": "DOKUMENTENNUMMER",
-                "center_x": 94,
-                "center_y": 182
-            },
-            {
-                "page_no": 1,
-                "text": "REV",
-                "center_x": 215,
-                "center_y": 182
-            },
-            {
-                "page_no": 1,
-                "text": "CODE-007-03",
-                "center_x": 85,
-                "center_y": 208
-            },
-            {
-                "page_no": 1,
-                "text": "-",
-                "center_x": 230,
-                "center_y": 208
-            },
-            {
-                "page_no": 1,
-                "text": "1. Zweck",
-                "center_x": 90,
-                "center_y": 248
-            },
-            {
-                "page_no": 1,
-                "text": "Dient als Montagehilfe",
+                "text": "Production Work Instruction",
                 "center_x": 132,
-                "center_y": 260
+                "center_y": 43
             },
             {
                 "page_no": 1,
-                "text": "2. Geltungsbereich",
-                "center_x": 110,
-                "center_y": 296
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
             },
             {
                 "page_no": 1,
-                "text": "Dieses Dokument darf nur für internen Gebrauch verwendet werden",
-                "center_x": 225,
-                "center_y": 308
-            },
-            {
-                "page_no": 1,
-                "text": "3. Definitionen (Begriffserklärung)",
-                "center_x": 141,
-                "center_y": 345
-            },
-            {
-                "page_no": 1,
-                "text": "Q-in-Line Qualitätssicherung in der Linie",
-                "center_x": 166,
-                "center_y": 357
-            },
-            {
-                "page_no": 1,
-                "text": "Ansatz, welcher die Verantwortung für die Ausführung einer spezifischen Arbeit und für das entsprechende Qualitätsmanagement dazu direkt bei derselben Stelle zusammenführt (jeder Mitarbeiter ist verantwortlich für seine Tätigkeit und liefert die geforderte Qualität).",
-                "center_x": 310,
-                "center_y": 387
-            },
-            {
-                "page_no": 1,
-                "text": "4. Verfahren",
-                "center_x": 97,
-                "center_y": 436
-            },
-            {
-                "page_no": 1,
-                "text": "Beschreibt die Vorgehensweise für eine Montagearbeit",
-                "center_x": 198,
-                "center_y": 448
-            },
-            {
-                "page_no": 1,
-                "text": "5. Verantwortlichkeiten",
-                "center_x": 121,
-                "center_y": 485
-            },
-            {
-                "page_no": 1,
-                "text": "Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, dass die Montagearbeiten nach geltenden Verfahrensregelung P-E003 PRODUKTE HERSTELLEN ausgeführt werden",
-                "center_x": 288,
-                "center_y": 503
-            },
-            {
-                "page_no": 1,
-                "text": "Wichtig: Fahrzeug Sicherheitsbestimmungen einhalten!",
+                "text": "29128612R00",
                 "center_x": 298,
-                "center_y": 741
-            },
-            {
-                "page_no": 1,
-                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
-                "center_x": 156,
-                "center_y": 790
-            },
-            {
-                "page_no": 1,
-                "text": "Seite 1 / 5",
-                "center_x": 509,
-                "center_y": 790
-            },
-            {
-                "page_no": 1,
-                "text": "Ersteller",
-                "center_x": 304,
-                "center_y": 105
-            },
-            {
-                "page_no": 1,
-                "text": "U. Güttinger",
-                "center_x": 376,
-                "center_y": 106
-            },
-            {
-                "page_no": 1,
-                "text": "09.01.2019",
-                "center_x": 516,
-                "center_y": 105
-            },
-            {
-                "page_no": 1,
-                "text": "Prüfer",
-                "center_x": 300,
-                "center_y": 144
-            },
-            {
-                "page_no": 1,
-                "text": "R. Gander",
-                "center_x": 372,
-                "center_y": 144
-            },
-            {
-                "page_no": 1,
-                "text": "09.01.2019",
-                "center_x": 516,
-                "center_y": 144
-            },
-            {
-                "page_no": 1,
-                "text": "Freigabe",
-                "center_x": 306,
-                "center_y": 168
-            },
-            {
-                "page_no": 1,
-                "text": "S. Hiltbrunner",
-                "center_x": 379,
-                "center_y": 168
-            },
-            {
-                "page_no": 1,
-                "text": "09.01.2019",
-                "center_x": 516,
-                "center_y": 168
-            },
-            {
-                "page_no": 1,
-                "text": "ÄNDERUNG",
-                "center_x": 302,
-                "center_y": 190
-            },
-            {
-                "page_no": 1,
-                "text": "REV",
-                "center_x": 293,
-                "center_y": 201
-            },
-            {
-                "page_no": 1,
-                "text": "NUMMER",
-                "center_x": 418,
-                "center_y": 201
-            },
-            {
-                "page_no": 1,
-                "text": "NAME",
-                "center_x": 502,
-                "center_y": 201
-            },
-            {
-                "page_no": 1,
-                "text": "DATUM",
-                "center_x": 502,
-                "center_y": 201
-            },
-            {
-                "page_no": 1,
-                "text": "DATUM",
-                "center_x": 502,
-                "center_y": 155
-            },
-            {
-                "page_no": 1,
-                "text": "DATUM",
-                "center_x": 502,
-                "center_y": 131
-            },
-            {
-                "page_no": 1,
-                "text": "-",
-                "center_x": 322,
-                "center_y": 213
-            },
-            {
-                "page_no": 1,
-                "text": "DATUM",
-                "center_x": 502,
-                "center_y": 92
-            },
-            {
-                "page_no": 2,
-                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
-                "center_x": 151,
-                "center_y": 94
-            },
-            {
-                "page_no": 2,
-                "text": "Achtung!",
-                "center_x": 166,
-                "center_y": 196
-            },
-            {
-                "page_no": 2,
-                "text": "Korrekten Sitz des Sicherungsringes in der Nut des Achskörpers überprüfen.",
-                "center_x": 161,
-                "center_y": 229
-            },
-            {
-                "page_no": 2,
-                "text": "Die Kone der Aufnahmepunkte der Wattgestänge am Chassis reinigen.",
-                "center_x": 166,
-                "center_y": 382
-            },
-            {
-                "page_no": 2,
-                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
-                "center_x": 158,
-                "center_y": 792
-            },
-            {
-                "page_no": 2,
-                "text": "Seite 2 / 5",
-                "center_x": 514,
-                "center_y": 792
-            },
-            {
-                "page_no": 2,
-                "text": "DOKUMENTENNUMMER",
-                "center_x": 333,
-                "center_y": 70
-            },
-            {
-                "page_no": 2,
-                "text": "REV",
-                "center_x": 388,
-                "center_y": 70
-            },
-            {
-                "page_no": 2,
-                "text": "-",
-                "center_x": 394,
-                "center_y": 80
-            },
-            {
-                "page_no": 2,
-                "text": "CODE-007-03",
-                "center_x": 333,
-                "center_y": 94
-            },
-            {
-                "page_no": 3,
-                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
-                "center_x": 151,
-                "center_y": 95
-            },
-            {
-                "page_no": 3,
-                "text": "Längslagerung am Chassis und an der Achse mit STABURAGS fetten.",
-                "center_x": 166,
-                "center_y": 140
-            },
-            {
-                "page_no": 3,
-                "text": "Achse unter dem Chassis positionieren und an den Kran hängen.",
-                "center_x": 156,
-                "center_y": 370
-            },
-            {
-                "page_no": 3,
-                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
-                "center_x": 158,
-                "center_y": 792
-            },
-            {
-                "page_no": 3,
-                "text": "Seite 3 / 5",
-                "center_x": 514,
-                "center_y": 792
-            },
-            {
-                "page_no": 3,
-                "text": "DOKUMENTENNUMMER",
-                "center_x": 333,
-                "center_y": 70
-            },
-            {
-                "page_no": 3,
-                "text": "REV",
-                "center_x": 388,
-                "center_y": 70
-            },
-            {
-                "page_no": 3,
-                "text": "-",
-                "center_x": 394,
-                "center_y": 80
-            },
-            {
-                "page_no": 3,
-                "text": "CODE-007-03",
-                "center_x": 333,
-                "center_y": 94
-            },
-            {
-                "page_no": 4,
-                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
-                "center_x": 151,
-                "center_y": 94
-            },
-            {
-                "page_no": 4,
-                "text": "Achse vorne mit 2 Spannset fixieren.",
-                "center_x": 126,
-                "center_y": 132
-            },
-            {
-                "page_no": 4,
-                "text": "Stossdämpfer, Wattgestänge und Fangseil ansetzen.Die vorderen Federn können mit dem Kran hochgezogen werden.",
-                "center_x": 166,
-                "center_y": 351
-            },
-            {
-                "page_no": 4,
-                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
-                "center_x": 158,
-                "center_y": 792
-            },
-            {
-                "page_no": 4,
-                "text": "Seite 4 / 5",
-                "center_x": 514,
-                "center_y": 792
-            },
-            {
-                "page_no": 4,
-                "text": "DOKUMENTENNUMMER",
-                "center_x": 333,
-                "center_y": 70
-            },
-            {
-                "page_no": 4,
-                "text": "REV",
-                "center_x": 388,
-                "center_y": 70
-            },
-            {
-                "page_no": 4,
-                "text": "-",
-                "center_x": 394,
-                "center_y": 80
-            },
-            {
-                "page_no": 4,
-                "text": "CODE-007-03",
-                "center_x": 333,
-                "center_y": 94
-            },
-            {
-                "page_no": 5,
-                "text": "GELÄNDEFAHRZEUG I WE CODE-007",
-                "center_x": 151,
-                "center_y": 95
-            },
-            {
-                "page_no": 5,
-                "text": "Stossdämpfer, Wattgestänge und Fangseil mit Drehmoment befestigen.",
-                "center_x": 146,
                 "center_y": 138
             },
             {
-                "page_no": 5,
-                "text": "Die hinteren 2 Federn mit Hilfe des Federspanners montieren.",
-                "center_x": 157,
-                "center_y": 168
+                "page_no": 1,
+                "text": "Alle gevind smøres med Q8RUBENS fedt",
+                "center_x": 161,
+                "center_y": 634
             },
             {
-                "page_no": 5,
-                "text": "Wattgestänge montieren.",
-                "center_x": 103,
-                "center_y": 343
+                "page_no": 1,
+                "text": "Alle moment streges.",
+                "center_x": 116,
+                "center_y": 649
             },
             {
-                "page_no": 5,
-                "text": "Splintbohrungen der Kugelköpfe senkrecht ausrichten.",
-                "center_x": 165,
-                "center_y": 552
+                "page_no": 1,
+                "text": "Alle emner fanges i gevind inden moment tilspænding.",
+                "center_x": 190,
+                "center_y": 664
             },
             {
-                "page_no": 5,
-                "text": "CODE-007-03/- Arbeitsanweisung: Montage der Hinterachse",
+                "page_no": 1,
+                "text": "Ved tilspænding med moment, kontrolleres momentet på værktøjet før og efter brug.",
+                "center_x": 260,
+                "center_y": 678
+            },
+            {
+                "page_no": 1,
+                "text": "Ventiler med O-ringe skrues til manuelt.",
                 "center_x": 158,
-                "center_y": 792
+                "center_y": 693
+            },
+            {
+                "page_no": 1,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 1,
+                "text": "1",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 1,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 2,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 2,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 2,
+                "text": "BACKLOG:",
+                "center_x": 119,
+                "center_y": 121
+            },
+            {
+                "page_no": 2,
+                "text": "Rev 03",
+                "center_x": 84,
+                "center_y": 147
+            },
+            {
+                "page_no": 2,
+                "text": "02. februar 2022",
+                "center_x": 182,
+                "center_y": 147
+            },
+            {
+                "page_no": 2,
+                "text": "Tekst og billeder, pakke instr.",
+                "center_x": 134,
+                "center_y": 163
+            },
+            {
+                "page_no": 2,
+                "text": "Rev 04",
+                "center_x": 84,
+                "center_y": 189
+            },
+            {
+                "page_no": 2,
+                "text": "16. maj 2022",
+                "center_x": 173,
+                "center_y": 189
+            },
+            {
+                "page_no": 2,
+                "text": "Ændret til montagestand.",
+                "center_x": 125,
+                "center_y": 205
+            },
+            {
+                "page_no": 2,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 2,
+                "text": "2",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 2,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 3,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 3,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 3,
+                "text": "$_{1.}$ HG2123R00 placeres i montagestand.",
+                "center_x": 182,
+                "center_y": 292
+            },
+            {
+                "page_no": 3,
+                "text": "$_{2.}$ 2 stk. VSCHR1/8 monteres.",
+                "center_x": 158,
+                "center_y": 308
+            },
+            {
+                "page_no": 3,
+                "text": "$_{3.}$ Spændes 12 Nm .",
+                "center_x": 140,
+                "center_y": 327
+            },
+            {
+                "page_no": 3,
+                "text": "$_{4.}$ 1 stk. VSCHR1/4 monteres.",
+                "center_x": 158,
+                "center_y": 345
+            },
+            {
+                "page_no": 3,
+                "text": "$_{5.}$ Spændes 25 Nm .",
+                "center_x": 140,
+                "center_y": 364
+            },
+            {
+                "page_no": 3,
+                "text": "$_{6.}$ 1 stk. VSCHR3/4 monteres.",
+                "center_x": 158,
+                "center_y": 615
+            },
+            {
+                "page_no": 3,
+                "text": "$_{7.}$ Spændes 80 Nm .",
+                "center_x": 140,
+                "center_y": 634
+            },
+            {
+                "page_no": 3,
+                "text": "$_{8.}$ 1 stk. VSCHR1/2 monteres.",
+                "center_x": 158,
+                "center_y": 652
+            },
+            {
+                "page_no": 3,
+                "text": "$_{9.}$ Spændes 60 Nm .",
+                "center_x": 140,
+                "center_y": 671
+            },
+            {
+                "page_no": 3,
+                "text": "10. 1 stk. VSCHR1 monteres.",
+                "center_x": 153,
+                "center_y": 689
+            },
+            {
+                "page_no": 3,
+                "text": "11. Spændes 160 Nm .",
+                "center_x": 144,
+                "center_y": 708
+            },
+            {
+                "page_no": 3,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 3,
+                "text": "3",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 3,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 4,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 4,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 4,
+                "text": "$_{1.}$ 2 stk. SKK20G1/4-PC monteres.",
+                "center_x": 169,
+                "center_y": 360
+            },
+            {
+                "page_no": 4,
+                "text": "$_{2.}$ Spændes 45 Nm .",
+                "center_x": 140,
+                "center_y": 379
+            },
+            {
+                "page_no": 4,
+                "text": "$_{3.}$ 2171256 monteres, spændes til med fingrene.",
+                "center_x": 200,
+                "center_y": 397
+            },
+            {
+                "page_no": 4,
+                "text": "$_{4.}$ Spændes 60 Nm .",
+                "center_x": 140,
+                "center_y": 416
+            },
+            {
+                "page_no": 4,
+                "text": "$_{5.}$ Blokken drejes",
+                "center_x": 128,
+                "center_y": 432
+            },
+            {
+                "page_no": 4,
+                "text": "$_{6.}$ 1 stk. dyse DYSE-10/1.0US monteres i RN2",
+                "center_x": 194,
+                "center_y": 628
+            },
+            {
+                "page_no": 4,
+                "text": "$_{7.}$ Spændes 10 Nm .",
+                "center_x": 140,
+                "center_y": 647
+            },
+            {
+                "page_no": 4,
+                "text": "$_{8.}$ 1 stk. dyse DYSE-6/0.60US monteres i RN1",
+                "center_x": 194,
+                "center_y": 665
+            },
+            {
+                "page_no": 4,
+                "text": "$_{9.}$ Spændes 1,2 Nm .",
+                "center_x": 142,
+                "center_y": 684
+            },
+            {
+                "page_no": 4,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 4,
+                "text": "4",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 4,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
             },
             {
                 "page_no": 5,
-                "text": "Seite 5 / 5",
-                "center_x": 514,
-                "center_y": 792
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
             },
             {
                 "page_no": 5,
-                "text": "DOKUMENTENNUMMER",
-                "center_x": 333,
-                "center_y": 70
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
             },
             {
                 "page_no": 5,
-                "text": "REV",
-                "center_x": 388,
-                "center_y": 70
+                "text": "$_{1.}$ VSCHR1/8 monteres.",
+                "center_x": 145,
+                "center_y": 315
             },
             {
                 "page_no": 5,
-                "text": "-",
-                "center_x": 393,
-                "center_y": 80
+                "text": "$_{2.}$ Spændes 12 Nm .",
+                "center_x": 140,
+                "center_y": 334
             },
             {
                 "page_no": 5,
-                "text": "CODE-007-03",
-                "center_x": 333,
-                "center_y": 94
+                "text": "$_{3.}$ VSCHR1/4 monteres.",
+                "center_x": 145,
+                "center_y": 352
+            },
+            {
+                "page_no": 5,
+                "text": "$_{4.}$ Spændes 25 Nm .",
+                "center_x": 140,
+                "center_y": 371
+            },
+            {
+                "page_no": 5,
+                "text": "$_{5.}$ SKK20G1/4-PC monteres.",
+                "center_x": 140,
+                "center_y": 389
+            },
+            {
+                "page_no": 5,
+                "text": "$_{6.}$ Spændes 45 Nm .",
+                "center_x": 140,
+                "center_y": 408
+            },
+            {
+                "page_no": 5,
+                "text": "$_{7.}$ 063G2887 monteres.",
+                "center_x": 145,
+                "center_y": 425
+            },
+            {
+                "page_no": 5,
+                "text": "$_{8.}$ Spændes 30 Nm .",
+                "center_x": 140,
+                "center_y": 445
+            },
+            {
+                "page_no": 5,
+                "text": "$_{9.}$ Akseldel af 400510057 monteres.",
+                "center_x": 173,
+                "center_y": 652
+            },
+            {
+                "page_no": 5,
+                "text": "10. Spændes 8 Nm .",
+                "center_x": 136,
+                "center_y": 671
+            },
+            {
+                "page_no": 5,
+                "text": "11. Sidste del af 400510057 monteres.",
+                "center_x": 176,
+                "center_y": 690
+            },
+            {
+                "page_no": 5,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 5,
+                "text": "5",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 5,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 6,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 6,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 6,
+                "text": "$_{1.}$ Akseldel af 400511005 monteres.",
+                "center_x": 209,
+                "center_y": 388
+            },
+            {
+                "page_no": 6,
+                "text": "$_{2.}$ Spændes 45 Nm .",
+                "center_x": 176,
+                "center_y": 407
+            },
+            {
+                "page_no": 6,
+                "text": "$_{3.}$ Sidste del af 400511005 monteres.",
+                "center_x": 212,
+                "center_y": 425
+            },
+            {
+                "page_no": 6,
+                "text": "$_{4.}$ Akseldel af 400511112 monteres.",
+                "center_x": 209,
+                "center_y": 658
+            },
+            {
+                "page_no": 6,
+                "text": "$_{5.}$ Spændes 45 Nm .",
+                "center_x": 176,
+                "center_y": 677
+            },
+            {
+                "page_no": 6,
+                "text": "$_{6.}$ Sidste del af 400511112 monteres.",
+                "center_x": 212,
+                "center_y": 695
+            },
+            {
+                "page_no": 6,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 6,
+                "text": "6",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 6,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 7,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 7,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 7,
+                "text": "$_{1.}$ 2 stk. VSCHR1/8 monteres.",
+                "center_x": 159,
+                "center_y": 330
+            },
+            {
+                "page_no": 7,
+                "text": "$_{2.}$ Spændes 12 Nm .",
+                "center_x": 140,
+                "center_y": 349
+            },
+            {
+                "page_no": 7,
+                "text": "$_{3.}$ 2 stk. VSCHR1/4 monteres.",
+                "center_x": 158,
+                "center_y": 367
+            },
+            {
+                "page_no": 7,
+                "text": "$_{4.}$ Spændes 45 Nm .",
+                "center_x": 140,
+                "center_y": 386
+            },
+            {
+                "page_no": 7,
+                "text": "$_{5.}$ 2 stk. SKK20G1/4-PC monteres.",
+                "center_x": 169,
+                "center_y": 659
+            },
+            {
+                "page_no": 7,
+                "text": "$_{6.}$ Spændes 45 Nm .",
+                "center_x": 140,
+                "center_y": 678
+            },
+            {
+                "page_no": 7,
+                "text": "$_{7.}$ 2171256 monteres, spændes til med fingrene.",
+                "center_x": 200,
+                "center_y": 696
+            },
+            {
+                "page_no": 7,
+                "text": "$_{8.}$ Spændes 60 Nm .",
+                "center_x": 140,
+                "center_y": 715
+            },
+            {
+                "page_no": 7,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 7,
+                "text": "7",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 7,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 8,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 8,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 8,
+                "text": "$_{1.}$ 1 stk. dyse DYSE-6/0.60US monteres i RN5",
+                "center_x": 194,
+                "center_y": 292
+            },
+            {
+                "page_no": 8,
+                "text": "$_{2.}$ Spændes 1,2 Nm .",
+                "center_x": 142,
+                "center_y": 311
+            },
+            {
+                "page_no": 8,
+                "text": "$_{3.}$ 3 stk. VSCHR1/8 monteres.",
+                "center_x": 159,
+                "center_y": 329
+            },
+            {
+                "page_no": 8,
+                "text": "$_{4.}$ Spændes 12 Nm .",
+                "center_x": 140,
+                "center_y": 348
+            },
+            {
+                "page_no": 8,
+                "text": "$_{1.}$ Aksel del af VW-29156288 monteres, spændes til med fingrene.",
+                "center_x": 241,
+                "center_y": 604
+            },
+            {
+                "page_no": 8,
+                "text": "$_{2.}$ Spændes 160 Nm .",
+                "center_x": 144,
+                "center_y": 623
+            },
+            {
+                "page_no": 8,
+                "text": "$_{3.}$ Resten af VW-29156288 monteres",
+                "center_x": 176,
+                "center_y": 641
+            },
+            {
+                "page_no": 8,
+                "text": "$_{4.}$ Spændes 6 Nm .",
+                "center_x": 136,
+                "center_y": 660
+            },
+            {
+                "page_no": 8,
+                "text": "$_{5.}$ 02172863 monteres.",
+                "center_x": 144,
+                "center_y": 678
+            },
+            {
+                "page_no": 8,
+                "text": "$_{6.}$ Spændes 60 Nm . og ventil spændes til (lukkes)",
+                "center_x": 206,
+                "center_y": 697
+            },
+            {
+                "page_no": 8,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 8,
+                "text": "8",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 8,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 9,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 9,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 9,
+                "text": "$_{1.}$  VUI påsættes",
+                "center_x": 125,
+                "center_y": 359
+            },
+            {
+                "page_no": 9,
+                "text": "Enheden er nu klar til tryktest",
+                "center_x": 276,
+                "center_y": 534
+            },
+            {
+                "page_no": 9,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 9,
+                "text": "9",
+                "center_x": 518,
+                "center_y": 766
+            },
+            {
+                "page_no": 9,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 10,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 10,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 10,
+                "text": "$_{1.}$ 2 Stk. GRU106 monteres",
+                "center_x": 152,
+                "center_y": 347
+            },
+            {
+                "page_no": 10,
+                "text": "$_{2.}$ 5 stk. 1000209293",
+                "center_x": 138,
+                "center_y": 363
+            },
+            {
+                "page_no": 10,
+                "text": "$_{3.}$ 2 Stk. GRU106 monteres",
+                "center_x": 152,
+                "center_y": 656
+            },
+            {
+                "page_no": 10,
+                "text": "$_{4.}$ 2 stk. 1000209293",
+                "center_x": 138,
+                "center_y": 672
+            },
+            {
+                "page_no": 10,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 10,
+                "text": "10",
+                "center_x": 515,
+                "center_y": 766
+            },
+            {
+                "page_no": 10,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
+            },
+            {
+                "page_no": 11,
+                "text": "Production Work Instruction",
+                "center_x": 132,
+                "center_y": 43
+            },
+            {
+                "page_no": 11,
+                "text": "29128612R00",
+                "center_x": 295,
+                "center_y": 43
+            },
+            {
+                "page_no": 11,
+                "text": "$_{1.}$ Enheden lægges i en pose Z743-903",
+                "center_x": 177,
+                "center_y": 344
+            },
+            {
+                "page_no": 11,
+                "text": "$_{2.}$ Gul varelabel med varenummer sættes på posen.",
+                "center_x": 206,
+                "center_y": 359
+            },
+            {
+                "page_no": 11,
+                "text": "$_{3.}$ Enheden lukkes med 1435-001010 .",
+                "center_x": 177,
+                "center_y": 375
+            },
+            {
+                "page_no": 11,
+                "text": "$_{4.}$ 12 stk. pakkes i palle",
+                "center_x": 141,
+                "center_y": 679
+            },
+            {
+                "page_no": 11,
+                "text": "$_{5.}$ Palleseddel laves.",
+                "center_x": 135,
+                "center_y": 694
+            },
+            {
+                "page_no": 11,
+                "text": "REV.: 04",
+                "center_x": 86,
+                "center_y": 766
+            },
+            {
+                "page_no": 11,
+                "text": "11",
+                "center_x": 515,
+                "center_y": 766
+            },
+            {
+                "page_no": 11,
+                "text": "HydraSpecma A/S · HQ · Bækgårdsvej 36 · DK-6900 Skjern · hydraspecma.com",
+                "center_x": 298,
+                "center_y": 793
             }
         ]
     }

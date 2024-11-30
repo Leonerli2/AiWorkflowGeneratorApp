@@ -4,39 +4,33 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Zweck: Dient als Montagehilfe",
+                    "text": "Alle gevind smøres med Q8RUBENS fedt.",
                     "picture": false,
                     "picture_description": ""
                 },
                 {
                     "step": 2,
-                    "text": "Geltungsbereich: Dieses Dokument darf nur für internen Gebrauch verwendet werden",
+                    "text": "Alle moment strøges.",
                     "picture": false,
                     "picture_description": ""
                 },
                 {
                     "step": 3,
-                    "text": "Definitionen (Begriffserklärung): Q-in-Line Qualitätsicherung in der Linie. Ansatz, welcher die Verantwortung für die Ausführung einer spezifischen Arbeit und für das entsprechende Qualitätsmanagement dazu direkt der bestellten Stelle zusammenführt (jeder Mitarbeiter ist verantwortlich für seine Tätigkeit und liefert die geforderte Qualität).",
+                    "text": "Alle emner fanges i gevind inden moment tilspænding.",
                     "picture": false,
                     "picture_description": ""
                 },
                 {
                     "step": 4,
-                    "text": "Verfahren: Beschreibung der Vorgehensweise für eine Montagearbeit",
+                    "text": "Ved tilspænding med moment, kontrolleres momentet på værktøjet før og efter brug.",
                     "picture": false,
                     "picture_description": ""
                 },
                 {
                     "step": 5,
-                    "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q-in Line verantwortlich, dass die Montagearbeiten nach geltenden Verfahrensregelungen F-003 PRODUKTE HERSTELLEN ausgeführt werden.",
+                    "text": "Ventiler med O-ringe skrues til manuelt.",
                     "picture": false,
                     "picture_description": ""
-                },
-                {
-                    "step": 6,
-                    "text": "Wichtig: Fahrzeug Sicherheitsbestimmungen einhalten!",
-                    "picture": true,
-                    "picture_description": "Icons indicating safety measures for vehicles."
                 }
             ]
         }
@@ -46,15 +40,15 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Korrekten Sitz des Sicherungsringes in der Nut des Achskörpers überprüfen.",
-                    "picture": true,
-                    "picture_description": "Image showing a close-up of a nut on an axle body."
+                    "text": "Rev 03 - 02. februar 2022 - Tekst og billeder, pakke instr.",
+                    "picture": false,
+                    "picture_description": ""
                 },
                 {
                     "step": 2,
-                    "text": "Die Kone der Aufnahmepunkte der Wattgestänge am Chassis reinigen.",
-                    "picture": true,
-                    "picture_description": "Image showing a person using a drill with a brush attachment to clean the cone at the mounting point of the Watt link on the chassis."
+                    "text": "Rev 04 - 16. maj 2022 - Ændret til montagestand.",
+                    "picture": false,
+                    "picture_description": ""
                 }
             ]
         }
@@ -64,15 +58,69 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Längsverlagerung am Chassis und an der Achse mit STAUBURAGS fetten.",
+                    "text": "HG2123R00 placeres i montagestand.",
                     "picture": true,
-                    "picture_description": "Image showing the greasing process on chassis and axle."
+                    "picture_description": "Metal block with three screws highlighted."
                 },
                 {
                     "step": 2,
-                    "text": "Achse unter dem Chassis positionieren und an den Kran hängen.",
+                    "text": "2 stk. VSCHRI/8 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 3,
+                    "text": "Spændes 12 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 4,
+                    "text": "1 stk. VSCHRI/4 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 5,
+                    "text": "Spændes 25 Nm.",
                     "picture": true,
-                    "picture_description": "Image showing the axle positioned under the chassis and hanging on the crane."
+                    "picture_description": "Different angle of the same metal block with four screws highlighted."
+                },
+                {
+                    "step": 6,
+                    "text": "1 stk. VSCHRI/4 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 7,
+                    "text": "Spændes 80 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 8,
+                    "text": "1 stk. VSCHRI/2 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 9,
+                    "text": "Spændes 60 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 10,
+                    "text": "1 stk. VSCHRI/1 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 11,
+                    "text": "Spændes 160 Nm.",
+                    "picture": false,
+                    "picture_description": ""
                 }
             ]
         }
@@ -82,15 +130,57 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Achse vorne mit 2 Spannguet fixieren.",
+                    "text": "2 stk. SKK20G1/4-PC monteres.",
                     "picture": true,
-                    "picture_description": "Image showing the front axle secured with straps."
+                    "picture_description": "Top image shows a hydraulic block with SKK20G1/4-PC components mounted."
                 },
                 {
                     "step": 2,
-                    "text": "Stossdämpfer, Watgestänge und Fangseil ansetzen. Die vorderen Federn können mit dem Kran hochgezogen werden.",
+                    "text": "Spændes 45 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 3,
+                    "text": "2171256 monteres, spændes til med fingrene.",
                     "picture": true,
-                    "picture_description": "Image showing shock absorbers, wading rods, and towing cable attached, with the crane lifting the front springs."
+                    "picture_description": "Middle-left image shows a hand installing 2171256 component."
+                },
+                {
+                    "step": 4,
+                    "text": "Spændes 60 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 5,
+                    "text": "Blokken drejes",
+                    "picture": true,
+                    "picture_description": "Middle-right image shows the block being rotated."
+                },
+                {
+                    "step": 6,
+                    "text": "1 stk. dyse DYSE-10/1.0US monteres i RN2",
+                    "picture": true,
+                    "picture_description": "Bottom-left image shows DYSE-10/1.0US being installed in RN2."
+                },
+                {
+                    "step": 7,
+                    "text": "Spændes 10 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 8,
+                    "text": "1 stk. dyse DYSE-6/0.60US monteres i RN1",
+                    "picture": true,
+                    "picture_description": "Bottom-right image shows DYSE-6/0.60US being installed in RN1."
+                },
+                {
+                    "step": 9,
+                    "text": "Spændes 1,2 Nm.",
+                    "picture": false,
+                    "picture_description": ""
                 }
             ]
         }
@@ -100,21 +190,315 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Stoßdämpfer, Wattgestänge und Fangseil mit Drehmoment befestigen. Die hinteren 2 Federn mit Hilfe des Federspanners montieren.",
+                    "text": "VSCHR1/8 monteres.",
                     "picture": true,
-                    "picture_description": "Person using a tool to attach a shock absorber and spring to a vehicle."
+                    "picture_description": "A panel with various mechanical components being assembled."
                 },
                 {
                     "step": 2,
-                    "text": "Wattgestänge montieren.",
-                    "picture": true,
-                    "picture_description": "Watt linkage installation with visible vehicle components."
+                    "text": "Spændes 12 Nm.",
+                    "picture": false,
+                    "picture_description": ""
                 },
                 {
                     "step": 3,
-                    "text": "Splintbohrungen der Kugelköpfe senkrecht ausrichten.",
+                    "text": "VSCHR1/4 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 4,
+                    "text": "Spændes 25 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 5,
+                    "text": "SSKR20G1/4-PC monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 6,
+                    "text": "Spændes 45 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 7,
+                    "text": "063G2887 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 8,
+                    "text": "Spændes 30 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 9,
+                    "text": "Akseldel af 400510057 monteres.",
                     "picture": true,
-                    "picture_description": "Close-up view of aligned pins on spherical heads."
+                    "picture_description": "Continuation of the assembly process with additional components."
+                },
+                {
+                    "step": 10,
+                    "text": "Spændes 8 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 11,
+                    "text": "Sidste del af 400510057 monteres.",
+                    "picture": true,
+                    "picture_description": "Final assembly step with the last component being attached."
+                }
+            ]
+        }
+    ],
+    "page6": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Akseldel af 400511005 monteres.",
+                    "picture": true,
+                    "picture_description": "A mechanical assembly with parts labeled and highlighted."
+                },
+                {
+                    "step": 2,
+                    "text": "Spændes 45 Nm.",
+                    "picture": true,
+                    "picture_description": "A close-up of a torque wrench set to 45 Nm."
+                },
+                {
+                    "step": 3,
+                    "text": "Sidste del af 400511005 monteres.",
+                    "picture": true,
+                    "picture_description": "The continuation of the mechanical assembly process."
+                },
+                {
+                    "step": 4,
+                    "text": "Akseldel af 400511112 monteres.",
+                    "picture": true,
+                    "picture_description": "Another mechanical assembly with distinct parts."
+                },
+                {
+                    "step": 5,
+                    "text": "Spændes 45 Nm.",
+                    "picture": true,
+                    "picture_description": "Another view of the torque wrench set to 45 Nm."
+                },
+                {
+                    "step": 6,
+                    "text": "Sidste del af 400511112 monteres.",
+                    "picture": true,
+                    "picture_description": "Completion of the assembly with final adjustments."
+                }
+            ]
+        }
+    ],
+    "page7": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "2 stk. VSCHR1/8 monteres.",
+                    "picture": true,
+                    "picture_description": "Image showing bolt assembly on a metal plate."
+                },
+                {
+                    "step": 2,
+                    "text": "Spændes 12 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 3,
+                    "text": "2 stk. VSCHR1/4 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 4,
+                    "text": "Spændes 45 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 5,
+                    "text": "2 stk. SKK2OG1/4-PC monteres.",
+                    "picture": true,
+                    "picture_description": "Another angle of the metal plate with additional components assembled."
+                },
+                {
+                    "step": 6,
+                    "text": "Spændes 45 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 7,
+                    "text": "2171256 monteres, spændes til med fingrene.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 8,
+                    "text": "Spændes 60 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                }
+            ]
+        }
+    ],
+    "page8": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "1 stk. dyse DYSE-6/0.600US monteres i RNS",
+                    "picture": true,
+                    "picture_description": "Image of hydraulic block with various ports and components."
+                },
+                {
+                    "step": 2,
+                    "text": "Spændes 1,2 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 3,
+                    "text": "3 stk. VSCHR1/8 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 4,
+                    "text": "Spændes 12 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 5,
+                    "text": "Aksel del af VW-29156288 monteres, spændes til med fingrene.",
+                    "picture": true,
+                    "picture_description": "Image showing a component mounted on the hydraulic block."
+                },
+                {
+                    "step": 6,
+                    "text": "Spændes 160 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 7,
+                    "text": "Rester af VW-29156288 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 8,
+                    "text": "Spændes 6 Nm.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 9,
+                    "text": "02172863 monteres.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 10,
+                    "text": "Spændes 60 Nm. og ventil spændes til (lukkes)",
+                    "picture": false,
+                    "picture_description": ""
+                }
+            ]
+        }
+    ],
+    "page9": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "VUI påsættes",
+                    "picture": true,
+                    "picture_description": "Close-up image of a hydraulic control panel with various knobs and a red lever."
+                },
+                {
+                    "step": 2,
+                    "text": "Enheden er nu klar til tryktest",
+                    "picture": false,
+                    "picture_description": ""
+                }
+            ]
+        }
+    ],
+    "page10": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "2 Stk. GRU106 monteres.",
+                    "picture": true,
+                    "picture_description": "Hydraulic component with multiple ports and parts labeled Hydra Specma."
+                },
+                {
+                    "step": 2,
+                    "text": "5 Stk. 100002093.",
+                    "picture": true,
+                    "picture_description": "Hydraulic component with multiple ports and parts labeled Hydra Specma."
+                },
+                {
+                    "step": 3,
+                    "text": "2 Stk. GRU106 monteres.",
+                    "picture": true,
+                    "picture_description": "Close-up of a hydraulic component labeled Hydra Specma."
+                },
+                {
+                    "step": 4,
+                    "text": "2 Stk. 100002093.",
+                    "picture": true,
+                    "picture_description": "Close-up of a hydraulic component labeled Hydra Specma."
+                }
+            ]
+        }
+    ],
+    "page11": [
+        {
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Enheden lægges i en pose 2743-903",
+                    "picture": true,
+                    "picture_description": "A unit is placed inside a yellow-labeled plastic bag."
+                },
+                {
+                    "step": 2,
+                    "text": "Gul varelabel med varenummer sættes på posen.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 3,
+                    "text": "Enheden lukkes med 1435-001010.",
+                    "picture": false,
+                    "picture_description": ""
+                },
+                {
+                    "step": 4,
+                    "text": "12 stk. pakkes i palle",
+                    "picture": true,
+                    "picture_description": "Twelve bagged units are packed onto a pallet."
+                },
+                {
+                    "step": 5,
+                    "text": "Palleseddel laves.",
+                    "picture": false,
+                    "picture_description": ""
                 }
             ]
         }

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Nase Geh\u00e4use entfernen",
+        "task": "Manual",
+        "description": "Entferne das Nase Geh\u00e4use (DPN239-009) und die Nase Geh\u00e4use Mutter (PN239-011) vom Werkzeug.",
+        "image_uri": "cache\\pictures\\w3\\picture_001.jpg",
+        "imagefilename": "picture_001.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jaw Component Removal",
+        "task": "Manual",
+        "description": "Remove multiple jaw components from the tool including Jaw Guide, Jaws, Jaw Pusher, and Jaw Pusher Spring.",
+        "image_uri": "cache\\pictures\\w3\\picture_002.jpg",
+        "imagefilename": "picture_002.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tool Preparation for Corner Head Installation",
+        "task": "Info",
+        "description": "Prepare the tool for the installation of the Corner Head.",
+        "image_uri": "cache\\pictures\\w3\\picture_004.jpg",
+        "imagefilename": "picture_004.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Draw Bolt Adapter Attachment",
+        "task": "Tightening",
+        "description": "Attach the Draw Bolt Adapter and tighten it securely.",
+        "image_uri": "cache\\pictures\\w3\\picture_005.jpg",
+        "imagefilename": "picture_005.jpg",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 1,
+        "name": "Attach Corner Head Adapter",
+        "task": "Tightening",
+        "description": "Attach the Corner Head Adapter (DPN239-191) and secure it tightly.",
+        "image_uri": "cache\\pictures\\w3\\picture_006.jpg",
+        "imagefilename": "picture_006.jpg",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 2,
+        "name": "Tighten Socket Head Screw",
+        "task": "Tightening",
+        "description": "Tighten the socket head screw and secure the draw bolt adapter.",
+        "image_uri": "cache\\pictures\\w3\\picture_008.jpg",
+        "imagefilename": "picture_008.jpg",
+        "count": 1,
+        "program": 0
+    },
+    {
+        "id": 3,
+        "name": "Attach CORNER HEAD to Draw Bolt Adapter",
+        "task": "Tightening",
+        "description": "Attach the CORNER HEAD to the Draw Bolt Adapter (DPN239-192).",
+        "image_uri": "/images/corner_head_attachment.jpg",
+        "imagefilename": "corner_head_attachment.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Socket Screw Removal and CORNER HEAD Attachment",
+        "task": "Manual",
+        "description": "Remove the Socket Screw (DPN907-003) and attach the CORNER HEAD to the Corner Head Adapter (DPN239-191).",
+        "image_uri": "cache\\pictures\\w3\\picture_010.jpg",
+        "imagefilename": "picture_010.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Tighten Corner Head Nut",
+        "task": "Tightening",
+        "description": "Tighten the nut of the Corner Head onto the Corner Head Adapter.",
+        "image_uri": "",
+        "imagefilename": "",
+        "count": 1,
+        "program": 1
+    },
+    {
+        "id": 6,
+        "name": "Abstandseinstellung zwischen CORNER HEAD und Corner Head Adapter",
+        "task": "Tightening",
+        "description": "Stelle 8,5 mm oder weniger Abstand zwischen dem CORNER HEAD und dem Corner Head Adapter (DPN239-191) ein.",
+        "image_uri": "cache\\pictures\\w3\\picture_010.jpg",
+        "imagefilename": "picture_010.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Tool Readiness Check",
+        "task": "Info",
+        "description": "The tool is now ready for operation after assembly.",
+        "image_uri": "cache\\pictures\\w3\\picture_013.jpg",
+        "imagefilename": ""
+    }
+]

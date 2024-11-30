@@ -16,7 +16,7 @@ class PDFPathHandler:
         return f"{self.pdf_dir}/w{pdf_nr}.pdf"
     
     def get_pdf_basic_json_path(self, pdf_nr):
-        return f"{self.pdf_basic_json_dir}/w{pdf_nr}.json"
+        return f"{self.pdf_basic_json_dir}/w{pdf_nr}_reading.json"
     
     def get_instructions_basic_json_path(self, pdf_nr):
         return f"{self.instructions_basic_json_dir}/instructions_basic{pdf_nr}.json"
