@@ -220,7 +220,8 @@ def main():
 
             # Flowchart Display
             if flowchart_button:
-                flowchart_path = PDF_PATH_HANDLER.get_elam_json_path(pdf_nr)
+                # flowchart_path = PDF_PATH_HANDLER.get_elam_json_path(pdf_nr) # TODO: Implement the PDF_PATH_HANDLER
+                flowchart_path = os.path.join("data/output/pdf/elam", f"elam{pdf_nr}.json")
                 if os.path.exists(flowchart_path):
                     show_flowchart(flowchart_path)
                 else:
