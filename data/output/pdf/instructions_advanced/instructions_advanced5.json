@@ -3,109 +3,125 @@
         "id": 1,
         "name": "Montagehilfe",
         "task": "Info",
-        "description": "Diese Anweisung dient als Montagehilfe bei der Durchf\u00fchrung von Montagearbeiten. Es ist wichtig, den vorgesehenen Zweck der Anleitung zu wahrzunehmen und die entsprechenden Schritte zu befolgen.",
-        "image_uri": ""
+        "description": "Diese Anleitung dient als Unterst\u00fctzung w\u00e4hrend der Montagearbeiten.",
+        "image_uri": "",
+        "imagefilename": ""
     },
     {
         "id": 2,
-        "name": "Geltungsbereich des Dokuments",
+        "name": "Geltungsbereich",
         "task": "Info",
         "description": "Dieses Dokument darf nur f\u00fcr internen Gebrauch verwendet werden.",
         "image_uri": "",
+        "imagefilename": "",
         "durationgui": 0
     },
     {
         "id": 3,
-        "name": "Definitionen f\u00fcr Q-in-Line",
+        "name": "Q-in-Line Qualit\u00e4tsmanagement",
         "task": "Info",
-        "description": "Dieser Schritt enth\u00e4lt die Begriffserkl\u00e4rung zur Q-in-Line Qualit\u00e4tsicherung in der Linie, um ein besseres Verst\u00e4ndnis f\u00fcr den Prozess zu bieten.",
+        "description": "Definition des Q-in-Line Qualit\u00e4tsmanagementansatzes und der Verantwortung der Mitarbeiter f\u00fcr die Qualit\u00e4t ihrer Arbeit.",
         "image_uri": "",
+        "imagefilename": "",
         "durationgui": 0
     },
     {
         "id": 4,
-        "name": "Verfahren f\u00fcr Montagearbeiten",
+        "name": "Verfahren zur Montage",
         "task": "Manual",
-        "description": "Diese Anleitung beschreibt die Vorgehensweise f\u00fcr die Montagearbeiten. Sie dient als wertvolle Unterst\u00fctzung f\u00fcr die Durchf\u00fchrung von Montageaufgaben in der Produktion.",
-        "image_uri": ""
+        "description": "Beschreibung der Vorgehensweise f\u00fcr eine Montagearbeit.",
+        "image_uri": "",
+        "imagefilename": ""
     },
     {
         "id": 5,
         "name": "Verantwortlichkeiten in der Montage",
         "task": "Info",
-        "description": "Der Mitarbeiter ist verantwortlich f\u00fcr die Beachtung der Montageaktivit\u00e4ten gem\u00e4\u00df den Qualit\u00e4tsstandards in der Produktionslinie. Es ist wichtig, die Verfahrensregelung E-P003 f\u00fcr die Herstellung von Produkten zu beachten.",
-        "image_uri": ""
-    },
-    {
-        "id": 1,
-        "name": "\u00dcberpr\u00fcfung des Sicherungsringes",
-        "task": "Manual",
-        "description": "\u00dcberpr\u00fcfen Sie den korrekten Sitz des Sicherungsringes in der Nut des Achsk\u00f6rpers, um sicherzustellen, dass er ordnungsgem\u00e4\u00df installiert ist.",
-        "image_uri": "data\\output_all_pictures\\image_2_2.jpg"
-    },
-    {
-        "id": 2,
-        "name": "Reinigung der Wattgest\u00e4nge",
-        "task": "Manual",
-        "description": "Reinige die Konen der Aufnahmepunkte der Wattgest\u00e4nge am Chassis gr\u00fcndlich, um eine optimale Montage zu gew\u00e4hrleisten.",
-        "image_uri": "data\\output_all_pictures\\image_2_3.jpg"
-    },
-    {
-        "id": 1,
-        "name": "Langsicherung fetten",
-        "task": "Manual",
-        "description": "Tragen Sie STABURAGS auf die Langsicherung am Chassis und an der Achse auf, um eine ordnungsgem\u00e4\u00dfe Schmierung sicherzustellen.",
-        "image_uri": "data\\output_all_pictures\\image_3_2.jpg"
-    },
-    {
-        "id": 2,
-        "name": "Achse positionieren und anh\u00e4ngen",
-        "task": "Manual",
-        "description": "Positionieren Sie die Achse unter dem Chassis und h\u00e4ngen Sie sie an den Kran, um die Montage der Fahrzeugkomponenten zu erm\u00f6glichen.",
-        "image_uri": "data\\output_all_pictures\\image_3_4.jpg"
-    },
-    {
-        "id": 1,
-        "name": "Achse fixieren",
-        "task": "Manual",
-        "description": "Die Achse vorne mit 2 Spanngurten fixieren, um eine sichere Montage zu gew\u00e4hrleisten.",
-        "image_uri": "data\\output_all_pictures\\image_4_2.jpg"
-    },
-    {
-        "id": 2,
-        "name": "Anbringung von Sto\u00dfd\u00e4mpfer und Wattgest\u00e4nge",
-        "task": "Manual",
-        "description": "Bringen Sie den Sto\u00dfd\u00e4mpfer, die Wattgest\u00e4nge und das Fangseil an. Die vorderen Federn k\u00f6nnen mit einem Kran angehoben werden, um die Montage zu erleichtern.",
-        "image_uri": "data\\output_all_pictures\\image_4_3.jpg"
-    },
-    {
-        "id": 1,
-        "name": "Befestigung von Sto\u00dfd\u00e4mpfer, Wattgest\u00e4nge und Fangteil",
-        "task": "Tightening",
-        "description": "Befestigen Sie den Sto\u00dfd\u00e4mpfer, das Wattgest\u00e4nge und das Fangteil mit dem erforderlichen Drehmoment, um eine sichere und effektive Montage zu gew\u00e4hrleisten.",
+        "description": "Der Mitarbeiter ist im Sinne von Q-in Line verantwortlich, dass die Montagearbeiten nach den geltenden Verfahrensregelungen F-003 durchgef\u00fchrt werden.",
         "image_uri": "",
+        "imagefilename": ""
+    },
+    {
+        "id": 6,
+        "name": "Fahrzeug Sicherheitsbestimmungen einhalten!",
+        "task": "Info",
+        "description": "Die Fahrzeug Sicherheitsbestimmungen m\u00fcssen beachtet werden.",
+        "image_uri": "",
+        "imagefilename": "",
+        "durationgui": 0
+    },
+    {
+        "id": 1,
+        "name": "\u00dcberpr\u00fcfung des Sicherungsrings",
+        "task": "Manual",
+        "description": "\u00dcberpr\u00fcfen Sie den korrekten Sitz des Sicherungsringes in der Nut des Achsk\u00f6rpers.",
+        "image_uri": "cache\\pictures\\w5\\image_2_2.jpg",
+        "imagefilename": "image_2_2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Reinigung der Kone der Aufnahmepunkte",
+        "task": "Manual",
+        "description": "Reinige die Kone der Aufnahmepunkte der Wattgest\u00e4nge am Chassis.",
+        "image_uri": "cache\\pictures\\w5\\image_2_3.jpg",
+        "imagefilename": "image_2_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Fetten der L\u00e4ngsverlagerung",
+        "task": "Manual",
+        "description": "Fette die L\u00e4ngsverlagerung am Chassis und an der Achse mit STAUBURAGS.",
+        "image_uri": "cache\\pictures\\w5\\image_3_2.jpg; cache\\pictures\\w5\\image_3_3.jpg; cache\\pictures\\w5\\picture_008.jpg",
+        "imagefilename": "image_3_2.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Achse positionieren",
+        "task": "Manual",
+        "description": "Achse unter dem Chassis positionieren und an den Kran h\u00e4ngen.",
+        "image_uri": "cache\\pictures\\w5\\image_3_4.jpg",
+        "imagefilename": "image_3_4.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Achse vorne fixieren",
+        "task": "Manual",
+        "description": "Fixiere die Achse vorne mit 2 Spannguets.",
+        "image_uri": "cache\\pictures\\w5\\image_4_2.jpg",
+        "imagefilename": "image_4_2.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Stossd\u00e4mpfer und Wattgest\u00e4nge ansetzen",
+        "task": "Manual",
+        "description": "Setze Stossd\u00e4mpfer, Wattgest\u00e4nge und Fangseil ein.",
+        "image_uri": "cache\\pictures\\w5\\image_4_3.jpg",
+        "imagefilename": "image_4_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Federbefestigung",
+        "task": "Tightening",
+        "description": "Befestigen Sie den Sto\u00dfd\u00e4mpfer, die Wattgest\u00e4nge und das Fangseil mit dem richtigen Drehmoment. Montieren Sie die hinteren zwei Federn mit Hilfe des Federspanners.",
+        "image_uri": "cache\\pictures\\w5\\image_5_2.jpg",
+        "imagefilename": "image_5_2.jpg",
         "count": 3,
         "program": 0
     },
     {
         "id": 2,
-        "name": "Montage der hinteren Federn",
+        "name": "Wattgest\u00e4nge montieren",
         "task": "Manual",
-        "description": "Die hinteren zwei Federn sorgf\u00e4ltig mit Hilfe des Federationers anbringen, um eine sichere und stabile Montage zu gew\u00e4hrleisten.",
-        "image_uri": ""
+        "description": "Nehme das Wattgest\u00e4nge aus dem Beh\u00e4lter und montiere es am vorgesehenen Platz.",
+        "image_uri": "cache\\pictures\\w5\\image_5_3.jpg",
+        "imagefilename": "image_5_3.jpg"
     },
     {
         "id": 3,
-        "name": "Wattgest\u00e4nge montieren",
+        "name": "Splintbohrungen ausrichten",
         "task": "Manual",
-        "description": "Montieren Sie die Wattgest\u00e4nge sorgf\u00e4ltig, um eine ordnungsgem\u00e4\u00dfe Funktion zu gew\u00e4hrleisten. Stellen Sie sicher, dass alle Verbindungen fest und korrekt ausgerichtet sind.",
-        "image_uri": "data\\output_all_pictures\\image_5_2.jpg"
-    },
-    {
-        "id": 4,
-        "name": "Splinth\u00fclsen Ausrichten",
-        "task": "Manual",
-        "description": "Ausrichten der Splinth\u00fclsen der Kugelk\u00f6pfe in senkrechter Position f\u00fcr korrekte Montage.",
-        "image_uri": "data\\output_all_pictures\\image_5_4.jpg"
+        "description": "Richte die Splintbohrungen der Kugelk\u00f6pfe senkrecht aus.",
+        "image_uri": "cache\\pictures\\w5\\image_5_4.jpg",
+        "imagefilename": "image_5_4.jpg"
     }
 ]

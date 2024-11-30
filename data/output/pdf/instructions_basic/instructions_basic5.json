@@ -12,86 +12,87 @@
         },
         {
             "step": 3,
-            "text": "Definitionen (Begriffserkl\u00c3\u0192\u00c2\u00a4rung): Q-in-Line Qualit\u00c3\u0192\u00c2\u00a4tsicherung in der Linie",
+            "text": "Definitionen (Begriffserkl\u00c3\u0192\u00c2\u00a4rung): Q-in-Line Qualit\u00c3\u0192\u00c2\u00a4tsicherung in der Linie. Ansatz, welcher die Verantwortung f\u00c3\u0192\u00c2\u00bcr die Ausf\u00c3\u0192\u00c2\u00bchrung einer spezifischen Arbeit und f\u00c3\u0192\u00c2\u00bcr das entsprechende Qualit\u00c3\u0192\u00c2\u00a4tsmanagement dazu direkt der bestellten Stelle zusammenf\u00c3\u0192\u00c2\u00bchrt (jeder Mitarbeiter ist verantwortlich f\u00c3\u0192\u00c2\u00bcr seine T\u00c3\u0192\u00c2\u00a4tigkeit und liefert die geforderte Qualit\u00c3\u0192\u00c2\u00a4t).",
             "image_uri": []
         },
         {
             "step": 4,
-            "text": "Verfahren: Beschreibt die Vorgehensweise f\u00c3\u0192\u00c2\u00bcr eine Montagearbeit",
+            "text": "Verfahren: Beschreibung der Vorgehensweise f\u00c3\u0192\u00c2\u00bcr eine Montagearbeit",
             "image_uri": []
         },
         {
             "step": 5,
-            "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q in Line verantwortlich, das die Montaget\u00c3\u0192\u00c2\u00a4tigkeiten bedenkt. Verfahrensregelung E-P003 PRODUKTE HERSTELLEN aufgef\u00c3\u0192\u00c2\u00bchrt werden",
+            "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q-in Line verantwortlich, dass die Montagearbeiten nach geltenden Verfahrensregelungen F-003 PRODUKTE HERSTELLEN ausgef\u00c3\u0192\u00c2\u00bchrt werden.",
+            "image_uri": []
+        },
+        {
+            "step": 6,
+            "text": "Wichtig: Fahrzeug Sicherheitsbestimmungen einhalten!",
             "image_uri": []
         },
         {
             "step": 1,
-            "text": "Korrektes Sitz des Sicherungsringes in der Nut des Achsk\u00c3\u0192\u00c2\u00b6rpers \u00c3\u0192\u00c2\u00bcberpr\u00c3\u0192\u00c2\u00bcfen.",
+            "text": "Korrekten Sitz des Sicherungsringes in der Nut des Achsk\u00c3\u0192\u00c2\u00b6rpers \u00c3\u0192\u00c2\u00bcberpr\u00c3\u0192\u00c2\u00bcfen.",
             "image_uri": [
-                "data\\output_all_pictures\\image_2_2.jpg"
+                "cache\\pictures\\w5\\image_2_2.jpg"
             ]
         },
         {
             "step": 2,
-            "text": "Die Konen der Aufnahmepunkte der Wattgest\u00c3\u0192\u00c2\u00a4nge am Chassis reinigen.",
+            "text": "Die Kone der Aufnahmepunkte der Wattgest\u00c3\u0192\u00c2\u00a4nge am Chassis reinigen.",
             "image_uri": [
-                "data\\output_all_pictures\\image_2_3.jpg"
+                "cache\\pictures\\w5\\image_2_3.jpg"
             ]
         },
         {
             "step": 1,
-            "text": "Langsicherung am Chassis und an der Achse mit STABURAGS fetten.",
+            "text": "L\u00c3\u0192\u00c2\u00a4ngsverlagerung am Chassis und an der Achse mit STAUBURAGS fetten.",
             "image_uri": [
-                "data\\output_all_pictures\\image_3_2.jpg",
-                "data\\output_all_pictures\\image_3_3.jpg",
-                "data\\output_all_pictures\\picture_008.jpg"
+                "cache\\pictures\\w5\\image_3_2.jpg",
+                "cache\\pictures\\w5\\image_3_3.jpg",
+                "cache\\pictures\\w5\\picture_008.jpg"
             ]
         },
         {
             "step": 2,
             "text": "Achse unter dem Chassis positionieren und an den Kran h\u00c3\u0192\u00c2\u00a4ngen.",
             "image_uri": [
-                "data\\output_all_pictures\\image_3_4.jpg"
+                "cache\\pictures\\w5\\image_3_4.jpg"
             ]
         },
         {
             "step": 1,
-            "text": "Achse vorne mit 2 Spanngurt fixieren.",
+            "text": "Achse vorne mit 2 Spannguet fixieren.",
             "image_uri": [
-                "data\\output_all_pictures\\image_4_2.jpg"
+                "cache\\pictures\\w5\\image_4_2.jpg"
             ]
         },
         {
             "step": 2,
-            "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangseil anbringen. Die vorderen Federn k\u00c3\u0192\u00c2\u00b6nnen mit dem Kran hochgezogen werden.",
+            "text": "Stossd\u00c3\u0192\u00c2\u00a4mpfer, Watgest\u00c3\u0192\u00c2\u00a4nge und Fangseil ansetzen. Die vorderen Federn k\u00c3\u0192\u00c2\u00b6nnen mit dem Kran hochgezogen werden.",
             "image_uri": [
-                "data\\output_all_pictures\\image_4_3.jpg"
+                "cache\\pictures\\w5\\image_4_3.jpg"
             ]
         },
         {
             "step": 1,
-            "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangteil mit Drehmoment befestigen.",
-            "image_uri": []
+            "text": "Sto\u00c3\u0192\u00c5\u00b8d\u00c3\u0192\u00c2\u00a4mpfer, Wattgest\u00c3\u0192\u00c2\u00a4nge und Fangseil mit Drehmoment befestigen. Die hinteren 2 Federn mit Hilfe des Federspanners montieren.",
+            "image_uri": [
+                "cache\\pictures\\w5\\image_5_2.jpg"
+            ]
         },
         {
             "step": 2,
-            "text": "Die hinteren 2 Federn mit Hilfe des Federationers montieren.",
-            "image_uri": []
+            "text": "Wattgest\u00c3\u0192\u00c2\u00a4nge montieren.",
+            "image_uri": [
+                "cache\\pictures\\w5\\image_5_3.jpg"
+            ]
         },
         {
             "step": 3,
-            "text": "Wattgest\u00c3\u0192\u00c2\u00a4nge montieren.",
+            "text": "Splintbohrungen der Kugelk\u00c3\u0192\u00c2\u00b6pfe senkrecht ausrichten.",
             "image_uri": [
-                "data\\output_all_pictures\\image_5_2.jpg",
-                "data\\output_all_pictures\\image_5_3.jpg"
-            ]
-        },
-        {
-            "step": 4,
-            "text": "Splinth\u00c3\u0192\u00c2\u00bclsen der Kugelk\u00c3\u0192\u00c2\u00b6pfe senkrecht ausrichten.",
-            "image_uri": [
-                "data\\output_all_pictures\\image_5_4.jpg"
+                "cache\\pictures\\w5\\image_5_4.jpg"
             ]
         }
     ]
