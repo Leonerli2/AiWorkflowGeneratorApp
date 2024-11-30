@@ -5,10 +5,39 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Picking the Mounting Bracket: Take MOUNTING_BRACKET_ASSEMBLY.",
+                    "text": "Take MOUNTING_BRACKET_ASSEMBLY.",
                     "picture": true,
-                    "picture_description": "A close-up image of a mounting bracket resting on a surface.",
-                    "centers": []
+                    "picture_description": "Image of a mounting bracket assembly.",
+                    "centers": [
+                        {
+                            "center_x": 270.0,
+                            "center_y": 41.0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "1 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -16,10 +45,10 @@
             "page_no": 2,
             "instructions": [
                 {
-                    "step": 2,
+                    "step": 1,
                     "text": "Insert the BUTTON_EXTENSION for the reset button into the MAIN_BODY.",
                     "picture": true,
-                    "picture_description": "Two images showing a hand holding a device part with the BUTTON_EXTENSION being inserted.",
+                    "picture_description": "Two images showing a hand holding a translucent component with an insertion point for a button extension.",
                     "centers": [
                         {
                             "center_x": 238.0,
@@ -27,7 +56,32 @@
                         }
                     ],
                     "pictures_array": [
+                        "data\\output_all_pictures\\image_2_2.jpg",
                         "data\\output_all_pictures\\image_2_3.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "2 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
                     ]
                 }
             ]
@@ -39,7 +93,7 @@
                     "step": 1,
                     "text": "Insert Motor with flexible PCBA halfway into the main body.",
                     "picture": true,
-                    "picture_description": "An image showing a hand holding a motor with a flexible PCBA, partially inserted into the housing.",
+                    "picture_description": "A hand is inserting a component with a green circuit board into a circular white casing.",
                     "centers": [
                         {
                             "center_x": 241.0,
@@ -52,36 +106,37 @@
                 },
                 {
                     "step": 2,
-                    "text": "Insert button extension halfway into the main body.",
-                    "picture": true,
-                    "picture_description": "An image showing the button extension positioned to be pushed into the housing.",
+                    "text": "Insert button extension half way into the Main body.",
+                    "picture": false,
+                    "picture_description": "",
                     "centers": [
                         {
                             "center_x": 235.0,
                             "center_y": 236.0
                         }
-                    ],
-                    "pictures_array": [
-                        "data\\output_all_pictures\\image_3_2.jpg"
                     ]
                 },
                 {
                     "step": 3,
-                    "text": "Afterwards, the motor can be pushed down to its final position as well as the button extension.",
-                    "picture": false,
-                    "picture_description": "",
+                    "text": "Afterwards the motor can be pushed down to his final position as well as the button extension.",
+                    "picture": true,
+                    "picture_description": "A close-up of a circular component with yellow markings showing alignment positions.",
                     "centers": [
                         {
                             "center_x": 243.0,
                             "center_y": 263.0
                         }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_3_1.jpg",
+                        "data\\output_all_pictures\\image_3_4.jpg"
                     ]
                 },
                 {
                     "step": 4,
-                    "text": "Attach the motor and PCBA to the housing by inserting the two MOTOR_SCREWs.",
+                    "text": "Attach the motor and FPCBA to the housing by inserting the two MOTOR_SCREWs.",
                     "picture": true,
-                    "picture_description": "An image showing the back side of the housing with the motor in place and visible screw holes.",
+                    "picture_description": "A hand holding the completed assembly with visible screw positions.",
                     "centers": [
                         {
                             "center_x": 239.0,
@@ -89,7 +144,32 @@
                         }
                     ],
                     "pictures_array": [
-                        "data\\output_all_pictures\\image_3_1.jpg"
+                        "data\\output_all_pictures\\image_3_1.jpg",
+                        "data\\output_all_pictures\\image_3_4.jpg"
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "3 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
                     ]
                 }
             ]
@@ -98,18 +178,60 @@
             "page_no": 4,
             "instructions": [
                 {
-                    "step": 4,
+                    "step": 1,
                     "text": "Insert MOUNTING_BUTTON_EXTENSION for the mounting button into MAIN_BODY.",
                     "picture": true,
-                    "picture_description": "Image shows a hand inserting a mounting button extension into a main body.",
-                    "centers": []
+                    "picture_description": "Image showing insertion of button extension into a circular main body.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_4_1.jpg",
+                        "data\\output_all_pictures\\image_4_2.jpg"
+                    ]
                 },
                 {
-                    "step": 5,
+                    "step": 2,
                     "text": "Put GEAR into the opening of the rotary encoder on PPCBA.",
                     "picture": true,
-                    "picture_description": "Image shows a gear being placed into the rotary encoder on a PCB.",
-                    "centers": []
+                    "picture_description": "Image showing a gear being placed into an opening on a small circuit board.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_4_1.jpg",
+                        "data\\output_all_pictures\\image_4_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "4 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -117,18 +239,60 @@
             "page_no": 5,
             "instructions": [
                 {
-                    "step": 6,
-                    "text": "Place the PPCBA in the Main Body",
+                    "step": 1,
+                    "text": "Placing the PCBA in Main Body\n\nMake sure that the PCBA is positioned in the MAIN BODY such that the gear sits in the opening of the main body and that the plastic domes sit in the corresponding openings of the rigid PCB.",
                     "picture": true,
-                    "picture_description": "A person is placing a circuit board into a main housing.",
-                    "centers": []
+                    "picture_description": "Hand holding a component, aligning it into a cylindrical device body.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_1.jpg",
+                        "data\\output_all_pictures\\image_5_3.jpg"
+                    ]
                 },
                 {
-                    "step": 7,
-                    "text": "Insert PCB_SCREWs",
+                    "step": 2,
+                    "text": "Insert PCB_SCREWs\n\nAttach the rigid PCB to the housing by inserting the two PCB_SCREWs.",
                     "picture": true,
-                    "picture_description": "A hand is inserting screws into a circuit board within a housing.",
-                    "centers": []
+                    "picture_description": "Hand positioning screws into the rigid PCB to attach it to the housing.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_5_1.jpg",
+                        "data\\output_all_pictures\\image_5_3.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "5 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -136,25 +300,74 @@
             "page_no": 6,
             "instructions": [
                 {
-                    "step": 7,
-                    "text": "Checking Mounting Quality\nMake sure the PCB cannot move at all after the insertion of the screws.",
+                    "step": 1,
+                    "text": "Checking Mounting Quality: Make sure the PCB cannot move at all after the insertion of the screws.",
                     "picture": true,
-                    "picture_description": "Images showing how to check the PCB mounting quality.",
-                    "centers": []
+                    "picture_description": "Two images of a person holding and screwing a PCB into a device.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_6_1.jpg",
+                        "data\\output_all_pictures\\image_6_5.jpg",
+                        "data\\output_all_pictures\\image_6_7.jpg"
+                    ]
                 },
                 {
-                    "step": 8,
-                    "text": "Connecting Flexible PCB to PPCBA\n1. Put the flex PCB into the connector.\n2. Flip the fastener to lock the PCB.",
+                    "step": 2,
+                    "text": "Connecting Flexible PCB to PPCBA: 1. Put the flex PCB into the connector 2. Flip the fastener to lock the PCB",
                     "picture": true,
-                    "picture_description": "Images displaying the connection process of the flexible PCB to the PPCBA.",
-                    "centers": []
+                    "picture_description": "Two images showing the connection of the flexible PCB to PPCBA",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_6_1.jpg",
+                        "data\\output_all_pictures\\image_6_5.jpg",
+                        "data\\output_all_pictures\\image_6_7.jpg"
+                    ]
                 },
                 {
-                    "step": 9,
-                    "text": "Positioning the White Sticker\nPlace the WHITE STICKER on the back of the flexible PCB.",
+                    "step": 3,
+                    "text": "Positioning the White Sticker: Place the WHITE_STICKER on the back of the flexible PCB.",
                     "picture": false,
                     "picture_description": "",
-                    "centers": []
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "6 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -162,18 +375,100 @@
             "page_no": 7,
             "instructions": [
                 {
-                    "step": 10,
-                    "text": "Scanning of PCBA Serial",
+                    "step": 1,
+                    "text": "Ensure the connection and positioning of the component shown in the image. Check the alignment as indicated.",
                     "picture": true,
-                    "picture_description": "Image showing the PCBA and the location of the serial number on the device.",
-                    "centers": []
+                    "picture_description": "Image showing connection of a ribbon cable to a board.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_7_2.jpg",
+                        "data\\output_all_pictures\\image_7_3.jpg",
+                        "data\\output_all_pictures\\image_7_4.jpg",
+                        "data\\output_all_pictures\\image_7_5.jpg"
+                    ]
                 },
                 {
-                    "step": 1,
-                    "text": "Scan EMS assigned PCBA serial number (sticker or engraved).",
+                    "step": 2,
+                    "text": "Maintain a gap of 1.5mm as shown in the image for proper alignment.",
+                    "picture": true,
+                    "picture_description": "Close-up image showing a 1.5mm gap indication.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_7_2.jpg",
+                        "data\\output_all_pictures\\image_7_3.jpg",
+                        "data\\output_all_pictures\\image_7_4.jpg",
+                        "data\\output_all_pictures\\image_7_5.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Insert the assembly into the housing, ensuring proper alignment as shown in two images.",
+                    "picture": true,
+                    "picture_description": "Images showing component insertion into the housing.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_7_2.jpg",
+                        "data\\output_all_pictures\\image_7_3.jpg",
+                        "data\\output_all_pictures\\image_7_4.jpg",
+                        "data\\output_all_pictures\\image_7_5.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Scan the EMS assigned PCBA serial number which can be found as a sticker or engraved on the component.",
+                    "picture": true,
+                    "picture_description": "Image showing location of the PCBA serial number on the circuit board.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_7_2.jpg",
+                        "data\\output_all_pictures\\image_7_3.jpg",
+                        "data\\output_all_pictures\\image_7_4.jpg",
+                        "data\\output_all_pictures\\image_7_5.jpg"
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Confidential & Proprietary",
                     "picture": false,
                     "picture_description": "",
-                    "centers": []
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "7 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -181,25 +476,64 @@
             "page_no": 8,
             "instructions": [
                 {
-                    "step": 11,
+                    "step": 1,
                     "text": "Print the DEVICE_LABEL in accordance with the label printing instructions DEVICE_LABEL_LPI.",
                     "picture": true,
-                    "picture_description": "A printer printing device labels.",
-                    "centers": []
+                    "picture_description": "Two images showing a label printer and a sample device label.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
                 },
                 {
-                    "step": 12,
+                    "step": 2,
                     "text": "Attach the printed DEVICE_LABEL into the back of the main body.",
                     "picture": true,
-                    "picture_description": "The back of a device with a printed label being attached.",
-                    "centers": []
+                    "picture_description": "Image of the back of the main body with a space for the label.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
                 },
                 {
-                    "step": 13,
+                    "step": 3,
                     "text": "Position the flexible PCBA in display area using the yellow marked 2 locators. Make sure the FPCBA slides under the green marked edge.",
                     "picture": true,
-                    "picture_description": "A person positioning a flexible PCB in a device with marked edges.",
-                    "centers": []
+                    "picture_description": "Image showing a hand holding the device with visible yellow and green markers.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "8 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -207,10 +541,10 @@
             "page_no": 9,
             "instructions": [
                 {
-                    "step": 14,
-                    "text": "Positioning the Light Blocker",
+                    "step": 1,
+                    "text": "Position the LIGHT_BLOCKER in display area using the 2 locators.",
                     "picture": true,
-                    "picture_description": "A device's light blocker is being attached, showing a close-up of the device with hands positioning it.",
+                    "picture_description": "Hand holding a device with a black component on top.",
                     "centers": [
                         {
                             "center_x": 239.0,
@@ -218,22 +552,45 @@
                         }
                     ],
                     "pictures_array": [
+                        "data\\output_all_pictures\\image_9_1.jpg",
                         "data\\output_all_pictures\\image_9_3.jpg"
                     ]
-                },
-                {
-                    "step": 1,
-                    "text": "Position the LIGHT_BLOCKER in display area using the 2 locators.",
-                    "picture": false,
-                    "picture_description": "",
-                    "centers": []
                 },
                 {
                     "step": 2,
                     "text": "Attention: LIGHT_BLOCKER differs depending on target SKU.",
                     "picture": false,
                     "picture_description": "",
-                    "centers": []
+                    "centers": [
+                        {
+                            "center_x": 870.0,
+                            "center_y": 396.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "9 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1133.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -241,18 +598,60 @@
             "page_no": 10,
             "instructions": [
                 {
-                    "step": 15,
-                    "text": "Push DISPLAY_RING onto MAIN_BODY.",
+                    "step": 1,
+                    "text": "Push DISPLAY_RING onto MAIN_BODY.\n\nMake sure the display engraving (can be seen on the inside of the display ring) sits on the same side as the flex pcb.",
                     "picture": true,
-                    "picture_description": "A hand pushing the display ring onto the main body of the device.",
-                    "centers": []
+                    "picture_description": "Hand holding a cylindrical device with a black display ring being pushed onto it.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_10_1.jpg",
+                        "data\\output_all_pictures\\image_10_2.jpg"
+                    ]
                 },
                 {
-                    "step": 16,
+                    "step": 2,
                     "text": "Attach BATTERY_COVER to MAIN_BODY.",
                     "picture": true,
-                    "picture_description": "A hand holding the battery cover while attaching it to the main body of the device.",
-                    "centers": []
+                    "picture_description": "Close-up of the bottom of the device with a white battery cover being attached.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_10_1.jpg",
+                        "data\\output_all_pictures\\image_10_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "10 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -260,18 +659,60 @@
             "page_no": 11,
             "instructions": [
                 {
-                    "step": 17,
+                    "step": 1,
                     "text": "Put HINGE into hole to hold the BATTERY_COVER.",
                     "picture": true,
-                    "picture_description": "A person holding a device with a hinge aligned with a battery cover.",
-                    "centers": []
+                    "picture_description": "A hand holding a component with a hinge being inserted into a battery cover.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_11_2.jpg",
+                        "data\\output_all_pictures\\image_11_3.jpg"
+                    ]
                 },
                 {
-                    "step": 18,
+                    "step": 2,
                     "text": "Push the DISPLAY_RING completely down.",
                     "picture": true,
-                    "picture_description": "A person pushing down a display ring on a device.",
-                    "centers": []
+                    "picture_description": "A hand pushing down a ring on the device.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_11_2.jpg",
+                        "data\\output_all_pictures\\image_11_3.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "11 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -279,25 +720,76 @@
             "page_no": 12,
             "instructions": [
                 {
-                    "step": 19,
+                    "step": 1,
                     "text": "Push the WHEEL onto the main body.",
                     "picture": true,
-                    "picture_description": "A hand pushing a wheel onto a device's main body.",
-                    "centers": []
+                    "picture_description": "A person attaching a wheel to a white cylindrical device.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_12_1.jpg",
+                        "data\\output_all_pictures\\image_12_5.jpg"
+                    ]
                 },
                 {
-                    "step": 20,
+                    "step": 2,
                     "text": "Snap the FRONT_CAP onto the MAIN_BODY.",
                     "picture": true,
-                    "picture_description": "A hand snapping the front cap onto the main body, ensuring proper alignment.",
-                    "centers": []
+                    "picture_description": "Two images: One showing a circuit board with an indicated area, the other showing a front cap being attached to a white cylindrical device.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_12_1.jpg",
+                        "data\\output_all_pictures\\image_12_5.jpg"
+                    ]
                 },
                 {
-                    "step": 23,
+                    "step": 3,
                     "text": "Print the SETUP_LABEL in accordance with the label printing instructions SETUP_LABEL_LPI.",
                     "picture": true,
-                    "picture_description": "A label printer printing setup labels, with a visible label on the output.",
-                    "centers": []
+                    "picture_description": "A label printer printing a device label.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_12_1.jpg",
+                        "data\\output_all_pictures\\image_12_5.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "12 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -308,8 +800,37 @@
                     "step": 1,
                     "text": "Place the SETUP_LABEL on the WHEEL.",
                     "picture": true,
-                    "picture_description": "Image showing a device with a labeled setup position, displaying both horizontal and vertical orientations.",
-                    "centers": []
+                    "picture_description": "An image showing the setup label attached to a cylindrical device with a knob on top.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "13 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -317,18 +838,52 @@
             "page_no": 14,
             "instructions": [
                 {
-                    "step": 25,
+                    "step": 1,
                     "text": "Remove the Mounting Bracket",
                     "picture": true,
-                    "picture_description": "An image showing the mounting bracket being removed.",
-                    "centers": []
+                    "picture_description": "An image of a detached mounting bracket.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
                 },
                 {
-                    "step": 26,
+                    "step": 2,
                     "text": "Scan the Rear Serial Number. The station starts the EOL procedure.",
                     "picture": true,
-                    "picture_description": "An image showing the rear of the device with a serial number and QR code.",
-                    "centers": []
+                    "picture_description": "An image showing the rear of the device with a highlighted serial number area.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "14 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -336,18 +891,58 @@
             "page_no": 15,
             "instructions": [
                 {
-                    "step": 27,
+                    "step": 1,
                     "text": "Scan the Front Serial Number",
                     "picture": true,
-                    "picture_description": "An image of a device with a visible QR code for scanning.",
-                    "centers": []
+                    "picture_description": "Close-up image of a device with the serial number highlighted in red.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_15_2.jpg"
+                    ]
                 },
                 {
-                    "step": 28,
-                    "text": "Insert Batteries\n\n1. Open the battery compartment cover.\n2. Insert the AA BATTERIES.\n3. Close the battery compartment cover.",
+                    "step": 2,
+                    "text": "Insert Batteries\n\nOpen the battery compartment cover.\nInsert the AA BATTERIES.\nClose the battery compartment cover.",
                     "picture": true,
-                    "picture_description": "An image showing a hand inserting batteries into a device.",
-                    "centers": []
+                    "picture_description": "Image of a person inserting AA batteries into the device's battery compartment.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_15_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "15 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -355,18 +950,82 @@
             "page_no": 16,
             "instructions": [
                 {
-                    "step": 29,
-                    "text": "Wait for EOL on display.\n1) If DUT shows FAIL, don't proceed, station should show FAIL.",
+                    "step": 1,
+                    "text": "Wait for EOL on display.",
                     "picture": true,
-                    "picture_description": "A device held in hand displaying the message EOL.",
-                    "centers": []
+                    "picture_description": "A device displaying 'EOL' on its screen.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_16_2.jpg"
+                    ]
                 },
                 {
-                    "step": 30,
-                    "text": "Press the pairing button.\n1) DUT shows 00.",
+                    "step": 2,
+                    "text": "If DUT shows FAI, don't proceed, station should show FAIL.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Press the pairing button.",
                     "picture": true,
-                    "picture_description": "The back of a device showing a circular button and an indicator for DUT status.",
-                    "centers": []
+                    "picture_description": "The back of the device with the pairing button circled in red.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_16_2.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "DUT shows 00.",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 6,
+                    "text": "16 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -374,18 +1033,52 @@
             "page_no": 17,
             "instructions": [
                 {
-                    "step": 31,
-                    "text": "Turn the wheel to the right until all LEDs turn on\n1) DUT counts up\n2) DUT turns on all LEDs above maximum",
+                    "step": 1,
+                    "text": "Turn the wheel to the right until all LEDs turn on.\n1) DUT counts up\n2) DUT turns on all LEDs above maximum",
                     "picture": true,
-                    "picture_description": "A hand turning a wheel on a device which displays '88P' and has an arrow pointing to the right.",
-                    "centers": []
+                    "picture_description": "Cylinder with a right-pointing arrow on its base.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
                 },
                 {
-                    "step": 32,
-                    "text": "Turn the wheel to the left until all LEDs turn off\n1) DUT counts down\n2) DUT turns off all LEDs below minimum",
+                    "step": 2,
+                    "text": "Turn wheel to the left until all LEDs turn off.\n1) DUT counts down\n2) DUT turns off all LEDs below minimum",
                     "picture": true,
-                    "picture_description": "A hand turning a wheel on a device which shows an arrow pointing to the left.",
-                    "centers": []
+                    "picture_description": "Cylinder with a left-pointing arrow on its base.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "17 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -393,18 +1086,58 @@
             "page_no": 18,
             "instructions": [
                 {
-                    "step": 33,
+                    "step": 1,
                     "text": "Attach the Mounting Bracket",
                     "picture": true,
-                    "picture_description": "A circular mounting bracket.",
-                    "centers": []
+                    "picture_description": "Image of a metal mounting bracket on a flat surface.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_18_2.jpg"
+                    ]
                 },
                 {
-                    "step": 34,
-                    "text": "Mount DUT using its adapter on the stand\n1) DUT shows CAL.\n2) DUT performs calibration",
+                    "step": 2,
+                    "text": "Mount DUT using its adapter on the stand\n1) DUT shows CAL.\n2) DUT performs calibration.",
                     "picture": true,
-                    "picture_description": "A device mounted on a stand showing 'CAL' on its display.",
-                    "centers": []
+                    "picture_description": "Image of the DUT mounted on a stand and a display showing 'CAL'.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_18_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "18 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -412,18 +1145,58 @@
             "page_no": 19,
             "instructions": [
                 {
-                    "step": 35,
-                    "text": "Wait for PA or FA on DUT\n1) The station should show PASS or FAIL",
+                    "step": 1,
+                    "text": "Wait for PA or FAIL on DUT. The station should show PASS or FAIL.",
                     "picture": true,
-                    "picture_description": "A display showing the statuses 'PA' (PASS) and 'FA' (FAIL), with a checkmark next to 'PA'.",
-                    "centers": []
+                    "picture_description": "Images showing 'PA' with a green check mark and 'FAIL'.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_19_4.jpg"
+                    ]
                 },
                 {
-                    "step": 36,
-                    "text": "Remove DUT from stand",
+                    "step": 2,
+                    "text": "Remove DUT from stand.",
                     "picture": true,
-                    "picture_description": "An image showing a device under test (DUT) being removed from its stand.",
-                    "centers": []
+                    "picture_description": "Picture of a device placed on a stand.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_19_4.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "19 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1131.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -431,18 +1204,58 @@
             "page_no": 20,
             "instructions": [
                 {
-                    "step": 37,
+                    "step": 1,
                     "text": "Remove the Mounting Bracket from the device main body.",
                     "picture": true,
-                    "picture_description": "Image showing the mounting bracket of the device.",
-                    "centers": []
+                    "picture_description": "A close-up image of a device part with the mounting bracket removed.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_20_1.jpg"
+                    ]
                 },
                 {
-                    "step": 38,
+                    "step": 2,
                     "text": "Open & Close the battery cover to interrupt the power supply.",
                     "picture": true,
-                    "picture_description": "Image showing the interior of the device with the battery compartment.",
-                    "centers": []
+                    "picture_description": "An image showing a hand holding a device with an open battery cover, revealing batteries inside.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_20_1.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "20 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1130.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -450,18 +1263,60 @@
             "page_no": 21,
             "instructions": [
                 {
-                    "step": 39,
-                    "text": "Checking for Customer Mode: Check that the display shows the temperature when turning the wheel. Attention: If the device shows 'EOL', the EOL test has not been completed.",
+                    "step": 1,
+                    "text": "Checking for Customer Mode\n\nCheck that the display shows the temperature when turning the wheel.\n\nAttention: If the device shows \"E0L\", the EOL test has not been completed.",
                     "picture": true,
-                    "picture_description": "Two images: one showing a display with a temperature of 22\u00c3\u201a\u00c2\u00b0, and another showing a display with 'WRONG'.",
-                    "centers": []
+                    "picture_description": "Two images showing device displays: one with temperature, another with 'E0L' warning.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_21_1.jpg",
+                        "data\\output_all_pictures\\image_21_3.jpg"
+                    ]
                 },
                 {
-                    "step": 40,
-                    "text": "Placing the Battery Tab: Open the battery compartment again. Place the BATTERY_TAB as shown. Close the battery compartment cover back. Attention: The battery tab must break the electric contact.",
+                    "step": 2,
+                    "text": "Placing the Battery Tab\n\nOpen the battery compartment again.\n\nPlace the BATTERY_TAB as shown.\n\nClose the battery compartment cover back.\n\nAttention: The battery tab must break the electric contact.",
                     "picture": true,
-                    "picture_description": "An image showing a person placing the battery tab inside the battery compartment.",
-                    "centers": []
+                    "picture_description": "Image showing placement of battery tab in the compartment.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_21_1.jpg",
+                        "data\\output_all_pictures\\image_21_3.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "21 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1130.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -469,18 +1324,58 @@
             "page_no": 22,
             "instructions": [
                 {
-                    "step": 41,
+                    "step": 1,
                     "text": "Close battery door",
                     "picture": true,
-                    "picture_description": "An image showing a device with a battery door and an arrow indicator for closing it.",
-                    "centers": []
+                    "picture_description": "Image showing a device with a battery compartment and a blue arrow indicating the part to close.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_22_1.jpg"
+                    ]
                 },
                 {
-                    "step": 42,
+                    "step": 2,
                     "text": "Check Wheel on Torque Meter - Max allowed: 40mNm",
                     "picture": true,
-                    "picture_description": "An image of a torque meter with a wheel indicator.",
-                    "centers": []
+                    "picture_description": "Image showing a torque meter with a wheel being checked.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_22_1.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "22 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1130.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -488,10 +1383,10 @@
             "page_no": 23,
             "instructions": [
                 {
-                    "step": 43,
+                    "step": 1,
                     "text": "Wrap the Device(s) in PROTECTIVE_FOIL.",
                     "picture": true,
-                    "picture_description": "An image showing a hand holding a device that appears to be in the process of being wrapped in foil.",
+                    "picture_description": "A person wrapping a device with protective foil.",
                     "centers": [
                         {
                             "center_x": 205.0,
@@ -503,6 +1398,30 @@
                         "data\\output_all_pictures\\image_23_3.jpg",
                         "data\\output_all_pictures\\picture_008.jpg"
                     ]
+                },
+                {
+                    "step": 2,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "23 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1130.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         },
@@ -511,24 +1430,75 @@
             "instructions": [
                 {
                     "step": 1,
-                    "text": "Get between the Front Cap and the Wheel with a plastic tool at the red marked area.\nNote: DO NOT USE METAL. It will damage the wheel.",
+                    "text": "Get between the Front Cap and the Wheel with a plastic tool at the red marked area. Note: DO NOT USE METAL. It will damage the wheel.",
                     "picture": true,
-                    "picture_description": "A plastic tool is shown inserted between the Front Cap and the Wheel.",
-                    "centers": []
+                    "picture_description": "Plastic tool inserted between Front Cap and Wheel at marked area.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_24_1.jpg",
+                        "data\\output_all_pictures\\image_24_4.jpg"
+                    ]
                 },
                 {
                     "step": 2,
-                    "text": "Push the Front Cap up with the plastic tool until the lift side is fully lifted.",
+                    "text": "Push the Front Cap up with the plastic tool until the lift side is fully lift.",
                     "picture": true,
-                    "picture_description": "The Front Cap is being pushed up with a plastic tool.",
-                    "centers": []
+                    "picture_description": "Front Cap is partially lifted with a plastic tool.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_24_1.jpg",
+                        "data\\output_all_pictures\\image_24_4.jpg"
+                    ]
                 },
                 {
                     "step": 3,
-                    "text": "Now you can pull up the Front Cap with your hands. Throw the Front Cap away.",
+                    "text": "Now you can pull up the Front cap with your hands. Throw the Front Cap away.",
                     "picture": true,
-                    "picture_description": "The Front Cap is being pulled off with hands, revealing internal components.",
-                    "centers": []
+                    "picture_description": "Front Cap is removed completely, showing inside of the device.",
+                    "centers": [
+                        {
+                            "center_x": 0,
+                            "center_y": 0
+                        }
+                    ],
+                    "pictures_array": [
+                        "data\\output_all_pictures\\image_24_1.jpg",
+                        "data\\output_all_pictures\\image_24_4.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Confidential & Proprietary",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 105.0,
+                            "center_y": 808.0
+                        }
+                    ]
+                },
+                {
+                    "step": 5,
+                    "text": "24 / 24",
+                    "picture": false,
+                    "picture_description": "",
+                    "centers": [
+                        {
+                            "center_x": 1130.0,
+                            "center_y": 807.0
+                        }
+                    ]
                 }
             ]
         }

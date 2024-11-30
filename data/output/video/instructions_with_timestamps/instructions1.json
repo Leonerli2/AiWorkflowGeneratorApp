@@ -1,0 +1,67 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Miene entnehmen",
+            "picture_time": 7.579999923706055,
+            "start_time": 0.0,
+            "end_time": 2.4800000190734863
+        },
+        {
+            "step": 2,
+            "text": "Stifth\u00fclle oben entnehmen",
+            "picture_time": 14.34000015258789,
+            "start_time": 2.4800000190734863,
+            "end_time": 9.880000114440918
+        },
+        {
+            "step": 3,
+            "text": "Miene in Stifth\u00fclle einf\u00fchren",
+            "picture_time": 23.600000381469727,
+            "start_time": 9.880000114440918,
+            "end_time": 20.860000610351562
+        },
+        {
+            "step": 4,
+            "text": "Feder entnehmen",
+            "picture_time": 28.18000030517578,
+            "start_time": 20.860000610351562,
+            "end_time": 25.799999237060547
+        },
+        {
+            "step": 5,
+            "text": "Feder auf Miene stecken",
+            "picture_time": 33.15999984741211,
+            "start_time": 25.799999237060547,
+            "end_time": 31.899999618530273
+        },
+        {
+            "step": 6,
+            "text": "Stifth\u00fclle unten entnehmen",
+            "picture_time": 37.91999816894531,
+            "start_time": 31.899999618530273,
+            "end_time": 36.619998931884766
+        },
+        {
+            "step": 7,
+            "text": "Stifth\u00fclle auf Stifth\u00fclle schrauben",
+            "picture_time": 49.68000030517578,
+            "start_time": 36.619998931884766,
+            "end_time": 46.70000076293945
+        },
+        {
+            "step": 8,
+            "text": "Funktionstest",
+            "picture_time": 54.97999954223633,
+            "start_time": 46.70000076293945,
+            "end_time": 52.31999969482422
+        },
+        {
+            "step": 9,
+            "text": "Fertig",
+            "picture_time": null,
+            "start_time": 52.31999969482422,
+            "end_time": 57.41999816894531
+        }
+    ]
+}

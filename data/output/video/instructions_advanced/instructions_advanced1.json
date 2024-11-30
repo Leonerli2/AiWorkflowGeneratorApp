@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "Miene entnehmen",
+        "task": "Manual",
+        "description": "Nehme die Miene aus dem Beh\u00e4lter.",
+        "image_uri": "data/output/video/images/video1/instruction1_1.jpg",
+        "imagefilename": "instruction1_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Stifth\u00fclle abnehmen",
+        "task": "Manual",
+        "description": "Nehme die Stifth\u00fclle oben ab.",
+        "image_uri": "data/output/video/images/video1/instruction1_2.jpg",
+        "imagefilename": "instruction1_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Miene in Stifth\u00fclle einf\u00fchren",
+        "task": "Manual",
+        "description": "Nehme die Miene und f\u00fchre sie in die Stifth\u00fclle ein.",
+        "image_uri": "data/output/video/images/video1/instruction1_3.jpg",
+        "imagefilename": "instruction1_3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Feder entnehmen",
+        "task": "Manual",
+        "description": "Nehme die Feder aus dem Beh\u00e4lter.",
+        "image_uri": "data/output/video/images/video1/instruction1_4.jpg",
+        "imagefilename": "instruction1_4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Feder auf Miene stecken",
+        "task": "Manual",
+        "description": "Stecke die Feder auf die Miene.",
+        "image_uri": "data/output/video/images/video1/instruction1_5.jpg",
+        "imagefilename": "instruction1_5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Stifth\u00fclle unten entnehmen",
+        "task": "Manual",
+        "description": "Nehme die Stifth\u00fclle unten aus dem Beh\u00e4lter.",
+        "image_uri": "data/output/video/images/video1/instruction1_6.jpg",
+        "imagefilename": "instruction1_6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Stifth\u00fclle montieren",
+        "task": "Manual",
+        "description": "Stifth\u00fclle auf die andere Stifth\u00fclle schrauben.",
+        "image_uri": "data/output/video/images/video1/instruction1_7.jpg",
+        "imagefilename": "instruction1_7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Funktionstest durchf\u00fchren",
+        "task": "Info",
+        "description": "F\u00fchren Sie einen Funktionstest durch.",
+        "image_uri": "data/output/video/images/video1/instruction1_8.jpg",
+        "imagefilename": "instruction1_8.jpg",
+        "durationgui": 0
+    },
+    {
+        "id": 9,
+        "name": "Fertig",
+        "task": "Manual",
+        "description": "Der Montageprozess ist abgeschlossen.",
+        "image_uri": "data/output/video/images/video1/instruction1_9.jpg",
+        "imagefilename": "instruction1_9.jpg"
+    }
+]

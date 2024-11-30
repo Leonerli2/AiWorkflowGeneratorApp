@@ -44,9 +44,9 @@ def structured_openai_api_call(img, system_prompt):
       Returns:
            List[InstructionStep]: A list of parsed instructions extracted from the image, each containing:
                 - step (int): The step number.
-                 - text (str): The instruction text.
-                  - picture (bool): Whether a picture is associated with the step.
-                   - picture_description (str): Description of the picture if applicable.
+                - text (str): The instruction text.
+                - picture (bool): Whether a picture is associated with the step.
+                - picture_description (str): Description of the picture if applicable.
             - picture (bool): Whether a picture is associated with the step.
             - picture_description (str): Description of the picture if applicable.
     """
@@ -67,7 +67,7 @@ def structured_openai_api_call(img, system_prompt):
 
     # Structured API call to extract instructions
     completion = client.beta.chat.completions.parse(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             {
                 "role": "system",
@@ -237,7 +237,9 @@ def extract_text_from_pdf():
         # Get the structured JSON for the current page
         instructions_list = structured_openai_api_call(
             image,
-            "Extract all work instructions form the image. Order them in steps. Say if there is a corresponding picture (true/false) and add a picture description if applicable. Make sure to only use character that 'charmap' codec can decode."
+            "Extract all work instructions form the image, this is the most important part and keep the wording. Order them in steps. \
+            Say if there is a corresponding picture (true/false) and add a picture short \
+            description if applicable. Make sure to only use character that 'charmap' codec can decode."
         )
                 
         # Print progress
@@ -500,6 +502,9 @@ def combine_centers(json_data):
                     avg_center_y = sum(center["center_y"] for center in centers) / len(centers)
                     # Replace centers with the average center
                     instruction["centers"] = [{"center_x": avg_center_x, "center_y": avg_center_y}]
+                # if centers is empty, add a default center
+                else:
+                    instruction["centers"] = [{"center_x": 0, "center_y": 0}]
                     
     # save it 
     output_dir = Path("data/output_openai_text")
@@ -635,10 +640,12 @@ def delete_recurring_images(directory):
                 os.remove(path)
                 print("Deleted: ", path)
                             
-def delete_small_images(directory):
+def delete_small_images(directory, number_of_pages):
     # 10 KB
     size_limit = 5 * 1024
     count = 0
+    
+    
 
     # Loop through each file in the directory
     for filename in os.listdir(directory):
@@ -654,13 +661,14 @@ def delete_small_images(directory):
                 os.remove(filepath)
                 count += 1
 
-    if count >= 15:
+    if count >= 4 * number_of_pages:
         print(f"Deleted {count} small images... deleting all images extracted automatically")
         # delete all images starting with image...
         for filename in os.listdir(directory):
             if filename.startswith("image"):
                 os.remove(os.path.join(directory, filename))
                 print(f"Deleted: {filename}")
+        print("SCANNED PDF DETECTED! Try to have a better quality PDF")
         return True
     return False
     #print("Done!")
@@ -938,8 +946,8 @@ def map_pictures_and_instructions_by_sequence(instructions_json, pictures_json):
             combined = sorted(
                 pictures_on_page + instructions_on_page,
                 key=lambda item: (
-                    item['data']['centers'][0]['center_y'] if 'centers' in item['data'] else item['data']['center_y'],
-                    item['data']['centers'][0]['center_x'] if 'centers' in item['data'] else item['data']['center_x']
+                        item['data']['centers'][0]['center_y'] if 'centers' in item['data'] else item['data']['center_y'],
+                        item['data']['centers'][0]['center_x'] if 'centers' in item['data'] else item['data']['center_x']
                 )
             )
 
@@ -1066,20 +1074,41 @@ def dummy_match_pictures_to_instructions(pictures_json, instructions_json):
 
 
 
-
-
-
-
-
-
-
+def change_image_path(pdf_name, json_file):
+    # iterate over the json file and if you find a picture_uri, change the path to the new path 
+    base_path = os.path.join("cache", "pictures", pdf_name)
+    
+    # Iterate over each page in the JSON data
+    for page in json_file.get("pdf_document", []):
+        for instruction in page.get("instructions", []):
+            # Check and update the "pictures_array" if present
+            if "pictures_array" in instruction:
+                updated_paths = []
+                for picture_path in instruction["pictures_array"]:
+                    picture_name = os.path.basename(picture_path)
+                    updated_paths.append(os.path.join(base_path, picture_name))
+                instruction["pictures_array"] = updated_paths
+    
+    return json_file
 
 
 
 # ------------------------------------------------------------------------------------------------
-def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w7.pdf"):
+def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/w5.pdf"):
+    # delete all the files int eh input folder
+    for file in os.listdir("data/input_pdf"):
+        os.remove(os.path.join("data/input_pdf", file))
+    
+    # copy the pdf to the input folder
+    shutil.copy(input_workinstruction_pdf_path, "data/input_pdf")
+    
+    
     name_of_pdf = input_workinstruction_pdf_path.split("/")[-1].split(".")[0]
     print("Name of the pdf: ", name_of_pdf)
+    
+    # get number of pages
+    pdf = fitz.open(input_workinstruction_pdf_path)
+    number_of_pages = pdf.page_count
     
     # does the pipeline have to be cleared after each run? -> how long does it take to run the pipeline? 
     # -> dependant on that we want to clear the pipeline -> probably want to store
@@ -1163,14 +1192,14 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w7.pdf"
     
     extract_pictures(input_workinstruction_pdf_path, output_folder_simple_picture_extraction)
     delete_recurring_images(output_folder_simple_picture_extraction)
-    scanned_pdf = delete_small_images(output_folder_simple_picture_extraction)
+    scanned_pdf = delete_small_images(output_folder_simple_picture_extraction, number_of_pages)
 
     # ------------------------------------ merge pictures -----------------------------------
     merge_json_with_duplicate_removal('data/output_pictures/pictures.json', 'data/output_docling/docling_pictures.json', 'data/output_openai_text/combined.json', scanned_pdf)
     move_pictures_from_json('data/output_openai_text/combined.json', 'data/output_all_pictures')
     
     delete_recurring_images('data/output_all_pictures')
-    delete_small_images('data/output_all_pictures')
+    delete_small_images('data/output_all_pictures', number_of_pages)
     
     # ------------------------------------ delete logos -----------------------------------
     delete_all_logos()
@@ -1184,6 +1213,9 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w7.pdf"
 
     try: 
         finished_json = match_pictures_to_instructions2(pictures_json=pictures_json, instructions_json=instructions_json)
+        
+        finished_json = change_image_path(name_of_pdf, finished_json)
+        
         with open("data/output_openai_text/final_instructions.json", "w") as file:
             json.dump(finished_json, file, indent=4)
         
@@ -1195,8 +1227,10 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w7.pdf"
     
     try:
         # finished_json = match_pictures_to_instructions_simple(pictures_json=pictures_json, instructions_json=instructions_json)
-        finished_json_reading = map_pictures_to_instructions_with_centers(instructions_json, pictures_json)
-            
+        finished_json_reading = map_pictures_and_instructions_by_sequence(instructions_json=instructions_json, pictures_json=pictures_json)
+        
+        finished_json_reading = change_image_path(name_of_pdf, finished_json_reading)
+        
         with open("data/output_openai_text/final_instructions_reading.json", "w") as file:
             json.dump(finished_json_reading, file, indent=4)
             
@@ -1208,6 +1242,7 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w7.pdf"
         
 
     finished_json_dummy = dummy_match_pictures_to_instructions(pictures_json=pictures_json, instructions_json=instructions_json)
+    finished_json_dummy = change_image_path(name_of_pdf, finished_json_dummy)
     with open("data/output_openai_text/final_instructions_dummy.json", "w") as file:
         json.dump(finished_json_dummy, file, indent=4)
     
@@ -1229,3 +1264,10 @@ def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/input_pdf/w7.pdf"
 # ----------------------------------------------------------------------------------------
 Convert_PDF_to_JSON()
 
+# instructions_json = json.load(open("data/output_openai_text/instructions_with_one_center.json"))
+# pictures_json = json.load(open("data/output_openai_text/combined_cleaned.json"))
+
+# finished_json_reading = map_pictures_and_instructions_by_sequence(instructions_json=instructions_json, pictures_json=pictures_json)
+            
+# with open("data/output_openai_text/final_instructions_reading.json", "w") as file:
+#     json.dump(finished_json_reading, file, indent=4)

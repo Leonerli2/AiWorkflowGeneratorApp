@@ -6,49 +6,73 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Gevind smÃ¸res generelt med QBRUBENS.",
-                        "picture": true,
-                        "picture_description": "Various angles of a component showing threaded areas.",
+                        "text": "Zweck: Dient als Montagehilfe",
+                        "picture": false,
+                        "picture_description": "",
                         "centers": [
                             {
-                                "center_x": 162.0,
-                                "center_y": 555.0
+                                "center_x": 111.0,
+                                "center_y": 254.0
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "Alle moment markers.",
+                        "text": "Geltungsbereich: Dieses Dokument darf nur fÃ¼r internen Gebrauch verwendet werden",
                         "picture": false,
                         "picture_description": "",
                         "centers": [
                             {
-                                "center_x": 121.0,
-                                "center_y": 570.0
+                                "center_x": 167.5,
+                                "center_y": 302.0
                             }
                         ]
                     },
                     {
                         "step": 3,
-                        "text": "Alle emner fanges i gevind inden tilspÃ¦nding.",
+                        "text": "Definitionen (BegriffserklÃ¤rung): Q-in-Line QualitÃ¤tsicherung in der Linie. Ansatz, welcher die Verantwortung fÃ¼r die AusfÃ¼hrung einer spezifischen Arbeit und fÃ¼r das entsprechende QualitÃ¤tsmanagement dazu direkt der bestellten Stelle zusammenfÃ¼hrt (jeder Mitarbeiter ist verantwortlich fÃ¼r seine TÃ¤tigkeit und liefert die geforderte QualitÃ¤t).",
                         "picture": false,
                         "picture_description": "",
                         "centers": [
                             {
-                                "center_x": 190.0,
-                                "center_y": 584.0
+                                "center_x": 205.66666666666666,
+                                "center_y": 363.0
                             }
                         ]
                     },
                     {
                         "step": 4,
-                        "text": "Ved tilspÃ¦nding med moment kontrolleres momentet pÃ¥ vÃ¦rktÃ¸jet fÃ¸r og efter brug.",
+                        "text": "Verfahren: Beschreibung der Vorgehensweise fÃ¼r eine Montagearbeit",
                         "picture": false,
                         "picture_description": "",
                         "centers": [
                             {
-                                "center_x": 259.0,
-                                "center_y": 599.0
+                                "center_x": 147.5,
+                                "center_y": 442.0
+                            }
+                        ]
+                    },
+                    {
+                        "step": 5,
+                        "text": "Verantwortlichkeiten: Der Mitarbeiter ist im Sinne von Q-in Line verantwortlich, dass die Montagearbeiten nach geltenden Verfahrensregelungen F-003 PRODUKTE HERSTELLEN ausgefÃ¼hrt werden.",
+                        "picture": false,
+                        "picture_description": "",
+                        "centers": [
+                            {
+                                "center_x": 204.5,
+                                "center_y": 494.0
+                            }
+                        ]
+                    },
+                    {
+                        "step": 6,
+                        "text": "Wichtig: Fahrzeug Sicherheitsbestimmungen einhalten!",
+                        "picture": true,
+                        "picture_description": "Icons indicating safety measures for vehicles.",
+                        "centers": [
+                            {
+                                "center_x": 298.0,
+                                "center_y": 741.0
                             }
                         ]
                     }
@@ -59,37 +83,25 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Ã†ndret til montage stand",
+                        "text": "Korrekten Sitz des Sicherungsringes in der Nut des AchskÃ¶rpers Ã¼berprÃ¼fen.",
                         "picture": true,
-                        "picture_description": "A photo showcasing a metal component with various holes and attachments.",
+                        "picture_description": "Image showing a close-up of a nut on an axle body.",
                         "centers": [
                             {
-                                "center_x": 125.0,
-                                "center_y": 163.0
+                                "center_x": 161.0,
+                                "center_y": 229.0
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "HG2048R01 lÃ¦gges op i stativet og spÃ¦ndes fast.",
+                        "text": "Die Kone der Aufnahmepunkte der WattgestÃ¤nge am Chassis reinigen.",
                         "picture": true,
-                        "picture_description": "Another photo of a machine part being fastened in place.",
+                        "picture_description": "Image showing a person using a drill with a brush attachment to clean the cone at the mounting point of the Watt link on the chassis.",
                         "centers": [
                             {
-                                "center_x": 181.0,
-                                "center_y": 706.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "VUI label monteres, 29147577",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 136.0,
-                                "center_y": 721.0
+                                "center_x": 166.0,
+                                "center_y": 382.0
                             }
                         ]
                     }
@@ -100,85 +112,25 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "2 stk. Dyse â€“5/0,90U monteres i RN4 og RN2.",
+                        "text": "LÃ¤ngsverlagerung am Chassis und an der Achse mit STAUBURAGS fetten.",
                         "picture": true,
-                        "picture_description": "A machine component with several hose connections and marked circles.",
+                        "picture_description": "Image showing the greasing process on chassis and axle.",
                         "centers": [
                             {
-                                "center_x": 202.0,
-                                "center_y": 360.0
+                                "center_x": 166.0,
+                                "center_y": 140.0
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "2 stk. Dyse â€“6/1,00U monteres i RN3 og RN1.",
+                        "text": "Achse unter dem Chassis positionieren und an den Kran hÃ¤ngen.",
                         "picture": true,
-                        "picture_description": "Same machine component, different marked hose connections.",
+                        "picture_description": "Image showing the axle positioned under the chassis and hanging on the crane.",
                         "centers": [
                             {
-                                "center_x": 199.0,
-                                "center_y": 376.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Alle 4 dyser spÃ¦ndes 1,2 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 172.0,
-                                "center_y": 396.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Lukkes med 4 stk. VSRCH1/8.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 163.0,
-                                "center_y": 626.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "SpÃ¦ndes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 646.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "stk. 111689077O ringene og gevind smÃ¸res efter behov.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 218.0,
-                                "center_y": 665.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 7,
-                        "text": "NÃ¥r der er spÃ¦ndt til med ringene, spÃ¦ndes de 60 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 228.0,
-                                "center_y": 700.0
+                                "center_x": 156.0,
+                                "center_y": 370.0
                             }
                         ]
                     }
@@ -189,73 +141,25 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "4 stk. SKK20G14-PC monteres.",
+                        "text": "Achse vorne mit 2 Spannguet fixieren.",
                         "picture": true,
-                        "picture_description": "Image of a control panel with gauges and fittings.",
+                        "picture_description": "Image showing the front axle secured with straps.",
                         "centers": [
                             {
-                                "center_x": 169.0,
-                                "center_y": 485.0
+                                "center_x": 126.0,
+                                "center_y": 132.0
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "SpÃ¦ndes 45 Nm.",
-                        "picture": false,
-                        "picture_description": "",
+                        "text": "StossdÃ¤mpfer, WatgestÃ¤nge und Fangseil ansetzen. Die vorderen Federn kÃ¶nnen mit dem Kran hochgezogen werden.",
+                        "picture": true,
+                        "picture_description": "Image showing shock absorbers, wading rods, and towing cable attached, with the crane lifting the front springs.",
                         "centers": [
                             {
-                                "center_x": 143.0,
-                                "center_y": 506.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "1 stk. 96302 monteres med 4 stk. 9123706040.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 204.0,
-                                "center_y": 525.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "SpÃ¦ndes 10 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 116.0,
-                                "center_y": 546.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "MÃ¸trikken spÃ¦ndes til fjederpladen.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 183.0,
-                                "center_y": 563.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "Fjederpladen skal kunne bevÃ¦ges uhindret.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 190.0,
-                                "center_y": 578.0
+                                "center_x": 166.0,
+                                "center_y": 351.0
                             }
                         ]
                     }
@@ -266,654 +170,37 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Monter DH0113CA med 4 stk. 91323705050.",
+                        "text": "StoÃŸdÃ¤mpfer, WattgestÃ¤nge und Fangseil mit Drehmoment befestigen. Die hinteren 2 Federn mit Hilfe des Federspanners montieren.",
                         "picture": true,
-                        "picture_description": "An assembly of equipment showing gauges and valves.",
+                        "picture_description": "Person using a tool to attach a shock absorber and spring to a vehicle.",
                         "centers": [
                             {
-                                "center_x": 202.0,
-                                "center_y": 450.0
+                                "center_x": 146.0,
+                                "center_y": 138.0
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "VÃ¦r opmÃ¦rksom pÃ¥ at de o-ringe er i ventilen.",
-                        "picture": false,
-                        "picture_description": "",
+                        "text": "WattgestÃ¤nge montieren.",
+                        "picture": true,
+                        "picture_description": "Watt linkage installation with visible vehicle components.",
                         "centers": [
                             {
-                                "center_x": 199.0,
-                                "center_y": 464.0
+                                "center_x": 103.0,
+                                "center_y": 343.0
                             }
                         ]
                     },
                     {
                         "step": 3,
-                        "text": "SpÃ¦ndes 8 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 116.0,
-                                "center_y": 486.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Monter 6 stk. VSHCRI/8.",
+                        "text": "Splintbohrungen der KugelkÃ¶pfe senkrecht ausrichten.",
                         "picture": true,
-                        "picture_description": "A different view of the equipment showing additional components.",
-                        "centers": []
-                    },
-                    {
-                        "step": 5,
-                        "text": "SpÃ¦ndes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": []
-                    }
-                ]
-            },
-            {
-                "page_no": 6,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Monter 2 stk. VSCHR1/8.",
-                        "picture": true,
-                        "picture_description": "Shows the assembly area with holes for VSCHR1/8.",
+                        "picture_description": "Close-up view of aligned pins on spherical heads.",
                         "centers": [
                             {
-                                "center_x": 158.0,
-                                "center_y": 360.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "SpÃ¦ndes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 380.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Monter 3 stk. RVSB810S.",
-                        "picture": true,
-                        "picture_description": "Shows the assembly area with RVSB810S.",
-                        "centers": [
-                            {
-                                "center_x": 264.0,
-                                "center_y": 399.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Monter RM1, RM3 og RMS med keglen ned i blokken.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 171.0,
-                                "center_y": 414.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "Brug special magnet til montering.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": []
-                    },
-                    {
-                        "step": 6,
-                        "text": "Lukkes med 3 stk. VSCHR1/4.",
-                        "picture": true,
-                        "picture_description": "Shows the assembly area with holes for VSCHR1/4.",
-                        "centers": [
-                            {
-                                "center_x": 163.0,
-                                "center_y": 640.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 7,
-                        "text": "SpÃ¦ndes 25 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 142.0,
-                                "center_y": 661.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 8,
-                        "text": "Monter 4 stk. A10SR1/AWDX.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 142.0,
-                                "center_y": 700.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 9,
-                        "text": "SpÃ¦ndes 40 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 142.0,
-                                "center_y": 711.0
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 7,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Monter 8 stk. VSHCR1/8.",
-                        "picture": true,
-                        "picture_description": "A detailed photo of a component with markings for assembly.",
-                        "centers": [
-                            {
-                                "center_x": 158.0,
-                                "center_y": 346.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "SpÃ¦ndes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 116.0,
-                                "center_y": 368.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Monter 1 stk. C02A3GZN, skrues til med ringene.",
-                        "picture": true,
-                        "picture_description": "A close-up image showing the component with highlighted areas for assembly.",
-                        "centers": [
-                            {
-                                "center_x": 213.0,
-                                "center_y": 641.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "SpÃ¦ndes 60 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 662.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "(Grov justering) af ventil. skruen drejes, sÃ¥ tillen er lidt over midtlinjens top.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 265.0,
-                                "center_y": 680.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "Den sidste 033B-08 monteres, spÃ¦ndes last.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 196.0,
-                                "center_y": 695.0
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 8,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "2 stk. VSCHR1/8 monteres",
-                        "picture": true,
-                        "picture_description": "Image showing assembly components.",
-                        "centers": [
-                            {
-                                "center_x": 157.0,
-                                "center_y": 292.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "SpÃ¦ndes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 313.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "2 stk. RVS08105 monteres i RM4 og RM2 med keglen ned i blokken.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 251.0,
-                                "center_y": 332.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Brug special magnet til montering.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 158.0,
-                                "center_y": 347.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "3 stk. VSCHR1/4 monteres",
-                        "picture": true,
-                        "picture_description": "Image showing assembly components.",
-                        "centers": [
-                            {
-                                "center_x": 157.0,
-                                "center_y": 573.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "SpÃ¦ndes 25 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 593.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 7,
-                        "text": "1 stk. A10LRWDX monteres i L10",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 157.0,
-                                "center_y": 612.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 8,
-                        "text": "SpÃ¦ndes 40 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 142.0,
-                                "center_y": 633.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 9,
-                        "text": "1 stk. A10S43/AWDX monteres i S10",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 180.0,
-                                "center_y": 652.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 10,
-                        "text": "SpÃ¦ndes 40 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 171.0,
-                                "center_y": 672.0
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 9,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "2 stk. VSCHR1/8 mont.eres.",
-                        "picture": true,
-                        "picture_description": "A photo showing a mechanical part with various components.",
-                        "centers": [
-                            {
-                                "center_x": 158.0,
-                                "center_y": 405.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "SpÃ¦ndes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 425.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "1 stk. VSCHR1/4 mont.eres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 158.0,
-                                "center_y": 444.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "SpÃ¦ndes 25 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 465.0
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 10,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Set up the equipment in the designated area.",
-                        "picture": true,
-                        "picture_description": "A clear workspace with equipment laid out.",
-                        "centers": []
-                    },
-                    {
-                        "step": 2,
-                        "text": "Connect the necessary cables and components as outlined in the schematic.",
-                        "picture": true,
-                        "picture_description": "Various cables connected to the main unit.",
-                        "centers": []
-                    },
-                    {
-                        "step": 3,
-                        "text": "Double-check all connections to ensure they are secure.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": []
-                    },
-                    {
-                        "step": 4,
-                        "text": "Perform initial testing to verify functionality.",
-                        "picture": true,
-                        "picture_description": "The testing setup with indicators showing operation.",
-                        "centers": []
-                    },
-                    {
-                        "step": 5,
-                        "text": "Document any discrepancies or issues encountered during testing.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": []
-                    },
-                    {
-                        "step": 6,
-                        "text": "Finalize the setup and prepare for production use.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": []
-                    }
-                ]
-            },
-            {
-                "page_no": 11,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Monter 4 stk. PLUG13F.",
-                        "picture": true,
-                        "picture_description": "Image showing a metal component with red plugs.",
-                        "centers": [
-                            {
-                                "center_x": 155.0,
-                                "center_y": 360.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Monter 1 stk. PLUG12F.",
-                        "picture": true,
-                        "picture_description": "Image showing a metal component with red plugs.",
-                        "centers": [
-                            {
-                                "center_x": 155.0,
-                                "center_y": 676.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Monter 1 stk. PLUG13F.",
-                        "picture": true,
-                        "picture_description": "Image showing a metal component with red plugs.",
-                        "centers": [
-                            {
-                                "center_x": 155.0,
-                                "center_y": 692.0
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 12,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "SC000761R00 monteres med 2 stk. 91217080820.",
-                        "picture": true,
-                        "picture_description": "A work instruction image showing a part assembly.",
-                        "centers": [
-                            {
-                                "center_x": 210.0,
-                                "center_y": 517.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "SpÃ¦ndes 25 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 538.0
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 13,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "1 stk. BR0192R00 monteres med 1 stk. 9121706060.",
-                        "picture": true,
-                        "picture_description": "A machine component with labeled parts that may be installed.",
-                        "centers": [
-                            {
-                                "center_x": 217.0,
-                                "center_y": 427.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "SpÃ¦ndes 10 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 143.0,
-                                "center_y": 658.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Brug 1 stk. 1435-001010 til bespaanding af aluklods.",
-                        "picture": true,
-                        "picture_description": "Another machine component, likely related to the task.",
-                        "centers": [
-                            {
-                                "center_x": 214.0,
-                                "center_y": 677.0
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 14,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Enheden lÃ¦gges i pose 2743-903.",
-                        "picture": true,
-                        "picture_description": "A picture showing items packaged in yellow bags.",
-                        "centers": [
-                            {
-                                "center_x": 172.0,
-                                "center_y": 427.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "ManillamÃ¦rke med varenummer og bloknummer sÃ¦ttes pÃ¥ med 1435-01010.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 275.0,
-                                "center_y": 443.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Registreres i Sharepoint.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 150.0,
-                                "center_y": 458.0
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 15,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Pakkes i palle.",
-                        "picture": true,
-                        "picture_description": "Image shows packaged items on a pallet.",
-                        "centers": [
-                            {
-                                "center_x": 127.0,
-                                "center_y": 426.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Blokkene sikres med 2 stk. lange pinde og 1 stk. kort.",
-                        "picture": true,
-                        "picture_description": "Image shows blocks secured with sticks on a pallet.",
-                        "centers": [
-                            {
-                                "center_x": 213.0,
-                                "center_y": 441.0
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Palleseddel laves.",
-                        "picture": true,
-                        "picture_description": "Image shows a label being created for the pallet.",
-                        "centers": [
-                            {
-                                "center_x": 135.0,
-                                "center_y": 711.0
+                                "center_x": 165.0,
+                                "center_y": 552.0
                             }
                         ]
                     }
