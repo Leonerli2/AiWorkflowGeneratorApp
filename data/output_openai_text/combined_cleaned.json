@@ -1,7 +1,4 @@
 {
-<<<<<<< Updated upstream
-    "page": []
-=======
     "page": [
         {
             "page_no": 1,
@@ -40,5 +37,4 @@
             "center_y": 324
         }
     ]
->>>>>>> Stashed changes
 }

@@ -3,81 +3,49 @@
         "pictures": [
             {
                 "page_no": 1,
-<<<<<<< Updated upstream
-                "picture_uri": "data\\output_docling\\pictures/picture_001.jpg",
-=======
                 "picture_uri": "data\\output_docling\\pictures\\picture_001.jpg",
->>>>>>> Stashed changes
                 "center_x": 374,
                 "center_y": 282
             },
             {
                 "page_no": 1,
-<<<<<<< Updated upstream
-                "picture_uri": "data\\output_docling\\pictures/picture_002.jpg",
-=======
                 "picture_uri": "data\\output_docling\\pictures\\picture_002.jpg",
->>>>>>> Stashed changes
                 "center_x": 373,
                 "center_y": 455
             },
             {
                 "page_no": 1,
-<<<<<<< Updated upstream
-                "picture_uri": "data\\output_docling\\pictures/picture_003.jpg",
-=======
                 "picture_uri": "data\\output_docling\\pictures\\picture_003.jpg",
->>>>>>> Stashed changes
                 "center_x": 374,
                 "center_y": 629
             },
             {
                 "page_no": 2,
-<<<<<<< Updated upstream
-                "picture_uri": "data\\output_docling\\pictures/picture_004.jpg",
-=======
                 "picture_uri": "data\\output_docling\\pictures\\picture_004.jpg",
->>>>>>> Stashed changes
                 "center_x": 374,
                 "center_y": 150
             },
             {
                 "page_no": 2,
-<<<<<<< Updated upstream
-                "picture_uri": "data\\output_docling\\pictures/picture_005.jpg",
-=======
                 "picture_uri": "data\\output_docling\\pictures\\picture_005.jpg",
->>>>>>> Stashed changes
                 "center_x": 374,
                 "center_y": 324
             },
             {
                 "page_no": 2,
-<<<<<<< Updated upstream
-                "picture_uri": "data\\output_docling\\pictures/picture_006.jpg",
-=======
                 "picture_uri": "data\\output_docling\\pictures\\picture_006.jpg",
->>>>>>> Stashed changes
                 "center_x": 374,
                 "center_y": 497
             },
             {
                 "page_no": 2,
-<<<<<<< Updated upstream
-                "picture_uri": "data\\output_docling\\pictures/picture_007.jpg",
-=======
                 "picture_uri": "data\\output_docling\\pictures\\picture_007.jpg",
->>>>>>> Stashed changes
                 "center_x": 373,
                 "center_y": 670
             },
             {
                 "page_no": 3,
-<<<<<<< Updated upstream
-                "picture_uri": "data\\output_docling\\pictures/picture_008.jpg",
-=======
                 "picture_uri": "data\\output_docling\\pictures\\picture_008.jpg",
->>>>>>> Stashed changes
                 "center_x": 374,
                 "center_y": 151
             }

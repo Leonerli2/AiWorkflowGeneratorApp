@@ -2,25 +2,6 @@
     "instructions": [
         {
             "step": 1,
-<<<<<<< Updated upstream
-            "text": "Nehmen Sie eine Mine aus dem Beh\u00e4lter.",
-            "image_uri": []
-        },
-        {
-            "step": 2,
-            "text": "Stifth\u00fclle unten entnehmen.",
-            "image_uri": []
-        },
-        {
-            "step": 3,
-            "text": "F\u00fchren Sie die Mine in die Stifth\u00fclle ein.",
-            "image_uri": []
-        },
-        {
-            "step": 1,
-            "text": "Nehmen Sie eine Feder aus dem Beh\u00e4lter.",
-            "image_uri": []
-=======
             "text": "Nehmen Sie eine Mine aus dem Beh\u00c3\u0192\u00c2\u00a4lter.",
             "image_uri": [
                 "cache\\pictures\\w50\\image_1_1.jpg",
@@ -49,29 +30,10 @@
                 "cache\\pictures\\w50\\picture_005.jpg",
                 "cache\\pictures\\w50\\picture_005.jpg"
             ]
->>>>>>> Stashed changes
         },
         {
             "step": 2,
             "text": "Setzen Sie die Feder auf die Mine.",
-<<<<<<< Updated upstream
-            "image_uri": []
-        },
-        {
-            "step": 3,
-            "text": "Stifth\u00fclle \u201eoben\u201c entnehmen.",
-            "image_uri": []
-        },
-        {
-            "step": 4,
-            "text": "Schrauben Sie die Stifth\u00fcllen zusammen.",
-            "image_uri": []
-        },
-        {
-            "step": 1,
-            "text": "F\u00fchren Sie einen Funktionstest durch.",
-            "image_uri": []
-=======
             "image_uri": [
                 "cache\\pictures\\w50\\picture_005.jpg",
                 "cache\\pictures\\w50\\picture_005.jpg"
@@ -79,7 +41,7 @@
         },
         {
             "step": 3,
-            "text": "Stifth\u00c3\u0192\u00c2\u00bclle \u00c3\u00a2\u00e2\u201a\u00ac\u00c5\u00beoben\u00c3\u00a2\u00e2\u201a\u00ac\u00c5\u201c entnehmen.",
+            "text": "Stifth\u00c3\u0192\u00c2\u00bclle \"oben\" entnehmen.",
             "image_uri": [
                 "cache\\pictures\\w50\\image_2_2.jpg",
                 "cache\\pictures\\w50\\image_2_2.jpg"
@@ -100,7 +62,6 @@
                 "cache\\pictures\\w50\\image_3_1.jpg",
                 "cache\\pictures\\w50\\image_3_1.jpg"
             ]
->>>>>>> Stashed changes
         }
     ]
 }

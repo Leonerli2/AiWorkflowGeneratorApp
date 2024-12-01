@@ -6,15 +6,9 @@
                 "instructions": [
                     {
                         "step": 1,
-<<<<<<< Updated upstream
-                        "text": "Nehmen Sie eine Mine aus dem Behälter.",
-                        "picture": true,
-                        "picture_description": "A person taking a pen refill from a container on a desk.",
-=======
                         "text": "Nehmen Sie eine Mine aus dem BehÃ¤lter.",
                         "picture": true,
-                        "picture_description": "A person's hand is reaching for a small cylindrical object on a table.",
->>>>>>> Stashed changes
+                        "picture_description": "Person nimmt eine Mine aus einem BehÃ¤lter.",
                         "centers": [
                             {
                                 "center_x": 148.0,
@@ -24,15 +18,9 @@
                     },
                     {
                         "step": 2,
-<<<<<<< Updated upstream
-                        "text": "Stifthülle unten entnehmen.",
-                        "picture": true,
-                        "picture_description": "A pen body and a person handling it on a desk.",
-=======
                         "text": "StifthÃ¼lle unten entnehmen.",
                         "picture": true,
-                        "picture_description": "A view of a person holding a pen's outer casing.",
->>>>>>> Stashed changes
+                        "picture_description": "Person hÃ¤lt die StifthÃ¼lle in der Hand.",
                         "centers": [
                             {
                                 "center_x": 144.0,
@@ -42,15 +30,9 @@
                     },
                     {
                         "step": 3,
-<<<<<<< Updated upstream
-                        "text": "Führen Sie die Mine in die Stifthülle ein.",
-                        "picture": true,
-                        "picture_description": "A person inserting the refill into the pen body.",
-=======
                         "text": "FÃ¼hren Sie die Mine in die StifthÃ¼lle ein.",
                         "picture": true,
-                        "picture_description": "A person is inserting the refill into the pen casing.",
->>>>>>> Stashed changes
+                        "picture_description": "Person fÃ¼hrt die Mine in die StifthÃ¼lle ein.",
                         "centers": [
                             {
                                 "center_x": 135.0,
@@ -65,15 +47,9 @@
                 "instructions": [
                     {
                         "step": 1,
-<<<<<<< Updated upstream
-                        "text": "Nehmen Sie eine Feder aus dem Behälter.",
-                        "picture": true,
-                        "picture_description": "Person picking up a spring from a container.",
-=======
                         "text": "Nehmen Sie eine Feder aus dem BehÃ¤lter.",
                         "picture": true,
-                        "picture_description": "A person taking a pen nib from a container.",
->>>>>>> Stashed changes
+                        "picture_description": "A person is removing a spring from a container.",
                         "centers": [
                             {
                                 "center_x": 149.0,
@@ -85,11 +61,7 @@
                         "step": 2,
                         "text": "Setzen Sie die Feder auf die Mine.",
                         "picture": true,
-<<<<<<< Updated upstream
-                        "picture_description": "Person placing the spring on the refill.",
-=======
-                        "picture_description": "A person placing the nib onto the pen refill.",
->>>>>>> Stashed changes
+                        "picture_description": "A person placing a spring onto the pen refill.",
                         "centers": [
                             {
                                 "center_x": 138.0,
@@ -99,15 +71,9 @@
                     },
                     {
                         "step": 3,
-<<<<<<< Updated upstream
-                        "text": "Stifthülle „oben“ entnehmen.",
+                        "text": "StifthÃ¼lle \"oben\" entnehmen.",
                         "picture": true,
-                        "picture_description": "Person taking the upper pen casing.",
-=======
-                        "text": "StifthÃ¼lle â€žobenâ€œ entnehmen.",
-                        "picture": true,
-                        "picture_description": "A person taking the top part of the pen casing.",
->>>>>>> Stashed changes
+                        "picture_description": "A person removing the top part of the pen casing.",
                         "centers": [
                             {
                                 "center_x": 143.0,
@@ -117,15 +83,9 @@
                     },
                     {
                         "step": 4,
-<<<<<<< Updated upstream
-                        "text": "Schrauben Sie die Stifthüllen zusammen.",
-                        "picture": true,
-                        "picture_description": "Person screwing the pen casings together.",
-=======
                         "text": "Schrauben Sie die StifthÃ¼llen zusammen.",
                         "picture": true,
-                        "picture_description": "A person assembling the pen by screwing the casing together.",
->>>>>>> Stashed changes
+                        "picture_description": "A person screwing the pen casing parts together.",
                         "centers": [
                             {
                                 "center_x": 141.0,
@@ -140,15 +100,9 @@
                 "instructions": [
                     {
                         "step": 1,
-<<<<<<< Updated upstream
-                        "text": "Führen Sie einen Funktionstest durch.",
-                        "picture": true,
-                        "picture_description": "A person is holding a small device in their hand, performing some kind of functionality test on a device at a workstation with a laptop.",
-=======
                         "text": "FÃ¼hren Sie einen Funktionstest durch.",
                         "picture": true,
-                        "picture_description": "A person holding and inspecting a small electronic device at a desk.",
->>>>>>> Stashed changes
+                        "picture_description": "A person conducting a functionality test on a device at a desk.",
                         "centers": [
                             {
                                 "center_x": 146.0,

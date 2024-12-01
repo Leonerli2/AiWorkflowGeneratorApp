@@ -4,11 +4,7 @@
   "name": "w50",
   "origin": {
     "mimetype": "application/pdf",
-<<<<<<< Updated upstream
-    "binary_hash": 10830197660281537428,
-=======
     "binary_hash": 18407874925780569675,
->>>>>>> Stashed changes
     "filename": "w50.pdf"
   },
   "furniture": {
@@ -118,35 +114,20 @@
         {
           "page_no": 1,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 70.49574279785156,
-            "t": 696.8674926757812,
-            "r": 498.8631591796875,
-=======
             "l": 70.48538208007812,
             "t": 696.79833984375,
             "r": 467.3473815917969,
->>>>>>> Stashed changes
             "b": 671.0200805664062,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-<<<<<<< Updated upstream
-            168
-          ]
-        }
-      ],
-      "orig": "Das folgende Element stellt eine Anleitung zur Verf\u00fcgung, die eine Kugelschreiber-Montagelinie demonstriert. Im Anschluss sind alle erforderlichen Schritte aufgelistet.",
-      "text": "Das folgende Element stellt eine Anleitung zur Verf\u00fcgung, die eine Kugelschreiber-Montagelinie demonstriert. Im Anschluss sind alle erforderlichen Schritte aufgelistet."
-=======
             155
           ]
         }
       ],
       "orig": "Das Dokument stellt eine Anleitung zur Verf\u00fcgung, die eine Kugelschreiber-Montagelinie demonstriert. Folgend sind alle erforderlichen Schritte aufgelistet.",
       "text": "Das Dokument stellt eine Anleitung zur Verf\u00fcgung, die eine Kugelschreiber-Montagelinie demonstriert. Folgend sind alle erforderlichen Schritte aufgelistet."
->>>>>>> Stashed changes
     },
     {
       "self_ref": "#/texts/2",
@@ -159,13 +140,8 @@
         {
           "page_no": 1,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 76.05218505859375,
-            "t": 636.7301025390625,
-=======
             "l": 76.0584945678711,
             "t": 636.7098388671875,
->>>>>>> Stashed changes
             "r": 220.77967834472656,
             "b": 612.1000366210938,
             "coord_origin": "BOTTOMLEFT"
@@ -190,11 +166,7 @@
         {
           "page_no": 1,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 75.87521362304688,
-=======
             "l": 75.89430236816406,
->>>>>>> Stashed changes
             "t": 463.27001953125,
             "r": 213.91207885742188,
             "b": 452.2300109863281,
@@ -220,13 +192,8 @@
         {
           "page_no": 1,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 75.94330596923828,
-            "t": 290.108154296875,
-=======
             "l": 75.95124053955078,
             "t": 290.073974609375,
->>>>>>> Stashed changes
             "r": 195.18673706054688,
             "b": 265.46002197265625,
             "coord_origin": "BOTTOMLEFT"
@@ -329,11 +296,7 @@
         {
           "page_no": 2,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 75.86913299560547,
-=======
             "l": 75.86915588378906,
->>>>>>> Stashed changes
             "t": 248.30001831054688,
             "r": 206.39231872558594,
             "b": 223.8200225830078,
@@ -387,17 +350,10 @@
         {
           "page_no": 1,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 230.9636993408203,
-            "t": 639.5942993164062,
-            "r": 517.4614868164062,
-            "b": 478.87249755859375,
-=======
             "l": 230.9712371826172,
             "t": 639.6163940429688,
             "r": 517.4494018554688,
             "b": 478.88690185546875,
->>>>>>> Stashed changes
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -416,11 +372,7 @@
           "width": 1146.0,
           "height": 643.0
         },
-<<<<<<< Updated upstream
-        "uri": "data\\output_docling\\pictures/picture_001.jpg"
-=======
         "uri": "data\\output_docling\\pictures\\picture_001.jpg"
->>>>>>> Stashed changes
       },
       "annotations": []
     },
@@ -435,17 +387,10 @@
         {
           "page_no": 1,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 230.51475524902344,
-            "t": 466.6659851074219,
-            "r": 517.2267456054688,
-            "b": 305.33941650390625,
-=======
             "l": 230.52268981933594,
             "t": 466.64593505859375,
             "r": 517.2119140625,
             "b": 305.34185791015625,
->>>>>>> Stashed changes
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -464,11 +409,7 @@
           "width": 1147.0,
           "height": 645.0
         },
-<<<<<<< Updated upstream
-        "uri": "data\\output_docling\\pictures/picture_002.jpg"
-=======
         "uri": "data\\output_docling\\pictures\\picture_002.jpg"
->>>>>>> Stashed changes
       },
       "annotations": []
     },
@@ -483,17 +424,10 @@
         {
           "page_no": 1,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 231.2003631591797,
-            "t": 293.46905517578125,
-            "r": 517.5175170898438,
-            "b": 132.23284912109375,
-=======
             "l": 231.2193603515625,
             "t": 293.46136474609375,
             "r": 517.481689453125,
             "b": 132.26513671875,
->>>>>>> Stashed changes
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -512,11 +446,7 @@
           "width": 1145.0,
           "height": 645.0
         },
-<<<<<<< Updated upstream
-        "uri": "data\\output_docling\\pictures/picture_003.jpg"
-=======
         "uri": "data\\output_docling\\pictures\\picture_003.jpg"
->>>>>>> Stashed changes
       },
       "annotations": []
     },
@@ -553,11 +483,7 @@
           "width": 1142.0,
           "height": 646.0
         },
-<<<<<<< Updated upstream
-        "uri": "data\\output_docling\\pictures/picture_004.jpg"
-=======
         "uri": "data\\output_docling\\pictures\\picture_004.jpg"
->>>>>>> Stashed changes
       },
       "annotations": []
     },
@@ -572,11 +498,7 @@
         {
           "page_no": 2,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 231.43118286132812,
-=======
             "l": 231.43121337890625,
->>>>>>> Stashed changes
             "t": 598.423583984375,
             "r": 517.256103515625,
             "b": 437.1732177734375,
@@ -598,11 +520,7 @@
           "width": 1143.0,
           "height": 645.0
         },
-<<<<<<< Updated upstream
-        "uri": "data\\output_docling\\pictures/picture_005.jpg"
-=======
         "uri": "data\\output_docling\\pictures\\picture_005.jpg"
->>>>>>> Stashed changes
       },
       "annotations": []
     },
@@ -617,17 +535,10 @@
         {
           "page_no": 2,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 231.19808959960938,
-            "t": 424.9575500488281,
-            "r": 517.0465698242188,
-            "b": 263.81414794921875,
-=======
             "l": 231.19813537597656,
             "t": 424.9576110839844,
             "r": 517.0465087890625,
             "b": 263.814208984375,
->>>>>>> Stashed changes
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -646,11 +557,7 @@
           "width": 1143.0,
           "height": 644.0
         },
-<<<<<<< Updated upstream
-        "uri": "data\\output_docling\\pictures/picture_006.jpg"
-=======
         "uri": "data\\output_docling\\pictures\\picture_006.jpg"
->>>>>>> Stashed changes
       },
       "annotations": []
     },
@@ -665,11 +572,7 @@
         {
           "page_no": 2,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 230.8439178466797,
-=======
             "l": 230.84390258789062,
->>>>>>> Stashed changes
             "t": 252.01300048828125,
             "r": 517.0556030273438,
             "b": 90.0975341796875,
@@ -691,11 +594,7 @@
           "width": 1145.0,
           "height": 647.0
         },
-<<<<<<< Updated upstream
-        "uri": "data\\output_docling\\pictures/picture_007.jpg"
-=======
         "uri": "data\\output_docling\\pictures\\picture_007.jpg"
->>>>>>> Stashed changes
       },
       "annotations": []
     },
@@ -710,15 +609,9 @@
         {
           "page_no": 3,
           "bbox": {
-<<<<<<< Updated upstream
-            "l": 231.22561645507812,
-            "t": 771.693115234375,
-            "r": 517.1132202148438,
-=======
             "l": 231.22564697265625,
             "t": 771.693115234375,
             "r": 517.11328125,
->>>>>>> Stashed changes
             "b": 609.750732421875,
             "coord_origin": "BOTTOMLEFT"
           },
@@ -738,11 +631,7 @@
           "width": 1143.0,
           "height": 648.0
         },
-<<<<<<< Updated upstream
-        "uri": "data\\output_docling\\pictures/picture_008.jpg"
-=======
         "uri": "data\\output_docling\\pictures\\picture_008.jpg"
->>>>>>> Stashed changes
       },
       "annotations": []
     }
