@@ -87,6 +87,16 @@ Note: If you encounter issues installing docling, it may be due to an incompatib
     ├── requirements.txt  # Dependencies
 
 ## Demo Videos
+### Demo - Video -> ELAM Instructions
+[![Demo Video Instructions](documentation/AiWorkflowGeneratorApp%20--%20Video.png)](https://youtu.be/zZTOIWQICY4)
+
+### Demo - PDF -> ELAM Instructions
+[![Demo PDF Instructions](documentation/AiWorkflowGeneratorApp%20--%20PDF.png)](https://youtu.be/wijCPyUxhmI)
+
+### Demo - How to Upload Videos?
+[![Demo Video Upload](documentation/AiWorkflowGeneratorApp%20--%20Video.png)](https://youtu.be/gP2fMoikhu4)
+
+
 
 
 ## Troubleshooting
