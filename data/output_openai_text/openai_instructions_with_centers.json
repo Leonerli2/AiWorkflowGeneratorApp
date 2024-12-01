@@ -6,61 +6,37 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Alle gevind smøres med Q8RUBENS fedt.",
-                        "picture": false,
-                        "picture_description": "",
+                        "text": "Nehmen Sie eine Mine aus dem Behälter.",
+                        "picture": true,
+                        "picture_description": "A person taking a pen refill from a container on a desk.",
                         "centers": [
                             {
-                                "center_x": 161,
-                                "center_y": 634
+                                "center_x": 148,
+                                "center_y": 217
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "Alle moment strøges.",
-                        "picture": false,
-                        "picture_description": "",
+                        "text": "Stifthülle unten entnehmen.",
+                        "picture": true,
+                        "picture_description": "A pen body and a person handling it on a desk.",
                         "centers": [
                             {
-                                "center_x": 116,
-                                "center_y": 649
+                                "center_x": 144,
+                                "center_y": 384
                             }
                         ]
                     },
                     {
                         "step": 3,
-                        "text": "Alle emner fanges i gevind inden moment tilspænding.",
-                        "picture": false,
-                        "picture_description": "",
+                        "text": "Führen Sie die Mine in die Stifthülle ein.",
+                        "picture": true,
+                        "picture_description": "A person inserting the refill into the pen body.",
                         "centers": [
                             {
-                                "center_x": 190,
-                                "center_y": 664
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Ved tilspænding med moment, kontrolleres momentet på værktøjet før og efter brug.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 260,
-                                "center_y": 678
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "Ventiler med O-ringe skrues til manuelt.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 158,
-                                "center_y": 693
+                                "center_x": 135,
+                                "center_y": 564
                             }
                         ]
                     }
@@ -71,25 +47,49 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Rev 03 - 02. februar 2022 - Tekst og billeder, pakke instr.",
-                        "picture": false,
-                        "picture_description": "",
+                        "text": "Nehmen Sie eine Feder aus dem Behälter.",
+                        "picture": true,
+                        "picture_description": "Person picking up a spring from a container.",
                         "centers": [
                             {
-                                "center_x": 134,
-                                "center_y": 163
+                                "center_x": 149,
+                                "center_y": 85
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "Rev 04 - 16. maj 2022 - Ændret til montagestand.",
-                        "picture": false,
-                        "picture_description": "",
+                        "text": "Setzen Sie die Feder auf die Mine.",
+                        "picture": true,
+                        "picture_description": "Person placing the spring on the refill.",
                         "centers": [
                             {
-                                "center_x": 125,
-                                "center_y": 205
+                                "center_x": 138,
+                                "center_y": 259
+                            }
+                        ]
+                    },
+                    {
+                        "step": 3,
+                        "text": "Stifthülle „oben“ entnehmen.",
+                        "picture": true,
+                        "picture_description": "Person taking the upper pen casing.",
+                        "centers": [
+                            {
+                                "center_x": 143,
+                                "center_y": 425
+                            }
+                        ]
+                    },
+                    {
+                        "step": 4,
+                        "text": "Schrauben Sie die Stifthüllen zusammen.",
+                        "picture": true,
+                        "picture_description": "Person screwing the pen casings together.",
+                        "centers": [
+                            {
+                                "center_x": 141,
+                                "center_y": 605
                             }
                         ]
                     }
@@ -100,833 +100,13 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "HG2123R00 placeres i montagestand.",
+                        "text": "Führen Sie einen Funktionstest durch.",
                         "picture": true,
-                        "picture_description": "Metal block with three screws highlighted.",
+                        "picture_description": "A person is holding a small device in their hand, performing some kind of functionality test on a device at a workstation with a laptop.",
                         "centers": [
                             {
-                                "center_x": 182,
-                                "center_y": 292
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "2 stk. VSCHRI/8 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 158,
-                                "center_y": 308
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Spændes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 327
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "1 stk. VSCHRI/4 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 158,
-                                "center_y": 345
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "Spændes 25 Nm.",
-                        "picture": true,
-                        "picture_description": "Different angle of the same metal block with four screws highlighted.",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 364
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "1 stk. VSCHRI/4 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 158,
-                                "center_y": 615
-                            }
-                        ]
-                    },
-                    {
-                        "step": 7,
-                        "text": "Spændes 80 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 634
-                            }
-                        ]
-                    },
-                    {
-                        "step": 8,
-                        "text": "1 stk. VSCHRI/2 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 158,
-                                "center_y": 652
-                            }
-                        ]
-                    },
-                    {
-                        "step": 9,
-                        "text": "Spændes 60 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 671
-                            }
-                        ]
-                    },
-                    {
-                        "step": 10,
-                        "text": "1 stk. VSCHRI/1 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 153,
-                                "center_y": 689
-                            }
-                        ]
-                    },
-                    {
-                        "step": 11,
-                        "text": "Spændes 160 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 144,
-                                "center_y": 708
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 4,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "2 stk. SKK20G1/4-PC monteres.",
-                        "picture": true,
-                        "picture_description": "Top image shows a hydraulic block with SKK20G1/4-PC components mounted.",
-                        "centers": [
-                            {
-                                "center_x": 169,
-                                "center_y": 360
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Spændes 45 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 379
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "2171256 monteres, spændes til med fingrene.",
-                        "picture": true,
-                        "picture_description": "Middle-left image shows a hand installing 2171256 component.",
-                        "centers": [
-                            {
-                                "center_x": 200,
-                                "center_y": 397
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Spændes 60 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 416
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "Blokken drejes",
-                        "picture": true,
-                        "picture_description": "Middle-right image shows the block being rotated.",
-                        "centers": [
-                            {
-                                "center_x": 128,
-                                "center_y": 432
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "1 stk. dyse DYSE-10/1.0US monteres i RN2",
-                        "picture": true,
-                        "picture_description": "Bottom-left image shows DYSE-10/1.0US being installed in RN2.",
-                        "centers": [
-                            {
-                                "center_x": 194,
-                                "center_y": 628
-                            }
-                        ]
-                    },
-                    {
-                        "step": 7,
-                        "text": "Spændes 10 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 647
-                            }
-                        ]
-                    },
-                    {
-                        "step": 8,
-                        "text": "1 stk. dyse DYSE-6/0.60US monteres i RN1",
-                        "picture": true,
-                        "picture_description": "Bottom-right image shows DYSE-6/0.60US being installed in RN1.",
-                        "centers": [
-                            {
-                                "center_x": 194,
-                                "center_y": 665
-                            }
-                        ]
-                    },
-                    {
-                        "step": 9,
-                        "text": "Spændes 1,2 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 142,
-                                "center_y": 684
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 5,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "VSCHR1/8 monteres.",
-                        "picture": true,
-                        "picture_description": "A panel with various mechanical components being assembled.",
-                        "centers": [
-                            {
-                                "center_x": 145,
-                                "center_y": 315
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Spændes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 334
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "VSCHR1/4 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 145,
-                                "center_y": 352
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Spændes 25 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 371
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "SSKR20G1/4-PC monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 389
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "Spændes 45 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 408
-                            }
-                        ]
-                    },
-                    {
-                        "step": 7,
-                        "text": "063G2887 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 145,
-                                "center_y": 425
-                            }
-                        ]
-                    },
-                    {
-                        "step": 8,
-                        "text": "Spændes 30 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 445
-                            }
-                        ]
-                    },
-                    {
-                        "step": 9,
-                        "text": "Akseldel af 400510057 monteres.",
-                        "picture": true,
-                        "picture_description": "Continuation of the assembly process with additional components.",
-                        "centers": [
-                            {
-                                "center_x": 173,
-                                "center_y": 652
-                            }
-                        ]
-                    },
-                    {
-                        "step": 10,
-                        "text": "Spændes 8 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 136,
-                                "center_y": 671
-                            }
-                        ]
-                    },
-                    {
-                        "step": 11,
-                        "text": "Sidste del af 400510057 monteres.",
-                        "picture": true,
-                        "picture_description": "Final assembly step with the last component being attached.",
-                        "centers": [
-                            {
-                                "center_x": 176,
-                                "center_y": 690
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 6,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Akseldel af 400511005 monteres.",
-                        "picture": true,
-                        "picture_description": "A mechanical assembly with parts labeled and highlighted.",
-                        "centers": [
-                            {
-                                "center_x": 209,
-                                "center_y": 388
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Spændes 45 Nm.",
-                        "picture": true,
-                        "picture_description": "A close-up of a torque wrench set to 45 Nm.",
-                        "centers": [
-                            {
-                                "center_x": 176,
-                                "center_y": 407
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Sidste del af 400511005 monteres.",
-                        "picture": true,
-                        "picture_description": "The continuation of the mechanical assembly process.",
-                        "centers": [
-                            {
-                                "center_x": 212,
-                                "center_y": 425
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Akseldel af 400511112 monteres.",
-                        "picture": true,
-                        "picture_description": "Another mechanical assembly with distinct parts.",
-                        "centers": [
-                            {
-                                "center_x": 209,
-                                "center_y": 658
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "Spændes 45 Nm.",
-                        "picture": true,
-                        "picture_description": "Another view of the torque wrench set to 45 Nm.",
-                        "centers": [
-                            {
-                                "center_x": 176,
-                                "center_y": 677
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "Sidste del af 400511112 monteres.",
-                        "picture": true,
-                        "picture_description": "Completion of the assembly with final adjustments.",
-                        "centers": [
-                            {
-                                "center_x": 212,
-                                "center_y": 695
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 7,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "2 stk. VSCHR1/8 monteres.",
-                        "picture": true,
-                        "picture_description": "Image showing bolt assembly on a metal plate.",
-                        "centers": [
-                            {
-                                "center_x": 159,
-                                "center_y": 330
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Spændes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 349
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "2 stk. VSCHR1/4 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 158,
-                                "center_y": 367
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Spændes 45 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 386
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "2 stk. SKK2OG1/4-PC monteres.",
-                        "picture": true,
-                        "picture_description": "Another angle of the metal plate with additional components assembled.",
-                        "centers": [
-                            {
-                                "center_x": 169,
-                                "center_y": 659
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "Spændes 45 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 678
-                            }
-                        ]
-                    },
-                    {
-                        "step": 7,
-                        "text": "2171256 monteres, spændes til med fingrene.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 200,
-                                "center_y": 696
-                            }
-                        ]
-                    },
-                    {
-                        "step": 8,
-                        "text": "Spændes 60 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 715
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 8,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "1 stk. dyse DYSE-6/0.600US monteres i RNS",
-                        "picture": true,
-                        "picture_description": "Image of hydraulic block with various ports and components.",
-                        "centers": [
-                            {
-                                "center_x": 194,
-                                "center_y": 292
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Spændes 1,2 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 142,
-                                "center_y": 311
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "3 stk. VSCHR1/8 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 159,
-                                "center_y": 329
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "Spændes 12 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 140,
-                                "center_y": 348
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "Aksel del af VW-29156288 monteres, spændes til med fingrene.",
-                        "picture": true,
-                        "picture_description": "Image showing a component mounted on the hydraulic block.",
-                        "centers": [
-                            {
-                                "center_x": 241,
-                                "center_y": 604
-                            }
-                        ]
-                    },
-                    {
-                        "step": 6,
-                        "text": "Spændes 160 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 144,
-                                "center_y": 623
-                            }
-                        ]
-                    },
-                    {
-                        "step": 7,
-                        "text": "Rester af VW-29156288 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 176,
-                                "center_y": 641
-                            }
-                        ]
-                    },
-                    {
-                        "step": 8,
-                        "text": "Spændes 6 Nm.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 136,
-                                "center_y": 660
-                            }
-                        ]
-                    },
-                    {
-                        "step": 9,
-                        "text": "02172863 monteres.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 144,
-                                "center_y": 678
-                            }
-                        ]
-                    },
-                    {
-                        "step": 10,
-                        "text": "Spændes 60 Nm. og ventil spændes til (lukkes)",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 206,
-                                "center_y": 697
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 9,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "VUI påsættes",
-                        "picture": true,
-                        "picture_description": "Close-up image of a hydraulic control panel with various knobs and a red lever.",
-                        "centers": [
-                            {
-                                "center_x": 125,
-                                "center_y": 359
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Enheden er nu klar til tryktest",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 276,
-                                "center_y": 534
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 10,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "2 Stk. GRU106 monteres.",
-                        "picture": true,
-                        "picture_description": "Hydraulic component with multiple ports and parts labeled Hydra Specma.",
-                        "centers": [
-                            {
-                                "center_x": 152,
-                                "center_y": 347
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "5 Stk. 100002093.",
-                        "picture": true,
-                        "picture_description": "Hydraulic component with multiple ports and parts labeled Hydra Specma.",
-                        "centers": [
-                            {
-                                "center_x": 138,
-                                "center_y": 363
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "2 Stk. GRU106 monteres.",
-                        "picture": true,
-                        "picture_description": "Close-up of a hydraulic component labeled Hydra Specma.",
-                        "centers": [
-                            {
-                                "center_x": 152,
-                                "center_y": 656
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "2 Stk. 100002093.",
-                        "picture": true,
-                        "picture_description": "Close-up of a hydraulic component labeled Hydra Specma.",
-                        "centers": [
-                            {
-                                "center_x": 138,
-                                "center_y": 672
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "page_no": 11,
-                "instructions": [
-                    {
-                        "step": 1,
-                        "text": "Enheden lægges i en pose 2743-903",
-                        "picture": true,
-                        "picture_description": "A unit is placed inside a yellow-labeled plastic bag.",
-                        "centers": [
-                            {
-                                "center_x": 177,
-                                "center_y": 344
-                            }
-                        ]
-                    },
-                    {
-                        "step": 2,
-                        "text": "Gul varelabel med varenummer sættes på posen.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 206,
-                                "center_y": 359
-                            }
-                        ]
-                    },
-                    {
-                        "step": 3,
-                        "text": "Enheden lukkes med 1435-001010.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 177,
-                                "center_y": 375
-                            }
-                        ]
-                    },
-                    {
-                        "step": 4,
-                        "text": "12 stk. pakkes i palle",
-                        "picture": true,
-                        "picture_description": "Twelve bagged units are packed onto a pallet.",
-                        "centers": [
-                            {
-                                "center_x": 141,
-                                "center_y": 679
-                            }
-                        ]
-                    },
-                    {
-                        "step": 5,
-                        "text": "Palleseddel laves.",
-                        "picture": false,
-                        "picture_description": "",
-                        "centers": [
-                            {
-                                "center_x": 135,
-                                "center_y": 694
+                                "center_x": 146,
+                                "center_y": 85
                             }
                         ]
                     }
