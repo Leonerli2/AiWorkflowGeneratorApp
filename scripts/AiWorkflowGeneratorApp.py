@@ -111,7 +111,7 @@ def main():
 
             # Start the upload app as a subprocess (you can use a different port each time if needed)
             video_main_folder_path = VIDEO_PATH_HANDLER.video_dir
-            subprocess.Popen(["streamlit", "run", "scripts/VideoUploadApp.py", "--server.port", str(st.session_state.video_upload_counter), "--", video_main_folder_path])
+            subprocess.Popen(["streamlit", "run", "scripts/VideoUploadApp.py", "--server.port", str(st.session_state.video_upload_counter), "--server.address", "0.0.0.0", "--", video_main_folder_path])
             # subprocess.Popen(["streamlit", "run", "scripts/VideoUploadApp.py", "--server.address", "0.0.0.0", "--server.port", str(st.session_state.video_upload_counter), "--", video_main_folder_path])
 
             # Generate a QR code for the upload URL
