@@ -5,15 +5,22 @@
             "instructions": [
                 {
                     "step": 1,
+<<<<<<< Updated upstream
                     "text": "Nehmen Sie eine Mine aus dem Beh\u00e4lter.",
                     "picture": true,
                     "picture_description": "A person taking a pen refill from a container on a desk.",
+=======
+                    "text": "Nehmen Sie eine Mine aus dem Beh\u00c3\u0192\u00c2\u00a4lter.",
+                    "picture": true,
+                    "picture_description": "A person's hand is reaching for a small cylindrical object on a table.",
+>>>>>>> Stashed changes
                     "centers": [
                         {
                             "center_x": 148.0,
                             "center_y": 217.0
                         }
                     ],
+<<<<<<< Updated upstream
                     "pictures_array": []
                 },
                 {
@@ -21,23 +28,54 @@
                     "text": "Stifth\u00fclle unten entnehmen.",
                     "picture": true,
                     "picture_description": "A pen body and a person handling it on a desk.",
+=======
+                    "pictures_array": [
+                        "cache\\pictures\\w50\\image_1_1.jpg",
+                        "cache\\pictures\\w50\\image_1_2.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Stifth\u00c3\u0192\u00c2\u00bclle unten entnehmen.",
+                    "picture": true,
+                    "picture_description": "A view of a person holding a pen's outer casing.",
+>>>>>>> Stashed changes
                     "centers": [
                         {
                             "center_x": 144.0,
                             "center_y": 384.0
                         }
+<<<<<<< Updated upstream
+=======
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w50\\image_1_2.jpg",
+                        "cache\\pictures\\w50\\image_1_2.jpg"
+>>>>>>> Stashed changes
                     ]
                 },
                 {
                     "step": 3,
+<<<<<<< Updated upstream
                     "text": "F\u00fchren Sie die Mine in die Stifth\u00fclle ein.",
                     "picture": true,
                     "picture_description": "A person inserting the refill into the pen body.",
+=======
+                    "text": "F\u00c3\u0192\u00c2\u00bchren Sie die Mine in die Stifth\u00c3\u0192\u00c2\u00bclle ein.",
+                    "picture": true,
+                    "picture_description": "A person is inserting the refill into the pen casing.",
+>>>>>>> Stashed changes
                     "centers": [
                         {
                             "center_x": 135.0,
                             "center_y": 564.0
                         }
+<<<<<<< Updated upstream
+=======
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w50\\image_1_2.jpg"
+>>>>>>> Stashed changes
                     ]
                 }
             ]
@@ -47,51 +85,102 @@
             "instructions": [
                 {
                     "step": 1,
+<<<<<<< Updated upstream
                     "text": "Nehmen Sie eine Feder aus dem Beh\u00e4lter.",
                     "picture": true,
                     "picture_description": "Person picking up a spring from a container.",
+=======
+                    "text": "Nehmen Sie eine Feder aus dem Beh\u00c3\u0192\u00c2\u00a4lter.",
+                    "picture": true,
+                    "picture_description": "A person taking a pen nib from a container.",
+>>>>>>> Stashed changes
                     "centers": [
                         {
                             "center_x": 149.0,
                             "center_y": 85.0
                         }
                     ],
+<<<<<<< Updated upstream
                     "pictures_array": []
+=======
+                    "pictures_array": [
+                        "cache\\pictures\\w50\\image_2_2.jpg",
+                        "cache\\pictures\\w50\\image_2_3.jpg",
+                        "cache\\pictures\\w50\\picture_005.jpg"
+                    ]
+>>>>>>> Stashed changes
                 },
                 {
                     "step": 2,
                     "text": "Setzen Sie die Feder auf die Mine.",
                     "picture": true,
+<<<<<<< Updated upstream
                     "picture_description": "Person placing the spring on the refill.",
+=======
+                    "picture_description": "A person placing the nib onto the pen refill.",
+>>>>>>> Stashed changes
                     "centers": [
                         {
                             "center_x": 138.0,
                             "center_y": 259.0
                         }
+<<<<<<< Updated upstream
+=======
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w50\\picture_005.jpg",
+                        "cache\\pictures\\w50\\picture_005.jpg"
+>>>>>>> Stashed changes
                     ]
                 },
                 {
                     "step": 3,
+<<<<<<< Updated upstream
                     "text": "Stifth\u00fclle \u201eoben\u201c entnehmen.",
                     "picture": true,
                     "picture_description": "Person taking the upper pen casing.",
+=======
+                    "text": "Stifth\u00c3\u0192\u00c2\u00bclle \u00c3\u00a2\u00e2\u201a\u00ac\u00c5\u00beoben\u00c3\u00a2\u00e2\u201a\u00ac\u00c5\u201c entnehmen.",
+                    "picture": true,
+                    "picture_description": "A person taking the top part of the pen casing.",
+>>>>>>> Stashed changes
                     "centers": [
                         {
                             "center_x": 143.0,
                             "center_y": 425.0
                         }
+<<<<<<< Updated upstream
+=======
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w50\\image_2_2.jpg",
+                        "cache\\pictures\\w50\\image_2_2.jpg"
+>>>>>>> Stashed changes
                     ]
                 },
                 {
                     "step": 4,
+<<<<<<< Updated upstream
                     "text": "Schrauben Sie die Stifth\u00fcllen zusammen.",
                     "picture": true,
                     "picture_description": "Person screwing the pen casings together.",
+=======
+                    "text": "Schrauben Sie die Stifth\u00c3\u0192\u00c2\u00bcllen zusammen.",
+                    "picture": true,
+                    "picture_description": "A person assembling the pen by screwing the casing together.",
+>>>>>>> Stashed changes
                     "centers": [
                         {
                             "center_x": 141.0,
                             "center_y": 605.0
                         }
+<<<<<<< Updated upstream
+=======
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w50\\image_2_3.jpg",
+                        "cache\\pictures\\w50\\image_2_3.jpg"
+>>>>>>> Stashed changes
                     ]
                 }
             ]
@@ -101,16 +190,28 @@
             "instructions": [
                 {
                     "step": 1,
+<<<<<<< Updated upstream
                     "text": "F\u00fchren Sie einen Funktionstest durch.",
                     "picture": true,
                     "picture_description": "A person is holding a small device in their hand, performing some kind of functionality test on a device at a workstation with a laptop.",
+=======
+                    "text": "F\u00c3\u0192\u00c2\u00bchren Sie einen Funktionstest durch.",
+                    "picture": true,
+                    "picture_description": "A person holding and inspecting a small electronic device at a desk.",
+>>>>>>> Stashed changes
                     "centers": [
                         {
                             "center_x": 146.0,
                             "center_y": 85.0
                         }
                     ],
+<<<<<<< Updated upstream
                     "pictures_array": []
+=======
+                    "pictures_array": [
+                        "cache\\pictures\\w50\\image_3_1.jpg"
+                    ]
+>>>>>>> Stashed changes
                 }
             ]
         }

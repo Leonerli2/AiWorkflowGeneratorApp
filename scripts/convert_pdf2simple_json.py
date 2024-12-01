@@ -1094,7 +1094,7 @@ def change_image_path(pdf_name, json_file):
 
 
 # ------------------------------------------------------------------------------------------------
-def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/w5.pdf"):
+def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/w50.pdf"):
     # delete cache if it exists for this pdf
     try:
         shutil.rmtree("cache/pictures/" + input_workinstruction_pdf_path.split("/")[-1].split(".")[0])

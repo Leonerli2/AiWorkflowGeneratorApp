@@ -54,26 +54,6 @@ def extract_images_from_pdf(pdf_path, output_folder):
             #     image.save(image_filename, "PNG")
 
 def extract_pictures(pdf_path, output_folder = "data/output_pictures"):
-    def extract_pictures(pdf_path, output_folder="data/output_pictures"):
-        """
-        Extracts pictures from a PDF file and saves their metadata to a JSON file.
-        Parameters:
-        pdf_path (str): The path to the PDF file from which to extract pictures.
-        output_folder (str): The folder where the output pictures are stored. Default is "data/output_pictures".
-        Returns:
-        str: The JSON string containing the metadata of the extracted pictures.
-        The function performs the following steps:
-        1. Opens the PDF file.
-        2. Iterates through each page of the PDF to find images.
-        3. Extracts image bytes and computes their hash.
-        4. Collects metadata including page number and image position.
-        5. Filters the images based on their hashes to match those in the output folder.
-        6. Checks for any missing images in the DataFrame.
-        7. Calculates the center coordinates of the images.
-        8. Converts the DataFrame to JSON format.
-        9. Saves the JSON metadata to a file.
-        """
-    
     doc = fitz.open(pdf_path)
 
     data = []
@@ -118,6 +98,7 @@ def extract_pictures(pdf_path, output_folder = "data/output_pictures"):
                 })
             else:
                 print(f"No position found for image xref {xref} on page {page_number}.")
+                
     extract_images_from_pdf(pdf_path, output_folder)
     
     

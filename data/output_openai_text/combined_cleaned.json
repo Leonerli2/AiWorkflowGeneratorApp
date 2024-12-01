@@ -1,3 +1,44 @@
 {
+<<<<<<< Updated upstream
     "page": []
+=======
+    "page": [
+        {
+            "page_no": 1,
+            "picture_uri": "data\\output_all_pictures\\image_1_1.jpg",
+            "center_x": 373.92501068115234,
+            "center_y": 282.8349838256836
+        },
+        {
+            "page_no": 1,
+            "picture_uri": "data\\output_all_pictures\\image_1_2.jpg",
+            "center_x": 373.89000701904297,
+            "center_y": 456.11000061035156
+        },
+        {
+            "page_no": 2,
+            "picture_uri": "data\\output_all_pictures\\image_2_2.jpg",
+            "center_x": 373.89000701904297,
+            "center_y": 497.70997619628906
+        },
+        {
+            "page_no": 2,
+            "picture_uri": "data\\output_all_pictures\\image_2_3.jpg",
+            "center_x": 373.89000701904297,
+            "center_y": 671.0330200195312
+        },
+        {
+            "page_no": 3,
+            "picture_uri": "data\\output_all_pictures\\image_3_1.jpg",
+            "center_x": 373.89000701904297,
+            "center_y": 151.0500030517578
+        },
+        {
+            "page_no": 2,
+            "picture_uri": "data\\output_all_pictures\\picture_005.jpg",
+            "center_x": 374,
+            "center_y": 324
+        }
+    ]
+>>>>>>> Stashed changes
 }
