@@ -102,8 +102,16 @@ def main():
             # # Generate a URL for the upload page (this could be a local URL or remote server)
             # # find the ip address of the machine and replace the localhost with the ip address
             def get_local_ip():
-                hostname = socket.gethostname()
-                local_ip = socket.gethostbyname(hostname)
+                # Create a socket and connect to an external address
+                s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+                try:
+                    # Doesn't need to actually send data
+                    s.connect(("8.8.8.8", 80))
+                    local_ip = s.getsockname()[0]
+                except Exception:
+                    local_ip = "127.0.0.1"
+                finally:
+                    s.close()
                 return local_ip
             
             upload_url = "http://" + get_local_ip() + ":" + str(st.session_state.video_upload_counter)
@@ -111,7 +119,7 @@ def main():
 
             # Start the upload app as a subprocess (you can use a different port each time if needed)
             video_main_folder_path = VIDEO_PATH_HANDLER.video_dir
-            subprocess.Popen(["streamlit", "run", "scripts/VideoUploadApp.py", "--server.port", str(st.session_state.video_upload_counter), "--server.address", "0.0.0.0", "--", video_main_folder_path])
+            subprocess.Popen(["streamlit", "run", "scripts/VideoUploadApp.py", "--server.port", str(st.session_state.video_upload_counter), "--", video_main_folder_path])
             # subprocess.Popen(["streamlit", "run", "scripts/VideoUploadApp.py", "--server.address", "0.0.0.0", "--server.port", str(st.session_state.video_upload_counter), "--", video_main_folder_path])
 
             # Generate a QR code for the upload URL
