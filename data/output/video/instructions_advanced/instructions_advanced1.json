@@ -3,23 +3,23 @@
         "id": 1,
         "name": "Miene entnehmen",
         "task": "Manual",
-        "description": "Nehme die Miene aus dem Beh\u00e4lter.",
+        "description": "Entnehmen Sie die Miene aus dem Beh\u00e4lter.",
         "image_uri": "data/output/video/images/video1/instruction1_1.jpg",
         "imagefilename": "instruction1_1.jpg"
     },
     {
         "id": 2,
-        "name": "Stifth\u00fclle abnehmen",
+        "name": "Stifth\u00fclle entnehmen",
         "task": "Manual",
-        "description": "Nehme die Stifth\u00fclle oben ab.",
+        "description": "Entnehmen Sie die Stifth\u00fclle oben vom Stift.",
         "image_uri": "data/output/video/images/video1/instruction1_2.jpg",
         "imagefilename": "instruction1_2.jpg"
     },
     {
         "id": 3,
-        "name": "Miene in Stifth\u00fclle einf\u00fchren",
+        "name": "Miene einf\u00fchren",
         "task": "Manual",
-        "description": "Nehme die Miene und f\u00fchre sie in die Stifth\u00fclle ein.",
+        "description": "Miene in die Stifth\u00fclle einsetzen.",
         "image_uri": "data/output/video/images/video1/instruction1_3.jpg",
         "imagefilename": "instruction1_3.jpg"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Feder entnehmen",
         "task": "Manual",
-        "description": "Nehme die Feder aus dem Beh\u00e4lter.",
+        "description": "Nehme eine Feder aus dem Beh\u00e4lter und setze sie ein.",
         "image_uri": "data/output/video/images/video1/instruction1_4.jpg",
         "imagefilename": "instruction1_4.jpg"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Feder auf Miene stecken",
         "task": "Manual",
-        "description": "Stecke die Feder auf die Miene.",
+        "description": "Nehme die Feder und setze sie auf die Miene.",
         "image_uri": "data/output/video/images/video1/instruction1_5.jpg",
         "imagefilename": "instruction1_5.jpg"
     },
@@ -43,15 +43,15 @@
         "id": 6,
         "name": "Stifth\u00fclle unten entnehmen",
         "task": "Manual",
-        "description": "Nehme die Stifth\u00fclle unten aus dem Beh\u00e4lter.",
+        "description": "Nehme die Stifth\u00fclle von unten ab.",
         "image_uri": "data/output/video/images/video1/instruction1_6.jpg",
         "imagefilename": "instruction1_6.jpg"
     },
     {
         "id": 7,
-        "name": "Stifth\u00fclle montieren",
+        "name": "Stifth\u00fclle zusammenschrauben",
         "task": "Manual",
-        "description": "Stifth\u00fclle auf die andere Stifth\u00fclle schrauben.",
+        "description": "Setze die Stifth\u00fclle auf die andere Stifth\u00fclle und schraube sie fest.",
         "image_uri": "data/output/video/images/video1/instruction1_7.jpg",
         "imagefilename": "instruction1_7.jpg"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "name": "Funktionstest durchf\u00fchren",
         "task": "Info",
-        "description": "F\u00fchren Sie einen Funktionstest durch.",
+        "description": "F\u00fchre einen Funktionstest durch, um zu pr\u00fcfen, ob das Ger\u00e4t korrekt funktioniert.",
         "image_uri": "data/output/video/images/video1/instruction1_8.jpg",
         "imagefilename": "instruction1_8.jpg",
         "durationgui": 0
@@ -68,7 +68,7 @@
         "id": 9,
         "name": "Fertig",
         "task": "Manual",
-        "description": "Der Montageprozess ist abgeschlossen.",
+        "description": "Die Montage ist abgeschlossen und das Produkt ist bereit zur Verwendung.",
         "image_uri": "data/output/video/images/video1/instruction1_9.jpg",
         "imagefilename": "instruction1_9.jpg"
     }

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Mine entnehmen",
+        "task": "Manual",
+        "description": "Nehmen Sie eine Mine aus dem Beh\u00e4lter.",
+        "image_uri": "cache\\pictures\\w51\\image_1_1.jpg",
+        "imagefilename": "image_1_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Stifth\u00fclle entnehmen",
+        "task": "Manual",
+        "description": "Nehme die Stifth\u00fclle 'unten' aus dem Beh\u00e4lter.",
+        "image_uri": "cache\\pictures\\w51\\image_1_2.jpg",
+        "imagefilename": "image_1_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mine in die Stifth\u00fclle einsetzen",
+        "task": "Manual",
+        "description": "Setzen Sie die Mine in die Stifth\u00fclle ein.",
+        "image_uri": "cache\\pictures\\w51\\image_1_3.jpg",
+        "imagefilename": "image_1_3.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Feder entnehmen",
+        "task": "Manual",
+        "description": "Nehme eine Feder aus dem Beh\u00e4lter.",
+        "image_uri": "cache\\pictures\\w51\\image_2_1.jpg",
+        "imagefilename": "image_2_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Setzen der Feder auf die Mine",
+        "task": "Manual",
+        "description": "Setze die Feder auf die Mine.",
+        "image_uri": "cache\\pictures\\w51\\image_2_2.jpg",
+        "imagefilename": "image_2_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Stifth\u00fclle oben entnehmen",
+        "task": "Manual",
+        "description": "Nehme die Stifth\u00fclle aus dem Beh\u00e4lter und setze sie ein.",
+        "image_uri": "cache\\pictures\\w51\\image_2_3.jpg",
+        "imagefilename": "image_2_3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Stifth\u00fclsen zusammen Schrauben",
+        "task": "Tightening",
+        "description": "Schrauben Sie die Stifth\u00fclsen zusammen.",
+        "image_uri": "cache\\pictures\\w51\\image_2_4.jpg",
+        "imagefilename": "image_2_4.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Funktionstest durchf\u00fchren",
+        "task": "Info",
+        "description": "F\u00fchren Sie einen Funktionstest durch.",
+        "image_uri": "cache\\pictures\\w51\\image_3_1.jpg",
+        "imagefilename": "image_3_1.jpg"
+    }
+]

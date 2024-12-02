@@ -2,15 +2,18 @@
     "instructions": [
         {
             "step": 1,
-            "text": "Remove Nose Housing (DPN239-009) and Nose Housing Nut (PN239-011) from the tool.",
+            "text": "Remove Nose Housing(DPN239-009) and Nose Housing Nut(DPN239-011) from the tool.",
             "image_uri": [
                 "cache\\pictures\\w3\\picture_001.jpg",
-                "cache\\pictures\\w3\\picture_003.jpg"
+                "cache\\pictures\\w3\\picture_003.jpg",
+                "cache\\pictures\\w3\\picture_005.jpg",
+                "cache\\pictures\\w3\\picture_004.jpg",
+                "cache\\pictures\\w3\\picture_002.jpg"
             ]
         },
         {
             "step": 2,
-            "text": "Remove Jaw Guide(DPN239-006), Jaws (PRG402-8A), Jaw Pusher (DPN239-144). Jaw Pusher Spring (DPN901-001) from the tool.",
+            "text": "Remove Jaw Guide(DPN239-006), Jaws(PRG402-8A), Jaw Pusher(DPN239-144), Jaw Pusher Spring(DPN901-001) from the tool.",
             "image_uri": [
                 "cache\\pictures\\w3\\picture_002.jpg"
             ]
@@ -24,55 +27,76 @@
         },
         {
             "step": 4,
-            "text": "Attach Draw Bolt Adapter (DPN239-192) and tighten.",
+            "text": "Attach Draw Bolt Adapter(DPN239-192) and tighten.",
             "image_uri": [
                 "cache\\pictures\\w3\\picture_005.jpg"
             ]
         },
         {
-            "step": 1,
-            "text": "Attach Corner Head Adapter (DPN239-191) and tighten.",
+            "step": 5,
+            "text": "Attach Corner Head Adapter (DPN239-191) and Tighten.",
             "image_uri": [
                 "cache\\pictures\\w3\\picture_006.jpg",
+                "cache\\pictures\\w3\\picture_007.jpg",
                 "cache\\pictures\\w3\\picture_007.jpg"
             ]
         },
         {
-            "step": 2,
+            "step": 6,
             "text": "Tighten Socket Head Screw (DPN907-003) and fix the spin of Draw Bolt Adapter.",
             "image_uri": [
                 "cache\\pictures\\w3\\picture_008.jpg",
                 "cache\\pictures\\w3\\picture_009.jpg",
-                "cache\\pictures\\w3\\picture_011.jpg",
-                "cache\\pictures\\w3\\picture_012.jpg"
+                "cache\\pictures\\w3\\picture_007.jpg"
             ]
         },
         {
-            "step": 3,
+            "step": 7,
             "text": "Attach CORNER HEAD to Draw Bolt Adapter (DPN239-192).",
-            "image_uri": []
+            "image_uri": [
+                "cache\\pictures\\w3\\picture_011.jpg",
+                "cache\\pictures\\w3\\picture_007.jpg",
+                "cache\\pictures\\w3\\picture_012.jpg",
+                "cache\\pictures\\w3\\picture_009.jpg"
+            ]
         },
         {
-            "step": 4,
+            "step": 8,
+            "text": "Tighten CORNER HEAD to Draw Bolt Adapter (DPN239-192).",
+            "image_uri": [
+                "cache\\pictures\\w3\\picture_012.jpg",
+                "cache\\pictures\\w3\\picture_013.jpg"
+            ]
+        },
+        {
+            "step": 9,
             "text": "Remove Socket Screw (DPN907-003) and attach CORNER HEAD to Corner Head Adapter (DPN239-191).",
             "image_uri": [
+                "cache\\pictures\\w3\\picture_006.jpg",
+                "cache\\pictures\\w3\\picture_007.jpg",
+                "cache\\pictures\\w3\\picture_008.jpg",
+                "cache\\pictures\\w3\\picture_006.jpg",
+                "cache\\pictures\\w3\\picture_011.jpg"
+            ]
+        },
+        {
+            "step": 10,
+            "text": "Tighten Nut of Corner Head to Corner Head Adapter (DPN239-191).",
+            "image_uri": [
+                "cache\\pictures\\w3\\picture_012.jpg",
+                "cache\\pictures\\w3\\picture_013.jpg",
                 "cache\\pictures\\w3\\picture_010.jpg"
             ]
         },
         {
-            "step": 5,
-            "text": "Tighten Nut of Corner Head to Corner Head Adapter (DPN239-191).",
-            "image_uri": []
-        },
-        {
-            "step": 6,
+            "step": 11,
             "text": "Set 8.5mm or less between CORNER HEAD and Corner Head Adapter (DPN239-191).",
             "image_uri": [
                 "cache\\pictures\\w3\\picture_010.jpg"
             ]
         },
         {
-            "step": 7,
+            "step": 12,
             "text": "Tool is now ready for operation.",
             "image_uri": [
                 "cache\\pictures\\w3\\picture_013.jpg"

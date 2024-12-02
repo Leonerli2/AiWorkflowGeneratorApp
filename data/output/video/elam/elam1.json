@@ -20,7 +20,7 @@
             "customData": {
                 "name": "Miene entnehmen",
                 "task": "Manual",
-                "description": "<p style=\"text-align: center;\">Nehme die Miene aus dem Beh\u00e4lter.</p>",
+                "description": "<p style=\"text-align: center;\">Entnehmen Sie die Miene aus dem Beh\u00e4lter.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_1.jpg"
             },
             "locked": false,
@@ -37,15 +37,15 @@
             "key": "2",
             "dataKey": null,
             "customData": {
-                "name": "Stifth\u00fclle abnehmen",
+                "name": "Stifth\u00fclle entnehmen",
                 "task": "Manual",
-                "description": "<p style=\"text-align: center;\">Nehme die Stifth\u00fclle oben ab.</p>",
+                "description": "<p style=\"text-align: center;\">Entnehmen Sie die Stifth\u00fclle oben vom Stift.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_2.jpg"
             },
             "locked": false,
             "zIndex": 0,
             "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
-            "text": "Stifth\u00fclle abnehmen",
+            "text": "Stifth\u00fclle entnehmen",
             "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2xpZW50X1RBRl9NYW51ZWxsIiBkYXRhLW5hbWU9IkNsaWVudCBUQUYgTWFudWVsbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPHJlY3QgaWQ9IlJlY2h0ZWNrXzExNTEiIGRhdGEtbmFtZT0iUmVjaHRlY2sgMTE1MSIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjUgNy41KSIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGlkPSJQYXRoXzMxMjYiIGRhdGEtbmFtZT0iUGF0aCAzMTI2IiBkPSJNMjguOTcxLDQ3LjFhMTIuMDU4LDEyLjA1OCwwLDAsMS01LjM0Mi0xLjc4NEEzMy42ODcsMzMuNjg3LDAsMCwxLDE5LjMxNyw0Mi41QzE3LjMsNDAuOTMxLDEwLjA0NSwzMS41ODcsOC43OTQsMjkuOTMzbC0uMDExLS4wMTVhOC4xNjYsOC4xNjYsMCwwLDEtLjg5My0xLjY5MWMtLjY1OS0xLjc0OS0uMTg1LTIuNzY0LjMzLTMuMzA3QTMuMjM4LDMuMjM4LDAsMCwxLDkuOSwyMy45cS0uODU1LTEuMDMzLTEuMTI3LTEuNDMyQTUuOCw1LjgsMCwwLDEsNy43MSwxOS44ODJhMy4wNjEsMy4wNjEsMCwwLDEsLjg2NC0yLjU0MiwyLjcyOSwyLjcyOSwwLDAsMSwyLjAwOC0uOHEuMTE3LDAsLjIzNi4wMDhhNi4xNzIsNi4xNzIsMCwwLDEtMS4xOS0zLjU3MywyLjU0MiwyLjU0MiwwLDAsMSwuOTQ3LTEuODA2LDMuNywzLjcsMCwwLDEsMi4zNTItLjlBNC4zOSw0LjM5LDAsMCwxLDE2LjIsMTIuMDMxbC4wMTcuMDIxQTIuNCwyLjQsMCwwLDEsMTcsMTAuNDI1LDMuMzg4LDMuMzg4LDAsMCwxLDE5LjIyNyw5LjYsNC4zMTYsNC4zMTYsMCwwLDEsMjIuNSwxMS4yNTRjMS4xMzIsMS4yODMsNi41MzUsNy43NjYsOS42NzQsMTEuNTM4LS4yOTUtLjk1LS42MTItMS45NjktLjktMi44NjlhNS40LDUuNCwwLDAsMS0uMS0zLjU1OCwzLjAyOSwzLjAyOSwwLDAsMSwxLjk0Ni0xLjg0NCwyLjM3OCwyLjM3OCwwLDAsMSwuNzE3LS4xMDgsMy44MSwzLjgxLDAsMCwxLDIuMjg4LjlBNC42MTksNC42MTksMCwwLDEsMzcuNiwxNy4yNDRjLjIzOS42NDgsMS41MTUsNC40NDgsMi43OSw4LjM3MSwyLjQ1LDcuNTQzLDIuNDUsNy45ODUsMi40NSw4LjIsMCwuMDY0LDAsLjEzNiwwLC4yMTZhMTAuNzA2LDEwLjcwNiwwLDAsMS0xLjc2OSw2LjJjLTEuMjM5LDIuMDI0LTMuOTg0LDMuNzM5LTUuNTEsNC41ODJBMTcuNzQyLDE3Ljc0MiwwLDAsMSwyOS4zLDQ3LjA5MkMyOS4xOTEsNDcuMSwyOS4wODEsNDcuMSwyOC45NzEsNDcuMVpNOS45MjQsMjkuMDg3YzEuNjkzLDIuMjM2LDguNTIsMTAuOTQxLDEwLjI1OSwxMi4zLDEuOTEyLDEuNDksNi4yMSw0LjMwNyw4Ljc4OCw0LjMwNy4wNzYsMCwuMTUxLDAsLjIyMy0uMDA4YTE2LjYzMywxNi42MzMsMCwwLDAsNS42ODgtMi4xMTIsMTMuOTUxLDEzLjk1MSwwLDAsMCw0Ljk4OS00LjA4Myw5LjI1NCw5LjI1NCwwLDAsMCwxLjU2MS01LjQzM2MwLS4wOCwwLS4xNTMsMC0uMjE5LS4xNDItMS4xLTQuNTI5LTE0LjQxLTUuMTUyLTE2LjFhMy4xNTUsMy4xNTUsMCwwLDAtMi40MzctMS45MDUuOTc0Ljk3NCwwLDAsMC0uMjkzLjA0MiwxLjYyMSwxLjYyMSwwLDAsMC0xLjA1MywxLDQuMTE3LDQuMTE3LDAsMCwwLC4xMjcsMi42MjVjLjgyMywyLjYxMiwxLjkzMiw2LjIyMSwxLjk0Myw2LjI1N2wtMS4yMTYuNjZjLS4xLS4xMjQtMTAuMzM3LTEyLjQ0Ny0xMS45MDYtMTQuMjI1YTIuOTU4LDIuOTU4LDAsMCwwLTIuMjEzLTEuMTc0LDEuOTc5LDEuOTc5LDAsMCwwLTEuMy40NzUsMS4wNDksMS4wNDksMCwwLDAtLjMwOC43NTMsMy44LDMuOCwwLDAsMCwuOTI5LDIuNDgzYzEuMDM3LDEuMTc3LDcuNTA1LDkuMTMsNy43OCw5LjQ2OGwtMS4wODkuOWMtLjA5LS4xMDgtOS4wMjEtMTAuODUtMTAuMTE2LTEyLjE1NGEzLjE0OSwzLjE0OSwwLDAsMC0yLjE5NS0xLjI2LDIuMzQsMi4zNCwwLDAsMC0xLjQ2Ni41OTEsMS4xMTUsMS4xMTUsMCwwLDAtLjQyNy44MjVjLS4wOTMsMS4xMDguOTE5LDIuODExLDEuOSwzLjkyNC4xLjExOCw5LjE4MSwxMC42LDkuNTY4LDExLjA0OUwyMS40MzgsMjljLS4wODItLjA5NC04LjE4Ny05LjM2OC04Ljk0MS0xMC4yMzhhMi44MDksMi44MDksMCwwLDAtMS45MTUtLjgsMS4zMzgsMS4zMzgsMCwwLDAtMSwuMzcyYy0uOTM1Ljk1OC0uMzIzLDIuMzQ4LjM1NiwzLjM0Ni4yNTUuMzc0LDEuMTU1LDEuNTA4LDQsNC43ODgsMS44NDYsMi4wOTIsNC44NTYsNS41MjksNC44ODYsNS41NjNsLTEuMDU3LjkzN2MtLjAyNS0uMDI4LTIuNTM5LTIuODU5LTQuODktNS41NjgtLjcxNC0uODA5LTEuMTY1LTEuMzE3LTEuMzQtMS41MDlhMS43LDEuNywwLDAsMC0xLjE0My0uNjE3LDEuNjYyLDEuNjYyLDAsMCwwLTEuMTUyLjYyN0M4LjUsMjYuNjc1LDkuNTA2LDI4LjUsOS45MjQsMjkuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wNDIgMC44OTYpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
             "x": 500,
             "y": 6000,
@@ -56,15 +56,15 @@
             "key": "3",
             "dataKey": null,
             "customData": {
-                "name": "Miene in Stifth\u00fclle einf\u00fchren",
+                "name": "Miene einf\u00fchren",
                 "task": "Manual",
-                "description": "<p style=\"text-align: center;\">Nehme die Miene und f\u00fchre sie in die Stifth\u00fclle ein.</p>",
+                "description": "<p style=\"text-align: center;\">Miene in die Stifth\u00fclle einsetzen.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_3.jpg"
             },
             "locked": false,
             "zIndex": 0,
             "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
-            "text": "Miene in Stifth\u00fclle einf\u00fchren",
+            "text": "Miene einf\u00fchren",
             "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2xpZW50X1RBRl9NYW51ZWxsIiBkYXRhLW5hbWU9IkNsaWVudCBUQUYgTWFudWVsbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPHJlY3QgaWQ9IlJlY2h0ZWNrXzExNTEiIGRhdGEtbmFtZT0iUmVjaHRlY2sgMTE1MSIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjUgNy41KSIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGlkPSJQYXRoXzMxMjYiIGRhdGEtbmFtZT0iUGF0aCAzMTI2IiBkPSJNMjguOTcxLDQ3LjFhMTIuMDU4LDEyLjA1OCwwLDAsMS01LjM0Mi0xLjc4NEEzMy42ODcsMzMuNjg3LDAsMCwxLDE5LjMxNyw0Mi41QzE3LjMsNDAuOTMxLDEwLjA0NSwzMS41ODcsOC43OTQsMjkuOTMzbC0uMDExLS4wMTVhOC4xNjYsOC4xNjYsMCwwLDEtLjg5My0xLjY5MWMtLjY1OS0xLjc0OS0uMTg1LTIuNzY0LjMzLTMuMzA3QTMuMjM4LDMuMjM4LDAsMCwxLDkuOSwyMy45cS0uODU1LTEuMDMzLTEuMTI3LTEuNDMyQTUuOCw1LjgsMCwwLDEsNy43MSwxOS44ODJhMy4wNjEsMy4wNjEsMCwwLDEsLjg2NC0yLjU0MiwyLjcyOSwyLjcyOSwwLDAsMSwyLjAwOC0uOHEuMTE3LDAsLjIzNi4wMDhhNi4xNzIsNi4xNzIsMCwwLDEtMS4xOS0zLjU3MywyLjU0MiwyLjU0MiwwLDAsMSwuOTQ3LTEuODA2LDMuNywzLjcsMCwwLDEsMi4zNTItLjlBNC4zOSw0LjM5LDAsMCwxLDE2LjIsMTIuMDMxbC4wMTcuMDIxQTIuNCwyLjQsMCwwLDEsMTcsMTAuNDI1LDMuMzg4LDMuMzg4LDAsMCwxLDE5LjIyNyw5LjYsNC4zMTYsNC4zMTYsMCwwLDEsMjIuNSwxMS4yNTRjMS4xMzIsMS4yODMsNi41MzUsNy43NjYsOS42NzQsMTEuNTM4LS4yOTUtLjk1LS42MTItMS45NjktLjktMi44NjlhNS40LDUuNCwwLDAsMS0uMS0zLjU1OCwzLjAyOSwzLjAyOSwwLDAsMSwxLjk0Ni0xLjg0NCwyLjM3OCwyLjM3OCwwLDAsMSwuNzE3LS4xMDgsMy44MSwzLjgxLDAsMCwxLDIuMjg4LjlBNC42MTksNC42MTksMCwwLDEsMzcuNiwxNy4yNDRjLjIzOS42NDgsMS41MTUsNC40NDgsMi43OSw4LjM3MSwyLjQ1LDcuNTQzLDIuNDUsNy45ODUsMi40NSw4LjIsMCwuMDY0LDAsLjEzNiwwLC4yMTZhMTAuNzA2LDEwLjcwNiwwLDAsMS0xLjc2OSw2LjJjLTEuMjM5LDIuMDI0LTMuOTg0LDMuNzM5LTUuNTEsNC41ODJBMTcuNzQyLDE3Ljc0MiwwLDAsMSwyOS4zLDQ3LjA5MkMyOS4xOTEsNDcuMSwyOS4wODEsNDcuMSwyOC45NzEsNDcuMVpNOS45MjQsMjkuMDg3YzEuNjkzLDIuMjM2LDguNTIsMTAuOTQxLDEwLjI1OSwxMi4zLDEuOTEyLDEuNDksNi4yMSw0LjMwNyw4Ljc4OCw0LjMwNy4wNzYsMCwuMTUxLDAsLjIyMy0uMDA4YTE2LjYzMywxNi42MzMsMCwwLDAsNS42ODgtMi4xMTIsMTMuOTUxLDEzLjk1MSwwLDAsMCw0Ljk4OS00LjA4Myw5LjI1NCw5LjI1NCwwLDAsMCwxLjU2MS01LjQzM2MwLS4wOCwwLS4xNTMsMC0uMjE5LS4xNDItMS4xLTQuNTI5LTE0LjQxLTUuMTUyLTE2LjFhMy4xNTUsMy4xNTUsMCwwLDAtMi40MzctMS45MDUuOTc0Ljk3NCwwLDAsMC0uMjkzLjA0MiwxLjYyMSwxLjYyMSwwLDAsMC0xLjA1MywxLDQuMTE3LDQuMTE3LDAsMCwwLC4xMjcsMi42MjVjLjgyMywyLjYxMiwxLjkzMiw2LjIyMSwxLjk0Myw2LjI1N2wtMS4yMTYuNjZjLS4xLS4xMjQtMTAuMzM3LTEyLjQ0Ny0xMS45MDYtMTQuMjI1YTIuOTU4LDIuOTU4LDAsMCwwLTIuMjEzLTEuMTc0LDEuOTc5LDEuOTc5LDAsMCwwLTEuMy40NzUsMS4wNDksMS4wNDksMCwwLDAtLjMwOC43NTMsMy44LDMuOCwwLDAsMCwuOTI5LDIuNDgzYzEuMDM3LDEuMTc3LDcuNTA1LDkuMTMsNy43OCw5LjQ2OGwtMS4wODkuOWMtLjA5LS4xMDgtOS4wMjEtMTAuODUtMTAuMTE2LTEyLjE1NGEzLjE0OSwzLjE0OSwwLDAsMC0yLjE5NS0xLjI2LDIuMzQsMi4zNCwwLDAsMC0xLjQ2Ni41OTEsMS4xMTUsMS4xMTUsMCwwLDAtLjQyNy44MjVjLS4wOTMsMS4xMDguOTE5LDIuODExLDEuOSwzLjkyNC4xLjExOCw5LjE4MSwxMC42LDkuNTY4LDExLjA0OUwyMS40MzgsMjljLS4wODItLjA5NC04LjE4Ny05LjM2OC04Ljk0MS0xMC4yMzhhMi44MDksMi44MDksMCwwLDAtMS45MTUtLjgsMS4zMzgsMS4zMzgsMCwwLDAtMSwuMzcyYy0uOTM1Ljk1OC0uMzIzLDIuMzQ4LjM1NiwzLjM0Ni4yNTUuMzc0LDEuMTU1LDEuNTA4LDQsNC43ODgsMS44NDYsMi4wOTIsNC44NTYsNS41MjksNC44ODYsNS41NjNsLTEuMDU3LjkzN2MtLjAyNS0uMDI4LTIuNTM5LTIuODU5LTQuODktNS41NjgtLjcxNC0uODA5LTEuMTY1LTEuMzE3LTEuMzQtMS41MDlhMS43LDEuNywwLDAsMC0xLjE0My0uNjE3LDEuNjYyLDEuNjYyLDAsMCwwLTEuMTUyLjYyN0M4LjUsMjYuNjc1LDkuNTA2LDI4LjUsOS45MjQsMjkuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wNDIgMC44OTYpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
             "x": 500,
             "y": 9000,
@@ -77,7 +77,7 @@
             "customData": {
                 "name": "Feder entnehmen",
                 "task": "Manual",
-                "description": "<p style=\"text-align: center;\">Nehme die Feder aus dem Beh\u00e4lter.</p>",
+                "description": "<p style=\"text-align: center;\">Nehme eine Feder aus dem Beh\u00e4lter und setze sie ein.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_4.jpg"
             },
             "locked": false,
@@ -96,7 +96,7 @@
             "customData": {
                 "name": "Feder auf Miene stecken",
                 "task": "Manual",
-                "description": "<p style=\"text-align: center;\">Stecke die Feder auf die Miene.</p>",
+                "description": "<p style=\"text-align: center;\">Nehme die Feder und setze sie auf die Miene.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_5.jpg"
             },
             "locked": false,
@@ -115,7 +115,7 @@
             "customData": {
                 "name": "Stifth\u00fclle unten entnehmen",
                 "task": "Manual",
-                "description": "<p style=\"text-align: center;\">Nehme die Stifth\u00fclle unten aus dem Beh\u00e4lter.</p>",
+                "description": "<p style=\"text-align: center;\">Nehme die Stifth\u00fclle von unten ab.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_6.jpg"
             },
             "locked": false,
@@ -132,15 +132,15 @@
             "key": "7",
             "dataKey": null,
             "customData": {
-                "name": "Stifth\u00fclle montieren",
+                "name": "Stifth\u00fclle zusammenschrauben",
                 "task": "Manual",
-                "description": "<p style=\"text-align: center;\">Stifth\u00fclle auf die andere Stifth\u00fclle schrauben.</p>",
+                "description": "<p style=\"text-align: center;\">Setze die Stifth\u00fclle auf die andere Stifth\u00fclle und schraube sie fest.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_7.jpg"
             },
             "locked": false,
             "zIndex": 0,
             "type": "631ca9e9-6a3b-4274-b890-b209790dca9c",
-            "text": "Stifth\u00fclle montieren",
+            "text": "Stifth\u00fclle zusammenschrauben",
             "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iQ2xpZW50X1RBRl9NYW51ZWxsIiBkYXRhLW5hbWU9IkNsaWVudCBUQUYgTWFudWVsbCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCI+CiAgPHJlY3QgaWQ9IlJlY2h0ZWNrXzExNTEiIGRhdGEtbmFtZT0iUmVjaHRlY2sgMTE1MSIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjQ1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjUgNy41KSIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGlkPSJQYXRoXzMxMjYiIGRhdGEtbmFtZT0iUGF0aCAzMTI2IiBkPSJNMjguOTcxLDQ3LjFhMTIuMDU4LDEyLjA1OCwwLDAsMS01LjM0Mi0xLjc4NEEzMy42ODcsMzMuNjg3LDAsMCwxLDE5LjMxNyw0Mi41QzE3LjMsNDAuOTMxLDEwLjA0NSwzMS41ODcsOC43OTQsMjkuOTMzbC0uMDExLS4wMTVhOC4xNjYsOC4xNjYsMCwwLDEtLjg5My0xLjY5MWMtLjY1OS0xLjc0OS0uMTg1LTIuNzY0LjMzLTMuMzA3QTMuMjM4LDMuMjM4LDAsMCwxLDkuOSwyMy45cS0uODU1LTEuMDMzLTEuMTI3LTEuNDMyQTUuOCw1LjgsMCwwLDEsNy43MSwxOS44ODJhMy4wNjEsMy4wNjEsMCwwLDEsLjg2NC0yLjU0MiwyLjcyOSwyLjcyOSwwLDAsMSwyLjAwOC0uOHEuMTE3LDAsLjIzNi4wMDhhNi4xNzIsNi4xNzIsMCwwLDEtMS4xOS0zLjU3MywyLjU0MiwyLjU0MiwwLDAsMSwuOTQ3LTEuODA2LDMuNywzLjcsMCwwLDEsMi4zNTItLjlBNC4zOSw0LjM5LDAsMCwxLDE2LjIsMTIuMDMxbC4wMTcuMDIxQTIuNCwyLjQsMCwwLDEsMTcsMTAuNDI1LDMuMzg4LDMuMzg4LDAsMCwxLDE5LjIyNyw5LjYsNC4zMTYsNC4zMTYsMCwwLDEsMjIuNSwxMS4yNTRjMS4xMzIsMS4yODMsNi41MzUsNy43NjYsOS42NzQsMTEuNTM4LS4yOTUtLjk1LS42MTItMS45NjktLjktMi44NjlhNS40LDUuNCwwLDAsMS0uMS0zLjU1OCwzLjAyOSwzLjAyOSwwLDAsMSwxLjk0Ni0xLjg0NCwyLjM3OCwyLjM3OCwwLDAsMSwuNzE3LS4xMDgsMy44MSwzLjgxLDAsMCwxLDIuMjg4LjlBNC42MTksNC42MTksMCwwLDEsMzcuNiwxNy4yNDRjLjIzOS42NDgsMS41MTUsNC40NDgsMi43OSw4LjM3MSwyLjQ1LDcuNTQzLDIuNDUsNy45ODUsMi40NSw4LjIsMCwuMDY0LDAsLjEzNiwwLC4yMTZhMTAuNzA2LDEwLjcwNiwwLDAsMS0xLjc2OSw2LjJjLTEuMjM5LDIuMDI0LTMuOTg0LDMuNzM5LTUuNTEsNC41ODJBMTcuNzQyLDE3Ljc0MiwwLDAsMSwyOS4zLDQ3LjA5MkMyOS4xOTEsNDcuMSwyOS4wODEsNDcuMSwyOC45NzEsNDcuMVpNOS45MjQsMjkuMDg3YzEuNjkzLDIuMjM2LDguNTIsMTAuOTQxLDEwLjI1OSwxMi4zLDEuOTEyLDEuNDksNi4yMSw0LjMwNyw4Ljc4OCw0LjMwNy4wNzYsMCwuMTUxLDAsLjIyMy0uMDA4YTE2LjYzMywxNi42MzMsMCwwLDAsNS42ODgtMi4xMTIsMTMuOTUxLDEzLjk1MSwwLDAsMCw0Ljk4OS00LjA4Myw5LjI1NCw5LjI1NCwwLDAsMCwxLjU2MS01LjQzM2MwLS4wOCwwLS4xNTMsMC0uMjE5LS4xNDItMS4xLTQuNTI5LTE0LjQxLTUuMTUyLTE2LjFhMy4xNTUsMy4xNTUsMCwwLDAtMi40MzctMS45MDUuOTc0Ljk3NCwwLDAsMC0uMjkzLjA0MiwxLjYyMSwxLjYyMSwwLDAsMC0xLjA1MywxLDQuMTE3LDQuMTE3LDAsMCwwLC4xMjcsMi42MjVjLjgyMywyLjYxMiwxLjkzMiw2LjIyMSwxLjk0Myw2LjI1N2wtMS4yMTYuNjZjLS4xLS4xMjQtMTAuMzM3LTEyLjQ0Ny0xMS45MDYtMTQuMjI1YTIuOTU4LDIuOTU4LDAsMCwwLTIuMjEzLTEuMTc0LDEuOTc5LDEuOTc5LDAsMCwwLTEuMy40NzUsMS4wNDksMS4wNDksMCwwLDAtLjMwOC43NTMsMy44LDMuOCwwLDAsMCwuOTI5LDIuNDgzYzEuMDM3LDEuMTc3LDcuNTA1LDkuMTMsNy43OCw5LjQ2OGwtMS4wODkuOWMtLjA5LS4xMDgtOS4wMjEtMTAuODUtMTAuMTE2LTEyLjE1NGEzLjE0OSwzLjE0OSwwLDAsMC0yLjE5NS0xLjI2LDIuMzQsMi4zNCwwLDAsMC0xLjQ2Ni41OTEsMS4xMTUsMS4xMTUsMCwwLDAtLjQyNy44MjVjLS4wOTMsMS4xMDguOTE5LDIuODExLDEuOSwzLjkyNC4xLjExOCw5LjE4MSwxMC42LDkuNTY4LDExLjA0OUwyMS40MzgsMjljLS4wODItLjA5NC04LjE4Ny05LjM2OC04Ljk0MS0xMC4yMzhhMi44MDksMi44MDksMCwwLDAtMS45MTUtLjgsMS4zMzgsMS4zMzgsMCwwLDAtMSwuMzcyYy0uOTM1Ljk1OC0uMzIzLDIuMzQ4LjM1NiwzLjM0Ni4yNTUuMzc0LDEuMTU1LDEuNTA4LDQsNC43ODgsMS44NDYsMi4wOTIsNC44NTYsNS41MjksNC44ODYsNS41NjNsLTEuMDU3LjkzN2MtLjAyNS0uMDI4LTIuNTM5LTIuODU5LTQuODktNS41NjgtLjcxNC0uODA5LTEuMTY1LTEuMzE3LTEuMzQtMS41MDlhMS43LDEuNywwLDAsMC0xLjE0My0uNjE3LDEuNjYyLDEuNjYyLDAsMCwwLTEuMTUyLjYyN0M4LjUsMjYuNjc1LDkuNTA2LDI4LjUsOS45MjQsMjkuMDg3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wNDIgMC44OTYpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=",
             "x": 500,
             "y": 21000,
@@ -153,7 +153,7 @@
             "customData": {
                 "name": "Funktionstest durchf\u00fchren",
                 "task": "Info",
-                "description": "<p style=\"text-align: center;\">F\u00fchren Sie einen Funktionstest durch.</p>",
+                "description": "<p style=\"text-align: center;\">F\u00fchre einen Funktionstest durch, um zu pr\u00fcfen, ob das Ger\u00e4t korrekt funktioniert.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_8.jpg",
                 "durationgui": 0
             },
@@ -173,7 +173,7 @@
             "customData": {
                 "name": "Fertig",
                 "task": "Manual",
-                "description": "<p style=\"text-align: center;\">Der Montageprozess ist abgeschlossen.</p>",
+                "description": "<p style=\"text-align: center;\">Die Montage ist abgeschlossen und das Produkt ist bereit zur Verwendung.</p>",
                 "imagefilename": "data/output/video/images/video1/instruction1_9.jpg"
             },
             "locked": false,

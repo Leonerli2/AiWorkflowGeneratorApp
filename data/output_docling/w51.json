@@ -1,0 +1,693 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.0.0",
+  "name": "w51",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 7986733938015862922,
+    "filename": "w51.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/pictures/7"
+      }
+    ],
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.0,
+            "t": 770.127197265625,
+            "r": 383.8515625,
+            "b": 735.8414916992188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "BOSSARD - Beispiel f\u00fcr eine",
+      "text": "BOSSARD - Beispiel f\u00fcr eine"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.0,
+            "t": 763.8247680664062,
+            "r": 441.347412109375,
+            "b": 701.5215454101562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Kugelschreiber-Montagewerkbank",
+      "text": "Kugelschreiber-Montagewerkbank",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 71.5775375366211,
+            "t": 672.4680786132812,
+            "r": 525.2308959960938,
+            "b": 641.0160522460938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "Das Dokument stellt eine Anleitung zur Verf\u00fcgung, die eine Kugelschreiber-Montagelinie demonstriert. Folgend sind alle erforderlichen Schritte aufgelistet.",
+      "text": "Das Dokument stellt eine Anleitung zur Verf\u00fcgung, die eine Kugelschreiber-Montagelinie demonstriert. Folgend sind alle erforderlichen Schritte aufgelistet."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 77.10026550292969,
+            "t": 630.2280883789062,
+            "r": 220.17648315429688,
+            "b": 615.5760498046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Entnehmen Sie eine Miene.",
+      "text": "Entnehmen Sie eine Miene."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 76.88390350341797,
+            "t": 455.508056640625,
+            "r": 168.77806091308594,
+            "b": 426.216064453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Stifth\u00fclle \"unten\" entnehmen.",
+      "text": "Stifth\u00fclle \"unten\" entnehmen."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 76.94835662841797,
+            "t": 281.0280456542969,
+            "r": 217.61834716796875,
+            "b": 251.7360382080078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "F\u00fchren Sie die Miene in die Stifth\u00fclle ein.",
+      "text": "F\u00fchren Sie die Miene in die Stifth\u00fclle ein."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 77.03680419921875,
+            "t": 769.4281005859375,
+            "r": 217.49874877929688,
+            "b": 754.7760620117188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Entnehmen Sie eine Feder.",
+      "text": "Entnehmen Sie eine Feder."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 76.6729736328125,
+            "t": 594.9480590820312,
+            "r": 221.80078125,
+            "b": 565.6560668945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Setzen Sie die Feder auf die Miene.",
+      "text": "Setzen Sie die Feder auf die Miene."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 76.88746643066406,
+            "t": 420.2280578613281,
+            "r": 165.01632690429688,
+            "b": 390.9360656738281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Stifth\u00fclle \"oben\" entnehmen.",
+      "text": "Stifth\u00fclle \"oben\" entnehmen."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 76.5868911743164,
+            "t": 245.74803161621094,
+            "r": 197.01437377929688,
+            "b": 216.45603942871094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "Schrauben Sie die Stifth\u00fcllen zusammen.",
+      "text": "Schrauben Sie die Stifth\u00fcllen zusammen."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 76.83599090576172,
+            "t": 769.4281005859375,
+            "r": 187.03585815429688,
+            "b": 740.1360473632812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "F\u00fchren Sie einen Funktionstest durch.",
+      "text": "F\u00fchren Sie einen Funktionstest durch."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 232.2327423095703,
+            "t": 631.7970581054688,
+            "r": 521.6539916992188,
+            "b": 469.8853454589844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 288,
+        "size": {
+          "width": 1158.0,
+          "height": 648.0
+        },
+        "uri": "data\\output_docling\\pictures\\picture_001.jpg"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 232.3911590576172,
+            "t": 456.7738037109375,
+            "r": 519.303466796875,
+            "b": 294.971923828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 288,
+        "size": {
+          "width": 1147.0,
+          "height": 647.0
+        },
+        "uri": "data\\output_docling\\pictures\\picture_002.jpg"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 232.54774475097656,
+            "t": 282.5152587890625,
+            "r": 519.8008422851562,
+            "b": 121.182861328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 288,
+        "size": {
+          "width": 1149.0,
+          "height": 645.0
+        },
+        "uri": "data\\output_docling\\pictures\\picture_003.jpg"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 232.67347717285156,
+            "t": 771.093994140625,
+            "r": 519.62646484375,
+            "b": 609.20751953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 288,
+        "size": {
+          "width": 1148.0,
+          "height": 648.0
+        },
+        "uri": "data\\output_docling\\pictures\\picture_004.jpg"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 232.9358367919922,
+            "t": 595.9691162109375,
+            "r": 519.3512573242188,
+            "b": 434.93463134765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 288,
+        "size": {
+          "width": 1145.0,
+          "height": 644.0
+        },
+        "uri": "data\\output_docling\\pictures\\picture_005.jpg"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 232.5436553955078,
+            "t": 421.9295349121094,
+            "r": 518.9482421875,
+            "b": 259.977783203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 288,
+        "size": {
+          "width": 1146.0,
+          "height": 648.0
+        },
+        "uri": "data\\output_docling\\pictures\\picture_006.jpg"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 232.23538208007812,
+            "t": 247.29736328125,
+            "r": 520.1160888671875,
+            "b": 86.2628173828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 288,
+        "size": {
+          "width": 1151.0,
+          "height": 645.0
+        },
+        "uri": "data\\output_docling\\pictures\\picture_007.jpg"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 232.40122985839844,
+            "t": 770.5814208984375,
+            "r": 521.3324584960938,
+            "b": 608.822509765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 288,
+        "size": {
+          "width": 1155.0,
+          "height": 647.0
+        },
+        "uri": "data\\output_docling\\pictures\\picture_008.jpg"
+      },
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2000122070312,
+        "height": 841.9200439453125
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2000122070312,
+        "height": 841.9200439453125
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2000122070312,
+        "height": 841.9200439453125
+      },
+      "page_no": 3
+    }
+  }
+}

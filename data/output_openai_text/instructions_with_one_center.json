@@ -6,25 +6,25 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Nehmen Sie eine Mine aus dem BehÃ¤lter.",
+                        "text": "Entnehmen Sie eine Mine.",
                         "picture": true,
-                        "picture_description": "Person nimmt eine Mine aus einem BehÃ¤lter.",
+                        "picture_description": "A hand reaching for a pen refill on a table with tools.",
                         "centers": [
                             {
                                 "center_x": 148.0,
-                                "center_y": 217.0
+                                "center_y": 219.0
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "StifthÃ¼lle unten entnehmen.",
+                        "text": "StifthÃ¼lle \"unten\" entnehmen.",
                         "picture": true,
-                        "picture_description": "Person hÃ¤lt die StifthÃ¼lle in der Hand.",
+                        "picture_description": "A hand picking up the lower part of a pen casing from the table.",
                         "centers": [
                             {
-                                "center_x": 144.0,
-                                "center_y": 384.0
+                                "center_x": 122.0,
+                                "center_y": 401.0
                             }
                         ]
                     },
@@ -32,11 +32,11 @@
                         "step": 3,
                         "text": "FÃ¼hren Sie die Mine in die StifthÃ¼lle ein.",
                         "picture": true,
-                        "picture_description": "Person fÃ¼hrt die Mine in die StifthÃ¼lle ein.",
+                        "picture_description": "A person inserting the pen refill into the pen casing.",
                         "centers": [
                             {
-                                "center_x": 135.0,
-                                "center_y": 564.0
+                                "center_x": 147.0,
+                                "center_y": 575.0
                             }
                         ]
                     }
@@ -47,13 +47,13 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Nehmen Sie eine Feder aus dem BehÃ¤lter.",
+                        "text": "Entnehmen Sie eine Feder.",
                         "picture": true,
-                        "picture_description": "A person is removing a spring from a container.",
+                        "picture_description": "A person is taking a spring out from a box or container.",
                         "centers": [
                             {
-                                "center_x": 149.0,
-                                "center_y": 85.0
+                                "center_x": 147.0,
+                                "center_y": 79.0
                             }
                         ]
                     },
@@ -61,11 +61,11 @@
                         "step": 2,
                         "text": "Setzen Sie die Feder auf die Mine.",
                         "picture": true,
-                        "picture_description": "A person placing a spring onto the pen refill.",
+                        "picture_description": "A person is placing the spring onto the refill.",
                         "centers": [
                             {
-                                "center_x": 138.0,
-                                "center_y": 259.0
+                                "center_x": 149.0,
+                                "center_y": 261.0
                             }
                         ]
                     },
@@ -73,11 +73,11 @@
                         "step": 3,
                         "text": "StifthÃ¼lle \"oben\" entnehmen.",
                         "picture": true,
-                        "picture_description": "A person removing the top part of the pen casing.",
+                        "picture_description": "A person is taking the upper part of the pen casing.",
                         "centers": [
                             {
-                                "center_x": 143.0,
-                                "center_y": 425.0
+                                "center_x": 120.0,
+                                "center_y": 436.0
                             }
                         ]
                     },
@@ -85,11 +85,11 @@
                         "step": 4,
                         "text": "Schrauben Sie die StifthÃ¼llen zusammen.",
                         "picture": true,
-                        "picture_description": "A person screwing the pen casing parts together.",
+                        "picture_description": "A person is screwing the pen casings together.",
                         "centers": [
                             {
-                                "center_x": 141.0,
-                                "center_y": 605.0
+                                "center_x": 136.0,
+                                "center_y": 610.0
                             }
                         ]
                     }
@@ -102,11 +102,11 @@
                         "step": 1,
                         "text": "FÃ¼hren Sie einen Funktionstest durch.",
                         "picture": true,
-                        "picture_description": "A person conducting a functionality test on a device at a desk.",
+                        "picture_description": "Person holding a small electronic device on a desk, with a laptop and other equipment in the background.",
                         "centers": [
                             {
-                                "center_x": 146.0,
-                                "center_y": 85.0
+                                "center_x": 131.0,
+                                "center_y": 87.0
                             }
                         ]
                     }

@@ -6,25 +6,25 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Nehmen Sie eine Mine aus dem Behälter.",
+                        "text": "Entnehmen Sie eine Mine.",
                         "picture": true,
-                        "picture_description": "Person nimmt eine Mine aus einem Behälter.",
+                        "picture_description": "A hand reaching for a pen refill on a table with tools.",
                         "centers": [
                             {
                                 "center_x": 148,
-                                "center_y": 217
+                                "center_y": 219
                             }
                         ]
                     },
                     {
                         "step": 2,
-                        "text": "Stifthülle unten entnehmen.",
+                        "text": "Stifthülle \"unten\" entnehmen.",
                         "picture": true,
-                        "picture_description": "Person hält die Stifthülle in der Hand.",
+                        "picture_description": "A hand picking up the lower part of a pen casing from the table.",
                         "centers": [
                             {
-                                "center_x": 144,
-                                "center_y": 384
+                                "center_x": 122,
+                                "center_y": 401
                             }
                         ]
                     },
@@ -32,11 +32,11 @@
                         "step": 3,
                         "text": "Führen Sie die Mine in die Stifthülle ein.",
                         "picture": true,
-                        "picture_description": "Person führt die Mine in die Stifthülle ein.",
+                        "picture_description": "A person inserting the pen refill into the pen casing.",
                         "centers": [
                             {
-                                "center_x": 135,
-                                "center_y": 564
+                                "center_x": 147,
+                                "center_y": 575
                             }
                         ]
                     }
@@ -47,13 +47,13 @@
                 "instructions": [
                     {
                         "step": 1,
-                        "text": "Nehmen Sie eine Feder aus dem Behälter.",
+                        "text": "Entnehmen Sie eine Feder.",
                         "picture": true,
-                        "picture_description": "A person is removing a spring from a container.",
+                        "picture_description": "A person is taking a spring out from a box or container.",
                         "centers": [
                             {
-                                "center_x": 149,
-                                "center_y": 85
+                                "center_x": 147,
+                                "center_y": 79
                             }
                         ]
                     },
@@ -61,11 +61,11 @@
                         "step": 2,
                         "text": "Setzen Sie die Feder auf die Mine.",
                         "picture": true,
-                        "picture_description": "A person placing a spring onto the pen refill.",
+                        "picture_description": "A person is placing the spring onto the refill.",
                         "centers": [
                             {
-                                "center_x": 138,
-                                "center_y": 259
+                                "center_x": 149,
+                                "center_y": 261
                             }
                         ]
                     },
@@ -73,11 +73,11 @@
                         "step": 3,
                         "text": "Stifthülle \"oben\" entnehmen.",
                         "picture": true,
-                        "picture_description": "A person removing the top part of the pen casing.",
+                        "picture_description": "A person is taking the upper part of the pen casing.",
                         "centers": [
                             {
-                                "center_x": 143,
-                                "center_y": 425
+                                "center_x": 120,
+                                "center_y": 436
                             }
                         ]
                     },
@@ -85,11 +85,11 @@
                         "step": 4,
                         "text": "Schrauben Sie die Stifthüllen zusammen.",
                         "picture": true,
-                        "picture_description": "A person screwing the pen casing parts together.",
+                        "picture_description": "A person is screwing the pen casings together.",
                         "centers": [
                             {
-                                "center_x": 141,
-                                "center_y": 605
+                                "center_x": 136,
+                                "center_y": 610
                             }
                         ]
                     }
@@ -102,11 +102,11 @@
                         "step": 1,
                         "text": "Führen Sie einen Funktionstest durch.",
                         "picture": true,
-                        "picture_description": "A person conducting a functionality test on a device at a desk.",
+                        "picture_description": "Person holding a small electronic device on a desk, with a laptop and other equipment in the background.",
                         "centers": [
                             {
-                                "center_x": 146,
-                                "center_y": 85
+                                "center_x": 131,
+                                "center_y": 87
                             }
                         ]
                     }

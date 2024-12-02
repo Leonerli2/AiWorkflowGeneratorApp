@@ -1,0 +1,139 @@
+{
+    "pdf_document": [
+        {
+            "page_no": 1,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Entnehmen Sie eine Mine.",
+                    "picture": true,
+                    "picture_description": "A hand reaching for a pen refill on a table with tools.",
+                    "centers": [
+                        {
+                            "center_x": 148.0,
+                            "center_y": 219.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w51\\image_1_1.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Stifth\u00c3\u0192\u00c2\u00bclle \"unten\" entnehmen.",
+                    "picture": true,
+                    "picture_description": "A hand picking up the lower part of a pen casing from the table.",
+                    "centers": [
+                        {
+                            "center_x": 122.0,
+                            "center_y": 401.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w51\\image_1_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "F\u00c3\u0192\u00c2\u00bchren Sie die Mine in die Stifth\u00c3\u0192\u00c2\u00bclle ein.",
+                    "picture": true,
+                    "picture_description": "A person inserting the pen refill into the pen casing.",
+                    "centers": [
+                        {
+                            "center_x": 147.0,
+                            "center_y": 575.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w51\\image_1_3.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 2,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "Entnehmen Sie eine Feder.",
+                    "picture": true,
+                    "picture_description": "A person is taking a spring out from a box or container.",
+                    "centers": [
+                        {
+                            "center_x": 147.0,
+                            "center_y": 79.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w51\\image_2_1.jpg"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "text": "Setzen Sie die Feder auf die Mine.",
+                    "picture": true,
+                    "picture_description": "A person is placing the spring onto the refill.",
+                    "centers": [
+                        {
+                            "center_x": 149.0,
+                            "center_y": 261.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w51\\image_2_2.jpg"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "text": "Stifth\u00c3\u0192\u00c2\u00bclle \"oben\" entnehmen.",
+                    "picture": true,
+                    "picture_description": "A person is taking the upper part of the pen casing.",
+                    "centers": [
+                        {
+                            "center_x": 120.0,
+                            "center_y": 436.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w51\\image_2_3.jpg"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "text": "Schrauben Sie die Stifth\u00c3\u0192\u00c2\u00bcllen zusammen.",
+                    "picture": true,
+                    "picture_description": "A person is screwing the pen casings together.",
+                    "centers": [
+                        {
+                            "center_x": 136.0,
+                            "center_y": 610.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w51\\image_2_4.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "page_no": 3,
+            "instructions": [
+                {
+                    "step": 1,
+                    "text": "F\u00c3\u0192\u00c2\u00bchren Sie einen Funktionstest durch.",
+                    "picture": true,
+                    "picture_description": "Person holding a small electronic device on a desk, with a laptop and other equipment in the background.",
+                    "centers": [
+                        {
+                            "center_x": 131.0,
+                            "center_y": 87.0
+                        }
+                    ],
+                    "pictures_array": [
+                        "cache\\pictures\\w51\\image_3_1.jpg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

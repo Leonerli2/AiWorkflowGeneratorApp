@@ -1,0 +1,68 @@
+{
+    "instructions": [
+        {
+            "step": 1,
+            "text": "Entnehmen Sie eine Mine.",
+            "image_uri": [
+                "cache\\pictures\\w51\\image_1_1.jpg",
+                "cache\\pictures\\w51\\image_1_1.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Stifth\u00c3\u0192\u00c2\u00bclle \"unten\" entnehmen.",
+            "image_uri": [
+                "cache\\pictures\\w51\\image_1_2.jpg",
+                "cache\\pictures\\w51\\image_1_2.jpg"
+            ]
+        },
+        {
+            "step": 3,
+            "text": "F\u00c3\u0192\u00c2\u00bchren Sie die Mine in die Stifth\u00c3\u0192\u00c2\u00bclle ein.",
+            "image_uri": [
+                "cache\\pictures\\w51\\image_1_3.jpg",
+                "cache\\pictures\\w51\\image_1_3.jpg"
+            ]
+        },
+        {
+            "step": 1,
+            "text": "Entnehmen Sie eine Feder.",
+            "image_uri": [
+                "cache\\pictures\\w51\\image_2_1.jpg",
+                "cache\\pictures\\w51\\image_2_1.jpg"
+            ]
+        },
+        {
+            "step": 2,
+            "text": "Setzen Sie die Feder auf die Mine.",
+            "image_uri": [
+                "cache\\pictures\\w51\\image_2_2.jpg",
+                "cache\\pictures\\w51\\image_2_2.jpg"
+            ]
+        },
+        {
+            "step": 3,
+            "text": "Stifth\u00c3\u0192\u00c2\u00bclle \"oben\" entnehmen.",
+            "image_uri": [
+                "cache\\pictures\\w51\\image_2_3.jpg",
+                "cache\\pictures\\w51\\image_2_3.jpg"
+            ]
+        },
+        {
+            "step": 4,
+            "text": "Schrauben Sie die Stifth\u00c3\u0192\u00c2\u00bcllen zusammen.",
+            "image_uri": [
+                "cache\\pictures\\w51\\image_2_4.jpg",
+                "cache\\pictures\\w51\\image_2_4.jpg"
+            ]
+        },
+        {
+            "step": 1,
+            "text": "F\u00c3\u0192\u00c2\u00bchren Sie einen Funktionstest durch.",
+            "image_uri": [
+                "cache\\pictures\\w51\\image_3_1.jpg",
+                "cache\\pictures\\w51\\image_3_1.jpg"
+            ]
+        }
+    ]
+}
