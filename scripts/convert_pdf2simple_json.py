@@ -735,7 +735,7 @@ def move_pictures_from_json(json_path, destination_folder):
 
         try:
             # Copy the file to the destination
-            shutil.copy(source_path, destination_path)
+            shutil.copy(source_path, Path(destination_path))
             print(f"Moved: {source_path} -> {destination_path}")
         except FileNotFoundError:
             print(f"File not found: {source_path}. Skipping...")
@@ -1094,7 +1094,7 @@ def change_image_path(pdf_name, json_file):
 
 
 # ------------------------------------------------------------------------------------------------
-def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/w5.pdf"):
+def Convert_PDF_to_JSON(input_workinstruction_pdf_path = "data/workinstructions/w50.pdf"):
     # delete cache if it exists for this pdf
     try:
         shutil.rmtree("cache/pictures/" + input_workinstruction_pdf_path.split("/")[-1].split(".")[0])

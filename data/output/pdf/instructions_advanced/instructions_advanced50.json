@@ -1,66 +1,66 @@
 [
     {
         "id": 1,
-        "name": "Mine entnehmen",
+        "name": "Mine aus dem Beh\u00e4lter nehmen",
         "task": "Manual",
         "description": "Nehmen Sie eine Mine aus dem Beh\u00e4lter.",
-        "image_uri": "",
-        "imagefilename": ""
+        "image_uri": "cache\\pictures\\w50\\image_1_1.jpg",
+        "imagefilename": "image_1_1.jpg"
     },
     {
         "id": 2,
-        "name": "Stifth\u00fclle entnehmen",
+        "name": "Stifth\u00fclle Entnahme",
         "task": "Manual",
-        "description": "Nehme die Stifth\u00fclle unten aus dem Beh\u00e4lter.",
-        "image_uri": "",
-        "imagefilename": ""
+        "description": "Entnehmen Sie die Stifth\u00fclle von unten.",
+        "image_uri": "cache\\pictures\\w50\\image_1_2.jpg",
+        "imagefilename": "image_1_2.jpg"
     },
     {
         "id": 3,
         "name": "Mine in Stifth\u00fclle einsetzen",
         "task": "Manual",
         "description": "F\u00fchren Sie die Mine in die Stifth\u00fclle ein.",
-        "image_uri": "",
-        "imagefilename": ""
+        "image_uri": "cache\\pictures\\w50\\image_1_2.jpg",
+        "imagefilename": "image_1_2.jpg"
     },
     {
         "id": 1,
-        "name": "Feder nehmen",
+        "name": "Feder entnehmen",
         "task": "Manual",
         "description": "Nehmen Sie eine Feder aus dem Beh\u00e4lter.",
-        "image_uri": "",
-        "imagefilename": ""
+        "image_uri": "cache\\pictures\\w50\\picture_005.jpg",
+        "imagefilename": "picture_005.jpg"
     },
     {
         "id": 2,
-        "name": "Feder auf die Mine setzen",
+        "name": "Setzen der Feder auf die Mine",
         "task": "Manual",
         "description": "Setzen Sie die Feder auf die Mine.",
-        "image_uri": "",
-        "imagefilename": ""
+        "image_uri": "cache\\pictures\\w50\\picture_005.jpg",
+        "imagefilename": "picture_005.jpg"
     },
     {
         "id": 3,
-        "name": "Stifth\u00fclle oben entnehmen",
+        "name": "Stift-H\u00fclle oben entnehmen",
         "task": "Manual",
-        "description": "Nehmen Sie die Stifth\u00fclle von oben aus der Montage.",
-        "image_uri": "",
-        "imagefilename": ""
+        "description": "Entnehmen Sie die Stifth\u00fclle \"oben\" aus dem Beh\u00e4lter.",
+        "image_uri": "cache\\pictures\\w50\\image_2_2.jpg",
+        "imagefilename": "image_2_2.jpg"
     },
     {
         "id": 4,
-        "name": "Stifth\u00fcllen zusammenf\u00fcgen",
+        "name": "Stifth\u00fcllen Zusammenbauen",
         "task": "Manual",
         "description": "Schrauben Sie die Stifth\u00fcllen zusammen.",
-        "image_uri": "",
-        "imagefilename": ""
+        "image_uri": "cache\\pictures\\w50\\image_2_3.jpg",
+        "imagefilename": "image_2_3.jpg"
     },
     {
         "id": 1,
         "name": "Funktionstest durchf\u00fchren",
         "task": "Info",
-        "description": "F\u00fchren Sie einen Funktionstest durch.",
-        "image_uri": "",
-        "imagefilename": ""
+        "description": "F\u00fchren Sie einen Funktionstest des Assemblageprozesses durch.",
+        "image_uri": "cache\\pictures\\w50\\image_3_1.jpg",
+        "imagefilename": "image_3_1.jpg"
     }
 ]
