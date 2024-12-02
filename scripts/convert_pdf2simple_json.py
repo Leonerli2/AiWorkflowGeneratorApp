@@ -735,7 +735,7 @@ def move_pictures_from_json(json_path, destination_folder):
 
         try:
             # Copy the file to the destination
-            shutil.copy(source_path, destination_path)
+            shutil.copy(source_path, Path(destination_path))
             print(f"Moved: {source_path} -> {destination_path}")
         except FileNotFoundError:
             print(f"File not found: {source_path}. Skipping...")
